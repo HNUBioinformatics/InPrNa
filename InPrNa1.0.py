@@ -592,7 +592,7 @@ class start:
 
 
 
-            cmd.select('Nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
+            cmd.select('nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
 
             # cmd.select("interface", resn + ' and ' + resi + ' and ' + chain,)
             self.selector(self.INTERFACE_DIS_6,"interface")
@@ -605,7 +605,7 @@ class start:
             # cmd.create("PROTEIN", "protein")
             # cmd.hide("everything", "protein")
 
-            cmd.select('Nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
+            cmd.select('nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
             #cmd.extract("protein","proteins")
             #cmd.extract("Nucleic","Nucleics")
 
@@ -1345,7 +1345,7 @@ class Plugin:
         # GUI
         ##########
         self.dialog = Pmw.Dialog(self.parent,
-                                 buttons=('Hide Nucleic', 'Show Nucleic', 'Hide HOH','Show HOH','Exit'),
+                                 buttons=('Show interface h-bonds','Hide nucleic', 'Show nucleic', 'Hide HOH','Show HOH','Exit'),
                                  title='InPrNa1.0',
                                  command=self.execute
                                  )
@@ -1418,8 +1418,11 @@ class Plugin:
         self.interface_dis_cb.current(0)
         self.interface_dis_cb.bind("<<ComboboxSelected>>",interface_dis_cb_ch)
 
-        self.interface_dis_but = Tkinter.Button(Interface_LF,text='APPLY',command = self.interface_dis_ch)
+        self.interface_dis_but = Tkinter.Button(Interface_LF,text='APPLY', command=self.interface_dis_ch)
         self.interface_dis_but.grid(sticky='WE', column=2, row=3, padx=5, pady=1)
+
+        # self.show_apbs_color = Tkinter.Button(Interface_LF,text='show h_bonds dash', command=self.show_apbs_col)
+        # self.show_apbs_color.grid(sticky='WE', column=2, row=4, padx=5, pady=1)
 
         Interface_dis_setting_LB.grid(sticky='WE', column=0, row=3, padx=5, pady=1)
         self.interface_dis_cb.grid(sticky='WE', column=1, row=3, padx=5, pady=1)
@@ -1438,7 +1441,7 @@ class Plugin:
                                             command=lambda :self.ch_protein_col())
         # mode setting
         protein_mod_Lb = Tkinter.Label(Protein_LF, text='Show Mode:')
-################################################################################################                  protein
+        ################################################################################################                  protein
         def protein_Cb_ch(*args):
             self.protein_mod = self.protein_mod_Cb.get()
             cmd.hide("everything", "protein")
@@ -1460,35 +1463,55 @@ class Plugin:
 
 ####################################
 		# nucleic setting
-		###################################
+####################################
+
         nucleic_LF = ttk.LabelFrame(page, text='nucleic setting')
         nucleic_LF.grid(sticky='NESW', row=0, column=2, padx=10, pady=5)
 
-        nucleic_col_lb = Tkinter.Label(nucleic_LF, text='Nucleic Color:')
+        nucleic_col_lb = Tkinter.Label(nucleic_LF, text='nucleic color:')
         self.nucleic_col_but = Tkinter.Button(nucleic_LF, bg=self.nucleic_col,
                                               activebackground=self.nucleic_col,
                                               command=lambda: self.ch_nucleic_col())
         # mode setting
-        nucleic_mod_Lb = Tkinter.Label(nucleic_LF, text='Show Mode:')
+        nucleic_mod_Lb = Tkinter.Label(nucleic_LF, text='Show mode:')
+        nucleic_cartoon_Lb = Tkinter.Label(nucleic_LF, text='nucleic cartoon mode:')
 
         def nucleic_Cb_ch(*args):
             self.protein_mod = self.nucleic_mod_Cb.get()
-            cmd.hide("everything", "Nucleic")
-            cmd.show(self.nucleic_mod_Cb.get(), "Nucleic")
+            cmd.hide("everything", "nucleic")
+            # if self.nucleic_mod_Cb
+            cmd.show(self.nucleic_mod_Cb.get(), "nucleic")
 
+        def nucleic_cb_cartoon(*args):
+            words = self.nucleic_cartoon_mod.get()
+            number = int(words[-1:])
+            print number, words[:-2]
+            cmd.set(words[:-2], number)
 
-        self.nucleic_mod_Cb = ttk.Combobox(nucleic_LF, width=10)
+        self.nucleic_mod_Cb = ttk.Combobox(nucleic_LF, width=18)
         self.nucleic_mod_Cb["values"] = (
             "sphere", "cartoon", "lines", "sticks", "riddon", "dots", "mesh", "surface", "nonbonded", "nb_pheres")
         self.nucleic_mod_Cb.current(0)
         self.nucleic_mod_Cb.bind("<<ComboboxSelected>>", nucleic_Cb_ch)
 
+        self.nucleic_cartoon_mod = ttk.Combobox(nucleic_LF, width=18)
+        self.nucleic_cartoon_mod["values"] = (
+            "cartoon_ring_mode_0", "cartoon_ring_mode_1", "cartoon_ring_mode_2", "cartoon_ring_mode_3",
+            "cartoon_ring_finder_0", "cartoon_ring_finder_1", "cartoon_ring_finder_2", "cartoon_ring_finder_3",
+            "cartoon_ladder_mode_0", "cartoon_ladder_mode_1"
+        )
+        self.nucleic_cartoon_mod.current(0)
+        self.nucleic_cartoon_mod.bind("<<ComboboxSelected>>", nucleic_cb_cartoon)
+
         # label button grid
-        nucleic_col_lb.grid(sticky='E', column=0, row=0, padx=5, pady=1)
-        self.nucleic_col_but.grid(sticky='NESW', column=1, row=0, padx=5, pady=1)
+        nucleic_col_lb.grid(sticky='WE', column=0, row=0, padx=5, pady=1)
+        self.nucleic_col_but.grid(sticky='WE', column=1, row=0, padx=5, pady=1)
 
         nucleic_mod_Lb.grid(sticky='WE', column=0, row=2, padx=5, pady=1)
         self.nucleic_mod_Cb.grid(sticky='WE', column=1, row=2, padx=5, pady=1)
+
+        nucleic_cartoon_Lb.grid(sticky='WE', column=0, row=3, padx=5, pady=1)
+        self.nucleic_cartoon_mod.grid(sticky='WE', column=1, row=3, padx=5, pady=1)
 
         #########
         # Amino acid TAB
@@ -1804,6 +1827,29 @@ class Plugin:
         cmd.show(self.interface_mod, "INTERFACE")
         cmd.hide('everything', 'interface')
 
+    def show_hbonds_but(self):
+        cmd.set("h_bond_cutoff_center", "3.6")
+        cmd.set("h_bond_cutoff_edge", "3.2")
+        cmd.distance("interface_nucleic_hbonds", "interface", "nucleic", mode="2")
+
+    #
+    def show_apbs_col(self):
+        pymol.color_list = []
+        pymol.resn_num = []
+        cmd.hide("everything", "nucleic")
+        # cmd.hide("everything", "protein")
+        cmd.iterate('interface', 'pymol.color_list.append(cmd.get_color_tuple(color))')
+        cmd.iterate('INTERFACE', 'pymol.resn_num.append(resn)')
+        counter = 0
+        for key in pymol.resn_num:
+            cmd.set_color('temp', pymol.color_list[counter])
+            cmd.color('temp', 'resn '+key)
+            counter += 1
+
+
+        # print pymol.color_list
+
+    #
     def ch_propert_col(self):
         color_tuple, color = tkColorChooser.askcolor(color=self.property_col)
         if color_tuple is not None and color is not None:
@@ -1824,43 +1870,8 @@ class Plugin:
             self.inter_col_but['bg'] = self.surf_col
             self.inter_col_but['activebackground'] = self.surf_col
             self.inter_col_but.update()
-            # chain = self.Sel_Chain(INTERFACE_CONTENT)
-            # resi = self.Sel_Resi(INTERFACE_CONTENT)
-            # resn = self.Sel_Resn(INTERFACE_CONTENT)
-            # #print chain
-            # #print resi
-            # #print resn
-            # #print 'ch'
-            # # get interface resn
-            # resn_list = []
-            # chain_list = []
-            # resi_list = []
-            # for i in INTERFACE_CONTENT:
-            #     resn_list.append(i[17:20])
-            #     resi_list.append(i[22:26])
-            #     chain_list.append(i[21])
-            # resn_list = list(set(resn_list))
-            # chain_list = list(set(chain_list))
-            # resi_list = list(set(resi_list))
-
-            # self.Visualization_ScroT.delete(1.0, Tkinter.END)
-            # self.Visualization_ScroT.insert(1.0, 'Interface :\n')
-            # self.Visualization_ScroT.insert(Tkinter.INSERT, 'RESN:\n')
-            #
-            # for key in resn_list:
-            #     self.Visualization_ScroT.insert(Tkinter.INSERT, key + ' ')
-            #     self.Visualization_ScroT.insert(Tkinter.INSERT, str(self.Resn_number[key]) + '\n')
-
-            #cmd.select("interface", resn + ' and ' + resi + ' and ' + chain)
-            #cmd.extract("interface","interface")
-            #print 1
-
             cmd.set_color('surf_col', self.surf_col_tuple)
             cmd.color('surf_col', 'INTERFACE1')
-
-
-
-            #interface dis
 
     def ch_protein_col(self):
         #print INTERFACE_CONTENT
@@ -1873,14 +1884,6 @@ class Plugin:
             self.protein_col_but['bg'] = self.protein_col
             self.protein_col_but['activebackground'] = self.protein_col
             self.protein_col_but.update()
-
-            #print chain
-            #print resi
-            #print resn
-            #print 'ch'
-            # get interface resn
-
-            #print 1
             cmd.set_color('protein_col', self.protein_col_tuple)
             cmd.color('protein_col', 'protein')
 
@@ -1896,16 +1899,8 @@ class Plugin:
             self.nucleic_col_but['activebackground'] = self.nucleic_col
             print (self.nucleic_col_tuple)
             self.nucleic_col_but.update()
-
-            #print chain
-            #print resi
-            #print resn
-            #print 'ch'
-            # get interface resn
-
-            #print 1
             cmd.set_color('nucleic_col', self.nucleic_col_tuple)
-            cmd.color('nucleic_col', 'Nucleic')
+            cmd.color('nucleic_col', 'nucleic')
 
 
 
@@ -2158,10 +2153,10 @@ class Plugin:
             # con_list.append(i[17:20])
             cmd.select(sele_name, ' resn ' + i[17:20] + ' and  resi' + i[22:26] + ' and chain ' + i[21], merge=1)
 
-    def GetPDBFilePath(self):
-        self.pdbfile = tkFileDialog.askopenfilename()
-        self.pdb_file_path.set(pdbfile)
-        # print filePathVar.get()
+    # def GetPDBFilePath(self):
+    #     self.pdbfile = tkFileDialog.askopenfilename()
+    #     self.pdb_file_path.set(pdbfile)
+    #     # print filePathVar.get()
 
     def LoadPDB(self):
         if self.pdb_file_path is not None:
@@ -2189,16 +2184,20 @@ class Plugin:
     def execute(self, e_cmd):
         """ Run the cmd represented by the button clicked by user.
         """
-        if e_cmd== 'Hide Nucleic':
-            print('Hide ...')
-            cmd.select('Nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
 
-            cmd.hide('everything', 'Nucleic')
+        if e_cmd == 'Show interface h-bonds':
+            self.show_hbonds_but()
+
+        elif e_cmd== 'Hide nucleic':
+            print('Hide ...')
+            cmd.select('nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
+
+            cmd.hide('everything', 'nucleic')
             # print ("Hide DNA or RNA")
             ####d Display
-        elif e_cmd == 'Show Nucleic':
-            cmd.select('Nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
-            cmd.show('sphere', 'Nucleic')
+        elif e_cmd == 'Show nucleic':
+            cmd.select('nucleic', 'resn DA+DC+DG+DT+DU+A+T+G+C+I+U+5IU')
+            cmd.show('sphere', 'nucleic')
             # print ("Show DNA or RNA")
 
         elif e_cmd == 'Show HOH':
@@ -2209,7 +2208,6 @@ class Plugin:
             cmd.select('HOH','resn HOH')
             cmd.hide('everything', 'HOH')
 
-
         elif cmd == 'Exit':
             print('Exiting Plugin ...')
             if __name__ == '__main__':
@@ -2219,6 +2217,8 @@ class Plugin:
                 self.dialog.withdraw()
 
                 print('Done.')
+
+
         else:
             self.dialog.withdraw()
 
