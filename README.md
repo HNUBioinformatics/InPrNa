@@ -29,4 +29,13 @@ We divide the spatial structure of the protein into three types: peak, flat, val
 Under the Bump tab of the InPrNa interface, user can set the color and display mode of these three forms.
 Users can also choose this three forms display areas , and user can choose whether the entire protein or the interface of different Euclidean distances.
 
+## APBS
+The electrostatic surface map of the interface surface can use the following process to create in the InPrNa and PyMOL APBS plugin.
+1.	Open the InPrNa plugin to calculate the NBP’s interface.
+2.	Open PyMOL's APBS plugin, set the .pqr file location and the location of the APBS tool.
+3.	Enter "& INTERFACE" in the APBS plugin. Then click the "set grid" and "run APBS" buttons of the APBS plugin. Then wait for the APBS     program to finish execution.
+4.	When the APBS program is finished, click on Molecule under the " Visualization tab" of the APBS plugin and select "INTERFACE".
+5.	Click on the Molecular surface show under the “Visualization tab” to display the electrostatic map of the interface.
+
+
 
