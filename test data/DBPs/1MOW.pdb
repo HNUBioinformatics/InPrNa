@@ -28,7 +28,7 @@ SOURCE   5 MOL_ID: 3;
 SOURCE   6 ORGANISM_SCIENTIFIC: DESULFUROCOCCUS MOBILIS, CHLAMYDOMONAS          
 SOURCE   7 REINHARDTII;                                                         
 SOURCE   8 ORGANISM_COMMON: ,;                                                  
-SOURCE   9 ORGANISM_TAXID: 2274,3055;                                           
+SOURCE   9 ORGANISM_TAXID: 2274, 3055;                                          
 SOURCE  10 STRAIN: ,;                                                           
 SOURCE  11 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE  12 EXPRESSION_SYSTEM_TAXID: 562;                                        
@@ -40,6 +40,7 @@ KEYWDS   2 COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    B.S.CHEVALIER,T.KORTEMME,M.S.CHADSEY,D.BAKER,R.J.MONNAT JR.,          
 AUTHOR   2 B.L.STODDARD                                                         
+REVDAT   4   02-AUG-17 1MOW    1       SOURCE REMARK                            
 REVDAT   3   13-JUL-11 1MOW    1       VERSN                                    
 REVDAT   2   24-FEB-09 1MOW    1       VERSN                                    
 REVDAT   1   29-NOV-02 1MOW    0                                                
@@ -120,9 +121,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.39
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.005                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.10                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.100                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.60                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.00                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.000                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -158,10 +159,10 @@ REMARK   3  TOPOLOGY FILE  6   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1MOW COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1MOW COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 30-OCT-02.                  
-REMARK 100 THE RCSB ID CODE IS RCSB017064.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 12-SEP-02.                  
+REMARK 100 THE DEPOSITION ID IS D_1000017064.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -396,7 +397,7 @@ REMARK 470     LEU G1024    CG   CD1  CD2
 REMARK 470     TYR G1025    CG   CD1  CD2  CE1  CE2  CZ   OH                    
 REMARK 470     LYS G1026    CG   CD   CE   NZ                                   
 REMARK 470     LEU G1027    CG   CD1  CD2                                       
-REMARK 470     ASN G1032    CG   OD1                                            
+REMARK 470     ASN G1032    CG   OD1  ND2                                       
 REMARK 470     ARG G1033    CG   CD   NE   CZ   NH1  NH2                        
 REMARK 470     SER G1034    OG                                                  
 REMARK 470     GLU G1035    CG   CD   OE1  OE2                                  
@@ -410,7 +411,7 @@ REMARK 470     GLN G1042    CG   CD   OE1  NE2
 REMARK 470     LYS G1043    CG   CD   CE   NZ                                   
 REMARK 470     SER G1044    OG                                                  
 REMARK 470     GLU G1045    CG   CD   OE1  OE2                                  
-REMARK 470     ASN G1046    CG   OD1                                            
+REMARK 470     ASN G1046    CG   OD1  ND2                                       
 REMARK 470     LEU G1047    CG   CD1  CD2                                       
 REMARK 470     ILE G1048    CG1  CG2  CD1                                       
 REMARK 470     LYS G1049    CG   CD   CE   NZ                                   
@@ -427,7 +428,7 @@ REMARK 470     ILE G1060    CG1  CG2  CD1
 REMARK 470     ASP G1061    CG   OD1  OD2                                       
 REMARK 470     GLU G1062    CG   CD   OE1  OE2                                  
 REMARK 470     LEU G1063    CG   CD1  CD2                                       
-REMARK 470     ASN G1064    CG   OD1                                            
+REMARK 470     ASN G1064    CG   OD1  ND2                                       
 REMARK 470     VAL G1065    CG1  CG2                                            
 REMARK 470     LYS G1066    CG   CD   CE   NZ                                   
 REMARK 470     SER G1067    OG                                                  
@@ -454,7 +455,7 @@ REMARK 470     TYR G1088    CG   CD1  CD2  CE1  CE2  CZ   OH
 REMARK 470     TYR G1089    CG   CD1  CD2  CE1  CE2  CZ   OH                    
 REMARK 470     TYR G1090    CG   CD1  CD2  CE1  CE2  CZ   OH                    
 REMARK 470     PHE G1091    CG   CD1  CD2  CE1  CE2  CZ                         
-REMARK 470     ASN G1093    CG   OD1                                            
+REMARK 470     ASN G1093    CG   OD1  ND2                                       
 REMARK 470     MET G1094    CG   SD   CE                                        
 REMARK 470     LEU G1095    CG   CD1  CD2                                       
 REMARK 470     GLU G1096    CG   CD   OE1  OE2                                  
@@ -462,8 +463,8 @@ REMARK 470     ARG G1097    CG   CD   NE   CZ   NH1  NH2
 REMARK 470     ILE G1098    CG1  CG2  CD1                                       
 REMARK 470     LEU G1100    CG   CD1  CD2                                       
 REMARK 470     PHE G1101    CG   CD1  CD2  CE1  CE2  CZ                         
-REMARK 470     ASN G1102    CG   OD1                                            
-REMARK 470     ASN G1104    CG   OD1                                            
+REMARK 470     ASN G1102    CG   OD1  ND2                                       
+REMARK 470     ASN G1104    CG   OD1  ND2                                       
 REMARK 470     ARG G1105    CG   CD   NE   CZ   NH1  NH2                        
 REMARK 470     PHE G1106    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU G1107    CG   CD1  CD2                                       
@@ -480,7 +481,7 @@ REMARK 470     GLN G1123    CG   CD   OE1  NE2
 REMARK 470     ILE G1124    CG1  CG2  CD1                                       
 REMARK 470     LYS G1125    CG   CD   CE   NZ                                   
 REMARK 470     PRO G1126    CG   CD                                             
-REMARK 470     ASN G1127    CG   OD1                                            
+REMARK 470     ASN G1127    CG   OD1  ND2                                       
 REMARK 470     GLN G1128    CG   CD   OE1  NE2                                  
 REMARK 470     SER G1129    OG                                                  
 REMARK 470     TYR G1130    CG   CD1  CD2  CE1  CE2  CZ   OH                    
@@ -531,7 +532,7 @@ REMARK 470     LYS G1179    CG   CD   CE   NZ
 REMARK 470     PRO G1180    CG   CD                                             
 REMARK 470     LEU G1181    CG   CD1  CD2                                       
 REMARK 470     HIS G1182    CG   ND1  CD2  CE1  NE2                             
-REMARK 470     ASN G1183    CG   OD1                                            
+REMARK 470     ASN G1183    CG   OD1  ND2                                       
 REMARK 470     PHE G1184    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU G1185    CG   CD1  CD2                                       
 REMARK 470     THR G1186    OG1  CG2                                            
@@ -541,13 +542,13 @@ REMARK 470     GLN G1189    CG   CD   OE1  NE2
 REMARK 470     PRO G1190    CG   CD                                             
 REMARK 470     PHE G1191    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU G1192    CG   CD1  CD2                                       
-REMARK 470     ASN G1193    CG   OD1                                            
+REMARK 470     ASN G1193    CG   OD1  ND2                                       
 REMARK 470     PHE G1194    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LYS G1195    CG   CD   CE   NZ                                   
 REMARK 470     GLN G1196    CG   CD   OE1  NE2                                  
 REMARK 470     LYS G1197    CG   CD   CE   NZ                                   
 REMARK 470     GLN G1198    CG   CD   OE1  NE2                                  
-REMARK 470     ASN G1200    CG   OD1                                            
+REMARK 470     ASN G1200    CG   OD1  ND2                                       
 REMARK 470     LEU G1201    CG   CD1  CD2                                       
 REMARK 470     VAL G1202    CG1  CG2                                            
 REMARK 470     LEU G1203    CG   CD1  CD2                                       
@@ -576,7 +577,7 @@ REMARK 470     ASP G1227    CG   OD1  OD2
 REMARK 470     GLN G1228    CG   CD   OE1  NE2                                  
 REMARK 470     ILE G1229    CG1  CG2  CD1                                       
 REMARK 470     LEU G1232    CG   CD1  CD2                                       
-REMARK 470     ASN G1233    CG   OD1                                            
+REMARK 470     ASN G1233    CG   OD1  ND2                                       
 REMARK 470     ASP G1234    CG   OD1  OD2                                       
 REMARK 470     SER G1235    OG                                                  
 REMARK 470     LYS G1236    CG   CD   CE   NZ                                   
@@ -593,7 +594,7 @@ REMARK 470     ARG G1246    CG   CD   NE   CZ   NH1  NH2
 REMARK 470     VAL G1248    CG1  CG2                                            
 REMARK 470     LEU G1249    CG   CD1  CD2                                       
 REMARK 470     ASP G1250    CG   OD1  OD2                                       
-REMARK 470     ASN J1506    CG   OD1                                            
+REMARK 470     ASN J1506    CG   OD1  ND2                                       
 REMARK 470     VAL J1507    CG1  CG2                                            
 REMARK 470     SER J1508    OG                                                  
 REMARK 470     ILE J1510    CG1  CG2  CD1                                       
@@ -612,7 +613,7 @@ REMARK 470     LYS J1526    CG   CD   CE   NZ
 REMARK 470     LEU J1527    CG   CD1  CD2                                       
 REMARK 470     LYS J1528    CG   CD   CE   NZ                                   
 REMARK 470     TYR J1529    CG   CD1  CD2  CE1  CE2  CZ   OH                    
-REMARK 470     ASN J1532    CG   OD1                                            
+REMARK 470     ASN J1532    CG   OD1  ND2                                       
 REMARK 470     ARG J1533    CG   CD   NE   CZ   NH1  NH2                        
 REMARK 470     SER J1534    OG                                                  
 REMARK 470     GLU J1535    CG   CD   OE1  OE2                                  
@@ -625,7 +626,7 @@ REMARK 470     GLN J1542    CG   CD   OE1  NE2
 REMARK 470     LYS J1543    CG   CD   CE   NZ                                   
 REMARK 470     SER J1544    OG                                                  
 REMARK 470     GLU J1545    CG   CD   OE1  OE2                                  
-REMARK 470     ASN J1546    CG   OD1                                            
+REMARK 470     ASN J1546    CG   OD1  ND2                                       
 REMARK 470     LEU J1547    CG   CD1  CD2                                       
 REMARK 470     ILE J1548    CG1  CG2  CD1                                       
 REMARK 470     LYS J1549    CG   CD   CE   NZ                                   
@@ -642,7 +643,7 @@ REMARK 470     ILE J1560    CG1  CG2  CD1
 REMARK 470     ASP J1561    CG   OD1  OD2                                       
 REMARK 470     GLU J1562    CG   CD   OE1  OE2                                  
 REMARK 470     LEU J1563    CG   CD1  CD2                                       
-REMARK 470     ASN J1564    CG   OD1                                            
+REMARK 470     ASN J1564    CG   OD1  ND2                                       
 REMARK 470     VAL J1565    CG1  CG2                                            
 REMARK 470     SER J1567    OG                                                  
 REMARK 470     LYS J1568    CG   CD   CE   NZ                                   
@@ -668,7 +669,7 @@ REMARK 470     TYR J1588    CG   CD1  CD2  CE1  CE2  CZ   OH
 REMARK 470     TYR J1589    CG   CD1  CD2  CE1  CE2  CZ   OH                    
 REMARK 470     TYR J1590    CG   CD1  CD2  CE1  CE2  CZ   OH                    
 REMARK 470     PHE J1591    CG   CD1  CD2  CE1  CE2  CZ                         
-REMARK 470     ASN J1593    CG   OD1                                            
+REMARK 470     ASN J1593    CG   OD1  ND2                                       
 REMARK 470     MET J1594    CG   SD   CE                                        
 REMARK 470     LEU J1595    CG   CD1  CD2                                       
 REMARK 470     GLU J1596    CG   CD   OE1  OE2                                  
@@ -677,8 +678,8 @@ REMARK 470     ILE J1598    CG1  CG2  CD1
 REMARK 470     ARG J1599    CG   CD   NE   CZ   NH1  NH2                        
 REMARK 470     LEU J1600    CG   CD1  CD2                                       
 REMARK 470     PHE J1601    CG   CD1  CD2  CE1  CE2  CZ                         
-REMARK 470     ASN J1602    CG   OD1                                            
-REMARK 470     ASN J1604    CG   OD1                                            
+REMARK 470     ASN J1602    CG   OD1  ND2                                       
+REMARK 470     ASN J1604    CG   OD1  ND2                                       
 REMARK 470     ARG J1605    CG   CD   NE   CZ   NH1  NH2                        
 REMARK 470     PHE J1606    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU J1607    CG   CD1  CD2                                       
@@ -695,7 +696,7 @@ REMARK 470     GLN J1623    CG   CD   OE1  NE2
 REMARK 470     ILE J1624    CG1  CG2  CD1                                       
 REMARK 470     LYS J1625    CG   CD   CE   NZ                                   
 REMARK 470     PRO J1626    CG   CD                                             
-REMARK 470     ASN J1627    CG   OD1                                            
+REMARK 470     ASN J1627    CG   OD1  ND2                                       
 REMARK 470     GLN J1628    CG   CD   OE1  NE2                                  
 REMARK 470     SER J1629    OG                                                  
 REMARK 470     TYR J1630    CG   CD1  CD2  CE1  CE2  CZ   OH                    
@@ -743,7 +744,7 @@ REMARK 470     LYS J1679    CG   CD   CE   NZ
 REMARK 470     PRO J1680    CG   CD                                             
 REMARK 470     LEU J1681    CG   CD1  CD2                                       
 REMARK 470     HIS J1682    CG   ND1  CD2  CE1  NE2                             
-REMARK 470     ASN J1683    CG   OD1                                            
+REMARK 470     ASN J1683    CG   OD1  ND2                                       
 REMARK 470     PHE J1684    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU J1685    CG   CD1  CD2                                       
 REMARK 470     THR J1686    OG1  CG2                                            
@@ -753,13 +754,13 @@ REMARK 470     GLN J1689    CG   CD   OE1  NE2
 REMARK 470     PRO J1690    CG   CD                                             
 REMARK 470     PHE J1691    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LEU J1692    CG   CD1  CD2                                       
-REMARK 470     ASN J1693    CG   OD1                                            
+REMARK 470     ASN J1693    CG   OD1  ND2                                       
 REMARK 470     PHE J1694    CG   CD1  CD2  CE1  CE2  CZ                         
 REMARK 470     LYS J1695    CG   CD   CE   NZ                                   
 REMARK 470     GLN J1696    CG   CD   OE1  NE2                                  
 REMARK 470     LYS J1697    CG   CD   CE   NZ                                   
 REMARK 470     GLN J1698    CG   CD   OE1  NE2                                  
-REMARK 470     ASN J1700    CG   OD1                                            
+REMARK 470     ASN J1700    CG   OD1  ND2                                       
 REMARK 470     LEU J1701    CG   CD1  CD2                                       
 REMARK 470     VAL J1702    CG1  CG2                                            
 REMARK 470     LEU J1703    CG   CD1  CD2                                       
@@ -789,7 +790,7 @@ REMARK 470     ASP J1727    CG   OD1  OD2
 REMARK 470     GLN J1728    CG   CD   OE1  NE2                                  
 REMARK 470     ILE J1729    CG1  CG2  CD1                                       
 REMARK 470     LEU J1732    CG   CD1  CD2                                       
-REMARK 470     ASN J1733    CG   OD1                                            
+REMARK 470     ASN J1733    CG   OD1  ND2                                       
 REMARK 470     ASP J1734    CG   OD1  OD2                                       
 REMARK 470     SER J1735    OG                                                  
 REMARK 470     LYS J1736    CG   CD   CE   NZ                                   
@@ -1253,47 +1254,47 @@ SEQRES  17 J  260  LEU PRO SER ALA LYS GLU SER PRO ASP LYS PHE LEU GLU
 SEQRES  18 J  260  VAL CYS THR TRP VAL ASP GLN ILE ALA ALA LEU ASN ASP          
 SEQRES  19 J  260  SER LYS THR ARG LYS THR THR SER GLU THR VAL ARG ALA          
 SEQRES  20 J  260  VAL LEU ASP SER LEU SER GLU LYS LYS LYS SER SER PRO          
+HET    GOL  B 762       6                                                       
+HET    GOL  B 775       6                                                       
+HET     MG  E 375       1                                                       
+HET    GOL  E 771       6                                                       
+HET    GOL  F 774       6                                                       
 HET     MG  A 371       1                                                       
 HET     MG  A 372       1                                                       
 HET     MG  A 373       1                                                       
-HET     MG  D 374       1                                                       
-HET     MG  E 375       1                                                       
-HET     MG  D 376       1                                                       
 HET    SO4  A 271       5                                                       
 HET    SO4  A 272       5                                                       
-HET    SO4  D 273       5                                                       
-HET    SO4  D 274       5                                                       
 HET    SO4  A 275       5                                                       
 HET    SO4  A 276       5                                                       
 HET    SO4  A 277       5                                                       
-HET    SO4  D 278       5                                                       
-HET    SO4  D 279       5                                                       
 HET    SO4  A 280       5                                                       
-HET    GOL  D 761       6                                                       
-HET    GOL  B 762       6                                                       
-HET    GOL  D 763       6                                                       
-HET    GOL  D 764       6                                                       
 HET    GOL  A 765       6                                                       
-HET    GOL  D 766       6                                                       
 HET    GOL  A 767       6                                                       
 HET    GOL  A 768       6                                                       
 HET    GOL  A 769       6                                                       
 HET    GOL  A 770       6                                                       
-HET    GOL  E 771       6                                                       
 HET    GOL  A 772       6                                                       
 HET    GOL  A 773       6                                                       
-HET    GOL  F 774       6                                                       
-HET    GOL  B 775       6                                                       
+HET     MG  D 374       1                                                       
+HET     MG  D 376       1                                                       
+HET    SO4  D 273       5                                                       
+HET    SO4  D 274       5                                                       
+HET    SO4  D 278       5                                                       
+HET    SO4  D 279       5                                                       
+HET    GOL  D 761       6                                                       
+HET    GOL  D 763       6                                                       
+HET    GOL  D 764       6                                                       
+HET    GOL  D 766       6                                                       
 HET    GOL  D 776       6                                                       
 HET    GOL  D 777       6                                                       
 HET    GOL  D 778       6                                                       
+HETNAM     GOL GLYCEROL                                                         
 HETNAM      MG MAGNESIUM ION                                                    
 HETNAM     SO4 SULFATE ION                                                      
-HETNAM     GOL GLYCEROL                                                         
 HETSYN     GOL GLYCERIN; PROPANE-1,2,3-TRIOL                                    
-FORMUL  13   MG    6(MG 2+)                                                     
-FORMUL  19  SO4    10(O4 S 2-)                                                  
-FORMUL  29  GOL    18(C3 H8 O3)                                                 
+FORMUL  13  GOL    18(C3 H8 O3)                                                 
+FORMUL  15   MG    6(MG 2+)                                                     
+FORMUL  21  SO4    10(O4 S 2-)                                                  
 FORMUL  47  HOH   *454(H2 O)                                                    
 HELIX    1   1 ASN A    6  ASP A   21  1                                  16    
 HELIX    2   2 SER A   44  ASN A   64  1                                  21    

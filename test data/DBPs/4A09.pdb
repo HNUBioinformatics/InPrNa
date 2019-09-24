@@ -1,14 +1,14 @@
 HEADER    DNA-BINDING PROTEIN/DNA                 08-SEP-11   4A09              
-TITLE     STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 15 BP CPD-DUPLEX                
-TITLE    2 (PURINE AT D-1 POSITION) AT 3.1 A RESOLUTION (CPD 2)                 
+TITLE     STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 15 BP CPD-DUPLEX (PURINE AT D-1 
+TITLE    2 POSITION) AT 3.1 A RESOLUTION (CPD 2)                                
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA DAMAGE-BINDING PROTEIN 1;                              
 COMPND   3 CHAIN: A;                                                            
 COMPND   4 SYNONYM: DDB P127 SUBUNIT, DNA DAMAGE-BINDING PROTEIN A, DDBA,       
-COMPND   5  DAMAGE-SPECIFIC DNA-BINDING PROTEIN 1, HBV X-ASSOCIATED PROTEIN 1,  
-COMPND   6  XAP-1, UV-DAMAGED DNA-BINDING FACTOR, UV-DAMAGED DNA-BINDING        
-COMPND   7  PROTEIN 1, UV-DDB 1, XPE-BINDING FACTOR, XPE-BF, XERODERMA          
-COMPND   8  PIGMENTOSUM GROUP E-COMPLEMENTING PROTEIN, XPCE;                    
+COMPND   5 DAMAGE-SPECIFIC DNA-BINDING PROTEIN 1, HBV X-ASSOCIATED PROTEIN 1,   
+COMPND   6 XAP-1, UV-DAMAGED DNA-BINDING FACTOR, UV-DAMAGED DNA-BINDING PROTEIN 
+COMPND   7 1, UV-DDB 1, XPE-BINDING FACTOR, XPE-BF, XERODERMA PIGMENTOSUM GROUP 
+COMPND   8 E-COMPLEMENTING PROTEIN, XPCE;                                       
 COMPND   9 ENGINEERED: YES;                                                     
 COMPND  10 MUTATION: YES;                                                       
 COMPND  11 MOL_ID: 2;                                                           
@@ -20,12 +20,14 @@ COMPND  16 ENGINEERED: YES;
 COMPND  17 MOL_ID: 3;                                                           
 COMPND  18 MOLECULE: 5'-D(*GP*GP*TP*GP*AP*AP*AP*(TTD)P*AP*GP*CP*AP*GP*GP)-3';   
 COMPND  19 CHAIN: G;                                                            
-COMPND  20 OTHER_DETAILS: DAMAGED STRAND. CONTAINS CYCLOBUTANE PYRIMIDINE       
-COMPND  21  DIMER (CPD);                                                        
-COMPND  22 MOL_ID: 4;                                                           
-COMPND  23 MOLECULE: 5'-D(*CP*CP*TP*GP*CP*TP*CP*CP*TP*TP*TP*CP*AP*CP*CP*C)-3';  
-COMPND  24 CHAIN: H;                                                            
-COMPND  25 OTHER_DETAILS: UNDAMAGED STRAND                                      
+COMPND  20 ENGINEERED: YES;                                                     
+COMPND  21 OTHER_DETAILS: DAMAGED STRAND. CONTAINS CYCLOBUTANE PYRIMIDINE DIMER 
+COMPND  22 (CPD);                                                               
+COMPND  23 MOL_ID: 4;                                                           
+COMPND  24 MOLECULE: 5'-D(*CP*CP*TP*GP*CP*TP*CP*CP*TP*TP*TP*CP*AP*CP*CP*C)-3';  
+COMPND  25 CHAIN: H;                                                            
+COMPND  26 ENGINEERED: YES;                                                     
+COMPND  27 OTHER_DETAILS: UNDAMAGED STRAND                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
 SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
@@ -33,7 +35,7 @@ SOURCE   4 ORGANISM_TAXID: 9606;
 SOURCE   5 EXPRESSION_SYSTEM: TRICHOPLUSIA NI;                                  
 SOURCE   6 EXPRESSION_SYSTEM_COMMON: CABBAGE LOOPER;                            
 SOURCE   7 EXPRESSION_SYSTEM_TAXID: 7111;                                       
-SOURCE   8 EXPRESSION_SYSTEM_CELL_LINE: BTI TN 5B1 4;                           
+SOURCE   8 EXPRESSION_SYSTEM_CELL_LINE: HIGH FIVE;                              
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS;                          
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PFASTBAC DERIVED;                         
 SOURCE  11 MOL_ID: 2;                                                           
@@ -43,7 +45,7 @@ SOURCE  14 ORGANISM_TAXID: 7955;
 SOURCE  15 EXPRESSION_SYSTEM: TRICHOPLUSIA NI;                                  
 SOURCE  16 EXPRESSION_SYSTEM_COMMON: CABBAGE LOOPER;                            
 SOURCE  17 EXPRESSION_SYSTEM_TAXID: 7111;                                       
-SOURCE  18 EXPRESSION_SYSTEM_CELL_LINE: BTI TN 5B1 4;                           
+SOURCE  18 EXPRESSION_SYSTEM_CELL_LINE: HIGH FIVE;                              
 SOURCE  19 EXPRESSION_SYSTEM_VECTOR_TYPE: BACULOVIRUS;                          
 SOURCE  20 EXPRESSION_SYSTEM_PLASMID: PFASTBAC DERIVED;                         
 SOURCE  21 MOL_ID: 3;                                                           
@@ -57,6 +59,7 @@ SOURCE  28 ORGANISM_TAXID: 32630
 KEYWDS    DNA-BINDING PROTEIN-DNA COMPLEX, DNA DAMAGE REPAIR, DDB               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.SCRIMA,E.S.FISCHER,S.IWAI,H.GUT,N.H.THOMA                           
+REVDAT   3   03-APR-19 4A09    1       SOURCE LINK                              
 REVDAT   2   07-DEC-11 4A09    1       JRNL                                     
 REVDAT   1   30-NOV-11 4A09    0                                                
 JRNL        AUTH   A.SCRIMA,E.S.FISCHER,S.IWAI,H.GUT,N.H.THOMA                  
@@ -71,52 +74,53 @@ REMARK   2 RESOLUTION.    3.10 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.5.0102                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.10                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 48.27                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : NONE                           
-REMARK   3   COMPLETENESS FOR RANGE        (%) : 100.00                         
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 100.0                          
 REMARK   3   NUMBER OF REFLECTIONS             : 37137                          
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT                      
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
-REMARK   3   R VALUE     (WORKING + TEST SET) : 0.24833                         
-REMARK   3   R VALUE            (WORKING SET) : 0.24519                         
-REMARK   3   FREE R VALUE                     : 0.30753                         
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.0                             
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.248                           
+REMARK   3   R VALUE            (WORKING SET) : 0.245                           
+REMARK   3   FREE R VALUE                     : 0.308                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1955                            
 REMARK   3                                                                      
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
-REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 3.100                        
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 3.180                        
+REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 3.10                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 3.18                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 2673                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.318                        
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.3180                       
 REMARK   3   BIN FREE R VALUE SET COUNT          : 141                          
-REMARK   3   BIN FREE R VALUE                    : 0.377                        
+REMARK   3   BIN FREE R VALUE                    : 0.3770                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 11489                                   
+REMARK   3   PROTEIN ATOMS            : 11485                                   
 REMARK   3   NUCLEIC ACID ATOMS       : 605                                     
 REMARK   3   HETEROGEN ATOMS          : 1                                       
 REMARK   3   SOLVENT ATOMS            : 22                                      
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 56.702                         
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 56.70                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : -1.90                                                
-REMARK   3    B22 (A**2) : -2.96                                                
-REMARK   3    B33 (A**2) : 4.86                                                 
-REMARK   3    B12 (A**2) : 0.00                                                 
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : -1.90000                                             
+REMARK   3    B22 (A**2) : -2.96000                                             
+REMARK   3    B33 (A**2) : 4.86000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
 REMARK   3   ESU BASED ON R VALUE                            (A): NULL          
@@ -124,7 +128,7 @@ REMARK   3   ESU BASED ON FREE R VALUE                       (A): 0.554
 REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): 0.448         
 REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): 25.208        
 REMARK   3                                                                      
-REMARK   3  CORRELATION COEFFICIENTS.                                           
+REMARK   3 CORRELATION COEFFICIENTS.                                            
 REMARK   3   CORRELATION COEFFICIENT FO-FC      : 0.887                         
 REMARK   3   CORRELATION COEFFICIENT FO-FC FREE : 0.828                         
 REMARK   3                                                                      
@@ -159,10 +163,15 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  7248 ; 0.262 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2): 11744 ; 0.476 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  5151 ; 0.394 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  5193 ; 0.772 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
-REMARK   3  ANISOTROPIC THERMAL FACTOR RESTRAINTS.   COUNT   RMS    WEIGHT      
+REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SPHERICITY; FREE ATOMS         (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SPHERICITY; BONDED ATOMS       (A**2):  NULL ;  NULL ;  NULL       
@@ -180,13 +189,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.40
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3   RIDING POSITIONS. U VALUES REFINED INDIVIDUALLY                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS. U VALUES REFINED INDIVIDUALLY                            
 REMARK   4                                                                      
 REMARK   4 4A09 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 09-SEP-11.                  
-REMARK 100 THE PDBE ID CODE IS EBI-49582.                                       
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 08-SEP-11.                  
+REMARK 100 THE DEPOSITION ID IS D_1290049582.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -205,30 +214,30 @@ REMARK 200  MONOCHROMATOR                  : NULL
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : PIXEL                              
-REMARK 200  DETECTOR MANUFACTURER          : PSI PILATUS 6M                     
+REMARK 200  DETECTOR MANUFACTURER          : DECTRIS PILATUS 6M                 
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XDS                                
 REMARK 200  DATA SCALING SOFTWARE          : XSCALE                             
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 39092                              
-REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.10                               
-REMARK 200  RESOLUTION RANGE LOW       (A) : 50.00                              
-REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.0                                
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.100                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 50.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.000                              
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.8                               
-REMARK 200  DATA REDUNDANCY                : 7.3                                
-REMARK 200  R MERGE                    (I) : 0.13                               
+REMARK 200  DATA REDUNDANCY                : 7.300                              
+REMARK 200  R MERGE                    (I) : 0.13000                            
 REMARK 200  R SYM                      (I) : NULL                               
-REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 16.00                              
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 16.0000                            
 REMARK 200                                                                      
 REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 3.10                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 3.20                     
 REMARK 200  COMPLETENESS FOR SHELL     (%) : 99.6                               
-REMARK 200  DATA REDUNDANCY IN SHELL       : 7.6                                
-REMARK 200  R MERGE FOR SHELL          (I) : 0.58                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 7.60                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.58000                            
 REMARK 200  R SYM FOR SHELL            (I) : NULL                               
-REMARK 200  <I/SIGMA(I)> FOR SHELL         : 4.50                               
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 4.500                              
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
@@ -241,8 +250,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 62.07                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.24                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 100 MM MES, 15 MM NAOH, 21% PEG          
-REMARK 280  200                                                                 
+REMARK 280 CRYSTALLIZATION CONDITIONS: 100 MM MES, 15 MM NAOH, 21% PEG 200,     
+REMARK 280  PH 5.3                                                              
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
@@ -430,8 +439,8 @@ REMARK 500    PHE A 382     -134.89     52.60
 REMARK 500    ILE A 407       99.39     25.28                                   
 REMARK 500    PRO A 417     -109.65    -65.25                                   
 REMARK 500    GLU A 420     -167.57     63.20                                   
-REMARK 500    THR A 421     -175.07     59.26                                   
-REMARK 500    ASP A 423       -1.57   -148.77                                   
+REMARK 500    THR A 421     -176.45     59.26                                   
+REMARK 500    ASP A 423       -1.57   -149.29                                   
 REMARK 500    PHE A 429     -150.27   -122.11                                   
 REMARK 500    GLN A 481      -71.65     73.89                                   
 REMARK 500    LYS A 484       71.41     51.95                                   
@@ -456,7 +465,7 @@ REMARK 500    GLU A 902      -62.77   -105.65
 REMARK 500    MET A 910       94.78   -164.78                                   
 REMARK 500    MET A 927       -7.63   -150.08                                   
 REMARK 500    SER A 929     -139.62     56.03                                   
-REMARK 500    ILE A 945      -71.74    -74.28                                   
+REMARK 500    ILE A 945      -71.74    -74.29                                   
 REMARK 500    PRO A 951       90.09    -69.65                                   
 REMARK 500    SER A1027      110.85   -160.54                                   
 REMARK 500    PHE A1076      107.04    -56.44                                   
@@ -473,32 +482,28 @@ REMARK 800
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA B1456                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA B 1456                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2B5L   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF DDB1 IN COMPLEX WITH SIMIAN VIRUS              
-REMARK 900   5 VPROTEIN                                                         
+REMARK 900 CRYSTAL STRUCTURE OF DDB1 IN COMPLEX WITH SIMIAN VIRUS 5 VPROTEIN    
 REMARK 900 RELATED ID: 2B5M   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF DDB1                                           
+REMARK 900 CRYSTAL STRUCTURE OF DDB1                                            
 REMARK 900 RELATED ID: 2HYE   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF THE DDB1-CUL4A-RBX1-SV5V COMPLEX               
+REMARK 900 CRYSTAL STRUCTURE OF THE DDB1-CUL4A-RBX1-SV5V COMPLEX                
 REMARK 900 RELATED ID: 2B5N   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF THE DDB1 BPB DOMAIN                            
+REMARK 900 CRYSTAL STRUCTURE OF THE DDB1 BPB DOMAIN                             
 REMARK 900 RELATED ID: 4A0A   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 16 BP CPD-                    
-REMARK 900  DUPLEX (PYRIMIDINE AT D-1 POSITION) AT 3.6 A                        
-REMARK 900  RESOLUTION (CPD 3)                                                  
+REMARK 900 STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 16 BP CPD- DUPLEX (PYRIMIDINE  
+REMARK 900 AT D-1 POSITION) AT 3.6 A RESOLUTION (CPD 3)                         
 REMARK 900 RELATED ID: 4A0B   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 16 BP CPD-                    
-REMARK 900  DUPLEX (PYRIMIDINE AT D-1 POSITION) AT 3.8 A                        
-REMARK 900  RESOLUTION (CPD 4)                                                  
+REMARK 900 STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 16 BP CPD- DUPLEX (PYRIMIDINE  
+REMARK 900 AT D-1 POSITION) AT 3.8 A RESOLUTION (CPD 4)                         
 REMARK 900 RELATED ID: 4A08   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 13 BP CPD-                    
-REMARK 900  DUPLEX (PURINE AT D-1 POSITION) AT 3.0 A                            
-REMARK 900  RESOLUTION (CPD 1)                                                  
+REMARK 900 STRUCTURE OF HSDDB1-DRDDB2 BOUND TO A 13 BP CPD- DUPLEX (PURINE AT   
+REMARK 900 D-1 POSITION) AT 3.0 A RESOLUTION (CPD 1)                            
 REMARK 900 RELATED ID: 4A0C   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF THE CAND1-CUL4B-RBX1 COMPLEX                           
+REMARK 900 STRUCTURE OF THE CAND1-CUL4B-RBX1 COMPLEX                            
 REMARK 900 RELATED ID: 3EI1   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 3EI2   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 3EI3   RELATED DB: PDB                                   
@@ -506,8 +511,8 @@ REMARK 900 RELATED ID: 3EI4   RELATED DB: PDB
 REMARK 900 RELATED ID: 4A0L   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 4A11   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 4A0K   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF DDB1-DDB2-CUL4A-RBX1 BOUND TO A 12 BP                  
-REMARK 900   ABASIC SITE CONTAINING DNA-DUPLEX                                  
+REMARK 900 STRUCTURE OF DDB1-DDB2-CUL4A-RBX1 BOUND TO A 12 BP ABASIC SITE       
+REMARK 900 CONTAINING DNA-DUPLEX                                                
 DBREF  4A09 A    1  1140  UNP    Q16531   DDB1_HUMAN       1   1140             
 DBREF  4A09 B   94   457  UNP    Q2YDS1   DDB2_DANRE      60    423             
 DBREF  4A09 G    1    15  PDB    4A09     4A09             1     15             
@@ -677,19 +682,19 @@ SEQRES   2 G   14   DG
 SEQRES   1 H   16   DC  DC  DT  DG  DC  DT  DC  DC  DT  DT  DT  DC  DA          
 SEQRES   2 H   16   DC  DC  DC                                                  
 MODRES 4A09 TTD G    8   DT  CIS-SYN CYCLOBUTANE THYMINE DIMER                  
-HET     CA  B1456       1                                                       
 HET    TTD  G   8      40                                                       
-HETNAM      CA CALCIUM ION                                                      
+HET     CA  B1456       1                                                       
 HETNAM     TTD CIS-SYN CYCLOBUTANE THYMINE DIMER                                
-HETSYN     TTD [(3S,4S,9S,10R,12R,15AR,18BS,18CS)-3,7-                          
-HETSYN   2 TTD  DIHYDROXY-15A,15B-DIMETHYL-7-OXIDO-13,15,16,18-                 
-HETSYN   3 TTD  TETRAOXOHEXADECAHYDRO-1H-1,4-EPOXY-9,12-METHANO-                
-HETSYN   4 TTD  6,8,11-TRIOXA-12A,14,17,18A-TETRAAZA-7-                         
-HETSYN   5 TTD  PHOSPHACYCLOHEXADECA[1,2,3,4-DEF]BIPHENYLEN-10-YL]              
-HETSYN   6 TTD  METHYL DIHYDROGEN PHOSPHATE                                     
+HETNAM      CA CALCIUM ION                                                      
+HETSYN     TTD [(3S,4S,9S,10R,12R,15AR,18BS,18CS)-3,7-DIHYDROXY-15A,            
+HETSYN   2 TTD  15B-DIMETHYL-7-OXIDO-13,15,16,18-                               
+HETSYN   3 TTD  TETRAOXOHEXADECAHYDRO-1H-1,4-EPOXY-9,12-METHANO-6,8,            
+HETSYN   4 TTD  11-TRIOXA-12A,14,17,18A-TETRAAZA-7-                             
+HETSYN   5 TTD  PHOSPHACYCLOHEXADECA[1,2,3,4-DEF]BIPHENYLEN-10-                 
+HETSYN   6 TTD  YL]METHYL DIHYDROGEN PHOSPHATE                                  
+FORMUL   3  TTD    C20 H28 N4 O15 P2                                            
 FORMUL   5   CA    CA 2+                                                        
-FORMUL   6  TTD    C20 H28 N4 O15 P2                                            
-FORMUL   7  HOH   *22(H2 O)                                                     
+FORMUL   6  HOH   *22(H2 O)                                                     
 HELIX    1   1 ILE A  252  SER A  256  5                                   5    
 HELIX    2   2 ALA A  381  GLU A  384  5                                   4    
 HELIX    3   3 THR A  985  GLN A  990  1                                   6    
@@ -4089,12 +4094,12 @@ ATOM   3240  OG1 THR A 421       5.071  34.423 -32.475  1.00 90.28           O
 ATOM   3241  CG2 THR A 421       4.035  32.848 -30.948  1.00 90.41           C  
 ATOM   3242  N   ASP A 422       3.043  33.940 -35.021  1.00 86.85           N  
 ATOM   3243  CA  ASP A 422       2.870  34.675 -36.273  1.00 86.78           C  
-ATOM   3244  CB  ASP A 422       1.479  34.420 -36.862  1.00 86.78           C  
-ATOM   3245  CG  ASP A 422       1.319  33.012 -37.418  1.00 86.79           C  
-ATOM   3246  OD1 ASP A 422       2.305  32.242 -37.440  1.00 86.96           O  
-ATOM   3247  OD2 ASP A 422       0.193  32.675 -37.845  1.00 86.91           O  
-ATOM   3248  C   ASP A 422       3.083  36.171 -36.069  1.00 86.76           C  
-ATOM   3249  O   ASP A 422       2.924  36.682 -34.960  1.00 86.83           O  
+ATOM   3244  C   ASP A 422       3.083  36.171 -36.069  1.00 86.76           C  
+ATOM   3245  O   ASP A 422       2.924  36.682 -34.960  1.00 86.83           O  
+ATOM   3246  CB  ASP A 422       1.479  34.420 -36.862  1.00 86.78           C  
+ATOM   3247  CG  ASP A 422       1.319  33.012 -37.418  1.00 86.79           C  
+ATOM   3248  OD1 ASP A 422       2.305  32.242 -37.440  1.00 86.96           O  
+ATOM   3249  OD2 ASP A 422       0.193  32.675 -37.845  1.00 86.91           O  
 ATOM   3250  N   ASP A 423       3.458  36.864 -37.163  1.00 90.13           N  
 ATOM   3251  CA  ASP A 423       3.672  38.312 -37.107  1.00 90.03           C  
 ATOM   3252  C   ASP A 423       3.355  39.014 -38.429  1.00 89.90           C  
@@ -12965,8 +12970,6 @@ HETATM12116  O   HOH G2001     -86.616 -21.130  -2.189  1.00 30.55           O
 HETATM12117  O   HOH G2002     -85.958 -18.781  -3.493  1.00 37.60           O  
 CONECT1048212095                                                                
 CONECT1162111634                                                                
-CONECT1167411673                                                                
-CONECT1209510482                                                                
 CONECT1163411621116351163611637                                                 
 CONECT1163511634                                                                
 CONECT1163611634                                                                
@@ -13006,6 +13009,8 @@ CONECT1166911668
 CONECT11670116531166211668                                                      
 CONECT11671116581165911672                                                      
 CONECT11672116601167111673                                                      
-CONECT116731167411672                                                           
-MASTER      442    0    2   12  131    0    1    612113    4   44  124          
+CONECT116731167211674                                                           
+CONECT1167411673                                                                
+CONECT1209510482                                                                
+MASTER      444    0    2   12  131    0    1    612113    4   44  124          
 END                                                                             

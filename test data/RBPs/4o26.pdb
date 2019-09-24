@@ -29,6 +29,7 @@ KEYWDS    TELOMERASE, TELOMERASE RNA, PROTEIN-RNA INTERACTION, RNA BINDING
 KEYWDS   2 PROTEIN-RNA COMPLEX                                                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.HUANG,J.WU,M.LEI                                                    
+REVDAT   3   17-JUL-19 4O26    1       REMARK                                   
 REVDAT   2   18-JUN-14 4O26    1       JRNL                                     
 REVDAT   1   07-MAY-14 4O26    0                                                
 JRNL        AUTH   J.HUANG,A.F.BROWN,J.WU,J.XUE,C.J.BLEY,D.P.RAND,L.WU,R.ZHANG, 
@@ -42,16 +43,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.8.2_1309)                   
+REMARK   3   PROGRAM     : PHENIX 1.8.2_1309                                    
 REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -96,7 +96,7 @@ REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 24.790
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 101.20                         
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 101.2                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
 REMARK   3    B11 (A**2) : NULL                                                 
 REMARK   3    B22 (A**2) : NULL                                                 
@@ -120,7 +120,7 @@ REMARK   3
 REMARK   3  TLS DETAILS                                                         
 REMARK   3   NUMBER OF TLS GROUPS  : 6                                          
 REMARK   3   TLS GROUP : 1                                                      
-REMARK   3    SELECTION: chain 'A' and (resid 316 through 572)                  
+REMARK   3    SELECTION: CHAIN 'A' AND (RESID 316 THROUGH 572)                  
 REMARK   3    ORIGIN FOR THE GROUP (A):  13.0860  66.3663  45.3591              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1586 T22:  -0.2370                                     
@@ -135,7 +135,7 @@ REMARK   3      S11:   0.0881 S12:   0.0885 S13:  -0.0525
 REMARK   3      S21:  -0.1242 S22:  -0.1015 S23:  -0.0500                       
 REMARK   3      S31:  -0.0900 S32:  -0.0327 S33:  -0.0165                       
 REMARK   3   TLS GROUP : 2                                                      
-REMARK   3    SELECTION: chain 'B' and (resid 317 through 564)                  
+REMARK   3    SELECTION: CHAIN 'B' AND (RESID 317 THROUGH 564)                  
 REMARK   3    ORIGIN FOR THE GROUP (A):  16.5562  31.8397  30.0152              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.4529 T22:   0.3403                                     
@@ -150,7 +150,7 @@ REMARK   3      S11:  -0.0741 S12:  -0.0499 S13:  -0.0898
 REMARK   3      S21:  -0.1438 S22:   0.2609 S23:   0.1120                       
 REMARK   3      S31:  -0.0556 S32:  -0.3316 S33:   0.0066                       
 REMARK   3   TLS GROUP : 3                                                      
-REMARK   3    SELECTION: chain 'E' and (resid 170 through 220)                  
+REMARK   3    SELECTION: CHAIN 'E' AND (RESID 170 THROUGH 220)                  
 REMARK   3    ORIGIN FOR THE GROUP (A): -16.3579  67.3194  28.3552              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.8525 T22:   0.7703                                     
@@ -165,7 +165,7 @@ REMARK   3      S11:  -0.0582 S12:   0.2179 S13:   0.2368
 REMARK   3      S21:  -0.0645 S22:   0.1432 S23:  -0.0658                       
 REMARK   3      S31:  -0.3118 S32:  -0.3015 S33:  -0.0278                       
 REMARK   3   TLS GROUP : 4                                                      
-REMARK   3    SELECTION: chain 'F' and (resid 170 through 220)                  
+REMARK   3    SELECTION: CHAIN 'F' AND (RESID 170 THROUGH 220)                  
 REMARK   3    ORIGIN FOR THE GROUP (A):  38.3525  18.2441   4.3657              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   1.6287 T22:   1.2883                                     
@@ -180,8 +180,8 @@ REMARK   3      S11:  -0.0686 S12:   0.2064 S13:  -0.0997
 REMARK   3      S21:  -0.3610 S22:  -0.1389 S23:  -0.1543                       
 REMARK   3      S31:   0.0032 S32:   0.4547 S33:  -0.0000                       
 REMARK   3   TLS GROUP : 5                                                      
-REMARK   3    SELECTION: chain 'A' and (resid 601 through 608) or chain 'B'     
-REMARK   3               and (resid 601 through 604)                            
+REMARK   3    SELECTION: CHAIN 'A' AND (RESID 601 THROUGH 608) OR CHAIN 'B'     
+REMARK   3               AND (RESID 601 THROUGH 604)                            
 REMARK   3    ORIGIN FOR THE GROUP (A):  14.5594  58.7138  51.0899              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.6562 T22:   0.4502                                     
@@ -196,9 +196,9 @@ REMARK   3      S11:   0.0889 S12:   0.0029 S13:   0.1335
 REMARK   3      S21:   0.2155 S22:   0.2007 S23:  -0.0861                       
 REMARK   3      S31:   0.1609 S32:   0.1241 S33:   0.1326                       
 REMARK   3   TLS GROUP : 6                                                      
-REMARK   3    SELECTION: chain 'A' and (resid 701 through 721) or chain 'B'     
-REMARK   3               and (resid 701 through 708) or chain 'E' and (resid    
-REMARK   3               301 through 302)                                       
+REMARK   3    SELECTION: CHAIN 'A' AND (RESID 701 THROUGH 721) OR CHAIN 'B'     
+REMARK   3               AND (RESID 701 THROUGH 708) OR CHAIN 'E' AND (RESID    
+REMARK   3               301 THROUGH 302)                                       
 REMARK   3    ORIGIN FOR THE GROUP (A):  14.2188  55.9432  45.1073              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3051 T22:   0.2569                                     
@@ -221,7 +221,7 @@ REMARK   4
 REMARK   4 4O26 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 10-JAN-14.                  
-REMARK 100 THE RCSB ID CODE IS RCSB083947.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000083947.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -277,8 +277,8 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 68.36
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.89                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 100 MM SODIUM ACETATE, PH 4.5, 1 M       
-REMARK 280  AMMONIUM SULFATE, 0.3 M SODIUM CHLORIDE, VAPOR DIFFUSION, SITTING   
-REMARK 280  DROP, TEMPERATURE 277K                                              
+REMARK 280  AMMONIUM SULFATE, 0.3 M SODIUM CHLORIDE, VAPOR DIFFUSION,           
+REMARK 280  SITTING DROP, TEMPERATURE 277K                                      
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 62 2 2                         
@@ -456,9 +456,7 @@ REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
 REMARK 500   OD1  ASN B   332     NE2  HIS B   389              2.16            
-REMARK 500   O2'    C E   209     OP1    U E   210              2.18            
 REMARK 500   O    GLY B   323     NE2  GLN B   545              2.19            
-REMARK 500   O2'    C F   209     O5'    U F   210              2.19            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -12676,5 +12674,5 @@ CONECT 5910 5909
 CONECT 5911 5909                                                                
 CONECT 5912 5909                                                                
 CONECT 5913 5909                                                                
-MASTER      561    0   12   26    6    0   17    6 5940    4   64   48          
+MASTER      558    0   12   26    6    0   17    6 5940    4   64   48          
 END                                                                             

@@ -1,17 +1,16 @@
 HEADER    ISOMERASE/RNA                           16-JUN-08   3DH3              
-TITLE     CRYSTAL STRUCTURE OF RLUF IN COMPLEX WITH A 22 NUCLEOTIDE             
-TITLE    2 RNA SUBSTRATE                                                        
+TITLE     CRYSTAL STRUCTURE OF RLUF IN COMPLEX WITH A 22 NUCLEOTIDE RNA         
+TITLE    2 SUBSTRATE                                                            
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: RIBOSOMAL LARGE SUBUNIT PSEUDOURIDINE SYNTHASE F;          
 COMPND   3 CHAIN: A, B, C, D;                                                   
-COMPND   4 SYNONYM: RRNA-URIDINE ISOMERASE F, RRNA PSEUDOURIDYLATE              
-COMPND   5 SYNTHASE F;                                                          
-COMPND   6 EC: 5.4.99.-;                                                        
-COMPND   7 ENGINEERED: YES;                                                     
-COMPND   8 MOL_ID: 2;                                                           
-COMPND   9 MOLECULE: STEM LOOP FRAGMENT OF E. COLI 23S RNA;                     
-COMPND  10 CHAIN: E, F, G, H;                                                   
-COMPND  11 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: RRNA-URIDINE ISOMERASE F, RRNA PSEUDOURIDYLATE SYNTHASE F;  
+COMPND   5 EC: 5.4.99.-;                                                        
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: STEM LOOP FRAGMENT OF E. COLI 23S RNA;                     
+COMPND   9 CHAIN: E, F, G, H;                                                   
+COMPND  10 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   3 ORGANISM_TAXID: 562;                                                 
@@ -23,28 +22,26 @@ SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET30B;                                   
 SOURCE  10 MOL_ID: 2;                                                           
 SOURCE  11 SYNTHETIC: YES                                                       
-KEYWDS    PROTEIN-RNA COMPLEX, S4 DOMAIN, ALPHA/BETA PROTEIN,                   
-KEYWDS   2 ISOMERASE, RNA-BINDING, RRNA PROCESSING, ISOMERASE/RNA               
-KEYWDS   3 COMPLEX                                                              
+KEYWDS    PROTEIN-RNA COMPLEX, S4 DOMAIN, ALPHA/BETA PROTEIN, ISOMERASE, RNA-   
+KEYWDS   2 BINDING, RRNA PROCESSING, ISOMERASE-RNA COMPLEX                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.ALIAN,A.DEGIOVANNI,R.M.STROUD,J.S.FINER-MOORE                       
+REVDAT   3   25-OCT-17 3DH3    1       REMARK                                   
 REVDAT   2   01-DEC-09 3DH3    1       JRNL                                     
 REVDAT   1   28-APR-09 3DH3    0                                                
-JRNL        AUTH   A.ALIAN,A.DEGIOVANNI,S.L.GRINER,J.S.FINER-MOORE,             
-JRNL        AUTH 2 R.M.STROUD                                                   
-JRNL        TITL   CRYSTAL STRUCTURE OF AN RLUF-RNA COMPLEX: A                  
-JRNL        TITL 2 BASE-PAIR REARRANGEMENT IS THE KEY TO SELECTIVITY            
-JRNL        TITL 3 OF RLUF FOR U2604 OF THE RIBOSOME.                           
+JRNL        AUTH   A.ALIAN,A.DEGIOVANNI,S.L.GRINER,J.S.FINER-MOORE,R.M.STROUD   
+JRNL        TITL   CRYSTAL STRUCTURE OF AN RLUF-RNA COMPLEX: A BASE-PAIR        
+JRNL        TITL 2 REARRANGEMENT IS THE KEY TO SELECTIVITY OF RLUF FOR U2604 OF 
+JRNL        TITL 3 THE RIBOSOME.                                                
 JRNL        REF    J.MOL.BIOL.                   V. 388   785 2009              
 JRNL        REFN                   ISSN 0022-2836                               
 JRNL        PMID   19298824                                                     
 JRNL        DOI    10.1016/J.JMB.2009.03.029                                    
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.4.0067                                      
+REMARK   3   PROGRAM     : REFMAC                                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -133,8 +130,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  4750 ; 0.436 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  1959 ; 0.078 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  7719 ; 0.832 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  5086 ; 1.123 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  5951 ; 1.977 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -190,13 +192,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 3DH3 COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3DH3 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-JUN-08.                  
-REMARK 100 THE RCSB ID CODE IS RCSB048030.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000048030.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -214,10 +216,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1.1
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
+REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315R                  
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 27018                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.000                              
@@ -251,8 +253,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 43.08                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.16                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 200 MM AMMONIUM ACETATE, 25% PEG-        
-REMARK 280  3350, PH 7.4, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 298K       
+REMARK 280 CRYSTALLIZATION CONDITIONS: 200 MM AMMONIUM ACETATE, 25% PEG-3350,   
+REMARK 280  PH 7.4, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 298K             
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -553,12 +555,10 @@ REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
 REMARK 500   O2'    U G  2596     O5'    G G  2597              1.70            
-REMARK 500   O2'    U F  2596     O5'    G F  2597              1.94            
 REMARK 500   OG   SER B   241     O    HOH B   291              1.99            
 REMARK 500   OD1  ASP B    25     O6     G F  2597              2.06            
 REMARK 500   OE1  GLU A   220     NZ   LYS D    53              2.06            
 REMARK 500   N6     A H  2587     O2     U H  2605              2.08            
-REMARK 500   O2'    U H  2596     O5'    G H  2597              2.11            
 REMARK 500   N6     A F  2587     O2     U F  2605              2.17            
 REMARK 500   NZ   LYS A   143     O    HOH A   295              2.19            
 REMARK 500                                                                      
@@ -618,10 +618,13 @@ REMARK 500      C E2601   O4' -  C1' -  N1  ANGL. DEV. =  -6.9 DEGREES
 REMARK 500      C E2601   C6  -  N1  -  C2  ANGL. DEV. =  -2.5 DEGREES          
 REMARK 500      C E2601   N1  -  C2  -  O2  ANGL. DEV. =  -4.8 DEGREES          
 REMARK 500      A E2602   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
+REMARK 500    FHU E2604   O3' -  P   -  OP2 ANGL. DEV. =  17.1 DEGREES          
+REMARK 500    FHU E2604   O3' -  P   -  OP1 ANGL. DEV. = -13.9 DEGREES          
+REMARK 500      U E2605   O3' -  P   -  OP1 ANGL. DEV. =   7.4 DEGREES          
 REMARK 500      U E2605   C1' -  O4' -  C4' ANGL. DEV. =  -6.1 DEGREES          
 REMARK 500      G E2607   O5' -  C5' -  C4' ANGL. DEV. =  -6.0 DEGREES          
 REMARK 500      G E2607   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500      G E2608   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
+REMARK 500      G E2608   O4' -  C1' -  N9  ANGL. DEV. =   5.0 DEGREES          
 REMARK 500      A F2587   N9  -  C1' -  C2' ANGL. DEV. =  13.0 DEGREES          
 REMARK 500      A F2587   O4' -  C1' -  N9  ANGL. DEV. =  -7.5 DEGREES          
 REMARK 500      G F2588   O5' -  C5' -  C4' ANGL. DEV. =  -5.3 DEGREES          
@@ -641,17 +644,14 @@ REMARK 500      G F2597   N3  -  C4  -  C5  ANGL. DEV. =   3.4 DEGREES
 REMARK 500      G F2597   N3  -  C4  -  N9  ANGL. DEV. =  -5.7 DEGREES          
 REMARK 500      G F2597   C8  -  N9  -  C1' ANGL. DEV. =  11.4 DEGREES          
 REMARK 500      G F2597   C4  -  N9  -  C1' ANGL. DEV. = -10.0 DEGREES          
-REMARK 500      G F2607   O5' -  C5' -  C4' ANGL. DEV. =  -4.8 DEGREES          
-REMARK 500      G F2607   O4' -  C4' -  C3' ANGL. DEV. =  -8.5 DEGREES          
-REMARK 500      G F2607   C1' -  O4' -  C4' ANGL. DEV. =  -5.0 DEGREES          
-REMARK 500      G F2608   C5' -  C4' -  O4' ANGL. DEV. =   7.3 DEGREES          
-REMARK 500      G F2608   C8  -  N9  -  C4  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500      A G2587   C4  -  C5  -  C6  ANGL. DEV. =  -3.7 DEGREES          
-REMARK 500      G G2588   C5' -  C4' -  C3' ANGL. DEV. =  -8.5 DEGREES          
-REMARK 500      G G2588   C1' -  O4' -  C4' ANGL. DEV. =  -4.8 DEGREES          
-REMARK 500      G G2588   C4' -  C3' -  C2' ANGL. DEV. =  -9.4 DEGREES          
+REMARK 500      G F2603   C3' -  O3' -  P   ANGL. DEV. =  15.1 DEGREES          
+REMARK 500    FHU F2604   O3' -  P   -  O5' ANGL. DEV. = -32.0 DEGREES          
+REMARK 500    FHU F2604   O3' -  P   -  OP2 ANGL. DEV. = -20.2 DEGREES          
+REMARK 500    FHU F2604   O3' -  P   -  OP1 ANGL. DEV. = -20.0 DEGREES          
+REMARK 500      U F2605   O3' -  P   -  OP2 ANGL. DEV. = -13.6 DEGREES          
+REMARK 500      U F2605   O3' -  P   -  OP1 ANGL. DEV. =  10.7 DEGREES          
 REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS      96 ANGLE DEVIATIONS.                             
+REMARK 500 THIS ENTRY HAS     112 ANGLE DEVIATIONS.                             
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -10617,5 +10617,5 @@ CONECT 9420 9418
 CONECT 9421 9405                                                                
 CONECT 9422 9406                                                                
 CONECT 9423 9414                                                                
-MASTER      684    0    4   37   68    0    0    6 9550    8   96  100          
+MASTER      686    0    4   37   68    0    0    6 9550    8   96  100          
 END                                                                             

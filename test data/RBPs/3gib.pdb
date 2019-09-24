@@ -1,5 +1,5 @@
 HEADER    RNA BINDING PROTEIN/RNA                 05-MAR-09   3GIB              
-TITLE     CRYSTAL STUCTURE OF THE COMPLEX OF THE E. COLI HFQ WITH POLY(A)       
+TITLE     CRYSTAL STRUCTURE OF THE COMPLEX OF THE E. COLI HFQ WITH POLY(A)      
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: PROTEIN HFQ;                                               
 COMPND   3 CHAIN: A, B, C;                                                      
@@ -27,6 +27,8 @@ KEYWDS   2 BINDING, RNA-BINDING, STRESS RESPONSE, RNA BINDING PROTEIN-RNA
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.M.LINK,P.VALENTIN-HANSEN,R.G.BRENNAN                                
+REVDAT   5   04-APR-18 3GIB    1       REMARK                                   
+REVDAT   4   01-FEB-17 3GIB    1       TITLE                                    
 REVDAT   3   13-JUL-11 3GIB    1       VERSN                                    
 REVDAT   2   01-DEC-09 3GIB    1       JRNL                                     
 REVDAT   1   17-NOV-09 3GIB    0                                                
@@ -42,7 +44,8 @@ REMARK   2 RESOLUTION.    2.40 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -85,7 +88,7 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -4.32000                                             
 REMARK   3    B22 (A**2) : 0.33000                                              
 REMARK   3    B33 (A**2) : 3.99000                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
 REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
@@ -130,8 +133,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):   984 ; 2.503 ; 2.000       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  1580 ; 4.187 ; 3.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   951 ; 2.229 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   890 ; 3.495 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -157,7 +165,7 @@ REMARK   4
 REMARK   4 3GIB COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-MAR-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB051895.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000051895.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -167,8 +175,8 @@ REMARK 200  PH                             : 9.5
 REMARK 200  NUMBER OF CRYSTALS USED        : 1                                  
 REMARK 200                                                                      
 REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
-REMARK 200  RADIATION SOURCE               : ALS BEAMINE 8.3.1                  
-REMARK 200  BEAMLINE                       : NULL                               
+REMARK 200  RADIATION SOURCE               : ALS                                
+REMARK 200  BEAMLINE                       : 8.3.1                              
 REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.02                               
@@ -178,7 +186,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 4                     
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MOSFLM                             
-REMARK 200  DATA SCALING SOFTWARE          : SCALA                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALA 3.2.25                       
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 9714                               
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.400                              
@@ -213,7 +221,7 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 45.01
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.24                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 40% MPD, 0.1 M CHES 9.5, HANGING DROP,   
-REMARK 280  TEMPERATURE 298K                                                    
+REMARK 280  TEMPERATURE 298K, PH 9.5                                            
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 2                        
@@ -369,10 +377,10 @@ REMARK 615 THE FOLLOWING RESIDUES HAVE ATOMS MODELED WITH ZERO
 REMARK 615 OCCUPANCY. THE LOCATION AND PROPERTIES OF THESE ATOMS                
 REMARK 615 MAY NOT BE RELIABLE. (M=MODEL NUMBER; RES=RESIDUE NAME;              
 REMARK 615 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):         
-REMARK 615   M RES C SSEQI                                                      
-REMARK 615     NHE A   70                                                       
-REMARK 615     NHE A   71                                                       
-REMARK 615     NHE C   70                                                       
+REMARK 615   M RES C  SSEQI                                                     
+REMARK 615     NHE A    70                                                      
+REMARK 615     NHE A    71                                                      
+REMARK 615     NHE C    70                                                      
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
@@ -2253,5 +2261,5 @@ CONECT 1758 1756
 CONECT 1759 1756                                                                
 CONECT 1760 1752 1761                                                           
 CONECT 1761 1749 1760                                                           
-MASTER      349    0    3    3   15    0    3    6 1766    4   39   19          
+MASTER      355    0    3    3   15    0    3    6 1766    4   39   19          
 END                                                                             

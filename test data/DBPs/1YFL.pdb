@@ -23,10 +23,12 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 562;
 SOURCE  10 EXPRESSION_SYSTEM_STRAIN: GM 2971;                                   
 SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PJW2                                      
-KEYWDS    T4DAM, METHYLTRANSFERASE, DNA,PROTEIN-DNA COMPLEX, BASE-FLIPPING,     
+KEYWDS    T4DAM, METHYLTRANSFERASE, DNA, PROTEIN-DNA COMPLEX, BASE-FLIPPING,    
 KEYWDS   2 TRANSFERASE-DNA COMPLEX                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.R.HORTON,K.LIEBERT,S.HATTMAN,A.JELTSCH,X.CHENG                      
+REVDAT   5   31-JAN-18 1YFL    1       JRNL                                     
+REVDAT   4   11-OCT-17 1YFL    1       REMARK                                   
 REVDAT   3   13-JUL-11 1YFL    1       VERSN                                    
 REVDAT   2   24-FEB-09 1YFL    1       VERSN                                    
 REVDAT   1   17-MAY-05 1YFL    0                                                
@@ -40,8 +42,8 @@ JRNL        PMID   15882618
 JRNL        DOI    10.1016/J.CELL.2005.02.021                                   
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
-REMARK   1  AUTH   Z.YANG,J.R.HORTON,L.ZHOU,X. J.ZHANG,A.DONG,X.ZHANG,          
-REMARK   1  AUTH 2 S. L.SCHLAGMAN,V.KOSSYKH,CHENG.X.                            
+REMARK   1  AUTH   Z.YANG,J.R.HORTON,L.ZHOU,X.J.ZHANG,A.DONG,X.ZHANG,           
+REMARK   1  AUTH 2 S.L.SCHLAGMAN,V.KOSSYKH,X.CHENG                              
 REMARK   1  TITL   STRUCTURE OF THE BACTERIOPHAGE T4 DNA ADENINE                
 REMARK   1  TITL 2 METHYLTRANSFERASE                                            
 REMARK   1  REF    NAT.STRUCT.MOL.BIOL.          V.  10   849 2003              
@@ -107,7 +109,7 @@ REMARK   3
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.38                            
 REMARK   3   ESD FROM SIGMAA              (A) : 0.32                            
-REMARK   3   LOW RESOLUTION CUTOFF        (A) : 30.00                           
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 30.0                            
 REMARK   3                                                                      
 REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
 REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.50                            
@@ -115,9 +117,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.36
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.010                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.50                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.500                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.60                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.09                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.090                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : ANISOTROPIC                               
 REMARK   3                                                                      
@@ -145,16 +147,16 @@ REMARK   3  OTHER REFINEMENT REMARKS: THE CRYSTAL OF T4DAM-SINEFUNGIN-16MER
 REMARK   3  DNA CAN ALSO BE INDEXED IN THE SPACE GROUP P43, WITH THE SAME       
 REMARK   3  CELL DIMENSIONS BUT TWO PROTEIN MOLECULES AND TWO HALF DNA          
 REMARK   3  MOLECULES IN THE ASYMMETRIC UNIT. THE DNA AXIS IS IN PARALLEL       
-REMARK   3  WITH THE CRYSTALLOGRAPHIC Z-AXIS (A 4-FOLD SCREW AXIS). TO HAVE A   
-REMARK   3  COMPLETE DNA MOLECULE, WE INDEXED THE DIFFRACTION DATA IN A LOWER   
-REMARK   3  SYMMETRY SPACE GROUP P21. THE TWO PROTEIN MOLECULES ALONG THE DNA   
-REMARK   3  AXIS WERE CONSTRAINED DURING THE REFINEMENT BY NON-                 
+REMARK   3  WITH THE CRYSTALLOGRAPHIC Z-AXIS (A 4-FOLD SCREW AXIS). TO HAVE     
+REMARK   3  A COMPLETE DNA MOLECULE, WE INDEXED THE DIFFRACTION DATA IN A       
+REMARK   3  LOWER SYMMETRY SPACE GROUP P21. THE TWO PROTEIN MOLECULES ALONG     
+REMARK   3  THE DNA AXIS WERE CONSTRAINED DURING THE REFINEMENT BY NON-         
 REMARK   3  CRYSTALLOGRAPHIC 4-FOLD SCREW SYMMETRY.                             
 REMARK   4                                                                      
-REMARK   4 1YFL COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1YFL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 02-FEB-05.                  
-REMARK 100 THE RCSB ID CODE IS RCSB031459.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 01-FEB-05.                  
+REMARK 100 THE DEPOSITION ID IS D_1000031459.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -351,7 +353,7 @@ REMARK 470     LEU A 223    CG   CD1  CD2
 REMARK 470     GLU A 225    CG   CD   OE1  OE2                                  
 REMARK 470     LYS A 228    CG   CD   CE   NZ                                   
 REMARK 470     LYS A 233    CG   CD   CE   NZ                                   
-REMARK 470     ASN A 236    CB   CG   OD1                                       
+REMARK 470     ASN A 236    CB   CG   OD1  ND2                                  
 REMARK 470     THR A 252    CB   OG1  CG2                                       
 REMARK 470     GLU A 254    CG   CD   OE1  OE2                                  
 REMARK 470     LEU B  15    CG   CD1  CD2                                       
@@ -369,7 +371,7 @@ REMARK 470     LEU B 223    CG   CD1  CD2
 REMARK 470     GLU B 225    CG   CD   OE1  OE2                                  
 REMARK 470     LYS B 228    CG   CD   CE   NZ                                   
 REMARK 470     LYS B 233    CG   CD   CE   NZ                                   
-REMARK 470     ASN B 236    CB   CG   OD1                                       
+REMARK 470     ASN B 236    CB   CG   OD1  ND2                                  
 REMARK 470     THR B 252    CB   OG1  CG2                                       
 REMARK 470     GLU B 254    CG   CD   OE1  OE2                                  
 REMARK 470     LEU D  15    CG   CD1  CD2                                       
@@ -385,7 +387,7 @@ REMARK 470     GLU D 225    CG   CD   OE1  OE2
 REMARK 470     LYS D 228    CG   CD   CE   NZ                                   
 REMARK 470     LYS D 238    CG   CD   CE   NZ                                   
 REMARK 470     TYR D 239    CG   CD1  CD2  CE1  CE2  CZ   OH                    
-REMARK 470     ASN D 250    CG   OD1                                            
+REMARK 470     ASN D 250    CG   OD1  ND2                                       
 REMARK 470     LEU E  15    CG   CD1  CD2                                       
 REMARK 470     LYS E  72    CG   CD   CE   NZ                                   
 REMARK 470     LYS E  75    CG   CD   CE   NZ                                   
@@ -398,7 +400,7 @@ REMARK 470     LYS E 224    CG   CD   CE   NZ
 REMARK 470     GLU E 225    CG   CD   OE1  OE2                                  
 REMARK 470     LYS E 228    CG   CD   CE   NZ                                   
 REMARK 470     LYS E 238    CG   CD   CE   NZ                                   
-REMARK 470     ASN E 250    CG   OD1                                            
+REMARK 470     ASN E 250    CG   OD1  ND2                                       
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
@@ -550,18 +552,18 @@ REMARK 900 BINARY STRUCTURE OF T4DAM WITH ADOHCY
 REMARK 900 RELATED ID: 1Q0T   RELATED DB: PDB                                   
 REMARK 900 TERNARY STRUCTURE OF T4DAM WITH ADOHCY AND DNA                       
 REMARK 900 RELATED ID: 1YF3   RELATED DB: PDB                                   
-REMARK 900 T4DAM IN COMPLEX WITH ADOHCY AND 13-MER OLIGONUCLEOTIDE              
-REMARK 900 MAKING NON- AND SEMI-SPECIFIC (~1/4) CONTACT                         
+REMARK 900 T4DAM IN COMPLEX WITH ADOHCY AND 13-MER OLIGONUCLEOTIDE MAKING NON-  
+REMARK 900 AND SEMI-SPECIFIC (~1/4) CONTACT                                     
 REMARK 900 RELATED ID: 1YFJ   RELATED DB: PDB                                   
-REMARK 900 T4DAM IN COMPLEX WITH ADOHCY AND 15-MER OLIGONUCLEOTIDE              
-REMARK 900 SHOWING SEMI-SPECIFIC AND SPECIFIC CONTACT                           
+REMARK 900 T4DAM IN COMPLEX WITH ADOHCY AND 15-MER OLIGONUCLEOTIDE SHOWING      
+REMARK 900 SEMI-SPECIFIC AND SPECIFIC CONTACT                                   
 REMARK 999                                                                      
 REMARK 999 SEQUENCE 1) AUTHOR STATES THAT Q139R, Y140F AND Q209L REFLECT        
 REMARK 999 CONFLICTS BETWEEN DEPOSITED PROTEIN SEQUENCE AND TRANSLATED          
-REMARK 999 DEPOSITED DNA-->PROTEIN SEQUENCE. FROM THEIR ELECTRON DENSITY, IT    
-REMARK 999 APPEARS THE TRANSLATED DNA SEQUENCE IS CORRECT ; 2) IT IS POSSIBLE   
-REMARK 999 RESIDUE 119 COULD BE A TYR RATHER THAN ASP BASED ON SOME ELECTRON    
-REMARK 999 DENSITY EVIDENCE.                                                    
+REMARK 999 DEPOSITED DNA-->PROTEIN SEQUENCE. FROM THEIR ELECTRON DENSITY,       
+REMARK 999 IT APPEARS THE TRANSLATED DNA SEQUENCE IS CORRECT ; 2) IT IS         
+REMARK 999 POSSIBLE RESIDUE 119 COULD BE A TYR RATHER THAN ASP BASED ON         
+REMARK 999 SOME ELECTRON DENSITY EVIDENCE.                                      
 DBREF  1YFL A    1   259  UNP    P04392   DMA_BPT4         1    259             
 DBREF  1YFL B    1   259  UNP    P04392   DMA_BPT4         1    259             
 DBREF  1YFL D    1   259  UNP    P04392   DMA_BPT4         1    259             

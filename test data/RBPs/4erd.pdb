@@ -30,6 +30,8 @@ SOURCE  15 RNA POLYMERASE
 KEYWDS    LA PROTEIN, LARP7, RRM, XRRM, TER, RNA BINDING PROTEIN-RNA COMPLEX    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SINGH,Z.WANG,B.-K.KOO,A.PATEL,D.CASCIO,K.COLLINS,J.FEIGON           
+REVDAT   6   15-NOV-17 4ERD    1       REMARK                                   
+REVDAT   5   26-JUL-17 4ERD    1       SOURCE                                   
 REVDAT   4   23-APR-14 4ERD    1       REMARK                                   
 REVDAT   3   01-AUG-12 4ERD    1       JRNL                                     
 REVDAT   2   04-JUL-12 4ERD    1       JRNL                                     
@@ -45,16 +47,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.59 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.7.3_928)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.7.3_928                                     
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -100,8 +101,8 @@ REMARK   3    B11 (A**2) : 7.05500
 REMARK   3    B22 (A**2) : 7.05500                                              
 REMARK   3    B33 (A**2) : -14.11010                                            
 REMARK   3    B12 (A**2) : 0.00000                                              
-REMARK   3    B13 (A**2) : -0.00000                                             
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -118,7 +119,7 @@ REMARK   3
 REMARK   3  TLS DETAILS                                                         
 REMARK   3   NUMBER OF TLS GROUPS  : 1                                          
 REMARK   3   TLS GROUP : 1                                                      
-REMARK   3    SELECTION: all                                                    
+REMARK   3    SELECTION: ALL                                                    
 REMARK   3    ORIGIN FOR THE GROUP (A):  59.4449  51.4566  60.2417              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1825 T22:   0.1779                                     
@@ -141,7 +142,7 @@ REMARK   4
 REMARK   4 4ERD COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 02-MAY-12.                  
-REMARK 100 THE RCSB ID CODE IS RCSB071974.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000071974.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -6060,5 +6061,5 @@ CONECT 1780 1779 1781
 CONECT 1781 1780 1782                                                           
 CONECT 1782 1781                                                                
 CONECT 1783 1777                                                                
-MASTER      309    0    5    6   11    0    0    6 2787    4   40   24          
+MASTER      308    0    5    6   11    0    0    6 2787    4   40   24          
 END                                                                             

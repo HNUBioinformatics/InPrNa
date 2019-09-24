@@ -39,6 +39,7 @@ KEYWDS   4 PROTEIN-DNA COMPLEX, THYMIDINE DIMER, CPD, UV-DAMAGE, TRANSFERASE-
 KEYWDS   5 DNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.D.SILVERSTEIN,R.E.JOHNSON,R.JAIN,L.PRAKASH,S.PRAKASH,A.K.AGGARWAL   
+REVDAT   3   08-NOV-17 3MFI    1       REMARK                                   
 REVDAT   2   07-JUL-10 3MFI    1       JRNL                                     
 REVDAT   1   23-JUN-10 3MFI    0                                                
 JRNL        AUTH   T.D.SILVERSTEIN,R.E.JOHNSON,R.JAIN,L.PRAKASH,S.PRAKASH,      
@@ -53,7 +54,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    1.76 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.5.0109                                      
+REMARK   3   PROGRAM     : REFMAC                                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -142,8 +143,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2607 ; 0.714 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  1052 ; 0.178 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  4233 ; 1.390 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2224 ; 2.106 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2421 ; 3.315 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -292,10 +298,10 @@ REMARK   3
 REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
 REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 3MFI COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3MFI COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-APR-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB058480.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000058480.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -315,8 +321,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 85518                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.760                              
@@ -512,13 +518,13 @@ REMARK 500     DC P   9   O4' -  C1' -  N1  ANGL. DEV. =   3.1 DEGREES
 REMARK 500     DT P  10   O4' -  C1' -  N1  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500     DG T   6   O4' -  C1' -  N9  ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DG T   8   P   -  O5' -  C5' ANGL. DEV. = -12.2 DEGREES          
-REMARK 500     DG T   8   C1' -  O4' -  C4' ANGL. DEV. =  -7.9 DEGREES          
+REMARK 500     DG T   8   C1' -  O4' -  C4' ANGL. DEV. =  -8.0 DEGREES          
 REMARK 500     DG T   8   O4' -  C1' -  N9  ANGL. DEV. =   4.9 DEGREES          
 REMARK 500     DG T   9   O4' -  C4' -  C3' ANGL. DEV. =   3.9 DEGREES          
 REMARK 500     DG T   9   O4' -  C1' -  N9  ANGL. DEV. =   4.2 DEGREES          
 REMARK 500     DG T  10   O4' -  C1' -  N9  ANGL. DEV. =   2.2 DEGREES          
 REMARK 500     DG T  13   C3' -  C2' -  C1' ANGL. DEV. =  -4.9 DEGREES          
-REMARK 500     DG T  13   O4' -  C1' -  N9  ANGL. DEV. =   2.7 DEGREES          
+REMARK 500     DG T  13   O4' -  C1' -  N9  ANGL. DEV. =   2.6 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -544,19 +550,6 @@ REMARK 500    THR A 307      -14.19     94.39
 REMARK 500    TYR A 493      -85.54   -135.05                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A 687        DISTANCE =  8.96 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
@@ -10858,5 +10851,5 @@ CONECT 4674 4673
 CONECT 4675 4673                                                                
 CONECT 4676 4673                                                                
 CONECT 4677 4673                                                                
-MASTER      550    0    7   23   20    0   15    6 5294    3  108   43          
+MASTER      542    0    7   23   20    0   15    6 5294    3  108   43          
 END                                                                             

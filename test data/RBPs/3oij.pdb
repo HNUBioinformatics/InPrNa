@@ -27,6 +27,7 @@ KEYWDS    EMG1, SCNEP1, SPOUT, RIBOSOME BIOGENESIS, METHYLTRANSFERASE, RRNA
 KEYWDS   2 PROCESSING, RIBOSOMAL PROTEIN                                        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.R.THOMAS,N.LARONDE-LEBLANC                                          
+REVDAT   3   08-NOV-17 3OIJ    1       REMARK                                   
 REVDAT   2   13-APR-11 3OIJ    1       JRNL                                     
 REVDAT   1   01-DEC-10 3OIJ    0                                                
 JRNL        AUTH   S.R.THOMAS,C.A.KELLER,A.SZYK,J.R.CANNON,N.A.LARONDE-LEBLANC  
@@ -41,16 +42,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    3.00 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6_289)                      
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.6_289                                       
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -96,7 +96,7 @@ REMARK   3    B22 (A**2) : 1.09850
 REMARK   3    B33 (A**2) : 0.38850                                              
 REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -178,10 +178,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3OIJ COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3OIJ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 16-NOV-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB061159.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000061159.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -201,8 +201,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL-2000                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK, HKL-2000                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 16553                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.900                              
@@ -290,7 +290,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 7220 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 20800 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -24.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C, B, D                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -473,13 +473,13 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG D 15
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 3O7B   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF ARCHAEOGLOBUS FULGIDUS NEP1 BOUND TO S          
-REMARK 900 -ADENOSYLHOMOCYSTEINE                                                
+REMARK 900 CRYSTAL STRUCTURE OF ARCHAEOGLOBUS FULGIDUS NEP1 BOUND TO S-         
+REMARK 900 ADENOSYLHOMOCYSTEINE                                                 
 REMARK 900 RELATED ID: 3OII   RELATED DB: PDB                                   
 REMARK 900 THE SAME PROTEIN BOUND TO S-ADENOSYLHOMOCYSTEINE                     
 REMARK 900 RELATED ID: 3OIN   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN BOUND TO S-ADENOSYLHOMOCYSTEINE AND 1               
-REMARK 900 MOLECULE OF COGNATE RNA                                              
+REMARK 900 THE SAME PROTEIN BOUND TO S-ADENOSYLHOMOCYSTEINE AND 1 MOLECULE OF   
+REMARK 900 COGNATE RNA                                                          
 DBREF  3OIJ A    1   252  UNP    Q06287   EMG1_YEAST       1    252             
 DBREF  3OIJ B    1   252  UNP    Q06287   EMG1_YEAST       1    252             
 DBREF  3OIJ C    1    14  PDB    3OIJ     3OIJ             1     14             
@@ -8678,5 +8678,5 @@ CONECT 4011 4009 4012
 CONECT 4012 4011 4013                                                           
 CONECT 4013 4012 4014                                                           
 CONECT 4014 4005 4008 4013                                                      
-MASTER      443    0    3   16   20    0    8    6 4062    4   50   44          
+MASTER      442    0    3   16   20    0    8    6 4062    4   50   44          
 END                                                                             

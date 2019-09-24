@@ -4,11 +4,11 @@ COMPND    MOL_ID: 1;
 COMPND   2 MOLECULE: DNA (5'-                                                   
 COMPND   3 D(*CP*TP*GP*GP*GP*AP*CP*CP*AP*TP*GP*GP*TP*CP*CP*CP*AP*G)-3');        
 COMPND   4 CHAIN: U, T;                                                         
-COMPND   5 FRAGMENT: UNP RESIDUES 155 TO 323;                                   
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: PROTEIN SOPB;                                              
-COMPND   9 CHAIN: B, P;                                                         
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: PROTEIN SOPB;                                              
+COMPND   8 CHAIN: B, P;                                                         
+COMPND   9 FRAGMENT: UNP RESIDUES 155 TO 323;                                   
 COMPND  10 SYNONYM: PLASMID PARTITION PROTEIN B;                                
 COMPND  11 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
@@ -28,6 +28,7 @@ KEYWDS    PARTITION, F PLASMID, SOPB, CENTROMERE, DNA BINDING PROTEIN-DNA
 KEYWDS   2 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.A.SCHUMACHER,K.PIRO,W.XU                                            
+REVDAT   3   21-JAN-15 3MKY    1       COMPND DBREF  VERSN                      
 REVDAT   2   11-AUG-10 3MKY    1       JRNL                                     
 REVDAT   1   05-MAY-10 3MKY    0                                                
 JRNL        AUTH   M.A.SCHUMACHER,K.M.PIRO,W.XU                                 
@@ -106,9 +107,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.64
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.20                            
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 17.80                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.07                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.200                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 17.800                          
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.070                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -142,7 +143,7 @@ REMARK   3  TOPOLOGY FILE  5   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED                   
 REMARK   4                                                                      
-REMARK   4 3MKY COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3MKY COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 19-APR-10.                  
 REMARK 100 THE RCSB ID CODE IS RCSB058674.                                      
@@ -612,6 +613,8 @@ REMARK 900 RELATED ID: 3MKZ   RELATED DB: PDB
 REMARK 900 SOPB(155-272)-18MER COMPLEX, P21 FORM                                
 DBREF  3MKY B  155   323  UNP    P62558   SOPB_ECOLI     155    323             
 DBREF  3MKY P  155   323  UNP    P62558   SOPB_ECOLI     155    323             
+DBREF  3MKY U    1    18  PDB    3MKY     3MKY             1     18             
+DBREF  3MKY T    1    18  PDB    3MKY     3MKY             1     18             
 SEQADV 3MKY MET B  135  UNP  P62558              EXPRESSION TAG                 
 SEQADV 3MKY GLY B  136  UNP  P62558              EXPRESSION TAG                 
 SEQADV 3MKY SER B  137  UNP  P62558              EXPRESSION TAG                 

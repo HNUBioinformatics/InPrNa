@@ -1,9 +1,9 @@
 HEADER    TRANSCRIPTION/DNA                       21-OCT-93   1TRR              
-TITLE     TANDEM BINDING IN CRYSTALS OF A TRP REPRESSOR/OPERATOR HALF-          
-TITLE    2 SITE COMPLEX                                                         
+TITLE     TANDEM BINDING IN CRYSTALS OF A TRP REPRESSOR/OPERATOR HALF-SITE      
+TITLE    2 COMPLEX                                                              
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: DNA (5'-                                                   
-COMPND   3 D(*AP*GP*CP*GP*TP*AP*CP*TP*AP*GP*TP*AP*CP*GP*CP*T)-3');              
+COMPND   2 MOLECULE: DNA (5'-D(*AP*GP*CP*GP*TP*AP*CP*TP*AP*GP*TP*AP*CP*GP*CP*T)-
+COMPND   3 3');                                                                 
 COMPND   4 CHAIN: C, F, I, L;                                                   
 COMPND   5 ENGINEERED: YES;                                                     
 COMPND   6 MOL_ID: 2;                                                           
@@ -15,16 +15,17 @@ SOURCE   3 MOL_ID: 2;
 SOURCE   4 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   5 ORGANISM_TAXID: 562;                                                 
 SOURCE   6 STRAIN: 3110                                                         
-KEYWDS    PROTEIN-DNA COMPLEX, TRANSCRIPTION/DNA COMPLEX                        
+KEYWDS    PROTEIN-DNA COMPLEX, TRANSCRIPTION-DNA COMPLEX                        
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.L.LAWSON,J.CAREY                                                    
+REVDAT   5   18-APR-18 1TRR    1       REMARK                                   
 REVDAT   4   24-FEB-09 1TRR    1       VERSN                                    
 REVDAT   3   19-JUL-02 1TRR    1       REMARK                                   
 REVDAT   2   27-NOV-00 1TRR    5                                                
 REVDAT   1   21-OCT-93 1TRR    0                                                
 JRNL        AUTH   C.L.LAWSON,J.CAREY                                           
-JRNL        TITL   TANDEM BINDING IN CRYSTALS OF A TRP                          
-JRNL        TITL 2 REPRESSOR/OPERATOR HALF-SITE COMPLEX.                        
+JRNL        TITL   TANDEM BINDING IN CRYSTALS OF A TRP REPRESSOR/OPERATOR       
+JRNL        TITL 2 HALF-SITE COMPLEX.                                           
 JRNL        REF    NATURE                        V. 366   178 1993              
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   8232559                                                      
@@ -32,8 +33,8 @@ JRNL        DOI    10.1038/366178A0
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
 REMARK   1  AUTH   J.CAREY,N.COMBATTI,D.E.A.LEWIS,C.L.LAWSON                    
-REMARK   1  TITL   COCRYSTALS OF E. COLI TRP REPRESSOR BOUND TO AN              
-REMARK   1  TITL 2 ALTERNATIVE OPERATOR DNA SEQUENCE                            
+REMARK   1  TITL   COCRYSTALS OF E. COLI TRP REPRESSOR BOUND TO AN ALTERNATIVE  
+REMARK   1  TITL 2 OPERATOR DNA SEQUENCE                                        
 REMARK   1  REF    J.MOL.BIOL.                   V. 234   496 1993              
 REMARK   1  REFN                   ISSN 0022-2836                               
 REMARK   2                                                                      
@@ -74,9 +75,9 @@ REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 6808                                    
+REMARK   3   PROTEIN ATOMS            : 6688                                    
 REMARK   3   NUCLEIC ACID ATOMS       : 1300                                    
-REMARK   3   HETEROGEN ATOMS          : 0                                       
+REMARK   3   HETEROGEN ATOMS          : 120                                     
 REMARK   3   SOLVENT ATOMS            : 192                                     
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
@@ -101,7 +102,7 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.018                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.86                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.860                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
 REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
 REMARK   3                                                                      
@@ -122,21 +123,24 @@ REMARK   3
 REMARK   3  PARAMETER FILE  1  : NULL                                           
 REMARK   3  TOPOLOGY FILE  1   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS:  THE MODEL IS MISSING THREE CARBOXYL      
-REMARK   3  -TERMINAL RESIDUES FROM EACH REPRESSOR SUBUNIT (106 - 108) AND      
-REMARK   3  RESIDUE 1 OF EACH OLIGONUCLEOTIDE (= UNPAIRED 5' THYMIDINE).        
-REMARK   3  THEY ARE NOT SEEN IN ELECTRON DENSITY AND, THEREFORE, ARE           
-REMARK   3  PRESUMED TO BE DISORDERED. THE AMINO-TERMINAL ARMS (RESIDUES 2      
-REMARK   3  - 16) OF EACH REPRESSOR SUBUNIT WERE MODELLED INTO FAIRLY POOR      
-REMARK   3  BUT NEARLY CONTINUOUS ELECTRON DENSITY. THE ARMS WERE BUILT         
-REMARK   3  USING THE MOST CLEARLY DEFINED RESIDUES (PRO 5, TYR 7, AND HIS      
-REMARK   3  16) AS GUIDES. THE LEVEL OF UNCERTAINTY IN SPECIFIC ATOM            
-REMARK   3  POSITIONS OF THE ARM IS REFLECTED IN POORER STEREOCHEMISTRY OF      
-REMARK   3  RESIDUES 2 - 16 WHEN COMPARED TO THE REST OF THE MODEL.             
+REMARK   3  OTHER REFINEMENT REMARKS:                                           
+REMARK   3  THE MODEL IS MISSING THREE CARBOXYL-TERMINAL RESIDUES FROM          
+REMARK   3  EACH REPRESSOR SUBUNIT (106 - 108) AND RESIDUE 1 OF EACH            
+REMARK   3  OLIGONUCLEOTIDE (= UNPAIRED 5' THYMIDINE).  THEY ARE NOT            
+REMARK   3  SEEN IN ELECTRON DENSITY AND, THEREFORE, ARE PRESUMED TO BE         
+REMARK   3  DISORDERED.  THE AMINO-TERMINAL ARMS (RESIDUES 2 - 16) OF           
+REMARK   3  EACH REPRESSOR SUBUNIT WERE MODELLED INTO FAIRLY POOR BUT           
+REMARK   3  NEARLY CONTINUOUS ELECTRON DENSITY.  THE ARMS WERE BUILT            
+REMARK   3  USING THE MOST CLEARLY DEFINED RESIDUES (PRO 5, TYR 7, AND          
+REMARK   3  HIS 16) AS GUIDES.  THE LEVEL OF UNCERTAINTY IN SPECIFIC            
+REMARK   3  ATOM POSITIONS OF THE ARM IS REFLECTED IN POORER                    
+REMARK   3  STEREOCHEMISTRY OF RESIDUES 2 - 16 WHEN COMPARED TO THE             
+REMARK   3  REST OF THE MODEL.                                                  
 REMARK   4                                                                      
-REMARK   4 1TRR COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1TRR COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THE DEPOSITION ID IS D_1000176813.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -154,7 +158,7 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : NULL
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
+REMARK 200  DETECTOR TYPE                  : DIFFRACTOMETER                     
 REMARK 200  DETECTOR MANUFACTURER          : ENRAF-NONIUS FAST                  
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : NULL                               
 REMARK 200  DATA SCALING SOFTWARE          : NULL                               
@@ -230,8 +234,7 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300 REMARK:                                                              
-REMARK 300 THE TRANSFORMATION PRESENTED ON *MTRIX 1* RECORDS BELOW              
+REMARK 300 REMARK: THE TRANSFORMATION PRESENTED ON *MTRIX 1* RECORDS BELOW      
 REMARK 300 WILL YIELD APPROXIMATE COORDINATES FOR CHAINS G, H, AND I            
 REMARK 300 WHEN APPLIED TO CHAINS A, B, AND C, RESPECTIVELY.                    
 REMARK 300                                                                      
@@ -284,7 +287,7 @@ REMARK 465     SER K   107
 REMARK 465     ASP K   108                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -309,24 +312,31 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP A 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP A 110                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP E 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP D 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP H 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP G 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP K 109                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TRP J 109                 
@@ -432,12 +442,12 @@ SEQRES   8 K  107  PRO VAL GLU LEU ARG GLN TRP LEU GLU GLU VAL LEU LEU
 SEQRES   9 K  107  LYS SER ASP                                                  
 HET    TRP  A 109      15                                                       
 HET    TRP  A 110      15                                                       
-HET    TRP  E 109      15                                                       
 HET    TRP  D 109      15                                                       
-HET    TRP  H 109      15                                                       
+HET    TRP  E 109      15                                                       
 HET    TRP  G 109      15                                                       
-HET    TRP  K 109      15                                                       
+HET    TRP  H 109      15                                                       
 HET    TRP  J 109      15                                                       
+HET    TRP  K 109      15                                                       
 HETNAM     TRP TRYPTOPHAN                                                       
 FORMUL  13  TRP    8(C11 H12 N2 O2)                                             
 FORMUL  21  HOH   *192(H2 O)                                                    
@@ -8870,5 +8880,5 @@ HETATM 8309  O   HOH K8401      74.410 -20.814  48.502  0.50 25.40           O
 HETATM 8310  O   HOH K8402      74.269 -16.864  48.423  0.50 25.40           O  
 HETATM 8311  O   HOH K8403      79.059 -30.810  48.486  0.50 25.40           O  
 HETATM 8312  O   HOH K8407      47.680 -30.965  50.229  0.50 25.40           O  
-MASTER      301    0    8   48    0    0   56   12 8300   12    0   80          
+MASTER      310    0    8   48    0    0   56   12 8300   12    0   80          
 END                                                                             

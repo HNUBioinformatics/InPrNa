@@ -1,21 +1,19 @@
 HEADER    TRANSCRIPTION/DNA                       10-MAY-01   1IMH              
 TITLE     TONEBP/DNA COMPLEX                                                    
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-                                                        
-COMPND   3 D(*TP*TP*GP*CP*TP*GP*GP*AP*AP*AP*AP*AP*TP*AP*G)-3';                  
-COMPND   4 CHAIN: A;                                                            
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: 5'-                                                        
-COMPND   8 D(*AP*AP*CP*TP*AP*TP*TP*TP*TP*TP*CP*CP*AP*GP*C)-3';                  
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: NUCLEAR FACTOR OF ACTIVATED T CELLS 5;                     
-COMPND  13 CHAIN: C, D;                                                         
-COMPND  14 FRAGMENT: DNA BINDING REGION;                                        
-COMPND  15 SYNONYM: NF-AT5, TONEBP;                                             
-COMPND  16 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-D(*TP*TP*GP*CP*TP*GP*GP*AP*AP*AP*AP*AP*TP*AP*G)-3';     
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: 5'-D(*AP*AP*CP*TP*AP*TP*TP*TP*TP*TP*CP*CP*AP*GP*C)-3';     
+COMPND   7 CHAIN: B;                                                            
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: NUCLEAR FACTOR OF ACTIVATED T CELLS 5;                     
+COMPND  11 CHAIN: C, D;                                                         
+COMPND  12 FRAGMENT: DNA BINDING REGION;                                        
+COMPND  13 SYNONYM: NF-AT5, TONEBP;                                             
+COMPND  14 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 OTHER_DETAILS: SOLID PHASE DNA SYNTHESIS;                            
@@ -32,27 +30,27 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562;
 SOURCE  14 EXPRESSION_SYSTEM_STRAIN: M15;                                       
 SOURCE  15 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  16 EXPRESSION_SYSTEM_PLASMID: PQE30                                     
-KEYWDS    BETA BARREL, PROTEIN-DNA COMPLEX, DOUBLE HELIX, DNA                   
-KEYWDS   2 ENCIRCLEMENT, TRANSCRIPTION/DNA COMPLEX                              
+KEYWDS    BETA BARREL, PROTEIN-DNA COMPLEX, DOUBLE HELIX, DNA ENCIRCLEMENT,     
+KEYWDS   2 TRANSCRIPTION-DNA COMPLEX                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.C.STROUD,C.LOPEZ-RODRIGUEZ,A.RAO,L.CHEN                             
+REVDAT   3   04-APR-18 1IMH    1       REMARK                                   
 REVDAT   2   24-FEB-09 1IMH    1       VERSN                                    
 REVDAT   1   01-FEB-02 1IMH    0                                                
 JRNL        AUTH   J.C.STROUD,C.LOPEZ-RODRIGUEZ,A.RAO,L.CHEN                    
-JRNL        TITL   STRUCTURE OF A TONEBP-DNA COMPLEX REVEALS DNA                
-JRNL        TITL 2 ENCIRCLED BY A TRANSCRIPTION FACTOR.                         
+JRNL        TITL   STRUCTURE OF A TONEBP-DNA COMPLEX REVEALS DNA ENCIRCLED BY A 
+JRNL        TITL 2 TRANSCRIPTION FACTOR.                                        
 JRNL        REF    NAT.STRUCT.BIOL.              V.   9    90 2002              
 JRNL        REFN                   ISSN 1072-8368                               
 JRNL        PMID   11780147                                                     
 JRNL        DOI    10.1038/NSB749                                               
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.86 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.0                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -115,9 +113,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.42
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.40                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.400                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.70                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.96                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.960                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -147,10 +145,10 @@ REMARK   3  TOPOLOGY FILE  3   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1IMH COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1IMH COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-MAY-01.                  
-REMARK 100 THE RCSB ID CODE IS RCSB013410.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000013410.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -162,16 +160,15 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : Y; Y; N                            
 REMARK 200  RADIATION SOURCE               : APS; APS; ROTATING ANODE           
 REMARK 200  BEAMLINE                       : 14-BM-C; 14-BM-D; NULL             
-REMARK 200  X-RAY GENERATOR MODEL          : NULL; NULL; UNIVERSITY OF          
-REMARK 200                                   COLORADO AT BOULDER HOME SOURCE    
+REMARK 200  X-RAY GENERATOR MODEL          : NULL; NULL; OTHER                  
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M; NULL; NULL                      
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.0; 0.9622; 1.54                  
 REMARK 200  MONOCHROMATOR                  : NULL; NULL; NULL                   
 REMARK 200  OPTICS                         : NULL; YALE MIRROR; NULL            
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD; IMAGE PLATE; NULL             
-REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 4; RIGAKU RAXIS       
-REMARK 200                                   IV; NULL                           
+REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 4; RIGAKU RAXIS IV;   
+REMARK 200                                   NULL                               
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
 REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
@@ -182,7 +179,7 @@ REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.000
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 93.9                               
-REMARK 200  DATA REDUNDANCY                : 12.000                             
+REMARK 200  DATA REDUNDANCY                : 12.00                              
 REMARK 200  R MERGE                    (I) : 0.06400                            
 REMARK 200  R SYM                      (I) : NULL                               
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 18.2000                            
@@ -207,9 +204,9 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 60.75                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.13                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 3000, SODIUM CHLORIDE,               
-REMARK 280  MAGNESIUM CHLORIDE, BIS-TRIS PROPANE, SODIUM AZIDE, PH 6.5,         
-REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 298K                     
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 3000, SODIUM CHLORIDE, MAGNESIUM     
+REMARK 280  CHLORIDE, BIS-TRIS PROPANE, SODIUM AZIDE, PH 6.5, VAPOR             
+REMARK 280  DIFFUSION, HANGING DROP, TEMPERATURE 298K                           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
@@ -261,6 +258,25 @@ REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    PRO C 365   C   -  N   -  CA  ANGL. DEV. =   9.2 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
@@ -5431,5 +5447,5 @@ ATOM   4978  OD1 ASP D 468      20.101  35.389  88.172  1.00 92.99           O
 ATOM   4979  OD2 ASP D 468      18.330  36.454  87.410  1.00 90.72           O  
 ATOM   4980  OXT ASP D 468      18.121  38.937  89.907  1.00 91.59           O  
 TER    4981      ASP D 468                                                      
-MASTER      282    0    0    7   57    0    0    6 4977    4    0   48          
+MASTER      299    0    0    7   57    0    0    6 4977    4    0   48          
 END                                                                             

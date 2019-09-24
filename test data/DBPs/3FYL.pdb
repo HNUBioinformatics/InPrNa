@@ -7,19 +7,18 @@ COMPND   4 FRAGMENT: UNP RESIDUES 440-525;
 COMPND   5 SYNONYM: GR, NUCLEAR RECEPTOR SUBFAMILY 3 GROUP C MEMBER 1;          
 COMPND   6 ENGINEERED: YES;                                                     
 COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: DNA (5'-                                                   
-COMPND   9 D(*AP*AP*GP*AP*AP*CP*AP*TP*TP*TP*TP*GP*TP*CP*CP*G)-3');              
+COMPND   8 MOLECULE: DNA (5'-D(*AP*AP*GP*AP*AP*CP*AP*TP*TP*TP*TP*GP*TP*CP*CP*G)-
+COMPND   9 3');                                                                 
 COMPND  10 CHAIN: C;                                                            
 COMPND  11 ENGINEERED: YES;                                                     
-COMPND  12 OTHER_DETAILS: GLUCOCORTICOID RECEPTOR BINDING SITE - CGT            
-COMPND  13 TOP STRAND;                                                          
-COMPND  14 MOL_ID: 3;                                                           
-COMPND  15 MOLECULE: DNA (5'-                                                   
-COMPND  16 D(*TP*CP*GP*GP*AP*CP*AP*AP*AP*AP*TP*GP*TP*TP*CP*T)-3');              
-COMPND  17 CHAIN: D;                                                            
-COMPND  18 ENGINEERED: YES;                                                     
-COMPND  19 OTHER_DETAILS: GLUCOCORTICOID RECEPTOR BINDING SITE - CGT            
-COMPND  20 BOTTOM STRAND                                                        
+COMPND  12 OTHER_DETAILS: GLUCOCORTICOID RECEPTOR BINDING SITE - CGT TOP STRAND;
+COMPND  13 MOL_ID: 3;                                                           
+COMPND  14 MOLECULE: DNA (5'-D(*TP*CP*GP*GP*AP*CP*AP*AP*AP*AP*TP*GP*TP*TP*CP*T)-
+COMPND  15 3');                                                                 
+COMPND  16 CHAIN: D;                                                            
+COMPND  17 ENGINEERED: YES;                                                     
+COMPND  18 OTHER_DETAILS: GLUCOCORTICOID RECEPTOR BINDING SITE - CGT BOTTOM     
+COMPND  19 STRAND                                                               
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: RATTUS NORVEGICUS;                              
 SOURCE   3 ORGANISM_COMMON: BROWN RAT,RAT,RATS;                                 
@@ -34,39 +33,36 @@ SOURCE  11 MOL_ID: 2;
 SOURCE  12 SYNTHETIC: YES;                                                      
 SOURCE  13 MOL_ID: 3;                                                           
 SOURCE  14 SYNTHETIC: YES                                                       
-KEYWDS    GLUCOCORTICOID, DNA-BINDING, ALLOSTERY, LEVER ARM,                    
-KEYWDS   2 TRANSCRIPTION, HORMONE, ALTERNATIVE INITIATION, CHROMATIN            
-KEYWDS   3 REGULATOR, CYTOPLASM, LIPID-BINDING, METAL-BINDING,                  
-KEYWDS   4 NUCLEUS, PHOSPHOPROTEIN, POLYMORPHISM, RECEPTOR, STEROID-            
-KEYWDS   5 BINDING, TRANSCRIPTION REGULATION, UBL CONJUGATION, ZINC,            
-KEYWDS   6 ZINC-FINGER, TRANSCRIPTION/DNA COMPLEX                               
+KEYWDS    GLUCOCORTICOID, DNA-BINDING, ALLOSTERY, LEVER ARM, TRANSCRIPTION,     
+KEYWDS   2 HORMONE, ALTERNATIVE INITIATION, CHROMATIN REGULATOR, CYTOPLASM,     
+KEYWDS   3 LIPID-BINDING, METAL-BINDING, NUCLEUS, PHOSPHOPROTEIN, POLYMORPHISM, 
+KEYWDS   4 RECEPTOR, STEROID-BINDING, TRANSCRIPTION REGULATION, UBL             
+KEYWDS   5 CONJUGATION, ZINC, ZINC-FINGER, TRANSCRIPTION-DNA COMPLEX            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.A.PUFALL,K.R.YAMAMOTO,S.H.MEIJSING                                  
+REVDAT   3   01-NOV-17 3FYL    1       REMARK                                   
 REVDAT   2   02-JUN-09 3FYL    1       JRNL                                     
 REVDAT   1   21-APR-09 3FYL    0                                                
-JRNL        AUTH   S.H.MEIJSING,M.A.PUFALL,A.Y.SO,D.L.BATES,L.CHEN,             
-JRNL        AUTH 2 K.R.YAMAMOTO                                                 
-JRNL        TITL   DNA BINDING SITE SEQUENCE DIRECTS GLUCOCORTICOID             
-JRNL        TITL 2 RECEPTOR STRUCTURE AND ACTIVITY.                             
+JRNL        AUTH   S.H.MEIJSING,M.A.PUFALL,A.Y.SO,D.L.BATES,L.CHEN,K.R.YAMAMOTO 
+JRNL        TITL   DNA BINDING SITE SEQUENCE DIRECTS GLUCOCORTICOID RECEPTOR    
+JRNL        TITL 2 STRUCTURE AND ACTIVITY.                                      
 JRNL        REF    SCIENCE                       V. 324   407 2009              
 JRNL        REFN                   ISSN 0036-8075                               
 JRNL        PMID   19372434                                                     
 JRNL        DOI    10.1126/SCIENCE.1164265                                      
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.63 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -199,10 +195,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3FYL COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3FYL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 09-FEB-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB051199.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000051199.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -355,34 +351,13 @@ REMARK 465     ALA B   524
 REMARK 465     GLY B   525                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
 REMARK 470     SER B 437    OG                                                  
 REMARK 470     LYS B 511    CG   CD   CE   NZ                                   
 REMARK 470     THR B 512    OG1  CG2                                            
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS THAT ARE RELATED BY CRYSTALLOGRAPHIC             
-REMARK 500 SYMMETRY ARE IN CLOSE CONTACT.  AN ATOM LOCATED WITHIN 0.15          
-REMARK 500 ANGSTROMS OF A SYMMETRY RELATED ATOM IS ASSUMED TO BE ON A           
-REMARK 500 SPECIAL POSITION AND IS, THEREFORE, LISTED IN REMARK 375             
-REMARK 500 INSTEAD OF REMARK 500.  ATOMS WITH NON-BLANK ALTERNATE               
-REMARK 500 LOCATION INDICATORS ARE NOT INCLUDED IN THE CALCULATIONS.            
-REMARK 500                                                                      
-REMARK 500 DISTANCE CUTOFF:                                                     
-REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS              
-REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
-REMARK 500   N1   DA  C     1     N6   DA  C     2     2555     1.95            
-REMARK 500   C2   DA  C     1     N1   DA  C     2     2555     2.04            
-REMARK 500   N1   DA  C     1     N1   DA  C     2     2555     2.13            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
@@ -426,16 +401,16 @@ REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3
 REMARK 500     DA C   1   O4' -  C1' -  N9  ANGL. DEV. =   2.0 DEGREES          
 REMARK 500     DA C   1   C2  -  N3  -  C4  ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DA C   1   C5  -  C6  -  N1  ANGL. DEV. =  -4.6 DEGREES          
-REMARK 500     DA C   2   O4' -  C1' -  N9  ANGL. DEV. =   4.1 DEGREES          
+REMARK 500     DA C   2   O4' -  C1' -  N9  ANGL. DEV. =   4.0 DEGREES          
 REMARK 500     DA C   2   C2  -  N3  -  C4  ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DA C   2   C3' -  O3' -  P   ANGL. DEV. =   9.7 DEGREES          
 REMARK 500     DA C   4   O4' -  C1' -  N9  ANGL. DEV. =  -4.9 DEGREES          
 REMARK 500     DT C   8   N3  -  C2  -  O2  ANGL. DEV. =  -5.0 DEGREES          
 REMARK 500     DT C   9   O4' -  C1' -  N1  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500     DT C   9   C6  -  N1  -  C2  ANGL. DEV. =  -3.3 DEGREES          
-REMARK 500     DT C  10   C6  -  N1  -  C2  ANGL. DEV. =  -3.6 DEGREES          
-REMARK 500     DT C  10   N3  -  C2  -  O2  ANGL. DEV. =  -5.4 DEGREES          
+REMARK 500     DT C   9   C6  -  N1  -  C2  ANGL. DEV. =  -3.4 DEGREES          
 REMARK 500     DT C   9   C3' -  O3' -  P   ANGL. DEV. =   8.4 DEGREES          
+REMARK 500     DT C  10   C6  -  N1  -  C2  ANGL. DEV. =  -3.6 DEGREES          
+REMARK 500     DT C  10   N3  -  C2  -  O2  ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DT C  10   C3' -  O3' -  P   ANGL. DEV. =   7.6 DEGREES          
 REMARK 500     DT C  13   O4' -  C1' -  N1  ANGL. DEV. =  -6.5 DEGREES          
 REMARK 500     DC D   2   O4' -  C1' -  C2' ANGL. DEV. =  -5.3 DEGREES          
@@ -449,12 +424,12 @@ REMARK 500     DA D  10   C5  -  C6  -  N6  ANGL. DEV. =  -6.0 DEGREES
 REMARK 500     DG D  12   O4' -  C4' -  C3' ANGL. DEV. =  -2.7 DEGREES          
 REMARK 500     DG D  12   C3' -  C2' -  C1' ANGL. DEV. =  -5.7 DEGREES          
 REMARK 500     DT D  13   O3' -  P   -  OP2 ANGL. DEV. =   6.6 DEGREES          
+REMARK 500     DT D  13   C3' -  O3' -  P   ANGL. DEV. =   8.2 DEGREES          
 REMARK 500     DT D  14   O4' -  C1' -  N1  ANGL. DEV. =  -6.2 DEGREES          
-REMARK 500     DT D  13   C3' -  O3' -  P   ANGL. DEV. =   8.1 DEGREES          
 REMARK 500     DC D  15   O4' -  C1' -  C2' ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DC D  15   O4' -  C1' -  N1  ANGL. DEV. =  -7.5 DEGREES          
 REMARK 500     DC D  15   C6  -  N1  -  C2  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500     DC D  15   C4  -  C5  -  C6  ANGL. DEV. =   3.1 DEGREES          
+REMARK 500     DC D  15   C4  -  C5  -  C6  ANGL. DEV. =   3.0 DEGREES          
 REMARK 500     DC D  15   C5  -  C6  -  N1  ANGL. DEV. =  -5.9 DEGREES          
 REMARK 500     DT D  16   O4' -  C4' -  C3' ANGL. DEV. =  -2.9 DEGREES          
 REMARK 500     DT D  16   N3  -  C4  -  O4  ANGL. DEV. =   4.9 DEGREES          
@@ -479,6 +454,7 @@ REMARK 500  M RES CSSEQI        PSI       PHI
 REMARK 500    ASN A 473       63.67    -56.61                                   
 REMARK 500    ASP A 481       35.71   -144.19                                   
 REMARK 500    GLU A 508       33.05    -90.70                                   
+REMARK 500    CYS B 450       76.64   -101.19                                   
 REMARK 500    ARG B 479       18.42   -146.94                                   
 REMARK 500    ASP B 481       44.24   -152.28                                   
 REMARK 500    GLU B 508       56.45    -93.46                                   
@@ -486,8 +462,8 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              ZN A 526  ZN                            
@@ -529,15 +505,19 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 526                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 527                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO A 1                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN B 526                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN B 527                  
@@ -4449,5 +4429,5 @@ CONECT 1823 1821 1824
 CONECT 1824 1823                                                                
 CONECT 1825  608  629  733  749                                                 
 CONECT 1826  885  927 1013 1031                                                 
-MASTER      489    0    5    6    4    0    6    6 1982    4   24   18          
+MASTER      471    0    5    6    4    0    6    6 1969    4   24   18          
 END                                                                             

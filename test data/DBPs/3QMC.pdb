@@ -42,6 +42,7 @@ KEYWDS   3 PROTEIN-DNA COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.LAM,C.XU,C.B.BIAN,J.KANIA,C.BOUNTRA,J.WEIGELT,C.H.ARROWSMITH,       
 AUTHOR   2 A.M.EDWARDS,A.BOCHKAREV,J.MIN,STRUCTURAL GENOMICS CONSORTIUM (SGC)   
+REVDAT   4   08-NOV-17 3QMC    1       REMARK                                   
 REVDAT   3   30-MAR-11 3QMC    1       JRNL                                     
 REVDAT   2   16-MAR-11 3QMC    1       JRNL                                     
 REVDAT   1   23-FEB-11 3QMC    0                                                
@@ -56,7 +57,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.5.0109                                      
+REMARK   3   PROGRAM     : REFMAC REFMAC_5.5.0109                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -145,8 +146,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):   264 ; 0.548 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):   413 ; 0.981 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   705 ; 1.644 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   984 ; 2.610 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -223,10 +229,10 @@ REMARK   3
 REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
 REMARK   3  POSITIONS U VALUES : WITH TLS ADDED                                 
 REMARK   4                                                                      
-REMARK   4 3QMC COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3QMC COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 08-FEB-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB063825.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000063825.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -247,8 +253,8 @@ REMARK 200                                   DOUBLE-CRYSTAL MONOCHROMATOR
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-3000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL-3000                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-3000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK, HKL-3000                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 8874                               
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.100                              
@@ -273,7 +279,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
-REMARK 200 SOFTWARE USED: PHASER                                                
+REMARK 200 SOFTWARE USED: PHASER 2.1.4                                          
 REMARK 200 STARTING MODEL: PDB 3QMB                                             
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -417,7 +423,7 @@ REMARK 500
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500     DC B   8   O4' -  C1' -  N1  ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500     DG B  10   O4' -  C1' -  N9  ANGL. DEV. =  -5.6 DEGREES          
-REMARK 500     DC C   3   C3' -  C2' -  C1' ANGL. DEV. =  -5.1 DEGREES          
+REMARK 500     DC C   3   C3' -  C2' -  C1' ANGL. DEV. =  -5.2 DEGREES          
 REMARK 500     DA C   4   O4' -  C1' -  N9  ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DG C   5   C3' -  C2' -  C1' ANGL. DEV. =  -5.0 DEGREES          
 REMARK 500     DG C   5   O4' -  C1' -  N9  ANGL. DEV. =   4.2 DEGREES          
@@ -477,20 +483,15 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 301
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 3QMB   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED             
-REMARK 900 CPG DNA.                                                             
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED CPG DNA.    
 REMARK 900 RELATED ID: 3QMD   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED             
-REMARK 900 CPG DNA.                                                             
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED CPG DNA.    
 REMARK 900 RELATED ID: 3QMG   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED             
-REMARK 900 CPG DNA.                                                             
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED CPG DNA.    
 REMARK 900 RELATED ID: 3QMH   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED             
-REMARK 900 CPG DNA.                                                             
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED CPG DNA.    
 REMARK 900 RELATED ID: 3QMI   RELATED DB: PDB                                   
-REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED             
-REMARK 900 CPG DNA.                                                             
+REMARK 900 THE SAME PROTEIN COMPLEXED WITH A DIFFERENT UNMETHYLATED CPG DNA.    
 DBREF  3QMC A  165   226  UNP    Q9P0U4   CXXC1_HUMAN    161    222             
 DBREF  3QMC B    1    12  PDB    3QMC     3QMC             1     12             
 DBREF  3QMC C    1    12  PDB    3QMC     3QMC             1     12             

@@ -14,15 +14,17 @@ SOURCE   2 SYNTHETIC: YES;
 SOURCE   3 ORGANISM_SCIENTIFIC: THERMOTOGA MARITIMA MSB8;                       
 SOURCE   4 ORGANISM_TAXID: 243274;                                              
 SOURCE   5 MOL_ID: 2;                                                           
-SOURCE   6 ORGANISM_SCIENTIFIC: AQUIFEX AEOLICUS;                               
-SOURCE   7 ORGANISM_TAXID: 224324;                                              
-SOURCE   8 STRAIN: VF5;                                                         
-SOURCE   9 GENE: PCNB2;                                                         
-SOURCE  10 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE  11 EXPRESSION_SYSTEM_TAXID: 562                                         
+SOURCE   6 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT, AQUIFEX AEOLICUS (STRAIN   
+SOURCE   7 VF5);                                                                
+SOURCE   8 ORGANISM_TAXID: 32630, 224324;                                       
+SOURCE   9 STRAIN: VF5;                                                         
+SOURCE  10 GENE: PCNB2;                                                         
+SOURCE  11 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  12 EXPRESSION_SYSTEM_TAXID: 562                                         
 KEYWDS    TERMINAL NUCLEOTIDE TRANSFERASE, TRANSFERASE-RNA COMPLEX              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.YAMASHITA,D.TAKESHITA,K.TOMITA                                      
+REVDAT   3   28-JUN-17 3WFS    1       SOURCE                                   
 REVDAT   2   13-AUG-14 3WFS    1       JRNL                                     
 REVDAT   1   01-JAN-14 3WFS    0                                                
 JRNL        AUTH   S.YAMASHITA,D.TAKESHITA,K.TOMITA                             
@@ -39,14 +41,13 @@ REMARK   3
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.8.2_1309)                   
 REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -90,7 +91,7 @@ REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 27.100
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : 62.78                          
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 113.80                         
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 113.8                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
 REMARK   3    B11 (A**2) : NULL                                                 
 REMARK   3    B22 (A**2) : NULL                                                 
@@ -212,7 +213,7 @@ REMARK   4
 REMARK   4 3WFS COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 18-SEP-13.                  
-REMARK 100 THE RCSB ID CODE IS RCSB096280.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000096280.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -320,7 +321,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 2630 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 32630 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -41.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, A                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -332,7 +333,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 2810 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 32360 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -43.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: D, B                                  
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: B, D                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -550,10 +551,10 @@ REMARK 999 D CHAINS. THE AUTHORS KNOW THE COMPLETE SEQUENCE. THE SEQUENCE OF
 REMARK 999 RESIDUES 1-15 AND 449-512 (THE UNK PART) IS AS FOLLOWS. (1)          
 REMARK 999 MENIEIVSSGKHTLH (15), (449)                                          
 REMARK 999 EEIQKPLLNGDEIMEILGIKPGKIVGILKKALLEAQIDGKVETKEEAIEFIKRSTKNLKPLDEG(512 
-REMARK 999  ) THE AUTHORS COULD OBSERVE A PART OF N- and C-TERMINAL RESIDUES    
-REMARK 999  (1-15 and 449-512, RESPECTIVLY) OF ALL PROTEIN CHAINS BUT THEY ARE  
-REMARK 999  NOT SURE WHICH PART CORRESPONDS WITH THESE OBSERVED RESIDUES. SO    
-REMARK 999  THE RESIDUE NUMBERS OF UNK ARE MEANINGLESS.                         
+REMARK 999 ) THE AUTHORS COULD OBSERVE A PART OF N- AND C-TERMINAL RESIDUES (1- 
+REMARK 999 15 AND 449-512, RESPECTIVLY) OF ALL PROTEIN CHAINS BUT THEY ARE NOT  
+REMARK 999 SURE WHICH PART CORRESPONDS WITH THESE OBSERVED RESIDUES. SO THE     
+REMARK 999 RESIDUE NUMBERS OF UNK ARE MEANINGLESS.                              
 DBREF1 3WFS A    1    74  GB                   CP004077                         
 DBREF2 3WFS A     498539165                     1577018     1577091             
 DBREF1 3WFS B    1    74  GB                   CP004077                         
@@ -21115,5 +21116,5 @@ CONECT1017210171
 CONECT1017310171                                                                
 CONECT1017410171                                                                
 CONECT1017510171                                                                
-MASTER      521    0    4   52   20    0    6    610171    4   20   92          
+MASTER      520    0    4   52   20    0    6    610171    4   20   92          
 END                                                                             

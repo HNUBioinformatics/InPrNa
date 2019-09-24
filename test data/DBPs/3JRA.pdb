@@ -32,6 +32,7 @@ KEYWDS   3 TRANSCRIPTION, TRANSCRIPTION REGULATION, DNA BINDING PROTEIN-DNA
 KEYWDS   4 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.STELLA,D.CASCIO,R.C.JOHNSON                                         
+REVDAT   3   01-NOV-17 3JRA    1       REMARK                                   
 REVDAT   2   13-JUL-11 3JRA    1       VERSN                                    
 REVDAT   1   28-APR-10 3JRA    0                                                
 JRNL        AUTH   S.STELLA,D.CASCIO,R.C.JOHNSON                                
@@ -135,8 +136,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -234,7 +240,7 @@ REMARK   4
 REMARK   4 3JRA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 18-SEP-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB055059.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000055059.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -255,7 +261,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 11963                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.100                              
@@ -399,8 +405,8 @@ REMARK 500     DA D  19   O4' -  C1' -  N9  ANGL. DEV. =   2.0 DEGREES
 REMARK 500     DA D  19   C3' -  O3' -  P   ANGL. DEV. =   8.6 DEGREES          
 REMARK 500     DC D  21   O4' -  C1' -  N1  ANGL. DEV. =   3.4 DEGREES          
 REMARK 500     DT D  25   O4' -  C1' -  N1  ANGL. DEV. =   3.0 DEGREES          
-REMARK 500     DT D  26   O4' -  C1' -  N1  ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500     DT D  25   C3' -  O3' -  P   ANGL. DEV. =   7.4 DEGREES          
+REMARK 500     DT D  26   O4' -  C1' -  N1  ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -3100,5 +3106,5 @@ HETATM 2615  O   HOH A 103      15.753   4.044 -13.642  1.00 18.44           O
 HETATM 2616  O   HOH A 104      -9.936  15.864  12.272  1.00 41.98           O  
 HETATM 2617  O   HOH B  99       0.527  12.122  -0.370  1.00 27.97           O  
 HETATM 2618  O   HOH B 100      28.165  12.977   1.942  1.00 15.81           O  
-MASTER      394    0    0    9    4    0    0    6 2614    4    0   22          
+MASTER      399    0    0    9    4    0    0    6 2614    4    0   22          
 END                                                                             

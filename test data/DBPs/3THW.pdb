@@ -38,27 +38,29 @@ KEYWDS    ABC FAMILY ATPASE, MISMATCH RECOGNITION, MISMATCHED UNPAIRED IDL DNA,
 KEYWDS   2 DNA BINDING PROTEIN-DNA COMPLEX                                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    W.YANG                                                                
+REVDAT   3   08-NOV-17 3THW    1       REMARK                                   
+REVDAT   2   26-JUN-13 3THW    1       JRNL                                     
 REVDAT   1   21-DEC-11 3THW    0                                                
 JRNL        AUTH   S.GUPTA,M.GELLERT,W.YANG                                     
-JRNL        TITL   MECHANISM OF MISMATCH RECOGNITION REVEALED BY HUMAN          
-JRNL        TITL 2 MUTS&#946; BOUND TO UNPAIRED DNA LOOPS                       
-JRNL        REF    NAT.STRUCT.MOL.BIOL.                       2011              
-JRNL        REFN                   ESSN 1545-9985                               
+JRNL        TITL   MECHANISM OF MISMATCH RECOGNITION REVEALED BY HUMAN MUTSBETA 
+JRNL        TITL 2 BOUND TO UNPAIRED DNA LOOPS                                  
+JRNL        REF    NAT.STRUCT.MOL.BIOL.          V.  19    72 2012              
+JRNL        REFN                   ISSN 1545-9993                               
+JRNL        PMID   22179786                                                     
 JRNL        DOI    10.1038/NSMB.2175                                            
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.09 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.4_486)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -107,9 +109,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -5.37420                                             
 REMARK   3    B22 (A**2) : -14.19280                                            
 REMARK   3    B33 (A**2) : 19.56700                                             
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -134,7 +136,7 @@ REMARK   4
 REMARK   4 3THW COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 08-SEP-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB067497.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000067497.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -154,8 +156,8 @@ REMARK 200  OPTICS                         : MIRROR
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : MARMOSAIC 225 MM CCD               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XGEN                               
-REMARK 200  DATA SCALING SOFTWARE          : XGEN                               
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : X-GEN                              
+REMARK 200  DATA SCALING SOFTWARE          : X-GEN                              
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 41282                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.090                              
@@ -507,8 +509,8 @@ REMARK 900 RELATED ID: 3THX   RELATED DB: PDB
 REMARK 900 RELATED ID: 3THY   RELATED DB: PDB                                   
 REMARK 900 RELATED ID: 3THZ   RELATED DB: PDB                                   
 DBREF  3THW A    1   934  UNP    P43246   MSH2_HUMAN       1    934             
-DBREF1 3THW B  210  1125  GB                   119616268                        
-DBREF2 3THW B     EAW95862                          210        1125             
+DBREF1 3THW B  210  1125  GB                   EAW95862                         
+DBREF2 3THW B     119616268                         210        1125             
 DBREF  3THW D    1    53  PDB    3THW     3THW             1     53             
 SEQADV 3THW GLY B  208  GB   119616268           EXPRESSION TAG                 
 SEQADV 3THW PRO B  209  GB   119616268           EXPRESSION TAG                 
@@ -30468,5 +30470,5 @@ CONECT149071490514908
 CONECT149081490714909                                                           
 CONECT149091490814910                                                           
 CONECT14910149011490414909                                                      
-MASTER      461    0    1   71   58    0    4    614870    3   27  148          
+MASTER      460    0    1   71   58    0    4    614870    3   27  148          
 END                                                                             

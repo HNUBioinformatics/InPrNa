@@ -1,17 +1,15 @@
 HEADER    APOPTOSIS/DNA                           24-AUG-05   2ATA              
-TITLE     STRUCTURAL BASIS OF DNA RECOGNITION BY P53 TETRAMERS                  
-TITLE    2 (COMPLEX II)                                                         
+TITLE     STRUCTURAL BASIS OF DNA RECOGNITION BY P53 TETRAMERS (COMPLEX II)     
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: 5'-D(*AP*AP*GP*GP*CP*AP*TP*GP*CP*CP*TP*T)-3';              
 COMPND   3 CHAIN: E, F, G, H;                                                   
-COMPND   4 SYNONYM: TUMOR SUPPRESSOR P53, PHOSPHOPROTEIN P53, ANTIGEN           
-COMPND   5 NY-CO-13;                                                            
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: CELLULAR TUMOR ANTIGEN P53;                                
-COMPND   9 CHAIN: A, B, C, D;                                                   
-COMPND  10 FRAGMENT: RESIDUES 94-293;                                           
-COMPND  11 ENGINEERED: YES                                                      
+COMPND   4 SYNONYM: TUMOR SUPPRESSOR P53, PHOSPHOPROTEIN P53, ANTIGEN NY-CO-13; 
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: CELLULAR TUMOR ANTIGEN P53;                                
+COMPND   8 CHAIN: A, B, C, D;                                                   
+COMPND   9 FRAGMENT: RESIDUES 94-293;                                           
+COMPND  10 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
@@ -22,25 +20,24 @@ SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI;
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET27B                                    
-KEYWDS    PROTEIN-DNA COMPLEX, APOPTOSIS/DNA COMPLEX                            
+KEYWDS    PROTEIN-DNA COMPLEX, APOPTOSIS-DNA COMPLEX                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.KITAYNER,H.ROZENBERG,N.KESSLER,D.RABINOVICH,Z.SHAKKED               
+REVDAT   3   11-OCT-17 2ATA    1       REMARK                                   
 REVDAT   2   24-FEB-09 2ATA    1       VERSN                                    
 REVDAT   1   11-JUL-06 2ATA    0                                                
-JRNL        AUTH   M.KITAYNER,H.ROZENBERG,N.KESSLER,D.RABINOVICH,               
-JRNL        AUTH 2 L.SHAULOV,T.E.HARAN,Z.SHAKKED                                
-JRNL        TITL   STRUCTURAL BASIS OF DNA RECOGNITION BY P53                   
-JRNL        TITL 2 TETRAMERS                                                    
+JRNL        AUTH   M.KITAYNER,H.ROZENBERG,N.KESSLER,D.RABINOVICH,L.SHAULOV,     
+JRNL        AUTH 2 T.E.HARAN,Z.SHAKKED                                          
+JRNL        TITL   STRUCTURAL BASIS OF DNA RECOGNITION BY P53 TETRAMERS         
 JRNL        REF    MOL.CELL                      V.  22   741 2006              
 JRNL        REFN                   ISSN 1097-2765                               
 JRNL        PMID   16793544                                                     
 JRNL        DOI    10.1016/J.MOLCEL.2006.05.015                                 
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.2.0005                                      
+REMARK   3   PROGRAM     : REFMAC                                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -72,7 +69,7 @@ REMARK   3   BIN FREE R VALUE SET COUNT          : 150
 REMARK   3   BIN FREE R VALUE                    : 0.2730                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 6178                                    
+REMARK   3   PROTEIN ATOMS            : 6169                                    
 REMARK   3   NUCLEIC ACID ATOMS       : 891                                     
 REMARK   3   HETEROGEN ATOMS          : 4                                       
 REMARK   3   SOLVENT ATOMS            : 717                                     
@@ -129,8 +126,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  4057 ; 2.552 ; 3.000       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  6423 ; 3.817 ; 5.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  3957 ; 5.776 ; 7.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  3683 ; 7.454 ;10.000       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -150,13 +152,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 2ATA COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2ATA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 29-AUG-05.                  
-REMARK 100 THE RCSB ID CODE IS RCSB034285.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 26-AUG-05.                  
+REMARK 100 THE DEPOSITION ID IS D_1000034285.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -171,10 +173,10 @@ REMARK 200  BEAMLINE                       : NULL
 REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RUH3R                       
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
-REMARK 200  MONOCHROMATOR                  : OSMIC INC. MSC - BLUE              
-REMARK 200                                   CONFOCAL MIRRORS                   
-REMARK 200  OPTICS                         : OSMIC INC. MSC - BLUE              
-REMARK 200                                   CONFOCAL MIRRORS                   
+REMARK 200  MONOCHROMATOR                  : OSMIC INC. MSC - BLUE CONFOCAL     
+REMARK 200                                   MIRRORS                            
+REMARK 200  OPTICS                         : OSMIC INC. MSC - BLUE CONFOCAL     
+REMARK 200                                   MIRRORS                            
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU RAXIS IV++                  
@@ -277,7 +279,7 @@ REMARK 465     LYS D   292
 REMARK 465     GLY D   293                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -375,8 +377,8 @@ REMARK 500     DG E   8   C4  -  C5  -  N7  ANGL. DEV. =   2.8 DEGREES
 REMARK 500     DC E   9   C3' -  O3' -  P   ANGL. DEV. =   8.8 DEGREES          
 REMARK 500     DA F   2   C3' -  C2' -  C1' ANGL. DEV. =  -5.3 DEGREES          
 REMARK 500     DA F   2   O4' -  C1' -  N9  ANGL. DEV. =   3.3 DEGREES          
-REMARK 500     DG F   4   O4' -  C1' -  N9  ANGL. DEV. =   3.4 DEGREES          
 REMARK 500     DG F   3   C3' -  O3' -  P   ANGL. DEV. =  10.0 DEGREES          
+REMARK 500     DG F   4   O4' -  C1' -  N9  ANGL. DEV. =   3.5 DEGREES          
 REMARK 500     DC F   5   C1' -  O4' -  C4' ANGL. DEV. =  -6.3 DEGREES          
 REMARK 500     DA F   6   O4' -  C1' -  N9  ANGL. DEV. =  -5.0 DEGREES          
 REMARK 500     DT F   7   C1' -  O4' -  C4' ANGL. DEV. =  -8.0 DEGREES          
@@ -399,7 +401,7 @@ REMARK 500     DT G  12   O5' -  P   -  OP1 ANGL. DEV. =  -5.9 DEGREES
 REMARK 500     DT G  12   P   -  O5' -  C5' ANGL. DEV. = -11.4 DEGREES          
 REMARK 500     DT G  12   O4' -  C1' -  C2' ANGL. DEV. =   3.2 DEGREES          
 REMARK 500     DT G  12   O4' -  C1' -  N1  ANGL. DEV. =   1.8 DEGREES          
-REMARK 500     DG H   4   O4' -  C1' -  N9  ANGL. DEV. =   2.6 DEGREES          
+REMARK 500     DG H   4   O4' -  C1' -  N9  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500     DG H   4   C5  -  C6  -  O6  ANGL. DEV. =  -3.7 DEGREES          
 REMARK 500     DC H   5   C3' -  C2' -  C1' ANGL. DEV. =  -5.2 DEGREES          
 REMARK 500     DC H   5   O4' -  C1' -  N1  ANGL. DEV. =   6.3 DEGREES          
@@ -449,23 +451,10 @@ REMARK 500                                 MODEL     OMEGA
 REMARK 500 SER D   94     SER D   95                 -147.04                    
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A 355        DISTANCE =  5.03 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              ZN A   1  ZN                            
@@ -507,12 +496,15 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 1                    
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN B 1                    
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN C 1                    
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN D 1                    
@@ -8507,5 +8499,5 @@ CONECT 7078 1525 1549 2030 2056
 CONECT 7079 3087 3111 3592 3618                                                 
 CONECT 7080 4631 4655 5136 5162                                                 
 CONECT 7081 6178 6202 6680 6706                                                 
-MASTER      489    0    4   11   44    0    4    6 7790    8   20   68          
+MASTER      483    0    4   11   44    0    4    6 7781    8   20   68          
 END                                                                             

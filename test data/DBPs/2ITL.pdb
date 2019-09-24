@@ -1,6 +1,6 @@
 HEADER    DNA BINDING PROTEIN/DNA                 19-OCT-06   2ITL              
-TITLE     THE ORIGIN BINDING DOMAIN OF THE SV40 LARGE T ANTIGEN BOUND           
-TITLE    2 TO THE FUNCTIONAL PEN PALINDROME DNA (23 BP)                         
+TITLE     THE ORIGIN BINDING DOMAIN OF THE SV40 LARGE T ANTIGEN BOUND TO THE    
+TITLE    2 FUNCTIONAL PEN PALINDROME DNA (23 BP)                                
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: 24-NT PEN ELEMENT OF THE SV40 DNA ORIGIN;                  
 COMPND   3 CHAIN: W;                                                            
@@ -28,20 +28,21 @@ SOURCE  11 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE  12 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
 SOURCE  13 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  14 EXPRESSION_SYSTEM_PLASMID: PET15B                                    
-KEYWDS    DNA BINDING PROTEIN, DNA BINDING PROTEIN/DNA COMPLEX                  
+KEYWDS    DNA BINDING PROTEIN, DNA BINDING PROTEIN-DNA COMPLEX                  
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    E.BOCHKAREVA,A SEITOVA,A.BOCHKAREV                                    
+AUTHOR    E.BOCHKAREVA,A.SEITOVA,A.BOCHKAREV                                    
+REVDAT   5   24-JAN-18 2ITL    1       AUTHOR                                   
+REVDAT   4   18-OCT-17 2ITL    1       REMARK                                   
 REVDAT   3   24-FEB-09 2ITL    1       VERSN                                    
 REVDAT   2   13-FEB-07 2ITL    1       JRNL                                     
 REVDAT   1   12-DEC-06 2ITL    0                                                
 JRNL        AUTH   E.BOCHKAREVA,D.MARTYNOWSKI,A.SEITOVA,A.BOCHKAREV             
-JRNL        TITL   STRUCTURE OF THE ORIGIN-BINDING DOMAIN OF SIMIAN             
-JRNL        TITL 2 VIRUS 40 LARGE T ANTIGEN BOUND TO DNA                        
+JRNL        TITL   STRUCTURE OF THE ORIGIN-BINDING DOMAIN OF SIMIAN VIRUS 40    
+JRNL        TITL 2 LARGE T ANTIGEN BOUND TO DNA                                 
 JRNL        REF    EMBO J.                       V.  25  5961 2006              
 JRNL        REFN                   ISSN 0261-4189                               
 JRNL        PMID   17139255                                                     
 JRNL        DOI    10.1038/SJ.EMBOJ.7601452                                     
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.65 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -135,8 +136,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1201 ; 1.263 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  1911 ; 2.045 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1663 ; 2.774 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1596 ; 3.300 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  2864 ; 3.012 ; 3.000       
@@ -156,13 +162,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 2ITL COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2ITL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 24-OCT-06.                  
-REMARK 100 THE RCSB ID CODE IS RCSB039998.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000039998.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -218,8 +224,8 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 37.35
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 1.96                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 20 MM DI-AMMONIUM HYDROGEN CITRATE,      
-REMARK 280  20% PEG 3000, AND 10 MM MGCL2, PH 7.5, VAPOR DIFFUSION,             
-REMARK 280  SITTING DROP, TEMPERATURE 297K                                      
+REMARK 280  20% PEG 3000, AND 10 MM MGCL2, PH 7.5, VAPOR DIFFUSION, SITTING     
+REMARK 280  DROP, TEMPERATURE 297K                                              
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: C 1 2 1                          
@@ -258,8 +264,8 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300 REMARK: THE BIOLOGICAL ASSEMBLY IS A DSDNA FRAGMENT BOUND BY         
-REMARK 300 FOUR OBDS                                                            
+REMARK 300 REMARK: THE BIOLOGICAL ASSEMBLY IS A DSDNA FRAGMENT BOUND BY FOUR    
+REMARK 300 OBDS                                                                 
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -395,7 +401,7 @@ REMARK 500     DG W  32   C3' -  C2' -  C1' ANGL. DEV. =  -5.6 DEGREES
 REMARK 500     DG W  32   O4' -  C1' -  C2' ANGL. DEV. =   4.4 DEGREES          
 REMARK 500     DG W  32   C6  -  N1  -  C2  ANGL. DEV. =  -4.2 DEGREES          
 REMARK 500     DG W  32   C5  -  C6  -  N1  ANGL. DEV. =   3.0 DEGREES          
-REMARK 500     DC W  33   C1' -  O4' -  C4' ANGL. DEV. =  -6.4 DEGREES          
+REMARK 500     DC W  33   C1' -  O4' -  C4' ANGL. DEV. =  -6.3 DEGREES          
 REMARK 500     DC W  33   C3' -  C2' -  C1' ANGL. DEV. =  -6.6 DEGREES          
 REMARK 500     DC W  33   O4' -  C1' -  C2' ANGL. DEV. =   5.9 DEGREES          
 REMARK 500     DC W  34   O4' -  C1' -  C2' ANGL. DEV. =   3.3 DEGREES          
@@ -6935,5 +6941,5 @@ HETATM 3210  O   HOH B 308      18.253  19.727  13.741  1.00 57.10           O
 ANISOU 3210  O   HOH B 308     7225   7279   7191     69      0    -21       O  
 HETATM 3211  O   HOH B 309       7.719   6.707  -5.162  1.00 53.28           O  
 ANISOU 3211  O   HOH B 309     6621   6890   6732    -23   -148    149       O  
-MASTER      411    0    0    7   10    0    0    6 3207    4    0   26          
+MASTER      415    0    0    7   10    0    0    6 3207    4    0   26          
 END                                                                             

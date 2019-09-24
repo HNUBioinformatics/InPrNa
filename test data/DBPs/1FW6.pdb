@@ -1,22 +1,20 @@
 HEADER    REPLICATION/DNA                         21-SEP-00   1FW6              
 TITLE     CRYSTAL STRUCTURE OF A TAQ MUTS-DNA-ADP TERNARY COMPLEX               
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-                                                        
-COMPND   3 D(*GP*CP*GP*AP*CP*GP*CP*TP*AP*GP*CP*GP*TP*GP*CP*GP*GP*CP*TP          
-COMPND   4 *CP*GP*TP*C)-3';                                                     
-COMPND   5 CHAIN: C;                                                            
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: 5'-                                                        
-COMPND   9 D(*GP*GP*AP*CP*GP*AP*GP*CP*CP*GP*CP*CP*GP*CP*TP*AP*GP*CP*GP          
-COMPND  10 *TP*CP*G)-3';                                                        
-COMPND  11 CHAIN: D;                                                            
-COMPND  12 ENGINEERED: YES;                                                     
-COMPND  13 MOL_ID: 3;                                                           
-COMPND  14 MOLECULE: DNA MISMATCH REPAIR PROTEIN MUTS;                          
-COMPND  15 CHAIN: A, B;                                                         
-COMPND  16 FRAGMENT: RESIDUES 1-768;                                            
-COMPND  17 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-D(*GP*CP*GP*AP*CP*GP*CP*TP*AP*GP*CP*GP*TP*GP*CP*GP*GP*CP
+COMPND   3 *TP*CP*GP*TP*C)-3';                                                  
+COMPND   4 CHAIN: C;                                                            
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: 5'-D(*GP*GP*AP*CP*GP*AP*GP*CP*CP*GP*CP*CP*GP*CP*TP*AP*GP*CP
+COMPND   8 *GP*TP*CP*G)-3';                                                     
+COMPND   9 CHAIN: D;                                                            
+COMPND  10 ENGINEERED: YES;                                                     
+COMPND  11 MOL_ID: 3;                                                           
+COMPND  12 MOLECULE: DNA MISMATCH REPAIR PROTEIN MUTS;                          
+COMPND  13 CHAIN: A, B;                                                         
+COMPND  14 FRAGMENT: RESIDUES 1-768;                                            
+COMPND  15 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
@@ -28,28 +26,27 @@ SOURCE   8 EXPRESSION_SYSTEM: ESCHERICHIA COLI;
 SOURCE   9 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE  10 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PET3                                      
-KEYWDS    PROTEIN-DNA COMPLEX, MULTI-DOMAIN STRUCTURE, KINKED DNA,              
-KEYWDS   2 ABC ATPASE, REPLICATION/DNA COMPLEX                                  
+KEYWDS    PROTEIN-DNA COMPLEX, MULTI-DOMAIN STRUCTURE, KINKED DNA, ABC ATPASE,  
+KEYWDS   2 REPLICATION-DNA COMPLEX                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.S.JUNOP,G.OBMOLOVA,K.RAUSCH,P.HSIEH,W.YANG                          
+REVDAT   3   31-JAN-18 1FW6    1       REMARK                                   
 REVDAT   2   24-FEB-09 1FW6    1       VERSN                                    
 REVDAT   1   19-FEB-01 1FW6    0                                                
 JRNL        AUTH   M.S.JUNOP,G.OBMOLOVA,K.RAUSCH,P.HSIEH,W.YANG                 
-JRNL        TITL   COMPOSITE ACTIVE SITE OF AN ABC ATPASE: MUTS USES            
-JRNL        TITL 2 ATP TO VERIFY MISMATCH RECOGNITION AND AUTHORIZE             
-JRNL        TITL 3 DNA REPAIR.                                                  
+JRNL        TITL   COMPOSITE ACTIVE SITE OF AN ABC ATPASE: MUTS USES ATP TO     
+JRNL        TITL 2 VERIFY MISMATCH RECOGNITION AND AUTHORIZE DNA REPAIR.        
 JRNL        REF    MOL.CELL                      V.   7     1 2001              
 JRNL        REFN                   ISSN 1097-2765                               
 JRNL        PMID   11172706                                                     
 JRNL        DOI    10.1016/S1097-2765(01)00149-6                                
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.70 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : CNS 0.9                                              
+REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -112,9 +109,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.56
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.40                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.400                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.30                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.98                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.980                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -148,13 +145,13 @@ REMARK   3  TOPOLOGY FILE  4   : &_1_TOPOLOGY_INFILE_4
 REMARK   3  TOPOLOGY FILE  5   : ADP.TOP                                        
 REMARK   3  TOPOLOGY FILE  6   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: USED WEIGHTED FULL MATRIX LEAST           
-REMARK   3  SQUARES PROCEDURE                                                   
+REMARK   3  OTHER REFINEMENT REMARKS: USED WEIGHTED FULL MATRIX LEAST SQUARES   
+REMARK   3  PROCEDURE                                                           
 REMARK   4                                                                      
-REMARK   4 1FW6 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1FW6 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB  ON 06-OCT-00.                  
-REMARK 100 THE RCSB ID CODE IS RCSB011954.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB.                                
+REMARK 100 THE DEPOSITION ID IS D_1000011954.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -211,7 +208,8 @@ REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.51
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 100 MM CACODYLATE, 200 MM AMMONIUM       
 REMARK 280  SULFATE, 1 MM DTT, 5 MM MGCL2, 20% PEG4000, 1 MM ATP, PH 6.2,       
-REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 22K                      
+REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 22K, TEMPERATURE         
+REMARK 280  295.0K                                                              
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
@@ -309,7 +307,7 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   N7   DG  C  1916     O    HOH C   195              2.11            
+REMARK 500   N7    DG C  1916     O    HOH C   195              2.11            
 REMARK 500   NE2  GLN A   595     O    HOH A  1954              2.12            
 REMARK 500   OE2  GLU A   380     O    HOH A  1948              2.15            
 REMARK 500   OE1  GLU A   487     O    HOH A  1946              2.17            
@@ -356,6 +354,8 @@ REMARK 500    VAL A 467      -39.46   -131.06
 REMARK 500    ASP A 472       45.39   -148.89                                   
 REMARK 500    ALA A 555       41.07     75.64                                   
 REMARK 500    LEU A 572      132.55   -170.29                                   
+REMARK 500    ALA A 575       81.86   -172.45                                   
+REMARK 500    MSE A 586       -3.19     83.86                                   
 REMARK 500    GLN A 604       29.60    -72.41                                   
 REMARK 500    THR A 668     -147.57   -155.81                                   
 REMARK 500    LEU A 703      158.13    -41.80                                   
@@ -381,29 +381,14 @@ REMARK 500    GLN B1269      172.38    -15.82
 REMARK 500    ASP B1270      115.21     81.98                                   
 REMARK 500    GLU B1278       20.48   -143.41                                   
 REMARK 500    GLU B1315       63.73    -64.13                                   
-REMARK 500    GLU B1388       33.92    -70.78                                   
-REMARK 500    ASP B1389       57.40    173.46                                   
-REMARK 500    VAL B1394       76.30    -67.11                                   
-REMARK 500    SER B1395      -76.41     70.93                                   
-REMARK 500    GLU B1396        4.40    149.78                                   
-REMARK 500    PHE B1422       27.12    -75.98                                   
-REMARK 500    ARG B1432      -30.50   -150.22                                   
-REMARK 500    PRO B1436        9.71    -63.12                                   
-REMARK 500    LEU B1438      120.68    -16.93                                   
-REMARK 500    TYR B1449     -176.89   -172.53                                   
-REMARK 500    ARG B1465       93.45   -163.13                                   
-REMARK 500    LYS B1484        1.79    -61.12                                   
-REMARK 500    ASP B1549       -7.72    -54.36                                   
-REMARK 500    THR B1668     -156.00   -155.24                                   
-REMARK 500    GLU B1717       68.47   -117.17                                   
-REMARK 500    ALA B1719     -104.37     38.32                                   
-REMARK 500    HIS B1726       48.50    -99.09                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS      69 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG A 851  MG                            
@@ -431,24 +416,31 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 851                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 852                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B 853                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 1851                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 B 1852                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1853                
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ADP A 999                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ADP B 1999                
@@ -666,11 +658,11 @@ HET    MSE  B1744       8
 HET    MSE  B1762       8                                                       
 HET     MG  A 851       1                                                       
 HET    SO4  A 852       5                                                       
+HET    SO4  A1853       5                                                       
+HET    ADP  A 999      27                                                       
 HET    SO4  B 853       5                                                       
 HET     MG  B1851       1                                                       
 HET    SO4  B1852       5                                                       
-HET    SO4  A1853       5                                                       
-HET    ADP  A 999      27                                                       
 HET    ADP  B1999      27                                                       
 HETNAM     MSE SELENOMETHIONINE                                                 
 HETNAM      MG MAGNESIUM ION                                                    
@@ -679,7 +671,7 @@ HETNAM     ADP ADENOSINE-5'-DIPHOSPHATE
 FORMUL   3  MSE    26(C5 H11 N O2 SE)                                           
 FORMUL   5   MG    2(MG 2+)                                                     
 FORMUL   6  SO4    4(O4 S 2-)                                                   
-FORMUL  11  ADP    2(C10 H15 N5 O10 P2)                                         
+FORMUL   8  ADP    2(C10 H15 N5 O10 P2)                                         
 FORMUL  13  HOH   *228(H2 O)                                                    
 HELIX    1   1 PRO A   14  ASP A   25  1                                  12    
 HELIX    2   2 GLY A   44  LEU A   54  1                                  11    
@@ -14398,5 +14390,5 @@ CONECT1312712909
 CONECT1312812909                                                                
 CONECT1312912909                                                                
 CONECT1313012909                                                                
-MASTER      416    0   34   58   57    0   21    613165    4  344  124          
+MASTER      410    0   34   58   57    0   21    613165    4  344  124          
 END                                                                             

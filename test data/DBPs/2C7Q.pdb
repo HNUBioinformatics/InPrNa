@@ -1,23 +1,21 @@
-HEADER    TRANSFERASE                             27-NOV-05   2C7Q              
-TITLE     HHAI DNA METHYLTRANSFERASE COMPLEX WITH OLIGONUCLEOTIDE               
-TITLE    2 CONTAINING 2-AMINOPURINE OUTSIDE THE  RECOGNITION SEQUENCE           
-TITLE    3 (PAIRED WITH G) AND SAH                                              
+HEADER    TRANSFERASE/DNA                         27-NOV-05   2C7Q              
+TITLE     HHAI DNA METHYLTRANSFERASE COMPLEX WITH OLIGONUCLEOTIDE CONTAINING 2- 
+TITLE    2 AMINOPURINE OUTSIDE THE RECOGNITION SEQUENCE (PAIRED WITH G) AND SAH 
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: MODIFICATION METHYLASE HHAI;                               
 COMPND   3 CHAIN: A;                                                            
 COMPND   4 SYNONYM: DNA METHYLTRANSFERASE HHAI, CYTOSINE-SPECIFIC               
-COMPND   5  METHYLTRANSFERASE HHAI;                                             
+COMPND   5 METHYLTRANSFERASE HHAI;                                              
 COMPND   6 EC: 2.1.1.37;                                                        
 COMPND   7 ENGINEERED: YES;                                                     
 COMPND   8 MOL_ID: 2;                                                           
-COMPND   9 MOLECULE: 5'-D(*T*GP*GP*(A1P)*GP*GP*(5CM)*GP*CP*TP*GP*               
-COMPND  10  AP*C)-3';                                                           
-COMPND  11 CHAIN: C;                                                            
-COMPND  12 ENGINEERED: YES;                                                     
-COMPND  13 MOL_ID: 3;                                                           
-COMPND  14 MOLECULE: 5'-D(*T*GP*TP*CP*AP*GP*CP*GP*CP*CP*GP*CP*C)-3';            
-COMPND  15 CHAIN: D;                                                            
-COMPND  16 ENGINEERED: YES                                                      
+COMPND   9 MOLECULE: 5'-D(*T*GP*GP*(2PR)*GP*GP*(5CM)*GP*CP*TP*GP* AP*C)-3';     
+COMPND  10 CHAIN: C;                                                            
+COMPND  11 ENGINEERED: YES;                                                     
+COMPND  12 MOL_ID: 3;                                                           
+COMPND  13 MOLECULE: 5'-D(*T*GP*TP*CP*AP*GP*CP*GP*CP*CP*GP*CP*C)-3';            
+COMPND  14 CHAIN: D;                                                            
+COMPND  15 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HAEMOPHILUS HAEMOLYTICUS;                       
 SOURCE   3 ORGANISM_TAXID: 726;                                                 
@@ -27,19 +25,27 @@ SOURCE   6 EXPRESSION_SYSTEM_STRAIN: ER1727;
 SOURCE   7 EXPRESSION_SYSTEM_PLASMID: PHH553;                                   
 SOURCE   8 MOL_ID: 2;                                                           
 SOURCE   9 SYNTHETIC: YES;                                                      
-SOURCE  10 MOL_ID: 3;                                                           
-SOURCE  11 SYNTHETIC: YES                                                       
-KEYWDS    DNA METHYLTRANSFERASE, METHYLTRANSFERASE, BASE FLIPPING,              
-KEYWDS   2 RESTRICTION SYSTEM, TRANSFERASE                                      
+SOURCE  10 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  11 ORGANISM_TAXID: 32630;                                               
+SOURCE  12 MOL_ID: 3;                                                           
+SOURCE  13 SYNTHETIC: YES;                                                      
+SOURCE  14 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  15 ORGANISM_TAXID: 32630                                                
+KEYWDS    BASE FLIPPING, RESTRICTION SYSTEM, TRANSFERASE-DNA COMPLEX            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.DAUJOTYTE,S.GRAZULIS                                                
+REVDAT   5   24-JUL-19 2C7Q    1       REMARK LINK                              
+REVDAT   4   29-JAN-14 2C7Q    1       HEADER TITLE  COMPND SOURCE              
+REVDAT   4 2                   1       KEYWDS REMARK VERSN  SEQRES              
+REVDAT   4 3                   1       MODRES HET    HETNAM HETSYN              
+REVDAT   4 4                   1       FORMUL LINK   HETATM                     
 REVDAT   3   24-FEB-09 2C7Q    1       VERSN                                    
 REVDAT   2   18-JAN-06 2C7Q    1       JRNL                                     
 REVDAT   1   14-DEC-05 2C7Q    0                                                
-JRNL        AUTH   R.K.NEELY,D.DAUJOTYTE,S.GRAZULIS,S.W.MAGENNIS,               
-JRNL        AUTH 2 D.T.F.DRYDEN,S.KLIMASAUSKAS,A.C.JONES                        
-JRNL        TITL   TIME-RESOLVED FLUORESCENCE OF 2-AMINOPURINE AS A             
-JRNL        TITL 2 PROBE OF BASE FLIPPING IN M.HHAI-DNA COMPLEXES               
+JRNL        AUTH   R.K.NEELY,D.DAUJOTYTE,S.GRAZULIS,S.W.MAGENNIS,D.T.F.DRYDEN,  
+JRNL        AUTH 2 S.KLIMASAUSKAS,A.C.JONES                                     
+JRNL        TITL   TIME-RESOLVED FLUORESCENCE OF 2-AMINOPURINE AS A PROBE OF    
+JRNL        TITL 2 BASE FLIPPING IN M.HHAI-DNA COMPLEXES                        
 JRNL        REF    NUCLEIC ACIDS RES.            V.  33  6953 2005              
 JRNL        REFN                   ISSN 0305-1048                               
 JRNL        PMID   16340006                                                     
@@ -50,7 +56,7 @@ REMARK   3
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.0                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -58,8 +64,8 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.85                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 30.98                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.0                            
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 50617366.94                    
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 50617366.940                   
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 98.3                           
 REMARK   3   NUMBER OF REFLECTIONS             : 45794                          
@@ -69,7 +75,7 @@ REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
 REMARK   3   R VALUE            (WORKING SET) : 0.187                           
 REMARK   3   FREE R VALUE                     : 0.210                           
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.1                            
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 10.100                          
 REMARK   3   FREE R VALUE TEST SET COUNT      : 4631                            
 REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.003                           
 REMARK   3                                                                      
@@ -77,30 +83,30 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.85                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.97                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 94.7                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 94.70                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 6523                         
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.212                        
-REMARK   3   BIN FREE R VALUE                    : 0.235                        
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 9.9                          
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2120                       
+REMARK   3   BIN FREE R VALUE                    : 0.2350                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 9.90                         
 REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 720                          
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.009                        
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 2621                                    
-REMARK   3   NUCLEIC ACID ATOMS       : 488                                     
-REMARK   3   HETEROGEN ATOMS          : 95                                      
+REMARK   3   PROTEIN ATOMS            : 2574                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 512                                     
+REMARK   3   HETEROGEN ATOMS          : 54                                      
 REMARK   3   SOLVENT ATOMS            : 366                                     
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 10.6                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 15.9                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 10.60                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 15.90                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 1.14                                                 
-REMARK   3    B22 (A**2) : 1.14                                                 
-REMARK   3    B33 (A**2) : -2.28                                                
-REMARK   3    B12 (A**2) : 0.77                                                 
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : 1.14000                                              
+REMARK   3    B22 (A**2) : 1.14000                                              
+REMARK   3    B33 (A**2) : -2.28000                                             
+REMARK   3    B12 (A**2) : 0.77000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.19                            
@@ -113,22 +119,22 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.14
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.3                             
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.9                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.11                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.300                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.90                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.110                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
-REMARK   3   MAIN-CHAIN BOND              (A**2) : 0.47  ; 1.50                 
-REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 0.79  ; 2.00                 
-REMARK   3   SIDE-CHAIN BOND              (A**2) : 0.67  ; 2.00                 
-REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 1.15  ; 2.50                 
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 0.470 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 0.790 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 0.670 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 1.150 ; 2.500                
 REMARK   3                                                                      
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : FLAT MODEL                                           
-REMARK   3   KSOL        : 0.396895                                             
-REMARK   3   BSOL        : 56.7045                                              
+REMARK   3   KSOL        : 0.40                                                 
+REMARK   3   BSOL        : 56.70                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
@@ -157,13 +163,13 @@ REMARK   3  TOPOLOGY FILE  8   : SO4.TOP
 REMARK   3  TOPOLOGY FILE  9   : EPE.TOP                                        
 REMARK   3  TOPOLOGY FILE 10   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: RESOLUTION-DEPENDENT WEIGHTING            
-REMARK   3  SCHEME USED. BULK SOLVENT MODEL USED                                
+REMARK   3  OTHER REFINEMENT REMARKS: RESOLUTION-DEPENDENT WEIGHTING SCHEME     
+REMARK   3  USED. BULK SOLVENT MODEL USED                                       
 REMARK   4                                                                      
-REMARK   4 2C7Q COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2C7Q COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 29-NOV-05.                  
-REMARK 100 THE PDBE ID CODE IS EBI-26566.                                       
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 27-NOV-05.                  
+REMARK 100 THE DEPOSITION ID IS D_1290026566.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -174,7 +180,7 @@ REMARK 200  NUMBER OF CRYSTALS USED        : 1
 REMARK 200                                                                      
 REMARK 200  SYNCHROTRON              (Y/N) : Y                                  
 REMARK 200  RADIATION SOURCE               : EMBL/DESY, HAMBURG                 
-REMARK 200  BEAMLINE                       : X31                                
+REMARK 200  BEAMLINE                       : X13                                
 REMARK 200  X-RAY GENERATOR MODEL          : NULL                               
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.050                              
@@ -184,7 +190,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : MARRESEARCH                        
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MOSFLM                             
-REMARK 200  DATA SCALING SOFTWARE          : CCP4 (SCALA)                       
+REMARK 200  DATA SCALING SOFTWARE          : SCALA                              
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 45796                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.850                              
@@ -215,11 +221,11 @@ REMARK 200
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS  (%): 54.38                                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 54.38                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.72                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 50 MM NA CITRATE PH 5.6, 1.6 M           
-REMARK 280  AMMONIUM SULFATE                                                    
+REMARK 280  AMMONIUM SULFATE, PH 5.60                                           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: H 3 2                            
@@ -312,35 +318,41 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300                                                                      
-REMARK 300 DETAILS:THE OLIGOMERIC STATE OF HHAI METHYLTRANSFERASE               
-REMARK 300  ISMONOMERIC, BUT SINCE IN THIS ENTRY, THE                           
-REMARK 300 PROTEIN ISIN COMPLEX WITH DNA, THE QUATERNARY                        
-REMARK 300 STRUCTURE FORTHIS ENTRY IS MARKED AS TRIMERIC.                       
+REMARK 300 REMARK: THE OLIGOMERIC STATE OF HHAI METHYLTRANSFERASE               
+REMARK 300   IS MONOMERIC, BUT SINCE IN THIS ENTRY, THE                         
+REMARK 300  PROTEIN IS IN COMPLEX WITH DNA, THE QUATERNARY                      
+REMARK 300  STRUCTURE FOR THIS ENTRY IS MARKED AS TRIMERIC.                     
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
 REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
-REMARK 350 BIOMOLECULE:  1                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
 REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TRIMERIC                   
-REMARK 350 SOFTWARE USED: PQS                                                   
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 6600 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 15520 ANGSTROM**2                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -34.8 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C, D                               
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 375                                                                      
 REMARK 375 SPECIAL POSITION                                                     
+REMARK 375 THE FOLLOWING ATOMS ARE FOUND TO BE WITHIN 0.15 ANGSTROMS            
+REMARK 375 OF A SYMMETRY RELATED ATOM AND ARE ASSUMED TO BE ON SPECIAL          
+REMARK 375 POSITIONS.                                                           
+REMARK 375                                                                      
+REMARK 375 ATOM RES CSSEQI                                                      
 REMARK 375      HOH A2139  LIES ON A SPECIAL POSITION.                          
 REMARK 400                                                                      
 REMARK 400 COMPOUND                                                             
-REMARK 400  RECOGNIZES THE DOUBLE-STRANDED SEQUENCE GCGC, CAUSES                
+REMARK 400 RECOGNIZES THE DOUBLE-STRANDED SEQUENCE GCGC, CAUSES                 
 REMARK 400  SPECIFIC METHYLATION AND PROTECTS THE DNA FROM                      
 REMARK 400  CLEAVAGE BY THE HHAI ENDONUCLEASE.                                  
 REMARK 465                                                                      
@@ -350,7 +362,7 @@ REMARK 465 EXPERIMENT. (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN
 REMARK 465 IDENTIFIER; SSSEQ=SEQUENCE NUMBER; I=INSERTION CODE.)                
 REMARK 465                                                                      
 REMARK 465   M RES C SSSEQI                                                     
-REMARK 465       T D   421                                                      
+REMARK 465      DT D   421                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
 REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
@@ -376,12 +388,13 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   O    HOH A  2030  -  O    HOH A  2260              2.16            
-REMARK 500   O    HOH A  2030  -  O    HOH A  2262              2.14            
-REMARK 500   O    HOH A  2037  -  O    HOH A  2272              1.92            
-REMARK 500   O    HOH A  2051  -  O    HOH A  2277              2.06            
-REMARK 500   O    HOH A  2078  -  O    HOH A  2104              2.14            
-REMARK 500   O    HOH A  2262  -  O    HOH A  2264              2.05            
+REMARK 500   O    HOH A  2037     O    HOH A  2272              1.92            
+REMARK 500   O    HOH A  2273     O    HOH A  2274              1.99            
+REMARK 500   O    HOH A  2262     O    HOH A  2264              2.05            
+REMARK 500   O    HOH A  2051     O    HOH A  2277              2.06            
+REMARK 500   O    HOH A  2030     O    HOH A  2262              2.14            
+REMARK 500   O    HOH A  2078     O    HOH A  2104              2.14            
+REMARK 500   O    HOH A  2030     O    HOH A  2260              2.16            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -400,9 +413,8 @@ REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS
 REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
-REMARK 500                                                                      
-REMARK 500   O    HOH A  2008     O    HOH A  2266    10455      1.66           
-REMARK 500   O    HOH A  2009     O    HOH A  2266    10455      1.78           
+REMARK 500   O    HOH A  2008     O    HOH A  2266    10455     1.66            
+REMARK 500   O    HOH A  2009     O    HOH A  2266    10455     1.78            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -422,15 +434,6 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500    GLY A  78   N   -  CA  -  C   ANGL. DEV. = -15.2 DEGREES          
-REMARK 500     DG C 405   O3' -  P   -  O5' ANGL. DEV. =  19.3 DEGREES          
-REMARK 500     DG C 405   O3' -  P   -  OP1 ANGL. DEV. =   9.3 DEGREES          
-REMARK 500     DG C 405   O3' -  P   -  OP2 ANGL. DEV. =   9.3 DEGREES          
-REMARK 500     DG C 405   C3' -  O3' -  P   ANGL. DEV. =  10.1 DEGREES          
-REMARK 500     DG C 408   O3' -  P   -  O5' ANGL. DEV. =  52.1 DEGREES          
-REMARK 500     DG C 408   O3' -  P   -  OP1 ANGL. DEV. = -21.9 DEGREES          
-REMARK 500     DG C 408   O3' -  P   -  OP2 ANGL. DEV. = -21.9 DEGREES          
-REMARK 500     DG C 408   C3' -  O3' -  P   ANGL. DEV. =  14.8 DEGREES          
-REMARK 500     DC D 432   N1  -  C1' -  C2' ANGL. DEV. =  -8.7 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -440,6 +443,7 @@ REMARK 500
 REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
 REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
 REMARK 500 STANDARD TABLE:                                                      
 REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
 REMARK 500                                                                      
@@ -468,107 +472,93 @@ REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE
 REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
 REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
 REMARK 525 NUMBER; I=INSERTION CODE):                                           
+REMARK 525                                                                      
+REMARK 525  M RES CSSEQI                                                        
+REMARK 525    HOH A2288        DISTANCE =  5.87 ANGSTROMS                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A1329                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1329                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A1330                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1330                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A1331                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 A 1331                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAH A1328                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAH A 1328                
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CIT A1332                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CIT A 1332                
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 10MH   RELATED DB: PDB                                   
-REMARK 900  TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE                         
-REMARK 900  WITH ADOHCY AND HEMIMETHYLATED DEOXYRIBONUCLEIC                     
-REMARK 900   ACID CONTAINING 5,6-DIHYDRO-5-AZACYTOSINE                          
-REMARK 900   AT THE TARGET                                                      
+REMARK 900 TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE WITH ADOHCY AND          
+REMARK 900 HEMIMETHYLATED DEOXYRIBONUCLEIC ACID CONTAINING 5,6-DIHYDRO-5-       
+REMARK 900 AZACYTOSINE AT THE TARGET                                            
 REMARK 900 RELATED ID: 1FJX   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF TERNARY COMPLEX OF HHAI                                
-REMARK 900  METHYLTRANSFERASEMUTANT (T250G) IN COMPLEX WITH                     
-REMARK 900   DNA AND ADOHCY                                                     
+REMARK 900 STRUCTURE OF TERNARY COMPLEX OF HHAI METHYLTRANSFERASEMUTANT (T250G) 
+REMARK 900 IN COMPLEX WITH DNA AND ADOHCY                                       
 REMARK 900 RELATED ID: 1HMY   RELATED DB: PDB                                   
-REMARK 900  HHAI DEOXYRIBONUCLEIC ACID (CYTOSINE-C5-)-                          
-REMARK 900  METHYLTRANSFERASE COMPLEX WITH S-ADENOSYL-L-                        
-REMARK 900  METHIONINE                                                          
+REMARK 900 HHAI DEOXYRIBONUCLEIC ACID (CYTOSINE-C5-)- METHYLTRANSFERASE         
+REMARK 900 COMPLEX WITH S-ADENOSYL-L- METHIONINE                                
 REMARK 900 RELATED ID: 1M0E   RELATED DB: PDB                                   
-REMARK 900  ZEBULARINE: A NOVEL DNA METHYLATION INHIBITOR                       
-REMARK 900   THAT FORMS ACOVALENT COMPLEX WITH DNA                              
-REMARK 900  METHYLTRANSFERASE                                                   
+REMARK 900 ZEBULARINE: A NOVEL DNA METHYLATION INHIBITOR THAT FORMS ACOVALENT   
+REMARK 900 COMPLEX WITH DNA METHYLTRANSFERASE                                   
 REMARK 900 RELATED ID: 1MHT   RELATED DB: PDB                                   
-REMARK 900  COVALENT TERNARY STRUCTURE OF HHAI                                  
-REMARK 900  METHYLTRANSFERASE, DEOXYRIBONUCLEIC ACID AND S-                     
-REMARK 900  ADENOSYL-L-HOMOCYSTEINE                                             
+REMARK 900 COVALENT TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE,                
+REMARK 900 DEOXYRIBONUCLEIC ACID AND S- ADENOSYL-L-HOMOCYSTEINE                 
 REMARK 900 RELATED ID: 1SKM   RELATED DB: PDB                                   
-REMARK 900  HHAI METHYLTRANSFERASE IN COMPLEX WITH DNA                          
-REMARK 900  CONTAINING ANABASIC SOUTH CARBOCYCLIC SUGAR AT                      
-REMARK 900   ITS TARGET SITE                                                    
+REMARK 900 HHAI METHYLTRANSFERASE IN COMPLEX WITH DNA CONTAINING ANABASIC       
+REMARK 900 SOUTH CARBOCYCLIC SUGAR AT ITS TARGET SITE                           
 REMARK 900 RELATED ID: 1SVU   RELATED DB: PDB                                   
-REMARK 900  STRUCTURE OF THE Q237W MUTANT OF HHAI                               
-REMARK 900  DNAMETHYLTRANSFERASE: AN INSIGHT INTO PROTEIN-                      
-REMARK 900  PROTEININTERACTIONS                                                 
+REMARK 900 STRUCTURE OF THE Q237W MUTANT OF HHAI DNAMETHYLTRANSFERASE: AN       
+REMARK 900 INSIGHT INTO PROTEIN- PROTEININTERACTIONS                            
 REMARK 900 RELATED ID: 2HMY   RELATED DB: PDB                                   
-REMARK 900  BINARY COMPLEX OF HHAI METHYLTRANSFERASE WITH                       
-REMARK 900   ADOMET FORMED IN THE PRESENCE OF A SHORT                           
-REMARK 900   NONPSECIFIC DEOXYRIBONUCLEIC ACID                                  
-REMARK 900  OLIGONUCLEOTIDE                                                     
+REMARK 900 BINARY COMPLEX OF HHAI METHYLTRANSFERASE WITH ADOMET FORMED IN THE   
+REMARK 900 PRESENCE OF A SHORT NONPSECIFIC DEOXYRIBONUCLEIC ACID                
+REMARK 900 OLIGONUCLEOTIDE                                                      
 REMARK 900 RELATED ID: 3MHT   RELATED DB: PDB                                   
-REMARK 900  TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE                         
-REMARK 900  WITH UNMODIFIED DEOXYRIBONUCLEIC ACID AND                           
-REMARK 900  ADOHCY                                                              
+REMARK 900 TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE WITH UNMODIFIED          
+REMARK 900 DEOXYRIBONUCLEIC ACID AND ADOHCY                                     
 REMARK 900 RELATED ID: 4MHT   RELATED DB: PDB                                   
-REMARK 900  TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE                         
-REMARK 900  WITH NATIVE DEOXYRIBONUCLEIC ACID AND ADOHCY                        
+REMARK 900 TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE WITH NATIVE              
+REMARK 900 DEOXYRIBONUCLEIC ACID AND ADOHCY                                     
 REMARK 900 RELATED ID: 5MHT   RELATED DB: PDB                                   
-REMARK 900  TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE                         
-REMARK 900  WITH HEMIMETHYLATED DEOXYRIBONUCLEIC ACID AND                       
-REMARK 900  ADOHCY                                                              
+REMARK 900 TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE WITH HEMIMETHYLATED      
+REMARK 900 DEOXYRIBONUCLEIC ACID AND ADOHCY                                     
 REMARK 900 RELATED ID: 6MHT   RELATED DB: PDB                                   
-REMARK 900  TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE                         
-REMARK 900  WITH ADOHCY AND DEOXYRIBONUCLEIC ACID                               
-REMARK 900  CONTAINING 4'-THIO-2'DEOXYCYTIDINE AT THE                           
-REMARK 900  TARGET                                                              
+REMARK 900 TERNARY STRUCTURE OF HHAI METHYLTRANSFERASE WITH ADOHCY AND          
+REMARK 900 DEOXYRIBONUCLEIC ACID CONTAINING 4'-THIO-2'DEOXYCYTIDINE AT THE      
+REMARK 900 TARGET                                                               
 REMARK 900 RELATED ID: 7MHT   RELATED DB: PDB                                   
-REMARK 900  CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/                           
-REMARK 900  DEOXYRIBONUCLEIC ACID COMPLEX                                       
+REMARK 900 CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/ DEOXYRIBONUCLEIC ACID      
+REMARK 900 COMPLEX                                                              
 REMARK 900 RELATED ID: 8MHT   RELATED DB: PDB                                   
-REMARK 900  CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/                           
-REMARK 900  DEOXYRIBONUCLEIC ACID COMPLEX                                       
+REMARK 900 CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/ DEOXYRIBONUCLEIC ACID      
+REMARK 900 COMPLEX                                                              
 REMARK 900 RELATED ID: 9MHT   RELATED DB: PDB                                   
-REMARK 900  CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/                           
-REMARK 900  DEOXYRIBONUCLEIC ACID COMPLEX                                       
+REMARK 900 CYTOSINE-SPECIFIC METHYLTRANSFERASE HHAI/ DEOXYRIBONUCLEIC ACID      
+REMARK 900 COMPLEX                                                              
 REMARK 900 RELATED ID: 2C7O   RELATED DB: PDB                                   
-REMARK 900  HHAI DNA METHYLTRANSFERASE COMPLEX WITH 13MER                       
-REMARK 900   OLIGONUCLEOTIDE CONTAINING 2-AMINOPURINE                           
-REMARK 900  ADJACENT TO THE TARGET BASE (PCGC:GMGC)                             
-REMARK 900  AND SAH                                                             
+REMARK 900 HHAI DNA METHYLTRANSFERASE COMPLEX WITH 13MER OLIGONUCLEOTIDE        
+REMARK 900 CONTAINING 2-AMINOPURINE ADJACENT TO THE TARGET BASE (PCGC:GMGC)     
+REMARK 900 AND SAH                                                              
 REMARK 900 RELATED ID: 2C7P   RELATED DB: PDB                                   
-REMARK 900  HHAI DNA METHYLTRANSFERASE COMPLEX WITH                             
-REMARK 900  OLIGONUCLEOTIDE CONTAINING 2-AMINOPURINE                            
-REMARK 900  OPPOSITE TO THE TARGET BASE (GCGC:GMPC)                             
-REMARK 900  AND SAH                                                             
+REMARK 900 HHAI DNA METHYLTRANSFERASE COMPLEX WITH OLIGONUCLEOTIDE CONTAINING   
+REMARK 900 2-AMINOPURINE OPPOSITE TO THE TARGET BASE (GCGC:GMPC) AND SAH        
 REMARK 900 RELATED ID: 2C7R   RELATED DB: PDB                                   
-REMARK 900  HHAI DNA METHYLTRANSFERASE COMPLEX WITH                             
-REMARK 900  OLIGONUCLEOTIDE CONTAINING 2-AMINOPURINE AS A                       
-REMARK 900   TARGET BASE (GPGC:GMGC) AND SAH                                    
+REMARK 900 HHAI DNA METHYLTRANSFERASE COMPLEX WITH OLIGONUCLEOTIDE CONTAINING   
+REMARK 900 2-AMINOPURINE AS A TARGET BASE (GPGC:GMGC) AND SAH                   
 DBREF  2C7Q A    1   327  UNP    P05102   MTH1_HAEHA       1    327             
 DBREF  2C7Q C  401   413  PDB    2C7Q     2C7Q           401    413             
 DBREF  2C7Q D  421   433  PDB    2C7Q     2C7Q           421    433             
-SEQRES   1 C   13   DT  DG  DG A1P  DG  DG 5CM  DG  DC  DT  DG  DA  DC          
-SEQRES   1 D   13   DT  DG  DT  DC  DA  DG  DC  DG  DC  DC  DG  DC  DC          
 SEQRES   1 A  327  MET ILE GLU ILE LYS ASP LYS GLN LEU THR GLY LEU ARG          
 SEQRES   2 A  327  PHE ILE ASP LEU PHE ALA GLY LEU GLY GLY PHE ARG LEU          
 SEQRES   3 A  327  ALA LEU GLU SER CYS GLY ALA GLU CYS VAL TYR SER ASN          
@@ -595,28 +585,30 @@ SEQRES  23 A  327  ASP SER TYR LYS VAL HIS PRO SER THR SER GLN ALA TYR
 SEQRES  24 A  327  LYS GLN PHE GLY ASN SER VAL VAL ILE ASN VAL LEU GLN          
 SEQRES  25 A  327  TYR ILE ALA TYR ASN ILE GLY SER SER LEU ASN PHE LYS          
 SEQRES  26 A  327  PRO TYR                                                      
-MODRES 2C7Q 5CM C  407  C    5-METHYL CYTOSINE                                  
-MODRES 2C7Q A1P C  404  A    2-AMINOPURINE                                      
-HET    A1P  C 404      21                                                       
+SEQRES   1 C   13   DT  DG  DG 2PR  DG  DG 5CM  DG  DC  DT  DG  DA  DC          
+SEQRES   1 D   13   DT  DG  DT  DC  DA  DG  DC  DG  DC  DC  DG  DC  DC          
+MODRES 2C7Q 2PR C  404   DG                                                     
+MODRES 2C7Q 5CM C  407   DC                                                     
+HET    2PR  C 404      21                                                       
 HET    5CM  C 407      20                                                       
+HET    SAH  A1328      26                                                       
 HET    SO4  A1329       5                                                       
 HET    SO4  A1330       5                                                       
 HET    SO4  A1331       5                                                       
-HET    SAH  A1328      26                                                       
 HET    CIT  A1332      13                                                       
-HETNAM     A1P 9-{2-DEOXY-5-O-[HYDROXY(OXIDO)PHOSPHINO]-                        
-HETNAM   2 A1P  BETA-L-ERYTHRO-PENTOFURANOSYL}-9H-PURIN-2-                      
-HETNAM   3 A1P  AMINE                                                           
+HETNAM     2PR 2-AMINO-9-[2-DEOXYRIBOFURANOSYL]-9H-PURINE-5'-                   
+HETNAM   2 2PR  MONOPHOSPHATE                                                   
 HETNAM     5CM 5-METHYL-2'-DEOXY-CYTIDINE-5'-MONOPHOSPHATE                      
-HETNAM     SO4 SULFATE ION                                                      
 HETNAM     SAH S-ADENOSYL-L-HOMOCYSTEINE                                        
+HETNAM     SO4 SULFATE ION                                                      
 HETNAM     CIT CITRIC ACID                                                      
-FORMUL   1  A1P    C10 H14 N5 O5 P                                              
-FORMUL   1  5CM    C10 H16 N3 O7 P                                              
-FORMUL   4  SO4    3(O4 S 2-)                                                   
-FORMUL   7  SAH    C14 H20 N6 O5 S                                              
+HETSYN     2PR 2-AMINOPURINE-2'-DEOXYRIBO-5'-MONOPHOSPHATE                      
+FORMUL   2  2PR    C10 H14 N5 O6 P                                              
+FORMUL   2  5CM    C10 H16 N3 O7 P                                              
+FORMUL   4  SAH    C14 H20 N6 O5 S                                              
+FORMUL   5  SO4    3(O4 S 2-)                                                   
 FORMUL   8  CIT    C6 H8 O7                                                     
-FORMUL   9  HOH   *366(H2 O1)                                                   
+FORMUL   9  HOH   *366(H2 O)                                                    
 HELIX    1   1 GLY A   22  CYS A   31  1                                  10    
 HELIX    2   2 ASP A   42  GLY A   54  1                                  13    
 HELIX    3   3 ASP A   60  VAL A   64  5                                   5    
@@ -645,8 +637,8 @@ SHEET    3  AB 6 GLY A 264  VAL A 267 -1  O  TYR A 265   N  ARG A 272
 SHEET    4  AB 6 ARG A 240  SER A 243  1  O  ARG A 240   N  GLY A 264           
 SHEET    5  AB 6 ARG A 228  ILE A 231 -1  N  LEU A 229   O  ILE A 241           
 SHEET    6  AB 6 VAL A 213  MET A 214 -1  O  VAL A 213   N  ILE A 231           
-LINK         O3'  DG C 403                 P   A1P C 404     1555   1555  1.60  
-LINK         O3' A1P C 404                 P    DG C 405     1555   1555  1.60  
+LINK         O3'  DG C 403                 P   2PR C 404     1555   1555  1.60  
+LINK         O3' 2PR C 404                 P    DG C 405     1555   1555  1.61  
 LINK         O3'  DG C 406                 P   5CM C 407     1555   1555  1.60  
 LINK         O3' 5CM C 407                 P    DG C 408     1555   1555  1.60  
 SITE     1 AC1  6 PRO A 198  ASP A 199  HOH A2230  HOH A2299                    
@@ -2877,18 +2869,18 @@ ATOM   2204  CZ  ARG A 281     -38.233  31.995  76.785  1.00  9.45           C
 ATOM   2205  NH1 ARG A 281     -38.863  33.097  77.170  1.00  9.35           N  
 ATOM   2206  NH2 ARG A 281     -38.921  30.877  76.606  1.00  9.41           N  
 ATOM   2207  N  AVAL A 282     -31.271  35.936  77.482  0.50  8.53           N  
-ATOM   2208  CA AVAL A 282     -30.519  37.180  77.369  0.50  8.61           C  
-ATOM   2209  C  AVAL A 282     -29.054  36.874  77.063  0.50  8.62           C  
-ATOM   2210  O  AVAL A 282     -28.301  37.755  76.650  0.50  8.47           O  
-ATOM   2211  CB AVAL A 282     -30.622  38.034  78.659  0.50  8.83           C  
-ATOM   2212  CG1AVAL A 282     -29.891  37.362  79.800  0.50  8.82           C  
-ATOM   2213  CG2AVAL A 282     -30.063  39.423  78.407  0.50  8.95           C  
-ATOM   2214  N  BVAL A 282     -31.277  35.917  77.497  0.50  8.53           N  
-ATOM   2215  CA BVAL A 282     -30.522  37.167  77.475  0.50  8.61           C  
-ATOM   2216  C  BVAL A 282     -29.055  36.884  77.140  0.50  8.62           C  
-ATOM   2217  O  BVAL A 282     -28.309  37.784  76.755  0.50  8.47           O  
-ATOM   2218  CB BVAL A 282     -30.640  37.892  78.856  0.50  8.83           C  
-ATOM   2219  CG1BVAL A 282     -29.519  38.902  79.044  0.50  8.82           C  
+ATOM   2208  N  BVAL A 282     -31.277  35.917  77.497  0.50  8.53           N  
+ATOM   2209  CA AVAL A 282     -30.519  37.180  77.369  0.50  8.61           C  
+ATOM   2210  CA BVAL A 282     -30.522  37.167  77.475  0.50  8.61           C  
+ATOM   2211  C  AVAL A 282     -29.054  36.874  77.063  0.50  8.62           C  
+ATOM   2212  C  BVAL A 282     -29.055  36.884  77.140  0.50  8.62           C  
+ATOM   2213  O  AVAL A 282     -28.301  37.755  76.650  0.50  8.47           O  
+ATOM   2214  O  BVAL A 282     -28.309  37.784  76.755  0.50  8.47           O  
+ATOM   2215  CB AVAL A 282     -30.622  38.034  78.659  0.50  8.83           C  
+ATOM   2216  CB BVAL A 282     -30.640  37.892  78.856  0.50  8.83           C  
+ATOM   2217  CG1AVAL A 282     -29.891  37.362  79.800  0.50  8.82           C  
+ATOM   2218  CG1BVAL A 282     -29.519  38.902  79.044  0.50  8.82           C  
+ATOM   2219  CG2AVAL A 282     -30.063  39.423  78.407  0.50  8.95           C  
 ATOM   2220  CG2BVAL A 282     -31.993  38.597  78.951  0.50  8.95           C  
 ATOM   2221  N   MET A 283     -28.655  35.619  77.268  1.00  8.72           N  
 ATOM   2222  CA  MET A 283     -27.281  35.195  76.977  1.00  8.70           C  
@@ -3110,20 +3102,20 @@ ATOM   2437  CB  VAL A 310     -21.229  37.828  70.762  1.00  8.49           C
 ATOM   2438  CG1 VAL A 310     -19.901  38.513  70.488  1.00  8.05           C  
 ATOM   2439  CG2 VAL A 310     -22.295  38.874  71.062  1.00  8.31           C  
 ATOM   2440  N  ALEU A 311     -20.380  34.941  69.917  0.50  8.74           N  
-ATOM   2441  CA ALEU A 311     -19.339  33.958  69.635  0.50  8.84           C  
-ATOM   2442  C  ALEU A 311     -19.570  33.276  68.296  0.50  8.91           C  
-ATOM   2443  O  ALEU A 311     -18.620  32.899  67.618  0.50  9.04           O  
-ATOM   2444  CB ALEU A 311     -19.277  32.895  70.736  0.50  8.58           C  
-ATOM   2445  CG ALEU A 311     -18.558  33.275  72.029  0.50  8.55           C  
-ATOM   2446  CD1ALEU A 311     -19.226  34.477  72.672  0.50  8.48           C  
-ATOM   2447  CD2ALEU A 311     -18.575  32.088  72.970  0.50  8.26           C  
-ATOM   2448  N  BLEU A 311     -20.385  34.940  69.915  0.50  8.74           N  
-ATOM   2449  CA BLEU A 311     -19.343  33.957  69.638  0.50  8.84           C  
-ATOM   2450  C  BLEU A 311     -19.571  33.278  68.297  0.50  8.91           C  
-ATOM   2451  O  BLEU A 311     -18.619  32.905  67.619  0.50  9.04           O  
-ATOM   2452  CB BLEU A 311     -19.294  32.892  70.735  0.50  8.58           C  
-ATOM   2453  CG BLEU A 311     -18.923  33.370  72.136  0.50  8.55           C  
-ATOM   2454  CD1BLEU A 311     -18.820  32.167  73.049  0.50  8.48           C  
+ATOM   2441  N  BLEU A 311     -20.385  34.940  69.915  0.50  8.74           N  
+ATOM   2442  CA ALEU A 311     -19.339  33.958  69.635  0.50  8.84           C  
+ATOM   2443  CA BLEU A 311     -19.343  33.957  69.638  0.50  8.84           C  
+ATOM   2444  C  ALEU A 311     -19.570  33.276  68.296  0.50  8.91           C  
+ATOM   2445  C  BLEU A 311     -19.571  33.278  68.297  0.50  8.91           C  
+ATOM   2446  O  ALEU A 311     -18.620  32.899  67.618  0.50  9.04           O  
+ATOM   2447  O  BLEU A 311     -18.619  32.905  67.619  0.50  9.04           O  
+ATOM   2448  CB ALEU A 311     -19.277  32.895  70.736  0.50  8.58           C  
+ATOM   2449  CB BLEU A 311     -19.294  32.892  70.735  0.50  8.58           C  
+ATOM   2450  CG ALEU A 311     -18.558  33.275  72.029  0.50  8.55           C  
+ATOM   2451  CG BLEU A 311     -18.923  33.370  72.136  0.50  8.55           C  
+ATOM   2452  CD1ALEU A 311     -19.226  34.477  72.672  0.50  8.48           C  
+ATOM   2453  CD1BLEU A 311     -18.820  32.167  73.049  0.50  8.48           C  
+ATOM   2454  CD2ALEU A 311     -18.575  32.088  72.970  0.50  8.26           C  
 ATOM   2455  CD2BLEU A 311     -17.604  34.125  72.100  0.50  8.26           C  
 ATOM   2456  N   GLN A 312     -20.835  33.113  67.922  1.00  9.05           N  
 ATOM   2457  CA  GLN A 312     -21.174  32.482  66.657  1.00  9.38           C  
@@ -3270,13 +3262,13 @@ ATOM   2597  C2'  DT C 401     -18.131  24.705  96.374  1.00 46.64           C
 ATOM   2598  C1'  DT C 401     -17.699  24.271  94.978  1.00 47.93           C  
 ATOM   2599  N1   DT C 401     -16.363  23.645  95.022  1.00 49.43           N  
 ATOM   2600  C2   DT C 401     -15.980  22.794  94.009  1.00 49.99           C  
-ATOM   2601  C7   DT C 401     -13.403  23.724  97.379  1.00 50.83           C  
-ATOM   2602  O2   DT C 401     -16.681  22.549  93.041  1.00 49.58           O  
-ATOM   2603  N3   DT C 401     -14.727  22.244  94.173  1.00 50.76           N  
-ATOM   2604  C4   DT C 401     -13.840  22.469  95.219  1.00 50.89           C  
+ATOM   2601  O2   DT C 401     -16.681  22.549  93.041  1.00 49.58           O  
+ATOM   2602  N3   DT C 401     -14.727  22.244  94.173  1.00 50.76           N  
+ATOM   2603  C4   DT C 401     -13.840  22.469  95.219  1.00 50.89           C  
+ATOM   2604  O4   DT C 401     -12.752  21.895  95.240  1.00 51.26           O  
 ATOM   2605  C5   DT C 401     -14.301  23.393  96.228  1.00 50.69           C  
-ATOM   2606  C6   DT C 401     -15.522  23.921  96.083  1.00 50.04           C  
-ATOM   2607  O4   DT C 401     -12.752  21.895  95.240  1.00 51.26           O  
+ATOM   2606  C7   DT C 401     -13.403  23.724  97.379  1.00 50.83           C  
+ATOM   2607  C6   DT C 401     -15.522  23.921  96.083  1.00 50.04           C  
 ATOM   2608  P    DG C 402     -20.368  27.050  97.731  1.00 39.57           P  
 ATOM   2609  OP1  DG C 402     -21.119  28.300  97.516  1.00 39.95           O  
 ATOM   2610  OP2  DG C 402     -19.245  27.036  98.701  1.00 40.26           O  
@@ -3321,27 +3313,27 @@ ATOM   2648  C2   DG C 403     -26.265  32.905 102.660  1.00 14.48           C
 ATOM   2649  N2   DG C 403     -26.906  33.539 103.657  1.00 14.60           N  
 ATOM   2650  N3   DG C 403     -26.960  32.266 101.733  1.00 14.29           N  
 ATOM   2651  C4   DG C 403     -26.161  31.702 100.804  1.00 14.55           C  
-HETATM 2652  P   A1P C 404     -31.486  31.544  97.443  1.00 16.86           P  
-HETATM 2653  O1P A1P C 404     -32.929  31.235  97.554  1.00 16.87           O  
-HETATM 2654  O2P A1P C 404     -30.870  31.694  96.100  1.00 17.06           O  
-HETATM 2655  O5' A1P C 404     -31.179  32.865  98.273  1.00 17.08           O  
-HETATM 2656  N9  A1P C 404     -27.949  35.703 100.499  1.00 18.34           N  
-HETATM 2657  C4  A1P C 404     -27.022  35.153  99.639  1.00 18.30           C  
-HETATM 2658  N3  A1P C 404     -27.289  34.485  98.496  1.00 18.43           N  
-HETATM 2659  C2  A1P C 404     -26.179  34.084  97.893  1.00 18.62           C  
-HETATM 2660  N2  A1P C 404     -26.243  33.409  96.737  1.00 19.58           N  
-HETATM 2661  N1  A1P C 404     -24.917  34.314  98.375  1.00 18.86           N  
-HETATM 2662  C6  A1P C 404     -24.618  34.996  99.549  1.00 18.20           C  
-HETATM 2663  C5  A1P C 404     -25.790  35.437 100.204  1.00 18.28           C  
-HETATM 2664  N7  A1P C 404     -25.940  36.148 101.386  1.00 18.04           N  
-HETATM 2665  C8  A1P C 404     -27.229  36.281 101.521  1.00 18.22           C  
-HETATM 2666  C2' A1P C 404     -30.049  36.059  99.067  1.00 17.79           C  
-HETATM 2667  C5' A1P C 404     -31.589  32.967  99.624  1.00 17.48           C  
-HETATM 2668  C4' A1P C 404     -31.244  34.324 100.194  1.00 17.51           C  
-HETATM 2669  O4' A1P C 404     -29.879  34.399 100.663  1.00 17.99           O  
-HETATM 2670  C1' A1P C 404     -29.408  35.697 100.389  1.00 17.93           C  
-HETATM 2671  C3' A1P C 404     -31.464  35.553  99.310  1.00 17.55           C  
-HETATM 2672  O3' A1P C 404     -32.194  36.517 100.076  1.00 17.25           O  
+HETATM 2652  P   2PR C 404     -31.486  31.544  97.443  1.00 16.86           P  
+HETATM 2653  OP1 2PR C 404     -32.929  31.235  97.554  1.00 16.87           O  
+HETATM 2654  OP2 2PR C 404     -30.870  31.694  96.100  1.00 17.06           O  
+HETATM 2655  O5' 2PR C 404     -31.179  32.865  98.273  1.00 17.08           O  
+HETATM 2656  C5' 2PR C 404     -31.589  32.967  99.624  1.00 17.48           C  
+HETATM 2657  C4' 2PR C 404     -31.244  34.324 100.194  1.00 17.51           C  
+HETATM 2658  O4' 2PR C 404     -29.879  34.399 100.663  1.00 17.99           O  
+HETATM 2659  C3' 2PR C 404     -31.464  35.553  99.310  1.00 17.55           C  
+HETATM 2660  O3' 2PR C 404     -32.194  36.517 100.076  1.00 17.25           O  
+HETATM 2661  C2' 2PR C 404     -30.049  36.059  99.067  1.00 17.79           C  
+HETATM 2662  C1' 2PR C 404     -29.408  35.697 100.389  1.00 17.93           C  
+HETATM 2663  N9  2PR C 404     -27.949  35.703 100.499  1.00 18.34           N  
+HETATM 2664  C8  2PR C 404     -27.229  36.281 101.521  1.00 18.22           C  
+HETATM 2665  N7  2PR C 404     -25.940  36.148 101.386  1.00 18.04           N  
+HETATM 2666  C5  2PR C 404     -25.790  35.437 100.204  1.00 18.28           C  
+HETATM 2667  C6  2PR C 404     -24.618  34.996  99.549  1.00 18.20           C  
+HETATM 2668  N1  2PR C 404     -24.917  34.314  98.375  1.00 18.86           N  
+HETATM 2669  C2  2PR C 404     -26.179  34.084  97.893  1.00 18.62           C  
+HETATM 2670  N2  2PR C 404     -26.243  33.409  96.737  1.00 19.58           N  
+HETATM 2671  N3  2PR C 404     -27.289  34.485  98.496  1.00 18.43           N  
+HETATM 2672  C4  2PR C 404     -27.022  35.153  99.639  1.00 18.30           C  
 ATOM   2673  P    DG C 405     -32.794  37.825  99.366  1.00 16.63           P  
 ATOM   2674  OP1  DG C 405     -34.088  38.141 100.016  1.00 16.84           O  
 ATOM   2675  OP2  DG C 405     -32.738  37.631  97.895  1.00 17.10           O  
@@ -3404,8 +3396,8 @@ HETATM 2731  O3' 5CM C 407     -21.132  49.216 101.767  1.00 26.48           O
 HETATM 2732  C5' 5CM C 407     -24.296  47.980 102.907  1.00 20.88           C  
 HETATM 2733  O5' 5CM C 407     -25.245  48.740 102.177  1.00 20.38           O  
 HETATM 2734  P   5CM C 407     -26.675  48.968 102.809  1.00 18.65           P  
-HETATM 2735  OP2 5CM C 407     -27.623  49.397 101.769  1.00 19.27           O  
-HETATM 2736  OP1 5CM C 407     -26.472  49.809 104.008  1.00 20.09           O  
+HETATM 2735  OP1 5CM C 407     -26.472  49.809 104.008  1.00 20.09           O  
+HETATM 2736  OP2 5CM C 407     -27.623  49.397 101.769  1.00 19.27           O  
 ATOM   2737  P    DG C 408     -20.620  50.528 102.523  1.00 29.41           P  
 ATOM   2738  OP1  DG C 408     -20.308  50.167 103.938  1.00 29.03           O  
 ATOM   2739  OP2  DG C 408     -21.603  51.618 102.224  1.00 28.08           O  
@@ -3463,10 +3455,10 @@ ATOM   2790  C2   DT C 410     -16.176  52.359  89.888  1.00 22.97           C
 ATOM   2791  O2   DT C 410     -16.190  51.549  88.978  1.00 23.38           O  
 ATOM   2792  N3   DT C 410     -17.318  52.971  90.338  1.00 22.41           N  
 ATOM   2793  C4   DT C 410     -17.422  53.905  91.348  1.00 22.34           C  
-ATOM   2794  C5   DT C 410     -16.176  54.266  91.984  1.00 22.39           C  
-ATOM   2795  C6   DT C 410     -15.056  53.669  91.555  1.00 22.81           C  
-ATOM   2796  O4   DT C 410     -18.523  54.362  91.645  1.00 21.69           O  
-ATOM   2797  C7   DT C 410     -16.188  55.281  93.084  1.00 22.26           C  
+ATOM   2794  O4   DT C 410     -18.523  54.362  91.645  1.00 21.69           O  
+ATOM   2795  C5   DT C 410     -16.176  54.266  91.984  1.00 22.39           C  
+ATOM   2796  C7   DT C 410     -16.188  55.281  93.084  1.00 22.26           C  
+ATOM   2797  C6   DT C 410     -15.056  53.669  91.555  1.00 22.81           C  
 ATOM   2798  P    DG C 411      -9.983  52.433  88.184  1.00 24.32           P  
 ATOM   2799  OP1  DG C 411      -8.773  51.637  87.865  1.00 24.66           O  
 ATOM   2800  OP2  DG C 411      -9.844  53.825  88.677  1.00 24.98           O  
@@ -3568,10 +3560,10 @@ ATOM   2895  C2   DT D 423     -21.749  59.486  86.248  1.00 30.70           C
 ATOM   2896  O2   DT D 423     -21.927  59.054  85.123  1.00 29.99           O  
 ATOM   2897  N3   DT D 423     -20.544  59.378  86.894  1.00 30.25           N  
 ATOM   2898  C4   DT D 423     -20.235  59.820  88.165  1.00 30.10           C  
-ATOM   2899  C5   DT D 423     -21.311  60.467  88.871  1.00 30.53           C  
-ATOM   2900  C6   DT D 423     -22.489  60.587  88.246  1.00 31.03           C  
-ATOM   2901  O4   DT D 423     -19.112  59.649  88.617  1.00 29.78           O  
-ATOM   2902  C7   DT D 423     -21.068  60.963  90.260  1.00 30.27           C  
+ATOM   2899  O4   DT D 423     -19.112  59.649  88.617  1.00 29.78           O  
+ATOM   2900  C5   DT D 423     -21.311  60.467  88.871  1.00 30.53           C  
+ATOM   2901  C7   DT D 423     -21.068  60.963  90.260  1.00 30.27           C  
+ATOM   2902  C6   DT D 423     -22.489  60.587  88.246  1.00 31.03           C  
 ATOM   2903  P    DC D 424     -28.078  58.929  86.020  1.00 32.23           P  
 ATOM   2904  OP1  DC D 424     -29.011  58.914  84.862  1.00 32.07           O  
 ATOM   2905  OP2  DC D 424     -28.614  59.053  87.403  1.00 31.70           O  
@@ -4198,25 +4190,25 @@ CONECT 2638 2652
 CONECT 2652 2638 2653 2654 2655                                                 
 CONECT 2653 2652                                                                
 CONECT 2654 2652                                                                
-CONECT 2655 2652 2667                                                           
-CONECT 2656 2657 2665 2670                                                      
-CONECT 2657 2656 2658 2663                                                      
-CONECT 2658 2657 2659                                                           
-CONECT 2659 2658 2660 2661                                                      
-CONECT 2660 2659                                                                
+CONECT 2655 2652 2656                                                           
+CONECT 2656 2655 2657                                                           
+CONECT 2657 2656 2658 2659                                                      
+CONECT 2658 2657 2662                                                           
+CONECT 2659 2657 2660 2661                                                      
+CONECT 2660 2659 2673                                                           
 CONECT 2661 2659 2662                                                           
-CONECT 2662 2661 2663                                                           
-CONECT 2663 2657 2662 2664                                                      
+CONECT 2662 2658 2661 2663                                                      
+CONECT 2663 2662 2664 2672                                                      
 CONECT 2664 2663 2665                                                           
-CONECT 2665 2656 2664                                                           
-CONECT 2666 2670 2671                                                           
-CONECT 2667 2655 2668                                                           
-CONECT 2668 2667 2669 2671                                                      
-CONECT 2669 2668 2670                                                           
-CONECT 2670 2656 2666 2669                                                      
-CONECT 2671 2666 2668 2672                                                      
-CONECT 2672 2671 2673                                                           
-CONECT 2673 2672                                                                
+CONECT 2665 2664 2666                                                           
+CONECT 2666 2665 2667 2672                                                      
+CONECT 2667 2666 2668                                                           
+CONECT 2668 2667 2669                                                           
+CONECT 2669 2668 2670 2671                                                      
+CONECT 2670 2669                                                                
+CONECT 2671 2669 2672                                                           
+CONECT 2672 2663 2666 2671                                                      
+CONECT 2673 2660                                                                
 CONECT 2703 2734                                                                
 CONECT 2717 2718 2723 2726                                                      
 CONECT 2718 2717 2719 2724                                                      
@@ -4293,5 +4285,5 @@ CONECT 3155 3153
 CONECT 3156 3150 3157 3158                                                      
 CONECT 3157 3156                                                                
 CONECT 3158 3156                                                                
-MASTER      520    0    7   16   12    0   14    6 3521    3   99   28          
+MASTER      506    0    7   16   12    0   14    6 3506    3   99   28          
 END                                                                             

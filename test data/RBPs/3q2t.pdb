@@ -50,6 +50,7 @@ KEYWDS   3 PROTEIN-RNA COMPLEX, RRM, NUDIX FOLD, RNA BINDING PROTEIN-RNA
 KEYWDS   4 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Q.YANG,M.COSENO,G.M.GILMARTIN,S.DOUBLIE                               
+REVDAT   4   08-NOV-17 3Q2T    1       REMARK                                   
 REVDAT   3   06-APR-11 3Q2T    1       JRNL                                     
 REVDAT   2   23-FEB-11 3Q2T    1       AUTHOR                                   
 REVDAT   1   16-FEB-11 3Q2T    0                                                
@@ -65,16 +66,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    3.06 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6_289)                      
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.6_289                                       
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : TWIN_LSQ_F                                    
 REMARK   3                                                                      
@@ -119,11 +119,11 @@ REMARK   3  B VALUES.
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
 REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 64.46                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : -0.00000                                             
+REMARK   3    B11 (A**2) : 0.00000                                              
 REMARK   3    B22 (A**2) : 0.00000                                              
-REMARK   3    B33 (A**2) : -0.00000                                             
-REMARK   3    B12 (A**2) : -0.00000                                             
-REMARK   3    B13 (A**2) : -0.00000                                             
+REMARK   3    B33 (A**2) : 0.00000                                              
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
 REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
@@ -146,10 +146,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3Q2T COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3Q2T COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 10-JAN-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB063122.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 08-JAN-11.                  
+REMARK 100 THE DEPOSITION ID IS D_1000063122.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -169,8 +169,8 @@ REMARK 200  OPTICS                         : MIRRORS
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : MAR SCANNER 345 MM PLATE           
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL-2000                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK, HKL-2000                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 16919                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.060                              
@@ -179,7 +179,7 @@ REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 0.000
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 100.0                              
-REMARK 200  DATA REDUNDANCY                : 36.800                             
+REMARK 200  DATA REDUNDANCY                : 36.80                              
 REMARK 200  R MERGE                    (I) : 0.14600                            
 REMARK 200  R SYM                      (I) : NULL                               
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 8.0000                             
@@ -618,6 +618,7 @@ REMARK 500    LEU A  91      113.21   -163.88
 REMARK 500    THR A 102       20.00   -147.43                                   
 REMARK 500    ASP A 142       23.91   -140.34                                   
 REMARK 500    ASN A 152     -168.58   -120.85                                   
+REMARK 500    ASN A 152     -167.05   -122.52                                   
 REMARK 500    PHE A 153       37.04    -90.61                                   
 REMARK 500    PRO A 159       22.77    -76.53                                   
 REMARK 500    ILE A 211      -80.05    -48.44                                   

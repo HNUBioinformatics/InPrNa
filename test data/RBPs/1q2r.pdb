@@ -1,6 +1,6 @@
 HEADER    TRANSFERASE/RNA                         25-JUL-03   1Q2R              
-TITLE     CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A CATALYTIC TRNA           
-TITLE    2 GUANINE TRANSGLYCOSYLASE COVALENT INTERMEDIATE                       
+TITLE     CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A CATALYTIC TRNA GUANINE   
+TITLE    2 TRANSGLYCOSYLASE COVALENT INTERMEDIATE                               
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: RNA (5'-R(*AP*GP*CP*AP*CP*GP*GP*CP*UP*(N)                  
 COMPND   3 P*UP*AP*AP*AP*CP*CP*GP*UP*GP*C)-3');                                 
@@ -9,43 +9,43 @@ COMPND   5 ENGINEERED: YES;
 COMPND   6 MOL_ID: 2;                                                           
 COMPND   7 MOLECULE: QUEUINE TRNA-RIBOSYLTRANSFERASE;                           
 COMPND   8 CHAIN: A, B, C, D;                                                   
-COMPND   9 SYNONYM: TRNA-GUANINE TRANSGLYCOSYLASE, GUANINE INSERTION            
-COMPND  10 ENZYME;                                                              
-COMPND  11 EC: 2.4.2.29;                                                        
-COMPND  12 ENGINEERED: YES                                                      
+COMPND   9 SYNONYM: TRNA-GUANINE TRANSGLYCOSYLASE, GUANINE INSERTION ENZYME;    
+COMPND  10 EC: 2.4.2.29;                                                        
+COMPND  11 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
-SOURCE   3 MOL_ID: 2;                                                           
-SOURCE   4 ORGANISM_SCIENTIFIC: ZYMOMONAS MOBILIS;                              
-SOURCE   5 ORGANISM_TAXID: 542;                                                 
-SOURCE   6 STRAIN: ZM4-CP4;                                                     
-SOURCE   7 ATCC: 31821;                                                         
-SOURCE   8 GENE: TGT;                                                           
-SOURCE   9 EXPRESSION_SYSTEM: ESCHERICHIA;                                      
-SOURCE  10 EXPRESSION_SYSTEM_TAXID: 561                                         
-KEYWDS    TIM BARREL, PROTEIN-RNA COMPLEX, COVALENT INTERMEDIATE,               
-KEYWDS   2 TRANSFERASE/RNA COMPLEX                                              
+SOURCE   3 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE   4 ORGANISM_TAXID: 32630;                                               
+SOURCE   5 MOL_ID: 2;                                                           
+SOURCE   6 ORGANISM_SCIENTIFIC: ZYMOMONAS MOBILIS;                              
+SOURCE   7 ORGANISM_TAXID: 542;                                                 
+SOURCE   8 STRAIN: ZM4-CP4;                                                     
+SOURCE   9 ATCC: 31821;                                                         
+SOURCE  10 GENE: TGT;                                                           
+SOURCE  11 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  12 EXPRESSION_SYSTEM_TAXID: 562                                         
+KEYWDS    TIM BARREL, PROTEIN-RNA COMPLEX, COVALENT INTERMEDIATE, TRANSFERASE-  
+KEYWDS   2 RNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    W.XIE,X.LIU,R.H.HUANG                                                 
+REVDAT   4   07-NOV-18 1Q2R    1       SOURCE                                   
 REVDAT   3   24-FEB-09 1Q2R    1       VERSN                                    
 REVDAT   2   23-SEP-03 1Q2R    1       JRNL                                     
 REVDAT   1   09-SEP-03 1Q2R    0                                                
 JRNL        AUTH   W.XIE,X.LIU,R.H.HUANG                                        
-JRNL        TITL   CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A                 
-JRNL        TITL 2 CATALYTIC TRNA GUANINE TRANSGLYCOSYLASE COVALENT             
-JRNL        TITL 3 INTERMEDIATE                                                 
+JRNL        TITL   CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A CATALYTIC TRNA  
+JRNL        TITL 2 GUANINE TRANSGLYCOSYLASE COVALENT INTERMEDIATE               
 JRNL        REF    NAT.STRUCT.BIOL.              V.  10   781 2003              
 JRNL        REFN                   ISSN 1072-8368                               
 JRNL        PMID   12949492                                                     
 JRNL        DOI    10.1038/NSB976                                               
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.90 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -136,10 +136,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1Q2R COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1Q2R COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 31-JUL-03.                  
-REMARK 100 THE RCSB ID CODE IS RCSB019842.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000019842.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -346,8 +346,8 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   C1'  N   F    34     OD2  ASP C   280              1.43            
-REMARK 500   C1'  N   E    34     OD2  ASP A   280              1.43            
+REMARK 500   C1'    N F    34     OD2  ASP C   280              1.43            
+REMARK 500   C1'    N E    34     OD2  ASP A   280              1.43            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -447,8 +447,8 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              ZN A 401  ZN                            
@@ -490,32 +490,39 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 401                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 9DG A 387                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN B 402                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 9DG B 387                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN C 403                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 9DG C 387                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN D 404                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE 9DG D 387                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1Q2S   RELATED DB: PDB                                   
-REMARK 900 CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A CATALYTIC TRNA          
-REMARK 900 GUANINE TRANSGLYCOSYLASE COVALENT INTERMEDIATE                       
+REMARK 900 CHEMICAL TRAPPING AND CRYSTAL STRUCTURE OF A CATALYTIC TRNA GUANINE  
+REMARK 900 TRANSGLYCOSYLASE COVALENT INTERMEDIATE                               
 DBREF  1Q2R A    2   386  UNP    P28720   TGT_ZYMMO        1    385             
 DBREF  1Q2R B    2   386  UNP    P28720   TGT_ZYMMO        1    385             
 DBREF  1Q2R C    2   386  UNP    P28720   TGT_ZYMMO        1    385             
@@ -13398,132 +13405,132 @@ HETATM12549  C2  9DG D 387      85.101  46.395  31.642  1.00 45.03           C
 HETATM12550  N2  9DG D 387      85.934  46.230  30.617  1.00 44.30           N  
 HETATM12551  N3  9DG D 387      83.760  46.425  31.432  1.00 44.58           N  
 HETATM12552  C4  9DG D 387      82.896  46.591  32.464  1.00 45.18           C  
-HETATM12553  O   HOH A 388      54.967 -12.110  34.824  1.00  4.88           O  
-HETATM12554  O   HOH A 389      70.350 -23.619  45.899  1.00 11.41           O  
-HETATM12555  O   HOH A 390      72.353  -6.405  34.345  1.00 22.81           O  
-HETATM12556  O   HOH A 391      44.110  -9.654  39.490  1.00  6.36           O  
-HETATM12557  O   HOH A 392      68.571   0.447  31.535  1.00  2.00           O  
-HETATM12558  O   HOH A 393      49.876 -14.182  14.685  1.00  8.09           O  
-HETATM12559  O   HOH A 394      71.995 -17.682  56.033  1.00  2.00           O  
-HETATM12560  O   HOH A 395      65.370 -39.001  47.220  1.00 18.20           O  
-HETATM12561  O   HOH A 396      69.020  -9.749  34.679  1.00  9.17           O  
-HETATM12562  O   HOH A 397      62.527 -16.363  55.761  1.00 23.15           O  
-HETATM12563  O   HOH A 398      53.392  -0.514  58.225  1.00  8.91           O  
-HETATM12564  O   HOH A 399      89.368  -4.289  33.416  1.00 13.58           O  
-HETATM12565  O   HOH A 400      57.408 -13.499  18.580  1.00 10.56           O  
-HETATM12566  O   HOH A 402      42.114 -13.040  25.406  1.00 20.69           O  
-HETATM12567  O   HOH A 403      87.564   8.009  36.231  1.00 19.06           O  
-HETATM12568  O   HOH A 404      71.295   8.209  40.377  1.00 19.47           O  
-HETATM12569  O   HOH A 405      83.325   8.890  49.620  1.00 21.84           O  
-HETATM12570  O   HOH A 406      54.768   2.022  44.364  1.00  5.13           O  
-HETATM12571  O   HOH A 407      43.519 -30.406  40.777  1.00 11.56           O  
-HETATM12572  O   HOH A 408      84.208  -1.452  43.848  1.00 22.22           O  
-HETATM12573  O   HOH A 409      62.371 -29.770  43.836  1.00 32.78           O  
-HETATM12574  O   HOH A 410      64.923 -27.740  33.781  1.00 18.57           O  
-HETATM12575  O   HOH A 411      79.611  14.516  41.911  1.00 16.62           O  
-HETATM12576  O   HOH A 412      61.507 -11.300  25.020  1.00  8.09           O  
-HETATM12577  O   HOH A 413      53.273 -28.385  50.190  1.00 18.20           O  
-HETATM12578  O   HOH A 414      59.000 -24.828  60.350  1.00 10.07           O  
-HETATM12579  O   HOH A 415      67.152 -12.256  30.999  1.00 24.55           O  
-HETATM12580  O   HOH A 416      68.892 -14.097  48.788  1.00 24.87           O  
-HETATM12581  O   HOH A 417      90.594  -0.450  44.894  1.00 16.46           O  
-HETATM12582  O   HOH A 418      60.710 -29.540  31.056  1.00 29.93           O  
-HETATM12583  O   HOH A 419      45.076  -9.338  58.700  1.00 19.61           O  
-HETATM12584  O   HOH A 420      83.911  10.260  46.376  1.00 18.04           O  
-HETATM12585  O   HOH A 421      47.618   0.063  28.531  1.00 14.14           O  
-HETATM12586  O   HOH A 422      67.164   0.388  37.536  1.00 26.84           O  
-HETATM12587  O   HOH A 423      67.401 -28.403  31.799  1.00 28.90           O  
-HETATM12588  O   HOH A 424      47.225  -3.975  42.369  1.00  5.10           O  
-HETATM12589  O   HOH A 425      46.237  -6.608  43.167  1.00 12.95           O  
-HETATM12590  O   HOH A 426      52.317  -8.626  58.123  1.00 26.24           O  
-HETATM12591  O   HOH A 427      67.248   6.120  49.609  1.00 21.02           O  
-HETATM12592  O   HOH B 388      95.218 -10.068  36.159  1.00  5.89           O  
-HETATM12593  O   HOH B 389      78.989 -20.230  34.678  1.00  6.07           O  
-HETATM12594  O   HOH B 390      87.218  -3.631  20.498  1.00  5.50           O  
-HETATM12595  O   HOH B 391      99.405   0.608  37.688  1.00 18.05           O  
-HETATM12596  O   HOH B 392      89.276  23.487  22.932  1.00 14.05           O  
-HETATM12597  O   HOH B 393      96.620 -16.957   4.534  1.00 21.82           O  
-HETATM12598  O   HOH B 394      68.030 -20.906  20.393  1.00 16.52           O  
-HETATM12599  O   HOH B 395      95.398  15.880  25.917  1.00 26.13           O  
-HETATM12600  O   HOH B 396      89.730 -14.697   8.466  1.00  9.10           O  
-HETATM12601  O   HOH B 397      75.271 -28.256  24.650  1.00 14.02           O  
-HETATM12602  O   HOH B 398      83.073 -12.459  29.941  1.00 21.49           O  
-HETATM12603  O   HOH B 399      85.221 -27.282  22.029  1.00 18.07           O  
-HETATM12604  O   HOH B 400     104.201 -21.573  23.993  1.00 19.65           O  
-HETATM12605  O   HOH B 401     104.929 -14.352  33.216  1.00 18.02           O  
-HETATM12606  O   HOH B 403      95.598  13.636  28.943  1.00 22.34           O  
-HETATM12607  O   HOH B 404      88.736 -20.016  28.263  1.00 12.81           O  
-HETATM12608  O   HOH B 405      94.775  -4.150   3.981  1.00 19.57           O  
-HETATM12609  O   HOH C 388      30.509  20.448   9.510  1.00 16.61           O  
-HETATM12610  O   HOH C 389      57.097  35.242  11.424  1.00 19.51           O  
-HETATM12611  O   HOH C 390      39.208  48.789  14.227  1.00 13.84           O  
-HETATM12612  O   HOH C 391      53.319  49.853  11.488  1.00  2.00           O  
-HETATM12613  O   HOH C 392      39.777  28.628  10.972  1.00 18.94           O  
-HETATM12614  O   HOH C 393      38.424  46.482  12.786  1.00  9.11           O  
-HETATM12615  O   HOH C 394      44.273  47.046   0.220  1.00 24.57           O  
-HETATM12616  O   HOH C 395      38.796  17.481   3.282  1.00 12.53           O  
-HETATM12617  O   HOH C 396      79.421  29.967   4.086  1.00 24.73           O  
-HETATM12618  O   HOH C 397      48.745  17.603   1.293  1.00 16.36           O  
-HETATM12619  O   HOH C 398      40.525  39.536  30.583  1.00  7.23           O  
-HETATM12620  O   HOH C 399      49.579  36.283  15.353  1.00  8.10           O  
-HETATM12621  O   HOH C 400      78.316  33.473  10.088  1.00 11.09           O  
-HETATM12622  O   HOH C 401      48.840  40.124  -3.296  1.00 10.18           O  
-HETATM12623  O   HOH C 402      37.026  45.978  -9.128  1.00 20.94           O  
-HETATM12624  O   HOH C 404      40.365  31.334  26.987  1.00  9.69           O  
-HETATM12625  O   HOH C 405      51.761  14.436  -3.952  1.00 25.21           O  
-HETATM12626  O   HOH C 406      61.926  47.212   5.051  1.00 13.79           O  
-HETATM12627  O   HOH C 407      43.785  50.354  -2.393  1.00  6.14           O  
-HETATM12628  O   HOH C 408      58.884  24.656  -1.677  1.00 15.12           O  
-HETATM12629  O   HOH C 409      69.871  24.696   2.077  1.00  5.19           O  
-HETATM12630  O   HOH C 410      50.444  31.981  23.401  1.00 17.76           O  
-HETATM12631  O   HOH C 411      52.420  42.035  13.338  1.00 21.99           O  
-HETATM12632  O   HOH C 412      49.911  43.758  -9.981  1.00 16.21           O  
-HETATM12633  O   HOH C 413      87.203  32.373   8.712  1.00 23.33           O  
-HETATM12634  O   HOH C 414      62.685  32.767  15.252  1.00 17.07           O  
-HETATM12635  O   HOH C 415      75.454  40.960   6.065  1.00  2.00           O  
-HETATM12636  O   HOH C 416      30.899  39.014  -5.410  1.00 19.22           O  
-HETATM12637  O   HOH C 417      68.521  22.703  10.225  1.00 12.74           O  
-HETATM12638  O   HOH C 418      59.610  44.227  11.057  1.00 14.08           O  
-HETATM12639  O   HOH C 419      70.888  33.104  -5.555  1.00 15.18           O  
-HETATM12640  O   HOH D 388      82.980  42.247  26.217  1.00  2.00           O  
-HETATM12641  O   HOH D 389      72.699  52.747   9.723  1.00  2.00           O  
-HETATM12642  O   HOH D 390      69.773  42.935  25.755  1.00  2.00           O  
-HETATM12643  O   HOH D 391      64.285  53.381  37.353  1.00  2.00           O  
-HETATM12644  O   HOH D 392      91.217  48.845  12.899  1.00 19.09           O  
-HETATM12645  O   HOH D 393      55.324  58.971  43.389  1.00  3.44           O  
-HETATM12646  O   HOH D 394      53.455  48.957  36.435  1.00  6.67           O  
-HETATM12647  O   HOH D 395      89.423  55.165  49.865  1.00 27.97           O  
-HETATM12648  O   HOH D 396      90.343  67.335  20.288  1.00 10.85           O  
-HETATM12649  O   HOH D 397      60.480  55.388  17.478  1.00 17.85           O  
-HETATM12650  O   HOH D 398      60.349  48.317  16.621  1.00  2.00           O  
-HETATM12651  O   HOH D 399      73.002  77.505  35.727  1.00 21.11           O  
-HETATM12652  O   HOH D 400      50.525  44.612  14.005  1.00  5.58           O  
-HETATM12653  O   HOH D 401      54.676  39.136  16.269  1.00 18.30           O  
-HETATM12654  O   HOH D 402      94.085  62.356  16.920  1.00 23.00           O  
-HETATM12655  O   HOH D 403      74.762  48.244  42.510  1.00  2.00           O  
-HETATM12656  O   HOH D 405      84.039  67.656  18.761  1.00 25.51           O  
-HETATM12657  O   HOH D 406      87.112  57.435  13.850  1.00 27.52           O  
-HETATM12658  O   HOH D 407      61.904  46.264  15.938  1.00 14.15           O  
-HETATM12659  O   HOH D 408      53.102  62.928  21.659  1.00 20.47           O  
-HETATM12660  O   HOH D 409      52.801  59.418  22.865  1.00 10.12           O  
-HETATM12661  O   HOH D 410      43.942  40.358  30.453  1.00 35.15           O  
-HETATM12662  O   HOH D 411      79.969  50.270   6.625  1.00  2.52           O  
-HETATM12663  O   HOH D 412      74.813  52.067  48.108  1.00 27.18           O  
-HETATM12664  O   HOH D 413      92.085  42.280  51.972  1.00 28.46           O  
-HETATM12665  O   HOH D 414      76.765  52.131  51.262  1.00 25.40           O  
-HETATM12666  O   HOH E  24      81.624  15.436  19.172  1.00 20.91           O  
-HETATM12667  O   HOH E  45      71.898  22.918  33.811  1.00 20.23           O  
-HETATM12668  O   HOH E  46      70.721  15.183  27.854  1.00 23.42           O  
-HETATM12669  O   HOH E  49      73.319  10.634  35.948  1.00 12.50           O  
-HETATM12670  O   HOH E  67      73.235  15.165  22.452  1.00 27.86           O  
-HETATM12671  O   HOH E  79      68.901  17.860  27.816  1.00 15.18           O  
-HETATM12672  O   HOH E  85      67.224  21.438  27.982  1.00 12.35           O  
-HETATM12673  O   HOH E 108      64.205  12.237  36.843  1.00 15.52           O  
-HETATM12674  O   HOH F  45      57.699  25.218  13.358  1.00  6.31           O  
-HETATM12675  O   HOH F  68      64.187  23.849   7.250  1.00  8.07           O  
-HETATM12676  O   HOH F  75      69.684  15.421   8.485  1.00 14.72           O  
-HETATM12677  O   HOH F 101      75.870  15.356  10.132  1.00 26.40           O  
-HETATM12678  O   HOH F 116      52.513  35.170  11.379  1.00 31.28           O  
+HETATM12553  O   HOH E  24      81.624  15.436  19.172  1.00 20.91           O  
+HETATM12554  O   HOH E  45      71.898  22.918  33.811  1.00 20.23           O  
+HETATM12555  O   HOH E  46      70.721  15.183  27.854  1.00 23.42           O  
+HETATM12556  O   HOH E  49      73.319  10.634  35.948  1.00 12.50           O  
+HETATM12557  O   HOH E  67      73.235  15.165  22.452  1.00 27.86           O  
+HETATM12558  O   HOH E  79      68.901  17.860  27.816  1.00 15.18           O  
+HETATM12559  O   HOH E  85      67.224  21.438  27.982  1.00 12.35           O  
+HETATM12560  O   HOH E 108      64.205  12.237  36.843  1.00 15.52           O  
+HETATM12561  O   HOH F  45      57.699  25.218  13.358  1.00  6.31           O  
+HETATM12562  O   HOH F  68      64.187  23.849   7.250  1.00  8.07           O  
+HETATM12563  O   HOH F  75      69.684  15.421   8.485  1.00 14.72           O  
+HETATM12564  O   HOH F 101      75.870  15.356  10.132  1.00 26.40           O  
+HETATM12565  O   HOH F 116      52.513  35.170  11.379  1.00 31.28           O  
+HETATM12566  O   HOH A 388      54.967 -12.110  34.824  1.00  4.88           O  
+HETATM12567  O   HOH A 389      70.350 -23.619  45.899  1.00 11.41           O  
+HETATM12568  O   HOH A 390      72.353  -6.405  34.345  1.00 22.81           O  
+HETATM12569  O   HOH A 391      44.110  -9.654  39.490  1.00  6.36           O  
+HETATM12570  O   HOH A 392      68.571   0.447  31.535  1.00  2.00           O  
+HETATM12571  O   HOH A 393      49.876 -14.182  14.685  1.00  8.09           O  
+HETATM12572  O   HOH A 394      71.995 -17.682  56.033  1.00  2.00           O  
+HETATM12573  O   HOH A 395      65.370 -39.001  47.220  1.00 18.20           O  
+HETATM12574  O   HOH A 396      69.020  -9.749  34.679  1.00  9.17           O  
+HETATM12575  O   HOH A 397      62.527 -16.363  55.761  1.00 23.15           O  
+HETATM12576  O   HOH A 398      53.392  -0.514  58.225  1.00  8.91           O  
+HETATM12577  O   HOH A 399      89.368  -4.289  33.416  1.00 13.58           O  
+HETATM12578  O   HOH A 400      57.408 -13.499  18.580  1.00 10.56           O  
+HETATM12579  O   HOH A 402      42.114 -13.040  25.406  1.00 20.69           O  
+HETATM12580  O   HOH A 403      87.564   8.009  36.231  1.00 19.06           O  
+HETATM12581  O   HOH A 404      71.295   8.209  40.377  1.00 19.47           O  
+HETATM12582  O   HOH A 405      83.325   8.890  49.620  1.00 21.84           O  
+HETATM12583  O   HOH A 406      54.768   2.022  44.364  1.00  5.13           O  
+HETATM12584  O   HOH A 407      43.519 -30.406  40.777  1.00 11.56           O  
+HETATM12585  O   HOH A 408      84.208  -1.452  43.848  1.00 22.22           O  
+HETATM12586  O   HOH A 409      62.371 -29.770  43.836  1.00 32.78           O  
+HETATM12587  O   HOH A 410      64.923 -27.740  33.781  1.00 18.57           O  
+HETATM12588  O   HOH A 411      79.611  14.516  41.911  1.00 16.62           O  
+HETATM12589  O   HOH A 412      61.507 -11.300  25.020  1.00  8.09           O  
+HETATM12590  O   HOH A 413      53.273 -28.385  50.190  1.00 18.20           O  
+HETATM12591  O   HOH A 414      59.000 -24.828  60.350  1.00 10.07           O  
+HETATM12592  O   HOH A 415      67.152 -12.256  30.999  1.00 24.55           O  
+HETATM12593  O   HOH A 416      68.892 -14.097  48.788  1.00 24.87           O  
+HETATM12594  O   HOH A 417      90.594  -0.450  44.894  1.00 16.46           O  
+HETATM12595  O   HOH A 418      60.710 -29.540  31.056  1.00 29.93           O  
+HETATM12596  O   HOH A 419      45.076  -9.338  58.700  1.00 19.61           O  
+HETATM12597  O   HOH A 420      83.911  10.260  46.376  1.00 18.04           O  
+HETATM12598  O   HOH A 421      47.618   0.063  28.531  1.00 14.14           O  
+HETATM12599  O   HOH A 422      67.164   0.388  37.536  1.00 26.84           O  
+HETATM12600  O   HOH A 423      67.401 -28.403  31.799  1.00 28.90           O  
+HETATM12601  O   HOH A 424      47.225  -3.975  42.369  1.00  5.10           O  
+HETATM12602  O   HOH A 425      46.237  -6.608  43.167  1.00 12.95           O  
+HETATM12603  O   HOH A 426      52.317  -8.626  58.123  1.00 26.24           O  
+HETATM12604  O   HOH A 427      67.248   6.120  49.609  1.00 21.02           O  
+HETATM12605  O   HOH B 388      95.218 -10.068  36.159  1.00  5.89           O  
+HETATM12606  O   HOH B 389      78.989 -20.230  34.678  1.00  6.07           O  
+HETATM12607  O   HOH B 390      87.218  -3.631  20.498  1.00  5.50           O  
+HETATM12608  O   HOH B 391      99.405   0.608  37.688  1.00 18.05           O  
+HETATM12609  O   HOH B 392      89.276  23.487  22.932  1.00 14.05           O  
+HETATM12610  O   HOH B 393      96.620 -16.957   4.534  1.00 21.82           O  
+HETATM12611  O   HOH B 394      68.030 -20.906  20.393  1.00 16.52           O  
+HETATM12612  O   HOH B 395      95.398  15.880  25.917  1.00 26.13           O  
+HETATM12613  O   HOH B 396      89.730 -14.697   8.466  1.00  9.10           O  
+HETATM12614  O   HOH B 397      75.271 -28.256  24.650  1.00 14.02           O  
+HETATM12615  O   HOH B 398      83.073 -12.459  29.941  1.00 21.49           O  
+HETATM12616  O   HOH B 399      85.221 -27.282  22.029  1.00 18.07           O  
+HETATM12617  O   HOH B 400     104.201 -21.573  23.993  1.00 19.65           O  
+HETATM12618  O   HOH B 401     104.929 -14.352  33.216  1.00 18.02           O  
+HETATM12619  O   HOH B 403      95.598  13.636  28.943  1.00 22.34           O  
+HETATM12620  O   HOH B 404      88.736 -20.016  28.263  1.00 12.81           O  
+HETATM12621  O   HOH B 405      94.775  -4.150   3.981  1.00 19.57           O  
+HETATM12622  O   HOH C 388      30.509  20.448   9.510  1.00 16.61           O  
+HETATM12623  O   HOH C 389      57.097  35.242  11.424  1.00 19.51           O  
+HETATM12624  O   HOH C 390      39.208  48.789  14.227  1.00 13.84           O  
+HETATM12625  O   HOH C 391      53.319  49.853  11.488  1.00  2.00           O  
+HETATM12626  O   HOH C 392      39.777  28.628  10.972  1.00 18.94           O  
+HETATM12627  O   HOH C 393      38.424  46.482  12.786  1.00  9.11           O  
+HETATM12628  O   HOH C 394      44.273  47.046   0.220  1.00 24.57           O  
+HETATM12629  O   HOH C 395      38.796  17.481   3.282  1.00 12.53           O  
+HETATM12630  O   HOH C 396      79.421  29.967   4.086  1.00 24.73           O  
+HETATM12631  O   HOH C 397      48.745  17.603   1.293  1.00 16.36           O  
+HETATM12632  O   HOH C 398      40.525  39.536  30.583  1.00  7.23           O  
+HETATM12633  O   HOH C 399      49.579  36.283  15.353  1.00  8.10           O  
+HETATM12634  O   HOH C 400      78.316  33.473  10.088  1.00 11.09           O  
+HETATM12635  O   HOH C 401      48.840  40.124  -3.296  1.00 10.18           O  
+HETATM12636  O   HOH C 402      37.026  45.978  -9.128  1.00 20.94           O  
+HETATM12637  O   HOH C 404      40.365  31.334  26.987  1.00  9.69           O  
+HETATM12638  O   HOH C 405      51.761  14.436  -3.952  1.00 25.21           O  
+HETATM12639  O   HOH C 406      61.926  47.212   5.051  1.00 13.79           O  
+HETATM12640  O   HOH C 407      43.785  50.354  -2.393  1.00  6.14           O  
+HETATM12641  O   HOH C 408      58.884  24.656  -1.677  1.00 15.12           O  
+HETATM12642  O   HOH C 409      69.871  24.696   2.077  1.00  5.19           O  
+HETATM12643  O   HOH C 410      50.444  31.981  23.401  1.00 17.76           O  
+HETATM12644  O   HOH C 411      52.420  42.035  13.338  1.00 21.99           O  
+HETATM12645  O   HOH C 412      49.911  43.758  -9.981  1.00 16.21           O  
+HETATM12646  O   HOH C 413      87.203  32.373   8.712  1.00 23.33           O  
+HETATM12647  O   HOH C 414      62.685  32.767  15.252  1.00 17.07           O  
+HETATM12648  O   HOH C 415      75.454  40.960   6.065  1.00  2.00           O  
+HETATM12649  O   HOH C 416      30.899  39.014  -5.410  1.00 19.22           O  
+HETATM12650  O   HOH C 417      68.521  22.703  10.225  1.00 12.74           O  
+HETATM12651  O   HOH C 418      59.610  44.227  11.057  1.00 14.08           O  
+HETATM12652  O   HOH C 419      70.888  33.104  -5.555  1.00 15.18           O  
+HETATM12653  O   HOH D 388      82.980  42.247  26.217  1.00  2.00           O  
+HETATM12654  O   HOH D 389      72.699  52.747   9.723  1.00  2.00           O  
+HETATM12655  O   HOH D 390      69.773  42.935  25.755  1.00  2.00           O  
+HETATM12656  O   HOH D 391      64.285  53.381  37.353  1.00  2.00           O  
+HETATM12657  O   HOH D 392      91.217  48.845  12.899  1.00 19.09           O  
+HETATM12658  O   HOH D 393      55.324  58.971  43.389  1.00  3.44           O  
+HETATM12659  O   HOH D 394      53.455  48.957  36.435  1.00  6.67           O  
+HETATM12660  O   HOH D 395      89.423  55.165  49.865  1.00 27.97           O  
+HETATM12661  O   HOH D 396      90.343  67.335  20.288  1.00 10.85           O  
+HETATM12662  O   HOH D 397      60.480  55.388  17.478  1.00 17.85           O  
+HETATM12663  O   HOH D 398      60.349  48.317  16.621  1.00  2.00           O  
+HETATM12664  O   HOH D 399      73.002  77.505  35.727  1.00 21.11           O  
+HETATM12665  O   HOH D 400      50.525  44.612  14.005  1.00  5.58           O  
+HETATM12666  O   HOH D 401      54.676  39.136  16.269  1.00 18.30           O  
+HETATM12667  O   HOH D 402      94.085  62.356  16.920  1.00 23.00           O  
+HETATM12668  O   HOH D 403      74.762  48.244  42.510  1.00  2.00           O  
+HETATM12669  O   HOH D 405      84.039  67.656  18.761  1.00 25.51           O  
+HETATM12670  O   HOH D 406      87.112  57.435  13.850  1.00 27.52           O  
+HETATM12671  O   HOH D 407      61.904  46.264  15.938  1.00 14.15           O  
+HETATM12672  O   HOH D 408      53.102  62.928  21.659  1.00 20.47           O  
+HETATM12673  O   HOH D 409      52.801  59.418  22.865  1.00 10.12           O  
+HETATM12674  O   HOH D 410      43.942  40.358  30.453  1.00 35.15           O  
+HETATM12675  O   HOH D 411      79.969  50.270   6.625  1.00  2.52           O  
+HETATM12676  O   HOH D 412      74.813  52.067  48.108  1.00 27.18           O  
+HETATM12677  O   HOH D 413      92.085  42.280  51.972  1.00 28.46           O  
+HETATM12678  O   HOH D 414      76.765  52.131  51.262  1.00 25.40           O  
 CONECT 319712505                                                                
 CONECT 321312505                                                                
 CONECT 323112505                                                                
@@ -13588,5 +13595,5 @@ CONECT12549125481255012551
 CONECT1255012549                                                                
 CONECT125511254912552                                                           
 CONECT12552125421254512551                                                      
-MASTER      478    0    8   69   64    0   15    612672    6   64  124          
+MASTER      484    0    8   69   64    0   15    612672    6   64  124          
 END                                                                             

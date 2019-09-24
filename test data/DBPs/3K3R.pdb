@@ -29,48 +29,38 @@ KEYWDS   4 TRANSCRIPTION, TRANSCRIPTION REGULATION, HYDROLASE-DNA COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 MDLTYP    CA ATOMS ONLY, CHAIN E, F; P ATOMS ONLY, CHAIN A, B                   
 AUTHOR    A.P.P.ZHANG,Y.Z.PIGLI,P.A.RICE                                        
+REVDAT   3   01-NOV-17 3K3R    1       REMARK                                   
+REVDAT   2   19-JUN-13 3K3R    1       JRNL   VERSN                             
 REVDAT   1   18-AUG-10 3K3R    0                                                
-JRNL        AUTH   A.P.P.ZHANG,Y.Z.PIGLI,P.A.RICE                               
+JRNL        AUTH   A.P.ZHANG,Y.Z.PIGLI,P.A.RICE                                 
 JRNL        TITL   STRUCTURE OF THE LEXA-DNA COMPLEX AND IMPLICATIONS FOR SOS   
-JRNL        TITL 2 BOX MEASUREMENT                                              
+JRNL        TITL 2 BOX MEASUREMENT.                                             
 JRNL        REF    NATURE                        V. 466   883 2010              
 JRNL        REFN                   ISSN 0028-0836                               
+JRNL        PMID   20703307                                                     
+JRNL        DOI    10.1038/NATURE09200                                          
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.20 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : NULL                                                 
-REMARK   3   AUTHORS     : NULL                                                 
+REMARK   3   PROGRAM     : REFMAC                                               
+REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.20                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 50.00                          
 REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
-REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
-REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : NULL                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : NULL                           
 REMARK   3   NUMBER OF REFLECTIONS             : 14447                          
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   CROSS-VALIDATION METHOD          : NULL                            
 REMARK   3   FREE R VALUE TEST SET SELECTION  : NULL                            
+REMARK   3   R VALUE     (WORKING + TEST SET) : NULL                            
 REMARK   3   R VALUE            (WORKING SET) : NULL                            
 REMARK   3   FREE R VALUE                     : NULL                            
 REMARK   3   FREE R VALUE TEST SET SIZE   (%) : NULL                            
 REMARK   3   FREE R VALUE TEST SET COUNT      : NULL                            
-REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : NULL                            
-REMARK   3                                                                      
-REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
-REMARK   3   TOTAL NUMBER OF BINS USED           : NULL                         
-REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : NULL                         
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : NULL                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : NULL                         
-REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : NULL                         
-REMARK   3   BIN R VALUE           (WORKING SET) : NULL                         
-REMARK   3   BIN FREE R VALUE                    : NULL                         
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : NULL                         
-REMARK   3   BIN FREE R VALUE TEST SET COUNT     : NULL                         
-REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL                         
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
 REMARK   3   PROTEIN ATOMS            : 347                                     
@@ -89,22 +79,33 @@ REMARK   3    B12 (A**2) : NULL
 REMARK   3    B13 (A**2) : NULL                                                 
 REMARK   3    B23 (A**2) : NULL                                                 
 REMARK   3                                                                      
-REMARK   3  ESTIMATED COORDINATE ERROR.                                         
-REMARK   3   ESD FROM LUZZATI PLOT        (A) : NULL                            
-REMARK   3   ESD FROM SIGMAA              (A) : NULL                            
-REMARK   3   LOW RESOLUTION CUTOFF        (A) : NULL                            
-REMARK   3                                                                      
-REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
-REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : NULL                            
-REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL                            
+REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
+REMARK   3   ESU BASED ON R VALUE                            (A): NULL          
+REMARK   3   ESU BASED ON FREE R VALUE                       (A): NULL          
+REMARK   3   ESU BASED ON MAXIMUM LIKELIHOOD                 (A): NULL          
+REMARK   3   ESU FOR B VALUES BASED ON MAXIMUM LIKELIHOOD (A**2): NULL          
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
-REMARK   3   BOND LENGTHS                 (A) : NULL                            
-REMARK   3   BOND ANGLES            (DEGREES) : NULL                            
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
+REMARK   3   DISTANCE RESTRAINTS.                    RMS    SIGMA               
+REMARK   3    BOND LENGTH                     (A) : NULL  ; NULL                
+REMARK   3    ANGLE DISTANCE                  (A) : NULL  ; NULL                
+REMARK   3    INTRAPLANAR 1-4 DISTANCE        (A) : NULL  ; NULL                
+REMARK   3    H-BOND OR METAL COORDINATION    (A) : NULL  ; NULL                
 REMARK   3                                                                      
-REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
+REMARK   3   PLANE RESTRAINT                  (A) : NULL  ; NULL                
+REMARK   3   CHIRAL-CENTER RESTRAINT       (A**3) : NULL  ; NULL                
+REMARK   3                                                                      
+REMARK   3   NON-BONDED CONTACT RESTRAINTS.                                     
+REMARK   3    SINGLE TORSION                  (A) : NULL  ; NULL                
+REMARK   3    MULTIPLE TORSION                (A) : NULL  ; NULL                
+REMARK   3    H-BOND (X...Y)                  (A) : NULL  ; NULL                
+REMARK   3    H-BOND (X-H...Y)                (A) : NULL  ; NULL                
+REMARK   3                                                                      
+REMARK   3   CONFORMATIONAL TORSION ANGLE RESTRAINTS.                           
+REMARK   3    SPECIFIED                 (DEGREES) : NULL  ; NULL                
+REMARK   3    PLANAR                    (DEGREES) : NULL  ; NULL                
+REMARK   3    STAGGERED                 (DEGREES) : NULL  ; NULL                
+REMARK   3    TRANSVERSE                (DEGREES) : NULL  ; NULL                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
 REMARK   3   MAIN-CHAIN BOND              (A**2) : NULL  ; NULL                 
@@ -112,22 +113,13 @@ REMARK   3   MAIN-CHAIN ANGLE             (A**2) : NULL  ; NULL
 REMARK   3   SIDE-CHAIN BOND              (A**2) : NULL  ; NULL                 
 REMARK   3   SIDE-CHAIN ANGLE             (A**2) : NULL  ; NULL                 
 REMARK   3                                                                      
-REMARK   3  NCS MODEL : NULL                                                    
-REMARK   3                                                                      
-REMARK   3  NCS RESTRAINTS.                         RMS   SIGMA/WEIGHT          
-REMARK   3   GROUP  1  POSITIONAL            (A) : NULL  ; NULL                 
-REMARK   3   GROUP  1  B-FACTOR           (A**2) : NULL  ; NULL                 
-REMARK   3                                                                      
-REMARK   3  PARAMETER FILE  1  : NULL                                           
-REMARK   3  TOPOLOGY FILE  1   : NULL                                           
-REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: THIS IS AN UNREFINED, CA/P ONLY,          
 REMARK   3  PROTEIN/DNA CRYSTAL STRUCTURE                                       
 REMARK   4                                                                      
-REMARK   4 3K3R COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3K3R COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 07-OCT-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB055508.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000055508.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -147,8 +139,8 @@ REMARK 200  OPTICS                         : MIRROS
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 210R                  
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL-2000                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK, HKL-2000                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 14447                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.200                              
@@ -305,11 +297,11 @@ REMARK 465      DG B     1
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 3JSO   RELATED DB: PDB                                   
-REMARK 900 SAME PROTEIN WITH A 22MER DNA CONTAINING AT-REPEATS IN THE           
-REMARK 900 SPACER REGION                                                        
+REMARK 900 SAME PROTEIN WITH A 22MER DNA CONTAINING AT-REPEATS IN THE SPACER    
+REMARK 900 REGION                                                               
 REMARK 900 RELATED ID: 3JSP   RELATED DB: PDB                                   
-REMARK 900 SAME PROTEIN WITH A 22MER DNA CONTAINING GC-REPEATS IN THE           
-REMARK 900 SPACER REGION                                                        
+REMARK 900 SAME PROTEIN WITH A 22MER DNA CONTAINING GC-REPEATS IN THE SPACER    
+REMARK 900 REGION                                                               
 DBREF  3K3R E    1   202  UNP    P0A7C2   LEXA_ECOLI       1    202             
 DBREF  3K3R F    1   202  UNP    P0A7C2   LEXA_ECOLI       1    202             
 DBREF  3K3R A    1    29  PDB    3K3R     3K3R             1     29             
@@ -768,5 +760,5 @@ ATOM    404  P    DC B  27     -11.192  17.338 -16.390  1.00118.82           P
 ATOM    405  P    DA B  28     -11.545  22.170 -19.637  1.00118.82           P  
 ATOM    406  P    DA B  29     -16.190  27.854 -20.092  1.00118.82           P  
 TER     407       DA B  29                                                      
-MASTER      275    0    0    0    0    0    0    6  403    4    0   38          
+MASTER      263    0    0    0    0    0    0    6  403    4    0   38          
 END                                                                             

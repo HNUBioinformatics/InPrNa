@@ -1,12 +1,12 @@
 HEADER    HYDROLASE/DNA                           19-APR-08   3CVT              
-TITLE     CRYSTAL STRUCTURE OF AN ALKA HOST/GUEST COMPLEX                       
-TITLE    2 8OXOGUANINE:CYTOSINE BASE PAIR                                       
+TITLE     CRYSTAL STRUCTURE OF AN ALKA HOST/GUEST COMPLEX 8OXOGUANINE:CYTOSINE  
+TITLE    2 BASE PAIR                                                            
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA-3-METHYLADENINE GLYCOSYLASE 2;                         
 COMPND   3 CHAIN: A, B, C, D;                                                   
-COMPND   4 SYNONYM: DNA-3-METHYLADENINE GLYCOSYLASE II, 3-                      
-COMPND   5 METHYLADENINE-DNA GLYCOSYLASE II, INDUCIBLE, TAG II, DNA-3-          
-COMPND   6 METHYLADENINE GLYCOSIDASE II;                                        
+COMPND   4 SYNONYM: DNA-3-METHYLADENINE GLYCOSYLASE II, 3-METHYLADENINE-DNA     
+COMPND   5 GLYCOSYLASE II, INDUCIBLE, TAG II, DNA-3-METHYLADENINE GLYCOSIDASE   
+COMPND   6 II;                                                                  
 COMPND   7 EC: 3.2.2.21;                                                        
 COMPND   8 ENGINEERED: YES;                                                     
 COMPND   9 MOL_ID: 2;                                                           
@@ -16,8 +16,8 @@ COMPND  12 CHAIN: E, G;
 COMPND  13 ENGINEERED: YES;                                                     
 COMPND  14 OTHER_DETAILS: 8OXOGUANINE CONTAINING DNA;                           
 COMPND  15 MOL_ID: 3;                                                           
-COMPND  16 MOLECULE: DNA (5'-                                                   
-COMPND  17 D(*DGP*DGP*DCP*DAP*DCP*DTP*DCP*DAP*DTP*DGP*DTP*DC)-3');              
+COMPND  16 MOLECULE: DNA (5'-D(*DGP*DGP*DCP*DAP*DCP*DTP*DCP*DAP*DTP*DGP*DTP*DC)-
+COMPND  17 3');                                                                 
 COMPND  18 CHAIN: F, H;                                                         
 COMPND  19 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
@@ -34,30 +34,30 @@ SOURCE  11 MOL_ID: 2;
 SOURCE  12 SYNTHETIC: YES;                                                      
 SOURCE  13 MOL_ID: 3;                                                           
 SOURCE  14 SYNTHETIC: YES                                                       
-KEYWDS    ALKA, 8OXOGUANINE, DNA REPAIR, HOST/GUEST COMPLEX, DNA                
-KEYWDS   2 STRUCTURE, DNA DAMAGE, HYDROLASE, HYDROLASE/DNA COMPLEX              
+KEYWDS    ALKA, 8OXOGUANINE, DNA REPAIR, HOST-GUEST COMPLEX, DNA STRUCTURE, DNA 
+KEYWDS   2 DAMAGE, HYDROLASE, HYDROLASE-DNA COMPLEX                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    B.R.BOWMAN,S.LEE,S.WANG,G.L.VERDINE                                   
+REVDAT   5   25-OCT-17 3CVT    1       REMARK                                   
 REVDAT   4   24-FEB-09 3CVT    1       VERSN                                    
 REVDAT   3   18-NOV-08 3CVT    1       COMPND                                   
 REVDAT   2   09-SEP-08 3CVT    1       SOURCE                                   
 REVDAT   1   02-SEP-08 3CVT    0                                                
 JRNL        AUTH   B.R.BOWMAN,S.LEE,S.WANG,G.L.VERDINE                          
-JRNL        TITL   STRUCTURE OF THE E. COLI DNA GLYCOSYLASE ALKA                
-JRNL        TITL 2 BOUND TO THE ENDS OF DUPLEX DNA: A SYSTEM FOR THE            
-JRNL        TITL 3 STRUCTURE DETERMINATION OF LESION-CONTAINING DNA.            
+JRNL        TITL   STRUCTURE OF THE E. COLI DNA GLYCOSYLASE ALKA BOUND TO THE   
+JRNL        TITL 2 ENDS OF DUPLEX DNA: A SYSTEM FOR THE STRUCTURE DETERMINATION 
+JRNL        TITL 3 OF LESION-CONTAINING DNA.                                    
 JRNL        REF    STRUCTURE                     V.  16  1166 2008              
 JRNL        REFN                   ISSN 0969-2126                               
 JRNL        PMID   18682218                                                     
 JRNL        DOI    10.1016/J.STR.2008.04.012                                    
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -158,10 +158,10 @@ REMARK   3  TOPOLOGY FILE  6   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3CVT COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 3CVT COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 29-APR-08.                  
-REMARK 100 THE RCSB ID CODE IS RCSB047272.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000047272.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -181,8 +181,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : NULL                               
 REMARK 200  DETECTOR MANUFACTURER          : NULL                               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 52651                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.500                              
@@ -264,10 +264,29 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 10760 ANGSTROM**2                         
 REMARK 350 SURFACE AREA OF THE COMPLEX: 53470 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -57.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, D, B, C, G, H, E, F                
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, E, F, G, H                
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    PRO B 150   C   -  N   -  CA  ANGL. DEV. =   9.9 DEGREES          
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: TORSION ANGLES                                             
@@ -10468,5 +10487,5 @@ CONECT 9474 9472 9475
 CONECT 9475 9465 9468 9474                                                      
 CONECT 9476 9466                                                                
 CONECT 9477 9462                                                                
-MASTER      279    0    2   65   26    0    0    6 9863    8   50   92          
+MASTER      297    0    2   65   26    0    0    6 9863    8   50   92          
 END                                                                             

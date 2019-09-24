@@ -31,7 +31,8 @@ KEYWDS    PUF3, PUMILIO, RNA BINDING, MITOCHONDRIAL MRNA, MEMBRANE,
 KEYWDS   2 MITOCHONDRION, MITOCHONDRION OUTER MEMBRANE, PHOSPHOPROTEIN, RNA-    
 KEYWDS   3 BINDING, RNA BINDING PROTEIN - RNA COMPLEX                           
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    D.ZHU,C.R.STUMPF,J.M.KRAHN,M.WICKENS,T.M.T HALL                       
+AUTHOR    D.ZHU,C.R.STUMPF,J.M.KRAHN,M.WICKENS,T.M.T.HALL                       
+REVDAT   3   24-JAN-18 3K4E    1       AUTHOR                                   
 REVDAT   2   09-FEB-11 3K4E    1       JRNL                                     
 REVDAT   1   27-OCT-09 3K4E    0                                                
 JRNL        AUTH   D.ZHU,C.R.STUMPF,J.M.KRAHN,M.WICKENS,T.M.HALL                
@@ -46,15 +47,14 @@ REMARK   2 RESOLUTION.    3.20 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX                                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ENGH & HUBER                                  
 REMARK   3                                                                      
@@ -119,10 +119,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3K4E COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3K4E COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 07-OCT-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB055531.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000055531.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -387,31 +387,6 @@ REMARK 500      C D   1   OP1 -  P   -  OP2 ANGL. DEV. = -12.1 DEGREES
 REMARK 500      C F   1   OP1 -  P   -  OP2 ANGL. DEV. = -12.1 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH F  46        DISTANCE =  5.17 ANGSTROMS                       
-REMARK 525    HOH A  30        DISTANCE =  5.69 ANGSTROMS                       
-REMARK 525    HOH A  43        DISTANCE =  7.21 ANGSTROMS                       
-REMARK 525    HOH C  76        DISTANCE =  6.20 ANGSTROMS                       
-REMARK 525    HOH E  65        DISTANCE =  5.59 ANGSTROMS                       
-REMARK 525    HOH C  80        DISTANCE =  5.36 ANGSTROMS                       
-REMARK 525    HOH A  49        DISTANCE =  5.28 ANGSTROMS                       
-REMARK 525    HOH E  74        DISTANCE =  7.86 ANGSTROMS                       
-REMARK 525    HOH E  83        DISTANCE =  6.29 ANGSTROMS                       
-REMARK 525    HOH E  84        DISTANCE =  5.95 ANGSTROMS                       
-REMARK 525    HOH A  88        DISTANCE =  5.06 ANGSTROMS                       
-REMARK 525    HOH A  90        DISTANCE =  5.92 ANGSTROMS                       
-REMARK 525    HOH A  93        DISTANCE =  7.94 ANGSTROMS                       
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 3K49   RELATED DB: PDB                                   
@@ -9649,5 +9624,5 @@ HETATM 9039  O   HOH F  11      17.638   1.606 -28.668  1.00 42.60           O
 HETATM 9040  O   HOH F  12      19.286  16.988 -12.562  1.00 29.68           O  
 HETATM 9041  O   HOH F  33      18.112   6.590 -31.637  1.00 37.66           O  
 HETATM 9042  O   HOH F  46      16.042   4.377 -16.915  1.00 17.41           O  
-MASTER      375    0    0   87    0    0    0    6 9036    6    0   90          
+MASTER      349    0    0   87    0    0    0    6 9036    6    0   90          
 END                                                                             

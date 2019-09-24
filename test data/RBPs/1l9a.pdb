@@ -1,6 +1,6 @@
 HEADER    SIGNALING PROTEIN/RNA                   22-MAR-02   1L9A              
-TITLE     CRYSTAL STRUCTURE OF SRP19 IN COMPLEX WITH THE S DOMAIN OF            
-TITLE    2 SIGNAL RECOGNITION PARTICLE RNA                                      
+TITLE     CRYSTAL STRUCTURE OF SRP19 IN COMPLEX WITH THE S DOMAIN OF SIGNAL     
+TITLE    2 RECOGNITION PARTICLE RNA                                             
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: SIGNAL RECOGNITION PARTICLE RNA S DOMAIN;                  
 COMPND   3 CHAIN: B;                                                            
@@ -17,11 +17,11 @@ COMPND  13 ENGINEERED: YES;
 COMPND  14 MUTATION: YES                                                        
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
-SOURCE   3 OTHER_DETAILS: THIS SEQUENCE IS 7SL RNA FROM HOMO SAPIENS.           
-SOURCE   4 128 NT RNA FRAGMENT WAS IN VITRO TRANSCRIBED UNDER CONTROL           
-SOURCE   5 OF A T7 PROMOTER WITH T7 RNA POLYMERASE. IT WAS                      
-SOURCE   6 COTRANSCRIBED WITH 2 CIS-ACTING HAMMERHEAD RIBOZYMES TO              
-SOURCE   7 CLEAVE HOMOGENEOUS RNA FROM THE FULL LENGTH TRANSCRIPT.;             
+SOURCE   3 OTHER_DETAILS: THIS SEQUENCE IS 7SL RNA FROM HOMO SAPIENS. 128 NT    
+SOURCE   4 RNA FRAGMENT WAS IN VITRO TRANSCRIBED UNDER CONTROL OF A T7 PROMOTER 
+SOURCE   5 WITH T7 RNA POLYMERASE. IT WAS COTRANSCRIBED WITH 2 CIS-ACTING       
+SOURCE   6 HAMMERHEAD RIBOZYMES TO CLEAVE HOMOGENEOUS RNA FROM THE FULL LENGTH  
+SOURCE   7 TRANSCRIPT.;                                                         
 SOURCE   8 MOL_ID: 2;                                                           
 SOURCE   9 ORGANISM_SCIENTIFIC: METHANOCALDOCOCCUS JANNASCHII;                  
 SOURCE  10 ORGANISM_TAXID: 2190;                                                
@@ -31,29 +31,28 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 562;
 SOURCE  14 EXPRESSION_SYSTEM_STRAIN: C41 (DE3);                                 
 SOURCE  15 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  16 EXPRESSION_SYSTEM_PLASMID: PRET3A                                    
-KEYWDS    PROTEIN-RNA COMPLEX, RIBONUCLEOPROTEIN, SRP, SIGNAL                   
-KEYWDS   2 RECOGNITION PARTICLE, TETRALOOP, SIGNALING PROTEIN/RNA               
-KEYWDS   3 COMPLEX                                                              
+KEYWDS    PROTEIN-RNA COMPLEX, RIBONUCLEOPROTEIN, SRP, SIGNAL RECOGNITION       
+KEYWDS   2 PARTICLE, TETRALOOP, SIGNALING PROTEIN-RNA COMPLEX                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.OUBRIDGE,A.KUGLSTATTER,L.JOVINE,K.NAGAI                             
+REVDAT   3   24-JUL-19 1L9A    1       REMARK LINK                              
 REVDAT   2   24-FEB-09 1L9A    1       VERSN                                    
 REVDAT   1   28-JUN-02 1L9A    0                                                
 JRNL        AUTH   C.OUBRIDGE,A.KUGLSTATTER,L.JOVINE,K.NAGAI                    
-JRNL        TITL   CRYSTAL STRUCTURE OF SRP19 IN COMPLEX WITH THE S             
-JRNL        TITL 2 DOMAIN OF SRP RNA AND ITS IMPLICATION FOR THE                
-JRNL        TITL 3 ASSEMBLY OF THE SIGNAL RECOGNITION PARTICLE.                 
+JRNL        TITL   CRYSTAL STRUCTURE OF SRP19 IN COMPLEX WITH THE S DOMAIN OF   
+JRNL        TITL 2 SRP RNA AND ITS IMPLICATION FOR THE ASSEMBLY OF THE SIGNAL   
+JRNL        TITL 3 RECOGNITION PARTICLE.                                        
 JRNL        REF    MOL.CELL                      V.   9  1251 2002              
 JRNL        REFN                   ISSN 1097-2765                               
 JRNL        PMID   12086622                                                     
 JRNL        DOI    10.1016/S1097-2765(02)00530-0                                
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.90 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : CNS 1.1, REFMAC                                      
+REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : CNS/REFMAC DICTIONARIES                         
@@ -95,7 +94,7 @@ REMARK   3   HETEROGEN ATOMS          : 26
 REMARK   3   SOLVENT ATOMS            : 30                                      
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 114.60                         
+REMARK   3   FROM WILSON PLOT           (A**2) : 114.6                          
 REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 98.20                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
 REMARK   3    B11 (A**2) : 50.12000                                             
@@ -116,9 +115,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.60
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.10                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.100                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 17.50                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.24                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.240                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -154,13 +153,13 @@ REMARK   3  TOPOLOGY FILE  5   : LJ_PRO_010.TOP
 REMARK   3  TOPOLOGY FILE  6   : LJ_RNA_010.TOP                                 
 REMARK   3  TOPOLOGY FILE  7   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: REFMAC5.1 (MURSHUDOV) WAS ALSO USED       
-REMARK   3  IN REFINEMENT.                                                      
+REMARK   3  OTHER REFINEMENT REMARKS: REFMAC5.1 (MURSHUDOV) WAS ALSO USED IN    
+REMARK   3  REFINEMENT.                                                         
 REMARK   4                                                                      
-REMARK   4 1L9A COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1L9A COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 28-MAR-02.                  
-REMARK 100 THE RCSB ID CODE IS RCSB015756.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000015756.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -206,7 +205,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 3.100
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MAD                          
-REMARK 200 SOFTWARE USED: SOLVE, SHARP, SOLOMON, EDEN, CNS                      
+REMARK 200 SOFTWARE USED: SHARP, SOLOMON, SOLVE, EDEN, CNS                      
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: ORIGINAL PHASES WERE DETERMINED BY SELENOMETHIONINE MAD      
@@ -325,15 +324,16 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                             MMC A  88  HG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1 CYS A  74   SG                                                     
-REMARK 620 2 TYR A  68   OH   99.5                                              
-REMARK 620 N                    1                                               
+REMARK 620 2 MMC A  88   C   162.3                                              
+REMARK 620 3 TYR A  68   OH   99.5  65.2                                        
+REMARK 620 N                    1     2                                         
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG B 108  MG                            
@@ -408,72 +408,95 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 101                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 102                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 103                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 104                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 105                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 106                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 107                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 108                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 110                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 111                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 240                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 241                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 242                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 243                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 244                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 245                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC8                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 246                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: BC9                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 247                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 248                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 249                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 250                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 251                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 124                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: CC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MMC A 88                  
@@ -512,7 +535,6 @@ HET     MG  B 103       1
 HET     MG  B 104       1                                                       
 HET     MG  B 105       1                                                       
 HET     MG  B 106       1                                                       
-HET     MG  A 107       1                                                       
 HET     MG  B 108       1                                                       
 HET     MG  B 109       1                                                       
 HET     MG  B 110       1                                                       
@@ -529,6 +551,7 @@ HET     MG  B 248       1
 HET     MG  B 249       1                                                       
 HET     MG  B 250       1                                                       
 HET     MG  B 251       1                                                       
+HET     MG  A 107       1                                                       
 HET     MG  A 124       1                                                       
 HET    MMC  A  88       2                                                       
 HETNAM     CCC CYTIDINE-5'-PHOSPHATE-2',3'-CYCLIC PHOSPHATE                     
@@ -4188,5 +4211,5 @@ CONECT 3473 3448
 CONECT 3474 3448 3449                                                           
 CONECT 3476 3447                                                                
 CONECT 3480 3445                                                                
-MASTER      431    0   26    4    3    0   25    6 3489    2   81   17          
+MASTER      454    0   26    4    3    0   25    6 3489    2   81   17          
 END                                                                             

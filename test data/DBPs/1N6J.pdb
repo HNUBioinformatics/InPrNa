@@ -1,29 +1,26 @@
 HEADER    TRANSCRIPTION/DNA                       11-NOV-02   1N6J              
-TITLE     STRUCTURAL BASIS OF SEQUENCE-SPECIFIC RECRUITMENT OF                  
-TITLE    2 HISTONE DEACETYLASES BY MYOCYTE ENHANCER FACTOR-2                    
+TITLE     STRUCTURAL BASIS OF SEQUENCE-SPECIFIC RECRUITMENT OF HISTONE          
+TITLE    2 DEACETYLASES BY MYOCYTE ENHANCER FACTOR-2                            
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-D(*AP*GP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*C)-           
-COMPND   3 3';                                                                  
-COMPND   4 CHAIN: C;                                                            
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: 5'-D(*GP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*CP*T)-           
-COMPND   8 3';                                                                  
-COMPND   9 CHAIN: D;                                                            
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: MYOCYTE-SPECIFIC ENHANCER FACTOR 2B;                       
-COMPND  13 CHAIN: A, B;                                                         
-COMPND  14 FRAGMENT: RESIDUES 2-91, MADS-BOX/MEF2S DOMAIN;                      
-COMPND  15 SYNONYM: SERUM RESPONSE FACTOR-LIKE PROTEIN 2, XMEF2,                
-COMPND  16 RSRFR2;                                                              
-COMPND  17 ENGINEERED: YES;                                                     
-COMPND  18 MOL_ID: 4;                                                           
-COMPND  19 MOLECULE: CALCINEURIN-BINDING PROTEIN CABIN 1;                       
-COMPND  20 CHAIN: G;                                                            
-COMPND  21 FRAGMENT: RESIDUES 101-132, CABIN1, MEF2-BINDING DOMAIN;             
-COMPND  22 SYNONYM: CALCINEURIN INHIBITOR, CAIN;                                
-COMPND  23 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-D(*AP*GP*CP*TP*AP*TP*TP*TP*AP*TP*AP*AP*GP*C)-3';        
+COMPND   3 CHAIN: C;                                                            
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: 5'-D(*GP*CP*TP*TP*AP*TP*AP*AP*AP*TP*AP*GP*CP*T)-3';        
+COMPND   7 CHAIN: D;                                                            
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: MYOCYTE-SPECIFIC ENHANCER FACTOR 2B;                       
+COMPND  11 CHAIN: A, B;                                                         
+COMPND  12 FRAGMENT: RESIDUES 2-91, MADS-BOX/MEF2S DOMAIN;                      
+COMPND  13 SYNONYM: SERUM RESPONSE FACTOR-LIKE PROTEIN 2, XMEF2, RSRFR2;        
+COMPND  14 ENGINEERED: YES;                                                     
+COMPND  15 MOL_ID: 4;                                                           
+COMPND  16 MOLECULE: CALCINEURIN-BINDING PROTEIN CABIN 1;                       
+COMPND  17 CHAIN: G;                                                            
+COMPND  18 FRAGMENT: RESIDUES 101-132, CABIN1, MEF2-BINDING DOMAIN;             
+COMPND  19 SYNONYM: CALCINEURIN INHIBITOR, CHAIN;                               
+COMPND  20 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
@@ -42,10 +39,12 @@ SOURCE  15 ORGANISM_TAXID: 9606;
 SOURCE  16 GENE: CABIN1 OR KIAA0330;                                            
 SOURCE  17 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE  18 EXPRESSION_SYSTEM_TAXID: 562                                         
-KEYWDS    MADS-BOX, PROTEIN-DNA COMPLEX, HISTONE DEACETYLASES,                  
-KEYWDS   2 TRANSCRIPTION/DNA COMPLEX                                            
+KEYWDS    MADS-BOX, PROTEIN-DNA COMPLEX, HISTONE DEACETYLASES, TRANSCRIPTION-   
+KEYWDS   2 DNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
+NUMMDL    2                                                                     
 AUTHOR    A.HAN,F.PAN,J.C.STROUD,H.D.YOUN,J.O.LIU,L.CHEN                        
+REVDAT   3   09-SEP-15 1N6J    1       VERSN                                    
 REVDAT   2   24-FEB-09 1N6J    1       VERSN                                    
 REVDAT   1   11-NOV-03 1N6J    0                                                
 JRNL        AUTH   A.HAN,F.PAN,J.C.STROUD,H.D.YOUN,J.O.LIU,L.CHEN               
@@ -55,14 +54,13 @@ JRNL        REF    NATURE                        V. 422   730 2003
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   12700764                                                     
 JRNL        DOI    10.1038/NATURE01555                                          
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -125,9 +123,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.34
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.10                            
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 19.60                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.02                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.100                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 19.600                          
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.020                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -157,10 +155,11 @@ REMARK   3  TOPOLOGY FILE  2   : DNA-RNA.TOP
 REMARK   3  TOPOLOGY FILE  3   : WATER.TOP                                      
 REMARK   3  TOPOLOGY FILE  4   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: THERE ARE TWO MODELS REPRESENTED IN       
-REMARK   3  THIS ENTRY (MODEL 1 AND MODEL 2) CONTAINING 5 CHAINS (ABGCD)        
-REMARK   3  EACH. MOLECULES ABGCD IN MODEL 1 IS AN ALTERNATIVE                  
-REMARK   3  CONFORMATION TO THE MOLECULES ABGCD IN MODEL 2.                     
+REMARK   3  OTHER REFINEMENT REMARKS:                                           
+REMARK   3  THERE ARE TWO MODELS REPRESENTED IN THIS ENTRY (MODEL 1 AND MODEL   
+REMARK   3  2)                                                                  
+REMARK   3  CONTAINING 5 CHAINS (ABGCD) EACH. MOLECULES ABGCD IN MODEL 1 IS AN  
+REMARK   3  ALTERNATIVE CONFORMATION TO THE MOLECULES ABGCD IN MODEL 2.         
 REMARK   4                                                                      
 REMARK   4 1N6J COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
 REMARK 100                                                                      
@@ -390,20 +389,21 @@ REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE
 REMARK 525 NUMBER; I=INSERTION CODE):                                           
 REMARK 525                                                                      
 REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH G 135        DISTANCE =  5.66 ANGSTROMS                       
-REMARK 525    HOH C  27        DISTANCE =  5.02 ANGSTROMS                       
-REMARK 525    HOH C  33        DISTANCE =  5.52 ANGSTROMS                       
 REMARK 525    HOH A 115        DISTANCE =  5.72 ANGSTROMS                       
 REMARK 525    HOH A 121        DISTANCE = 12.10 ANGSTROMS                       
 REMARK 525    HOH A 123        DISTANCE =  5.26 ANGSTROMS                       
-REMARK 525    HOH B 123        DISTANCE =  7.85 ANGSTROMS                       
 REMARK 525    HOH A 124        DISTANCE =  6.59 ANGSTROMS                       
 REMARK 525    HOH A 126        DISTANCE =  6.01 ANGSTROMS                       
-REMARK 525    HOH B 129        DISTANCE =  5.66 ANGSTROMS                       
 REMARK 525    HOH A 130        DISTANCE =  6.33 ANGSTROMS                       
-REMARK 525    HOH B 131        DISTANCE =  5.82 ANGSTROMS                       
 REMARK 525    HOH A 152        DISTANCE = 12.88 ANGSTROMS                       
+REMARK 525    HOH B 123        DISTANCE =  7.85 ANGSTROMS                       
+REMARK 525    HOH B 126        DISTANCE =  6.28 ANGSTROMS                       
+REMARK 525    HOH B 129        DISTANCE =  5.66 ANGSTROMS                       
+REMARK 525    HOH B 131        DISTANCE =  5.82 ANGSTROMS                       
 REMARK 525    HOH B 169        DISTANCE =  5.82 ANGSTROMS                       
+REMARK 525    HOH C  27        DISTANCE =  5.02 ANGSTROMS                       
+REMARK 525    HOH C  33        DISTANCE =  5.52 ANGSTROMS                       
+REMARK 525    HOH G 135        DISTANCE =  5.66 ANGSTROMS                       
 DBREF  1N6J A    2    94  UNP    Q02080   MEF2B_HUMAN      2     94             
 DBREF  1N6J B    2    94  UNP    Q02080   MEF2B_HUMAN      2     94             
 DBREF  1N6J G   98   132  UNP    Q9Y6J0   CABIN_HUMAN   2156   2190             
@@ -5469,5 +5469,5 @@ HETATM 2504  O   HOH G 148      10.704  13.984  42.534  1.00 77.51           O
 HETATM 2505  O   HOH G 149       9.678  13.420  61.929  1.00 57.31           O  
 HETATM 2506  O   HOH G 150      16.386   9.821  57.457  1.00 63.69           O  
 ENDMDL                                                                          
-MASTER      349    0    0    7    6    0    0    6 5002   10    0   23          
+MASTER      350    0    0    7    6    0    0    6 2501    5    0   23          
 END                                                                             

@@ -44,6 +44,7 @@ KEYWDS   3 TRANSCRIPTION UPREGULATION, DNA BINDING PROTEIN-DNA COMPLEX, DNA
 KEYWDS   4 BINDING PROTEIN, DNA                                                 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.KIM,P.HUANG,F.RASTINEJAD,S.KHORASANIZADEH                           
+REVDAT   2   08-NOV-17 3OA6    1       REMARK                                   
 REVDAT   1   18-AUG-10 3OA6    0                                                
 SPRSDE     18-AUG-10 3OA6      3M9P                                             
 JRNL        AUTH   D.KIM,B.J.BLUS,V.CHANDRA,P.HUANG,F.RASTINEJAD,               
@@ -147,8 +148,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):   858 ; 1.473 ; 2.000       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   345 ; 0.245 ; 2.000       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  1373 ; 2.557 ; 3.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2070 ; 1.273 ; 2.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2842 ; 2.073 ; 3.000       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -242,10 +248,10 @@ REMARK   3
 REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
 REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 3OA6 COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3OA6 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 05-AUG-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB060858.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000060858.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -265,8 +271,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : NULL                               
 REMARK 200  DETECTOR MANUFACTURER          : NULL                               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 17458                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.350                              
@@ -532,16 +538,16 @@ REMARK 500     DG D  16   O4' -  C1' -  N9  ANGL. DEV. =   6.4 DEGREES
 REMARK 500     DC E   2   C4' -  C3' -  C2' ANGL. DEV. =  -7.0 DEGREES          
 REMARK 500     DC E   2   C3' -  C2' -  C1' ANGL. DEV. =  -4.9 DEGREES          
 REMARK 500     DC E   2   O4' -  C1' -  N1  ANGL. DEV. =   3.1 DEGREES          
-REMARK 500     DG E   5   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
+REMARK 500     DG E   5   O4' -  C1' -  N9  ANGL. DEV. =   4.8 DEGREES          
 REMARK 500     DG E   6   O4' -  C1' -  N9  ANGL. DEV. =   5.8 DEGREES          
 REMARK 500     DG E   6   C2  -  N3  -  C4  ANGL. DEV. =  -3.5 DEGREES          
 REMARK 500     DG E   6   N3  -  C4  -  C5  ANGL. DEV. =   3.4 DEGREES          
 REMARK 500     DG E   6   N3  -  C4  -  N9  ANGL. DEV. =  -4.4 DEGREES          
-REMARK 500     DA E  11   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
 REMARK 500     DA E  10   C3' -  O3' -  P   ANGL. DEV. =  -7.3 DEGREES          
+REMARK 500     DA E  11   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
 REMARK 500     DG E  12   O4' -  C4' -  C3' ANGL. DEV. =   3.8 DEGREES          
 REMARK 500     DG E  12   C1' -  O4' -  C4' ANGL. DEV. =  -7.1 DEGREES          
-REMARK 500     DG E  12   O4' -  C1' -  N9  ANGL. DEV. =   2.3 DEGREES          
+REMARK 500     DG E  12   O4' -  C1' -  N9  ANGL. DEV. =   2.2 DEGREES          
 REMARK 500     DG E  12   N3  -  C4  -  C5  ANGL. DEV. =   4.1 DEGREES          
 REMARK 500     DG E  12   C4  -  C5  -  N7  ANGL. DEV. =   3.5 DEGREES          
 REMARK 500     DG E  12   C5  -  N7  -  C8  ANGL. DEV. =  -3.8 DEGREES          
@@ -582,32 +588,6 @@ REMARK 500  M RES CSSEQI        PSI       PHI
 REMARK 500    MLZ G  20     -132.99     57.82                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH B 107        DISTANCE =  5.59 ANGSTROMS                       
-REMARK 525    HOH D  77        DISTANCE =  7.53 ANGSTROMS                       
-REMARK 525    HOH D 101        DISTANCE =  5.74 ANGSTROMS                       
-REMARK 525    HOH C  69        DISTANCE =  7.00 ANGSTROMS                       
-REMARK 525    HOH E 133        DISTANCE =  6.16 ANGSTROMS                       
-REMARK 525    HOH D 127        DISTANCE =  5.94 ANGSTROMS                       
-REMARK 525    HOH F 132        DISTANCE =  5.17 ANGSTROMS                       
-REMARK 525    HOH B 111        DISTANCE =  6.36 ANGSTROMS                       
-REMARK 525    HOH C  78        DISTANCE =  6.19 ANGSTROMS                       
-REMARK 525    HOH A 111        DISTANCE =  6.15 ANGSTROMS                       
-REMARK 525    HOH A 119        DISTANCE =  5.73 ANGSTROMS                       
-REMARK 525    HOH A 120        DISTANCE =  6.16 ANGSTROMS                       
-REMARK 525    HOH B 122        DISTANCE =  5.02 ANGSTROMS                       
-REMARK 525    HOH B 132        DISTANCE =  6.57 ANGSTROMS                       
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
@@ -6296,5 +6276,5 @@ CONECT 2744 2743 2745
 CONECT 2745 2744 2746                                                           
 CONECT 2746 2745 2747                                                           
 CONECT 2747 2743 2746                                                           
-MASTER      563    0    2    4   10    0    1    6 2848    7   17   28          
+MASTER      542    0    2    4   10    0    1    6 2848    7   17   28          
 END                                                                             

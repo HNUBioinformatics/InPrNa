@@ -23,6 +23,7 @@ SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PET16B DERIVATIVE
 KEYWDS    PROTEIN-RNA COMPLEX, PROTEIN-RNA COMPLEX COMPLEX                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.HAMMA,A.FERRE-D'AMARE                                               
+REVDAT   4   31-JAN-18 1SDS    1       REMARK                                   
 REVDAT   3   16-NOV-11 1SDS    1       VERSN  HETATM                            
 REVDAT   2   24-FEB-09 1SDS    1       VERSN                                    
 REVDAT   1   18-MAY-04 1SDS    0                                                
@@ -66,7 +67,7 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.80                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.91                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 8449                         
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2460                       
 REMARK   3   BIN FREE R VALUE                    : 0.2750                       
@@ -102,9 +103,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.20
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.004                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.20                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.200                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.20                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.24                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.240                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -138,10 +139,10 @@ REMARK   3  TOPOLOGY FILE  5   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1SDS COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1SDS COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 02-MAR-04.                  
-REMARK 100 THE RCSB ID CODE IS RCSB021622.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000021622.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -198,7 +199,7 @@ REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.21
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 400, CALCIUM CHLORIDE, HEPES,        
 REMARK 280  POTASSIUM CHLORIDE, PH 7.5, VAPOR DIFFUSION, HANGING DROP,          
-REMARK 280  TEMPERATURE 22K                                                     
+REMARK 280  TEMPERATURE 22K, TEMPERATURE 295.0K                                 
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: F 2 2 2                          
@@ -306,11 +307,11 @@ REMARK 375 POSITIONS.
 REMARK 375                                                                      
 REMARK 375 ATOM RES CSSEQI                                                      
 REMARK 375      HOH D 933  LIES ON A SPECIAL POSITION.                          
-REMARK 375      HOH D1122  LIES ON A SPECIAL POSITION.                          
-REMARK 375      HOH E1123  LIES ON A SPECIAL POSITION.                          
-REMARK 375      HOH E 864  LIES ON A SPECIAL POSITION.                          
-REMARK 375      HOH F 988  LIES ON A SPECIAL POSITION.                          
 REMARK 375      HOH D1048  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH D1122  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH E 864  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH E1123  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH F 988  LIES ON A SPECIAL POSITION.                          
 REMARK 375      HOH F1022  LIES ON A SPECIAL POSITION.                          
 REMARK 465                                                                      
 REMARK 465 MISSING RESIDUES                                                     
@@ -393,18 +394,6 @@ REMARK 470     GLU C 110    CB   CG   CD   OE1  OE2
 REMARK 470     LYS C 116    CG   CD   CE   NZ                                   
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CLOSE CONTACTS IN SAME ASYMMETRIC UNIT                     
-REMARK 500                                                                      
-REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
-REMARK 500                                                                      
-REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   O    HOH D   933     O    HOH D  1122              2.02            
-REMARK 500   O    HOH D  1049     O    HOH D  1122              2.09            
-REMARK 500   O    HOH D  1048     O    HOH D  1122              2.11            
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
 REMARK 500                                                                      
 REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
@@ -435,9 +424,9 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500      G D 204         0.05    SIDE_CHAIN                              
-REMARK 500      G E 204         0.07    SIDE_CHAIN                              
-REMARK 500      G F 204         0.08    SIDE_CHAIN                              
+REMARK 500      G D 204         0.05    SIDE CHAIN                              
+REMARK 500      G E 204         0.07    SIDE CHAIN                              
+REMARK 500      G F 204         0.08    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
@@ -632,21 +621,21 @@ SEQRES   6 C  117  GLU GLU LYS GLY ILE PRO TYR ALA TYR VAL ALA SER LYS
 SEQRES   7 C  117  GLN ASP LEU GLY LYS ALA ALA GLY LEU GLU VAL ALA ALA          
 SEQRES   8 C  117  SER SER VAL ALA ILE ILE ASN GLU GLY ASP ALA GLU GLU          
 SEQRES   9 C  117  LEU LYS VAL LEU ILE GLU LYS VAL ASN VAL LEU LYS GLN          
-HET     CA  F 751       1                                                       
-HET     CA  E 752       1                                                       
-HET     CA  F 753       1                                                       
-HET     CA  E 754       1                                                       
 HET     CA  D 755       1                                                       
 HET     CA  D 756       1                                                       
 HET     CA  D 757       1                                                       
-HET     CA  F 758       1                                                       
+HET     CA  E 752       1                                                       
+HET     CA  E 754       1                                                       
 HET     CA  E 759       1                                                       
-HET     CA  F 760       1                                                       
 HET      K  E 761       1                                                       
+HET     CA  F 751       1                                                       
+HET     CA  F 753       1                                                       
+HET     CA  F 758       1                                                       
+HET     CA  F 760       1                                                       
 HETNAM      CA CALCIUM ION                                                      
 HETNAM       K POTASSIUM ION                                                    
 FORMUL   7   CA    10(CA 2+)                                                    
-FORMUL  17    K    K 1+                                                         
+FORMUL  13    K    K 1+                                                         
 FORMUL  18  HOH   *273(H2 O)                                                    
 HELIX    1   1 PRO A   10  ALA A   24  1                                  15    
 HELIX    2   2 GLY A   30  ARG A   40  1                                  11    
@@ -741,7 +730,8 @@ LINK        CA    CA F 760                 O   HOH F1040     1555   1555  2.70
 LINK        CA    CA D 756                 O   HOH E 994     1555   4556  2.99  
 CISPEP   1 LYS A   53    PRO A   54          0         0.06                     
 CISPEP   2 LYS B   53    PRO B   54          0         0.05                     
-CISPEP   3 LYS C   53    PRO C   54          0         0.20                     
+CISPEP   3 LYS B   53    PRO B   54          0        -0.01                     
+CISPEP   4 LYS C   53    PRO C   54          0         0.20                     
 SITE     1 AC1  7   U F 206    G F 208  HOH F 874  HOH F 953                    
 SITE     2 AC1  7 HOH F 995  HOH F1023  HOH F1024                               
 SITE     1 AC2  6   U E 206    G E 208  HOH E 899  HOH E1013                    
@@ -4541,5 +4531,5 @@ CONECT 3578 3428
 CONECT 3579 3428                                                                
 CONECT 3580 3428                                                                
 CONECT 3586 3428                                                                
-MASTER      560    0   11   18   12    0   20    6 3628    6   71   33          
+MASTER      548    0   11   18   12    0   20    6 3628    6   71   33          
 END                                                                             

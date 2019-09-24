@@ -33,6 +33,7 @@ KEYWDS    PROTEIN-DNA COMPLEX, RESTRICTION ENDONUCLEASE, 5-METHYLCYTOSINE, BASE
 KEYWDS   2 FLIPPING COMPLEX, DNA BINDING PROTEIN-DNA COMPLEX                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.SUKACKAITE,S.GRAZULIS,V.SIKSNYS                                     
+REVDAT   3   08-NOV-17 3SSC    1       REMARK                                   
 REVDAT   2   05-SEP-12 3SSC    1       JRNL                                     
 REVDAT   1   23-MAY-12 3SSC    0                                                
 JRNL        AUTH   R.SUKACKAITE,S.GRAZULIS,G.TAMULAITIS,V.SIKSNYS               
@@ -46,7 +47,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.10 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.6.0117                                      
+REMARK   3   PROGRAM     : REFMAC                                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -135,8 +136,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1531 ; 1.084 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2469 ; 1.605 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2162 ; 2.411 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2734 ; 2.995 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -215,8 +221,8 @@ REMARK   3  OTHER REFINEMENT REMARKS: NULL
 REMARK   4                                                                      
 REMARK   4 3SSC COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 12-AUG-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB066591.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 15-JUL-11.                  
+REMARK 100 THE DEPOSITION ID IS D_1000066591.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -237,7 +243,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : FLAT PANEL                         
 REMARK 200  DETECTOR MANUFACTURER          : MAR555                             
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MOSFLM 6.2.6                       
-REMARK 200  DATA SCALING SOFTWARE          : SCALA  3.2.19                      
+REMARK 200  DATA SCALING SOFTWARE          : SCALA 3.2.19                       
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 21848                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.020                              
@@ -262,7 +268,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.300
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MR                           
-REMARK 200 SOFTWARE USED: MOLREP(CCP4)  9.2.10                                  
+REMARK 200 SOFTWARE USED: MOLREP 9.2.10                                         
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -7893,5 +7899,5 @@ CONECT 3218 3214
 CONECT 3219 3215                                                                
 CONECT 3220 3208                                                                
 CONECT 3221 3209                                                                
-MASTER      416    0    2   10   12    0    0    6 3261    4   88   30          
+MASTER      421    0    2   10   12    0    0    6 3261    4   88   30          
 END                                                                             

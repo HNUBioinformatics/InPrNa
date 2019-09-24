@@ -23,22 +23,28 @@ SOURCE   4 STRAIN: 4304;
 SOURCE   5 ATCC: 49558;                                                         
 SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE   7 EXPRESSION_SYSTEM_TAXID: 469008;                                     
-SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3)PLYSS;                            
-SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PETM12;                                   
-SOURCE  10 OTHER_DETAILS: GERMAN COLLECTION OF MICROORGANISMS (DSM);            
-SOURCE  11 MOL_ID: 2;                                                           
-SOURCE  12 SYNTHETIC: YES;                                                      
-SOURCE  13 OTHER_DETAILS: SYNTHESIZED BY METABION GMBH, MARTINSRIED,            
-SOURCE  14  GERMANY;                                                            
-SOURCE  15 MOL_ID: 3;                                                           
-SOURCE  16 SYNTHETIC: YES;                                                      
-SOURCE  17 OTHER_DETAILS: SYNTHESIZED BY METABION GMBH, MARTINSRIED,            
-SOURCE  18  GERMANY                                                             
+SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE   9 EXPRESSION_SYSTEM_VARIANT: PLYSS;                                    
+SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PETM12;                                   
+SOURCE  11 OTHER_DETAILS: GERMAN COLLECTION OF MICROORGANISMS (DSM);            
+SOURCE  12 MOL_ID: 2;                                                           
+SOURCE  13 SYNTHETIC: YES;                                                      
+SOURCE  14 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  15 ORGANISM_TAXID: 32630;                                               
+SOURCE  16 OTHER_DETAILS: SYNTHESIZED BY METABION GMBH, MARTINSRIED,            
+SOURCE  17  GERMANY;                                                            
+SOURCE  18 MOL_ID: 3;                                                           
+SOURCE  19 SYNTHETIC: YES;                                                      
+SOURCE  20 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  21 ORGANISM_TAXID: 32630;                                               
+SOURCE  22 OTHER_DETAILS: SYNTHESIZED BY METABION GMBH, MARTINSRIED,            
+SOURCE  23  GERMANY                                                             
 KEYWDS    HYDROLASE DNA COMPLEX, TYPE II RESTRICTION ENDONUCLEASE,              
 KEYWDS   2 HOLLIDAY JUNCTION RESOLVASE, HYDROLASE, DNA BINDING                  
 KEYWDS   3 PROTEIN                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.CAROLIS,C.KOEHLER,C.SAUTER,J.BASQUIN,D.SUCK,I.TOEROE                
+REVDAT   2   28-OCT-15 2WJ0    1       SOURCE REMARK VERSN  FORMUL              
 REVDAT   1   26-MAY-09 2WJ0    0                                                
 JRNL        AUTH   C.CAROLIS,C.KOEHLER,C.SAUTER,J.BASQUIN,D.SUCK,               
 JRNL        AUTH 2 I.TOEROE                                                     
@@ -74,7 +80,7 @@ REMARK   3  FIT TO DATA USED IN REFINEMENT.
 REMARK   3   R VALUE     (WORKING + TEST SET) : 0.2051                          
 REMARK   3   R VALUE            (WORKING SET) : 0.2015                          
 REMARK   3   FREE R VALUE                     : 0.2781                          
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) :  4.8                            
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.8                             
 REMARK   3   FREE R VALUE TEST SET COUNT      : 484                             
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
@@ -432,7 +438,7 @@ REMARK   3  (STRAND 2) AND ITS COMPLEMENTARY STRAND AS THE CROSSOVER
 REMARK   3  STRAND. THUS THE CROSSOVER STRAND IN THE HALF-JUNCTION IS A         
 REMARK   3  CHIMERA OF THE REAL SEQUENCES (STRANDS 1 AND 3).                    
 REMARK   4                                                                      
-REMARK   4 2WJ0 COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 2WJ0 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 18-MAY-09.                  
 REMARK 100 THE PDBE ID CODE IS EBI-39865.                                       
@@ -561,10 +567,9 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
@@ -577,7 +582,7 @@ REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: OCTAMERIC
 REMARK 350 SOFTWARE USED: PISA                                                  
 REMARK 350 TOTAL BURIED SURFACE AREA: 14050 ANGSTROM**2                         
 REMARK 350 SURFACE AREA OF THE COMPLEX: 37640 ANGSTROM**2                       
-REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -91.49 KCAL/MOL                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -91.5 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
@@ -694,16 +699,6 @@ REMARK 500    LYS B 105       -9.01    -59.37
 REMARK 500    ASP B 110     -160.30   -125.82                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
@@ -781,7 +776,7 @@ SEQRES   2 D   24   DT  DA  DG  DG  DG  DA  DT  DC  DC  DC  DC
 HET    NCO  B1129       7                                                       
 HETNAM     NCO COBALT HEXAMMINE(III)                                            
 FORMUL   5  NCO    CO H18 N6 3+                                                 
-FORMUL   6  HOH   *7(H2 O1)                                                     
+FORMUL   6  HOH   *7(H2 O)                                                      
 HELIX    1   1 LYS A    4  ALA A   19  1                                  16    
 HELIX    2   2 ALA A   64  GLY A   78  1                                  15    
 HELIX    3   3 GLN A   98  LEU A  100  5                                   3    
@@ -6786,5 +6781,5 @@ CONECT 2977 2974
 CONECT 2978 2974                                                                
 CONECT 2979 2974                                                                
 CONECT 2980 2974                                                                
-MASTER      700    0    1    9   16    0    3    9 2983    4    8   26          
+MASTER      689    0    1    9   16    0    3    9 2983    4    8   26          
 END                                                                             

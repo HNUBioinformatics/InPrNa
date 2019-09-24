@@ -10,7 +10,7 @@ COMPND   6 ENGINEERED: YES;
 COMPND   7 OTHER_DETAILS: NONE;                                                 
 COMPND   8 MOL_ID: 2;                                                           
 COMPND   9 MOLECULE: 5'-D(*TP*TP*AP*CP*GP*GP*AP*CP*CP*AP                        
-COMPND  10  *CP*TP*GP*GP*TP*CP*CP*TP*TP*C)-3';                                  
+COMPND  10  *CP*TP*GP*GP*TP*CP*CP*TP*TP*CP)-3';                                 
 COMPND  11 CHAIN: W;                                                            
 COMPND  12 SYNONYM: DNA AP1 SITE                                                
 SOURCE    MOL_ID: 1;                                                            
@@ -20,29 +20,30 @@ SOURCE   4 ORGANISM_TAXID: 3702;
 SOURCE   5 ORGAN: FLOWER;                                                       
 SOURCE   6 TISSUE: FLOWER MERISTEM;                                             
 SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   9 EXPRESSION_SYSTEM_STRAIN: ROSETTABLUE(DE3)PLYS;                      
-SOURCE  10 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
-SOURCE  11 EXPRESSION_SYSTEM_PLASMID: PETM-11;                                  
-SOURCE  12 OTHER_DETAILS: NONE;                                                 
-SOURCE  13 MOL_ID: 2;                                                           
-SOURCE  14 SYNTHETIC: YES;                                                      
-SOURCE  15 ORGANISM_SCIENTIFIC: ARABIDOPSIS THALIANA;                           
-SOURCE  16 ORGANISM_COMMON: MOUSE-EAR CRESS;                                    
-SOURCE  17 ORGANISM_TAXID: 3702                                                 
-KEYWDS    DNA-BINDING, POLYMORPHISM, TRANSCRIPTION, DEVELOPMENTAL               
-KEYWDS   2 PROTEIN, TRANSCRIPTION REGULATION, HOMEOTIC GENES,                   
-KEYWDS   3 DIFFERENTIATION, FLOWER DEVELOPMENT, LEAFY, NUCLEUS,                 
-KEYWDS   4 ACTIVATOR, FLOWERING, COILED COIL                                    
+SOURCE   8 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE   9 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE  10 EXPRESSION_SYSTEM_VARIANT: ROSETTABLUE PLYS;                         
+SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PETM-11                                   
+SOURCE  14 MOL_ID: 2;                                                           
+SOURCE  15 SYNTHETIC: YES;                                                      
+SOURCE  16 ORGANISM_SCIENTIFIC: ARABIDOPSIS THALIANA;                           
+SOURCE  17 ORGANISM_COMMON: MOUSE-EAR CRESS;                                    
+SOURCE  18 ORGANISM_TAXID: 3702                                                 
+KEYWDS    DNA-BINDING, POLYMORPHISM, TRANSCRIPTION, DEVELOPMENTAL PROTEIN,      
+KEYWDS   2 TRANSCRIPTION REGULATION, HOMEOTIC GENES, FLOWERING, NUCLEUS,        
+KEYWDS   3 DIFFERENTIATION, FLOWER DEVELOPMENT, ACTIVATOR, COILED COIL          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.HAMES,D.PTCHELKINE,C.GRIMM,E.THEVENON,E.MOYROUD,F.GERARD,           
 AUTHOR   2 J.L.MARTIEL,R.BENLLOCH,F.PARCY,C.W.MULLER                            
+REVDAT   4   07-AUG-13 2VY1    1       COMPND SOURCE KEYWDS JRNL                
+REVDAT   4 2                           REMARK VERSN  FORMUL                     
 REVDAT   3   15-JAN-09 2VY1    1       VERSN                                    
 REVDAT   2   07-OCT-08 2VY1    1       REMARK ATOM   TER    HETATM              
 REVDAT   2 2                           MASTER                                   
 REVDAT   1   23-SEP-08 2VY1    0                                                
 JRNL        AUTH   C.HAMES,D.PTCHELKINE,C.GRIMM,E.THEVENON,E.MOYROUD,           
-JRNL        AUTH 2 F.GERARD,J.MARTIEL,R.BENLLOCH,F.PARCY,C.W.MULLER             
+JRNL        AUTH 2 F.GERARD,J.L.MARTIEL,R.BENLLOCH,F.PARCY,C.W.MULLER           
 JRNL        TITL   STRUCTURAL BASIS FOR LEAFY FLORAL SWITCH FUNCTION            
 JRNL        TITL 2 AND SIMILARITY WITH HELIX-TURN-HELIX PROTEINS.               
 JRNL        REF    EMBO J.                       V.  27  2628 2008              
@@ -112,9 +113,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : 1.5315                                               
 REMARK   3    B22 (A**2) : 1.5315                                               
 REMARK   3    B33 (A**2) : -3.0631                                              
-REMARK   3    B12 (A**2) : -0.0000                                              
-REMARK   3    B13 (A**2) : -0.0000                                              
-REMARK   3    B23 (A**2) : -0.0000                                              
+REMARK   3    B12 (A**2) : 0.0000                                               
+REMARK   3    B13 (A**2) : 0.0000                                               
+REMARK   3    B23 (A**2) : 0.0000                                               
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -136,7 +137,7 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2VY1 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2VY1 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 17-JUL-08.                  
 REMARK 100 THE PDBE ID CODE IS EBI-36878.                                       
@@ -264,22 +265,21 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
 REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
-REMARK 350 BIOMOLECULE:  1                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TETRAMERIC                        
 REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TETRAMERIC                 
 REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 TOTAL BURIED SURFACE AREA:  6080 ANGSTROM**2                         
-REMARK 350 SURFACE AREA OF THE COMPLEX:  22440 ANGSTROM**2                      
+REMARK 350 TOTAL BURIED SURFACE AREA: 6080 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 22440 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -29.0 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, W                                  
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
@@ -349,8 +349,10 @@ REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS
 REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
-REMARK 500                                                                      
-REMARK 500   OH   TYR A   296     OH   TYR A   296    12554      2.11           
+REMARK 500   OH   TYR A   296     OH   TYR A   296    12554     2.11            
+REMARK 500   N1 A  DA W     1     N1 A  DA W     1    12544     2.11            
+REMARK 500   N1 A  DG W     2     N1 A  DA W    20     8555     2.17            
+REMARK 500   N2 A  DG W    11     N2 A  DG W    11     8555     2.12            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -369,19 +371,12 @@ REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999
 REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500     DC W   4   O4' -  C1' -  N1  ANGL. DEV. =  -3.4 DEGREES          
-REMARK 500     DG W   5   O4' -  C1' -  C2' ANGL. DEV. =  -3.9 DEGREES          
-REMARK 500     DG W   5   O4' -  C1' -  N9  ANGL. DEV. =  -2.1 DEGREES          
-REMARK 500     DG W   6   O4' -  C1' -  N9  ANGL. DEV. =  -3.6 DEGREES          
-REMARK 500     DG W  11   C1' -  O4' -  C4' ANGL. DEV. =  -4.7 DEGREES          
+REMARK 500     DA W   1   C3' -  C2' -  C1' ANGL. DEV. =  -5.2 DEGREES          
 REMARK 500     DG W  11   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
-REMARK 500     DG W  13   O4' -  C1' -  N9  ANGL. DEV. =  -2.8 DEGREES          
-REMARK 500     DG W  14   C1' -  O4' -  C4' ANGL. DEV. =  -4.3 DEGREES          
 REMARK 500     DG W  14   O4' -  C1' -  N9  ANGL. DEV. =   1.8 DEGREES          
-REMARK 500     DT W  15   O4' -  C1' -  C2' ANGL. DEV. =  -3.3 DEGREES          
 REMARK 500     DT W  15   O4' -  C1' -  N1  ANGL. DEV. =   3.6 DEGREES          
-REMARK 500     DC W  16   O4' -  C1' -  N1  ANGL. DEV. =  -3.9 DEGREES          
-REMARK 500     DT W  19   O4' -  C1' -  N1  ANGL. DEV. =  -1.8 DEGREES          
+REMARK 500     DG W  18   C3' -  C2' -  C1' ANGL. DEV. =  -5.4 DEGREES          
+REMARK 500     DA W  20   C3' -  C2' -  C1' ANGL. DEV. =  -4.9 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -391,6 +386,7 @@ REMARK 500
 REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
 REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
 REMARK 500 STANDARD TABLE:                                                      
 REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
 REMARK 500                                                                      
@@ -401,16 +397,6 @@ REMARK 500  M RES CSSEQI        PSI       PHI
 REMARK 500    ALA A 397       32.41    -96.06                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2VY2   RELATED DB: PDB                                   
@@ -446,7 +432,7 @@ SEQRES  14 A  194  LEU VAL GLY GLY ILE SER CYS THR GLY SER SER THR SER
 SEQRES  15 A  194  GLY ARG GLY GLY CYS GLY GLY ASP ASP LEU ARG PHE              
 SEQRES   1 W   20   DA  DG  DA  DA  DG  DG  DA  DC  DC  DA  DG  DT  DG          
 SEQRES   2 W   20   DG  DT  DC  DC  DG  DT  DA                                  
-FORMUL   3  HOH   *68(H2 O1)                                                    
+FORMUL   3  HOH   *68(H2 O)                                                     
 HELIX    1   1 GLY A  256  ARG A  281  1                                  26    
 HELIX    2   2 THR A  290  SER A  300  1                                  11    
 HELIX    3   3 ASN A  306  TYR A  313  1                                   8    
@@ -2413,5 +2399,5 @@ HETATM 1946  O   HOH W2005      34.374   8.636   0.674  1.00 34.00           O
 HETATM 1947  O   HOH W2006      40.670   8.553  -0.406  1.00 40.39           O  
 HETATM 1948  O   HOH W2007      30.773   7.874   8.218  1.00 43.64           O  
 HETATM 1949  O   HOH W2008      38.729  15.730   9.167  1.00 30.00           O  
-MASTER      372    0    0   10    0    0    0    6 1947    2    0   17          
+MASTER      357    0    0   10    0    0    0    6 1947    2    0   17          
 END                                                                             

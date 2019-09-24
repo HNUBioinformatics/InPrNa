@@ -36,6 +36,7 @@ KEYWDS   2 DNA-DIRECTED DNA POLYMERASE, HYDROLASE, NUCLEASE,
 KEYWDS   3 NUCLEOTIDYLTRANSFERASE, TRANSFERASE, TRANSFERASE-DNA COMPLEX         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    E.Y.WU,L.S.BEESE                                                      
+REVDAT   3   01-NOV-17 3HP6    1       REMARK                                   
 REVDAT   2   29-JUN-11 3HP6    1       JRNL                                     
 REVDAT   1   23-JUN-10 3HP6    0                                                
 JRNL        AUTH   E.Y.WU,L.S.BEESE                                             
@@ -50,7 +51,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    1.81 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.5.0070                                      
+REMARK   3   PROGRAM     : REFMAC                                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -76,7 +77,7 @@ REMARK   3   TOTAL NUMBER OF BINS USED           : 20
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.81                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.86                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 9598                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.00                       
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 100.0                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2850                       
 REMARK   3   BIN FREE R VALUE SET COUNT          : 505                          
 REMARK   3   BIN FREE R VALUE                    : 0.3230                       
@@ -139,8 +140,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  5832 ; 0.769 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  9419 ; 1.425 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  4788 ; 2.219 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  5130 ; 3.601 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -163,10 +169,10 @@ REMARK   3
 REMARK   3  OTHER REFINEMENT REMARKS: 1. HYDROGENS HAVE BEEN ADDED IN THE       
 REMARK   3  RIDING POSITIONS. 2. U VALUES: REFINED INDIVIDUALLY.                
 REMARK   4                                                                      
-REMARK   4 3HP6 COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3HP6 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 04-JUN-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB053410.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000053410.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -324,6 +330,7 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   RES CSSEQI ATM2   DEVIATION                     
 REMARK 500     DA E  26   O3'    DA E  26   C3'    -0.036                       
+REMARK 500     DG E  28   O3'   DDG E  29   P       0.094                       
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -400,26 +407,6 @@ REMARK 500    HIS D 768       23.40     81.03
 REMARK 500    HIS D 829      -51.68     74.94                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A1013        DISTANCE =  5.06 ANGSTROMS                       
-REMARK 525    HOH D 922        DISTANCE =  5.10 ANGSTROMS                       
-REMARK 525    HOH D1021        DISTANCE =  5.33 ANGSTROMS                       
-REMARK 525    HOH D1098        DISTANCE =  6.21 ANGSTROMS                       
-REMARK 525    HOH D1116        DISTANCE =  5.26 ANGSTROMS                       
-REMARK 525    HOH D1132        DISTANCE =  5.05 ANGSTROMS                       
-REMARK 525    HOH D1139        DISTANCE =  5.58 ANGSTROMS                       
-REMARK 525    HOH E 366        DISTANCE =  5.02 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
@@ -485,11 +472,11 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SO4 D 1
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 3HPO   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF BACILLUS FRAGMENT DNA POLYMERASE I              
-REMARK 900 Y714S MUTANT IN AJAR CONFORMATION BOUND TO G:T MISMATCH              
+REMARK 900 CRYSTAL STRUCTURE OF BACILLUS FRAGMENT DNA POLYMERASE I Y714S        
+REMARK 900 MUTANT IN AJAR CONFORMATION BOUND TO G:T MISMATCH                    
 REMARK 900 RELATED ID: 3HT3   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF BACILLUS FRAGMENT DNA POLYMERASE I              
-REMARK 900 V713P MUTANT BOUND TO G:DCTP                                         
+REMARK 900 CRYSTAL STRUCTURE OF BACILLUS FRAGMENT DNA POLYMERASE I V713P        
+REMARK 900 MUTANT BOUND TO G:DCTP                                               
 DBREF  3HP6 A  297   876  PDB    3HP6     3HP6           297    876             
 DBREF  3HP6 D  297   876  PDB    3HP6     3HP6           297    876             
 DBREF  3HP6 B   21    29  PDB    3HP6     3HP6             1      9             
@@ -12182,5 +12169,5 @@ CONECT1060210257
 CONECT1069710314                                                                
 CONECT1070410314                                                                
 CONECT1083910314                                                                
-MASTER      444    0   13   61   38    0   22    611148    6  195   94          
+MASTER      430    0   13   61   38    0   22    611148    6  195   94          
 END                                                                             

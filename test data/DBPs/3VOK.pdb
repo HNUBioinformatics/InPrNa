@@ -25,6 +25,7 @@ KEYWDS    HEME, SENSOR PROTEIN, TETR SUPERFAMILY, DNA-BINDING COMPLEX,
 KEYWDS   2 TRANSCRIPTION-DNA COMPLEX                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    H.SAWAI,H.SUGIMOTO,Y.SHIRO,S.AONO                                     
+REVDAT   3   22-NOV-17 3VOK    1       REMARK                                   
 REVDAT   2   12-SEP-12 3VOK    1       JRNL                                     
 REVDAT   1   25-JUL-12 3VOK    0                                                
 JRNL        AUTH   H.SAWAI,M.YAMANAKA,H.SUGIMOTO,Y.SHIRO,S.AONO                 
@@ -38,16 +39,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.00 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.7_650)                      
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.7_650                                       
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ENGH & HUBER                                  
 REMARK   3                                                                      
@@ -61,7 +61,7 @@ REMARK   3
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   R VALUE     (WORKING + TEST SET) : 0.204                           
 REMARK   3   R VALUE            (WORKING SET) : 0.202                           
-REMARK   3   FREE R VALUE                     : 0.237                           
+REMARK   3   FREE R VALUE                     : 0.238                           
 REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.150                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1070                            
 REMARK   3                                                                      
@@ -81,7 +81,7 @@ REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL
 REMARK   3   SOLVENT RADIUS     : 1.10                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.83                                          
 REMARK   3   K_SOL              : 0.37                                          
-REMARK   3   B_SOL              : 43.99                                         
+REMARK   3   B_SOL              : 44.00                                         
 REMARK   3                                                                      
 REMARK   3  ERROR ESTIMATES.                                                    
 REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.200            
@@ -95,7 +95,7 @@ REMARK   3    B11 (A**2) : 2.47370
 REMARK   3    B22 (A**2) : 2.47370                                              
 REMARK   3    B33 (A**2) : -4.94740                                             
 REMARK   3    B12 (A**2) : 0.00000                                              
-REMARK   3    B13 (A**2) : -0.00000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
 REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
@@ -271,7 +271,7 @@ REMARK   4
 REMARK   4 3VOK COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 02-FEB-12.                  
-REMARK 100 THE RCSB ID CODE IS RCSB095304.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000095304.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -291,8 +291,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : RAYONIX MX225HE                    
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL2000                            
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 21224                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.000                              
@@ -301,7 +301,7 @@ REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : -3.000
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 99.7                               
-REMARK 200  DATA REDUNDANCY                : 21.500                             
+REMARK 200  DATA REDUNDANCY                : 21.50                              
 REMARK 200  R MERGE                    (I) : 0.07900                            
 REMARK 200  R SYM                      (I) : 0.07900                            
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 41.5840                            
@@ -317,7 +317,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 6.622
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
-REMARK 200 SOFTWARE USED: PHASER                                                
+REMARK 200 SOFTWARE USED: PHASER 2.3.0                                          
 REMARK 200 STARTING MODEL: 1QPI                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -4283,5 +4283,5 @@ HETATM 1926  O   HOH U 104      28.543  60.217 -18.810  1.00 53.13           O
 HETATM 1927  O   HOH U 105      29.111  77.524 -29.827  1.00 54.66           O  
 HETATM 1928  O   HOH U 106      26.528  63.982 -19.909  1.00 56.04           O  
 HETATM 1929  O   HOH U 107      37.060  63.367 -24.088  1.00 56.56           O  
-MASTER      434    0    0   12    0    0    0    6 1927    2    0   17          
+MASTER      433    0    0   12    0    0    0    6 1927    2    0   17          
 END                                                                             

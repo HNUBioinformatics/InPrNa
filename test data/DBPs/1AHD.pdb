@@ -1,43 +1,42 @@
 HEADER    DNA BINDING PROTEIN/DNA                 02-APR-93   1AHD              
-TITLE     DETERMINATION OF THE NMR SOLUTION STRUCTURE OF AN                     
-TITLE    2 ANTENNAPEDIA HOMEODOMAIN-DNA COMPLEX                                 
+TITLE     DETERMINATION OF THE NMR SOLUTION STRUCTURE OF AN ANTENNAPEDIA        
+TITLE    2 HOMEODOMAIN-DNA COMPLEX                                              
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: DNA (5'-                                                   
-COMPND   3 D(*GP*AP*AP*AP*GP*CP*CP*AP*TP*TP*AP*GP*AP*G)-3');                    
-COMPND   4 CHAIN: A;                                                            
-COMPND   5 ENGINEERED: YES;                                                     
+COMPND   2 MOLECULE: DNA (5'-D(*GP*AP*AP*AP*GP*CP*CP*AP*TP*TP*AP*GP*AP*G)-3');  
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MUTATION: YES;                                                       
 COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: DNA (5'-                                                   
-COMPND   8 D(*CP*TP*CP*TP*AP*AP*TP*GP*GP*CP*TP*TP*TP*C)-3');                    
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: ANTENNAPEDIA PROTEIN MUTANT;                               
-COMPND  13 CHAIN: P;                                                            
-COMPND  14 ENGINEERED: YES                                                      
+COMPND   7 MOLECULE: DNA (5'-D(*CP*TP*CP*TP*AP*AP*TP*GP*GP*CP*TP*TP*TP*C)-3');  
+COMPND   8 CHAIN: B;                                                            
+COMPND   9 ENGINEERED: YES;                                                     
+COMPND  10 MOL_ID: 3;                                                           
+COMPND  11 MOLECULE: HOMEOTIC PROTEIN ANTENNAPEDIA;                             
+COMPND  12 CHAIN: P;                                                            
+COMPND  13 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
 SOURCE   4 SYNTHETIC: YES;                                                      
 SOURCE   5 MOL_ID: 3;                                                           
-SOURCE   6 ORGANISM_SCIENTIFIC: DROSOPHILA MELANOGASTER;                        
+SOURCE   6 ORGANISM_SCIENTIFIC: DROSOPHILA SUBOBSCURA;                          
 SOURCE   7 ORGANISM_COMMON: FRUIT FLY;                                          
-SOURCE   8 ORGANISM_TAXID: 7227;                                                
+SOURCE   8 ORGANISM_TAXID: 7241;                                                
 SOURCE   9 ORGAN: FRUIT;                                                        
-SOURCE  10 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE  11 EXPRESSION_SYSTEM_TAXID: 562                                         
-KEYWDS    DNA BINDING PROTEIN/DNA                                               
+SOURCE  10 GENE: ANTP;                                                          
+SOURCE  11 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  12 EXPRESSION_SYSTEM_TAXID: 562                                         
+KEYWDS    DNA BINDING PROTEIN/DNA, DNA BINDING PROTEIN-DNA COMPLEX              
 EXPDTA    SOLUTION NMR                                                          
 NUMMDL    16                                                                    
 AUTHOR    M.BILLETER,Y.Q.QIAN,G.OTTING,M.MULLER,W.J.GEHRING,K.WUTHRICH          
+REVDAT   4   30-MAR-16 1AHD    1       DBREF  REMARK REVDAT VERSN               
 REVDAT   3   24-FEB-09 1AHD    1       VERSN                                    
 REVDAT   2   01-APR-03 1AHD    1       JRNL                                     
 REVDAT   1   31-OCT-93 1AHD    0                                                
-JRNL        AUTH   M.BILLETER,Y.Q.QIAN,G.OTTING,M.MULLER,W.GEHRING,             
-JRNL        AUTH 2 K.WUTHRICH                                                   
-JRNL        TITL   DETERMINATION OF THE NUCLEAR MAGNETIC RESONANCE              
-JRNL        TITL 2 SOLUTION STRUCTURE OF AN ANTENNAPEDIA                        
-JRNL        TITL 3 HOMEODOMAIN-DNA COMPLEX.                                     
+JRNL        AUTH   M.BILLETER,Y.Q.QIAN,G.OTTING,M.MULLER,W.GEHRING,K.WUTHRICH   
+JRNL        TITL   DETERMINATION OF THE NUCLEAR MAGNETIC RESONANCE SOLUTION     
+JRNL        TITL 2 STRUCTURE OF AN ANTENNAPEDIA HOMEODOMAIN-DNA COMPLEX.        
 JRNL        REF    J.MOL.BIOL.                   V. 234  1084 1993              
 JRNL        REFN                   ISSN 0022-2836                               
 JRNL        PMID   7903398                                                      
@@ -46,35 +45,33 @@ REMARK   1
 REMARK   1 REFERENCE 1                                                          
 REMARK   1  AUTH   Y.Q.QIAN,G.OTTING,M.BILLETER,M.MUELLER,W.J.GEHRING,          
 REMARK   1  AUTH 2 K.WUTHRICH                                                   
-REMARK   1  TITL   NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY OF A DNA             
-REMARK   1  TITL 2 COMPLEX WITH THE UNIFORMLY 13C-LABELED                       
-REMARK   1  TITL 3 ANTENNAPEDIA HOMEODOMAIN AND STRUCTURE                       
-REMARK   1  TITL 4 DETERMINATION OF THE DNA-BOUND HOMEODOMAIN                   
+REMARK   1  TITL   NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY OF A DNA COMPLEX     
+REMARK   1  TITL 2 WITH THE UNIFORMLY 13C-LABELED ANTENNAPEDIA HOMEODOMAIN AND  
+REMARK   1  TITL 3 STRUCTURE DETERMINATION OF THE DNA-BOUND HOMEODOMAIN         
 REMARK   1  REF    J.MOL.BIOL.                   V. 234  1070 1993              
 REMARK   1  REFN                   ISSN 0022-2836                               
 REMARK   1 REFERENCE 2                                                          
-REMARK   1  AUTH   M.BILLETER,Y.-Q.QIAN,G.OTTING,M.MUELLER,                     
-REMARK   1  AUTH 2 W.J.GEHRING,K.WUTHRICH                                       
-REMARK   1  TITL   DETERMINATION OF THE THREE-DIMENSIONAL STRUCTURE             
-REMARK   1  TITL 2 OF THE ANTENNAPEDIA HOMEODOMAIN FROM DROSOPHILA IN           
-REMARK   1  TITL 3 SOLUTION BY 1H NUCLEAR MAGNETIC RESONANCE                    
-REMARK   1  TITL 4 SPECTROSCOPY                                                 
+REMARK   1  AUTH   M.BILLETER,Y.-Q.QIAN,G.OTTING,M.MUELLER,W.J.GEHRING,         
+REMARK   1  AUTH 2 K.WUTHRICH                                                   
+REMARK   1  TITL   DETERMINATION OF THE THREE-DIMENSIONAL STRUCTURE OF THE      
+REMARK   1  TITL 2 ANTENNAPEDIA HOMEODOMAIN FROM DROSOPHILA IN SOLUTION BY 1H   
+REMARK   1  TITL 3 NUCLEAR MAGNETIC RESONANCE SPECTROSCOPY                      
 REMARK   1  REF    J.MOL.BIOL.                   V. 214   183 1990              
 REMARK   1  REFN                   ISSN 0022-2836                               
 REMARK   1 REFERENCE 3                                                          
 REMARK   1  AUTH   G.OTTING,Y.Q.QIAN,M.BILLETER,M.MUELLER,M.AFFOLTER,           
 REMARK   1  AUTH 2 W.J.GEHRING,K.WUTHRICH                                       
-REMARK   1  TITL   PROTEIN-DNA CONTACTS IN THE STRUCTURE OF A                   
-REMARK   1  TITL 2 HOMEODOMAIN-DNA COMPLEX DETERMINED BY NUCLEAR                
-REMARK   1  TITL 3 MAGNETIC RESONANCE SPECTROSCOPY IN SOLUTION                  
+REMARK   1  TITL   PROTEIN-DNA CONTACTS IN THE STRUCTURE OF A HOMEODOMAIN-DNA   
+REMARK   1  TITL 2 COMPLEX DETERMINED BY NUCLEAR MAGNETIC RESONANCE             
+REMARK   1  TITL 3 SPECTROSCOPY IN SOLUTION                                     
 REMARK   1  REF    EMBO J.                       V.   9  3085 1990              
 REMARK   1  REFN                   ISSN 0261-4189                               
 REMARK   1 REFERENCE 4                                                          
-REMARK   1  AUTH   Y.-Q.QIAN,M.BILLETER,G.OTTING,M.MUELLER,                     
-REMARK   1  AUTH 2 W.J.GEHRING,K.WUTHRICH                                       
-REMARK   1  TITL   THE STRUCTURE OF THE ANTENNAPEDIA HOMEODOMAIN                
-REMARK   1  TITL 2 DETERMINED BY NMR SPECTROSCOPY IN SOLUTION:                  
-REMARK   1  TITL 3 COMPARISON WITH PROKARYOTIC REPRESSORS                       
+REMARK   1  AUTH   Y.-Q.QIAN,M.BILLETER,G.OTTING,M.MUELLER,W.J.GEHRING,         
+REMARK   1  AUTH 2 K.WUTHRICH                                                   
+REMARK   1  TITL   THE STRUCTURE OF THE ANTENNAPEDIA HOMEODOMAIN DETERMINED BY  
+REMARK   1  TITL 2 NMR SPECTROSCOPY IN SOLUTION: COMPARISON WITH PROKARYOTIC    
+REMARK   1  TITL 3 REPRESSORS                                                   
 REMARK   1  REF    CELL(CAMBRIDGE,MASS.)         V.  59   573 1989              
 REMARK   1  REFN                   ISSN 0092-8674                               
 REMARK   2                                                                      
@@ -120,6 +117,25 @@ REMARK 215 THE COORDINATES IN THIS ENTRY WERE GENERATED FROM SOLUTION
 REMARK 215 NMR DATA.  PROTEIN DATA BANK CONVENTIONS REQUIRE THAT                
 REMARK 215 CRYST1 AND SCALE RECORDS BE INCLUDED, BUT THE VALUES ON              
 REMARK 215 THESE RECORDS ARE MEANINGLESS.                                       
+REMARK 300                                                                      
+REMARK 300 BIOMOLECULE: 1                                                       
+REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
+REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
+REMARK 300 BURIED SURFACE AREA.                                                 
+REMARK 350                                                                      
+REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
+REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
+REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
+REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
+REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
+REMARK 350                                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, P                               
+REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
+REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
+REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
@@ -255,78 +271,8 @@ REMARK 500  6 LYS P  63       47.82   -162.31
 REMARK 500  7 ARG P   5      104.14    -56.22                                   
 REMARK 500  7 ARG P  24      -58.63   -127.20                                   
 REMARK 500  7 ASN P  51        0.25    -65.37                                   
-REMARK 500  7 ARG P  52      -64.76    -97.10                                   
-REMARK 500  7 TRP P  56     -140.67    -64.07                                   
-REMARK 500  7 LYS P  57      -67.26     67.51                                   
-REMARK 500  7 GLU P  59      -70.67    -62.51                                   
-REMARK 500  7 ASN P  60       78.75     30.46                                   
-REMARK 500  7 THR P  62       82.92     59.15                                   
-REMARK 500  8 ARG P   5     -177.92    -60.62                                   
-REMARK 500  8 ARG P  29       29.07     85.62                                   
-REMARK 500  8 ARG P  30      -47.66   -135.98                                   
-REMARK 500  8 SER P  39       59.93     70.61                                   
-REMARK 500  8 LYS P  61      -80.05     47.52                                   
-REMARK 500  8 THR P  62     -129.84     35.83                                   
-REMARK 500  8 PRO P  66     -166.82    -64.28                                   
-REMARK 500  9 PHE P  22      -76.77    -66.73                                   
-REMARK 500  9 ARG P  29       64.51    -67.15                                   
-REMARK 500  9 ARG P  30      -46.18    178.39                                   
-REMARK 500  9 TRP P  56       96.19    -64.33                                   
-REMARK 500  9 LYS P  57      -43.67   -175.02                                   
-REMARK 500  9 ASN P  60       41.31    -79.27                                   
-REMARK 500  9 LYS P  61       72.48   -165.03                                   
-REMARK 500  9 PRO P  66      156.10    -49.04                                   
-REMARK 500 10 LYS P   2       48.25    -79.90                                   
-REMARK 500 10 THR P   9      -90.42    -74.82                                   
-REMARK 500 10 ARG P  10      -49.43   -168.35                                   
-REMARK 500 10 PHE P  22      -75.70    -74.47                                   
-REMARK 500 10 ASN P  60       73.81   -112.30                                   
-REMARK 500 11 LEU P  26      177.35     62.22                                   
-REMARK 500 11 SER P  39       63.25     65.47                                   
-REMARK 500 11 ARG P  43      -71.57    -36.82                                   
-REMARK 500 11 ASN P  60       37.67    -95.05                                   
-REMARK 500 11 LYS P  61       74.05     23.31                                   
-REMARK 500 11 GLU P  65       81.37   -164.52                                   
-REMARK 500 12 GLN P   6       57.47     39.71                                   
-REMARK 500 12 TYR P   8      135.21    -33.09                                   
-REMARK 500 12 HIS P  21      -49.32   -168.13                                   
-REMARK 500 12 ARG P  24      -54.54   -139.51                                   
-REMARK 500 12 ARG P  29        9.68    -65.93                                   
-REMARK 500 12 SER P  39       45.06     72.49                                   
-REMARK 500 12 LEU P  40     -120.93    -84.43                                   
-REMARK 500 12 LYS P  57     -121.56    152.40                                   
-REMARK 500 12 THR P  62      -98.91     60.98                                   
-REMARK 500 12 PRO P  66     -144.57    -86.31                                   
-REMARK 500 13 LYS P   2     -149.91   -115.48                                   
-REMARK 500 13 LEU P  26      -92.76    -65.23                                   
-REMARK 500 13 THR P  27      -85.97   -170.45                                   
-REMARK 500 13 ARG P  28      -75.35   -141.68                                   
-REMARK 500 13 TRP P  56     -173.51    -65.30                                   
-REMARK 500 13 LYS P  57      -70.48     60.24                                   
-REMARK 500 13 GLU P  59       41.77    -86.42                                   
-REMARK 500 14 ARG P   5      117.29     24.58                                   
-REMARK 500 14 GLN P  12       42.86    -82.20                                   
-REMARK 500 14 THR P  13      -55.05   -146.72                                   
-REMARK 500 14 ARG P  29       42.55    -83.61                                   
-REMARK 500 14 LYS P  57      -77.23    -34.88                                   
-REMARK 500 14 LYS P  61       92.62     70.95                                   
-REMARK 500 14 LYS P  63       63.73     38.90                                   
-REMARK 500 14 GLU P  65       70.24     47.75                                   
-REMARK 500 15 ARG P   1     -156.81   -109.80                                   
-REMARK 500 15 THR P   9     -140.87    -79.02                                   
-REMARK 500 15 LEU P  14      -70.29    -53.36                                   
-REMARK 500 15 PHE P  22      -71.63   -100.34                                   
-REMARK 500 15 SER P  39       67.12     66.02                                   
-REMARK 500 15 GLU P  59        7.48    -65.90                                   
-REMARK 500 15 THR P  62      141.15     83.98                                   
-REMARK 500 15 LYS P  63       88.55    -68.91                                   
-REMARK 500 16 ARG P   1      159.51     67.56                                   
-REMARK 500 16 ARG P   5      133.52    -32.09                                   
-REMARK 500 16 GLN P   6       42.38   -106.38                                   
-REMARK 500 16 THR P   7       81.04     16.20                                   
-REMARK 500 16 ARG P  29      -61.94   -143.57                                   
-REMARK 500 16 LEU P  40     -162.60   -102.29                                   
-REMARK 500 16 LYS P  57      -74.52    144.15                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     122 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -363,232 +309,65 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500  1  DA A   2         0.06    SIDE_CHAIN                              
-REMARK 500  1  DA A   3         0.06    SIDE_CHAIN                              
-REMARK 500  1  DT A   9         0.12    SIDE_CHAIN                              
-REMARK 500  1  DT A  10         0.10    SIDE_CHAIN                              
-REMARK 500  1  DT B  16         0.09    SIDE_CHAIN                              
-REMARK 500  1  DC B  17         0.08    SIDE_CHAIN                              
-REMARK 500  1  DT B  18         0.23    SIDE_CHAIN                              
-REMARK 500  1  DA B  19         0.09    SIDE_CHAIN                              
-REMARK 500  1  DG B  23         0.12    SIDE_CHAIN                              
-REMARK 500  1  DC B  28         0.07    SIDE_CHAIN                              
-REMARK 500  1 ARG P   3         0.14    SIDE_CHAIN                              
-REMARK 500  1 TYR P   8         0.08    SIDE_CHAIN                              
-REMARK 500  1 ARG P  10         0.08    SIDE_CHAIN                              
-REMARK 500  1 TYR P  25         0.08    SIDE_CHAIN                              
-REMARK 500  1 ARG P  28         0.08    SIDE_CHAIN                              
-REMARK 500  1 ARG P  30         0.17    SIDE_CHAIN                              
-REMARK 500  1 ARG P  31         0.13    SIDE_CHAIN                              
-REMARK 500  2  DA A   3         0.09    SIDE_CHAIN                              
-REMARK 500  2  DA A   4         0.10    SIDE_CHAIN                              
-REMARK 500  2  DT A  10         0.08    SIDE_CHAIN                              
-REMARK 500  2  DA A  11         0.08    SIDE_CHAIN                              
-REMARK 500  2  DT B  18         0.12    SIDE_CHAIN                              
-REMARK 500  2  DT B  21         0.10    SIDE_CHAIN                              
-REMARK 500  2  DG B  22         0.11    SIDE_CHAIN                              
-REMARK 500  2  DC B  24         0.07    SIDE_CHAIN                              
-REMARK 500  2 TYR P  25         0.16    SIDE_CHAIN                              
-REMARK 500  3  DG A   1         0.07    SIDE_CHAIN                              
-REMARK 500  3  DA A   2         0.06    SIDE_CHAIN                              
-REMARK 500  3  DA A   3         0.12    SIDE_CHAIN                              
-REMARK 500  3  DA A   4         0.07    SIDE_CHAIN                              
-REMARK 500  3  DG A   5         0.07    SIDE_CHAIN                              
-REMARK 500  3  DT B  18         0.20    SIDE_CHAIN                              
-REMARK 500  3  DA B  19         0.08    SIDE_CHAIN                              
-REMARK 500  3  DA B  20         0.06    SIDE_CHAIN                              
-REMARK 500  3  DT B  21         0.09    SIDE_CHAIN                              
-REMARK 500  3  DT B  26         0.10    SIDE_CHAIN                              
-REMARK 500  3 ARG P   5         0.09    SIDE_CHAIN                              
-REMARK 500  3 TYR P   8         0.10    SIDE_CHAIN                              
-REMARK 500  3 TYR P  11         0.07    SIDE_CHAIN                              
-REMARK 500  3 ARG P  29         0.09    SIDE_CHAIN                              
-REMARK 500  3 ARG P  43         0.08    SIDE_CHAIN                              
-REMARK 500  4  DA A   2         0.08    SIDE_CHAIN                              
-REMARK 500  4  DA A   3         0.07    SIDE_CHAIN                              
-REMARK 500  4  DT A  10         0.11    SIDE_CHAIN                              
-REMARK 500  4  DC B  17         0.08    SIDE_CHAIN                              
-REMARK 500  4  DT B  18         0.18    SIDE_CHAIN                              
-REMARK 500  4  DA B  20         0.07    SIDE_CHAIN                              
-REMARK 500  4  DT B  21         0.10    SIDE_CHAIN                              
-REMARK 500  4  DG B  22         0.09    SIDE_CHAIN                              
-REMARK 500  4  DG B  23         0.11    SIDE_CHAIN                              
-REMARK 500  4  DC B  24         0.09    SIDE_CHAIN                              
-REMARK 500  4  DT B  25         0.07    SIDE_CHAIN                              
-REMARK 500  4  DT B  27         0.07    SIDE_CHAIN                              
-REMARK 500  4  DC B  28         0.06    SIDE_CHAIN                              
-REMARK 500  4 TYR P  11         0.08    SIDE_CHAIN                              
-REMARK 500  4 TYR P  25         0.07    SIDE_CHAIN                              
-REMARK 500  5  DA A   3         0.10    SIDE_CHAIN                              
-REMARK 500  5  DT A  10         0.09    SIDE_CHAIN                              
-REMARK 500  5  DA A  11         0.05    SIDE_CHAIN                              
-REMARK 500  5  DC B  15         0.09    SIDE_CHAIN                              
-REMARK 500  5  DC B  17         0.09    SIDE_CHAIN                              
-REMARK 500  5  DA B  19         0.09    SIDE_CHAIN                              
-REMARK 500  5  DT B  21         0.11    SIDE_CHAIN                              
-REMARK 500  5  DC B  24         0.10    SIDE_CHAIN                              
-REMARK 500  5 ARG P   1         0.10    SIDE_CHAIN                              
-REMARK 500  5 TYR P   8         0.20    SIDE_CHAIN                              
-REMARK 500  5 TYR P  11         0.15    SIDE_CHAIN                              
-REMARK 500  6  DG A   5         0.12    SIDE_CHAIN                              
-REMARK 500  6  DC A   6         0.06    SIDE_CHAIN                              
-REMARK 500  6  DT A  10         0.10    SIDE_CHAIN                              
-REMARK 500  6  DA A  13         0.08    SIDE_CHAIN                              
-REMARK 500  6  DT B  18         0.18    SIDE_CHAIN                              
-REMARK 500  6  DG B  23         0.14    SIDE_CHAIN                              
-REMARK 500  6  DC B  24         0.10    SIDE_CHAIN                              
-REMARK 500  6  DT B  25         0.08    SIDE_CHAIN                              
-REMARK 500  6  DC B  28         0.06    SIDE_CHAIN                              
-REMARK 500  6 TYR P   8         0.14    SIDE_CHAIN                              
-REMARK 500  6 TYR P  11         0.18    SIDE_CHAIN                              
-REMARK 500  6 PHE P  20         0.11    SIDE_CHAIN                              
-REMARK 500  6 TYR P  25         0.10    SIDE_CHAIN                              
-REMARK 500  7  DA A   3         0.14    SIDE_CHAIN                              
-REMARK 500  7  DC A   6         0.11    SIDE_CHAIN                              
-REMARK 500  7  DG A  12         0.09    SIDE_CHAIN                              
-REMARK 500  7  DC B  17         0.11    SIDE_CHAIN                              
-REMARK 500  7  DT B  18         0.14    SIDE_CHAIN                              
-REMARK 500  7  DT B  21         0.12    SIDE_CHAIN                              
-REMARK 500  7  DG B  22         0.07    SIDE_CHAIN                              
-REMARK 500  7  DG B  23         0.09    SIDE_CHAIN                              
-REMARK 500  7  DC B  24         0.10    SIDE_CHAIN                              
-REMARK 500  7  DT B  25         0.07    SIDE_CHAIN                              
-REMARK 500  7  DC B  28         0.08    SIDE_CHAIN                              
-REMARK 500  7 TYR P  11         0.11    SIDE_CHAIN                              
-REMARK 500  7 TYR P  25         0.08    SIDE_CHAIN                              
-REMARK 500  7 ARG P  31         0.14    SIDE_CHAIN                              
-REMARK 500  8  DG A   1         0.08    SIDE_CHAIN                              
-REMARK 500  8  DG A   5         0.10    SIDE_CHAIN                              
-REMARK 500  8  DT A   9         0.07    SIDE_CHAIN                              
-REMARK 500  8  DG A  12         0.12    SIDE_CHAIN                              
-REMARK 500  8  DC B  15         0.10    SIDE_CHAIN                              
-REMARK 500  8  DC B  17         0.12    SIDE_CHAIN                              
-REMARK 500  8  DT B  18         0.14    SIDE_CHAIN                              
-REMARK 500  8  DG B  23         0.11    SIDE_CHAIN                              
-REMARK 500  8 TYR P   8         0.14    SIDE_CHAIN                              
-REMARK 500  8 TYR P  25         0.10    SIDE_CHAIN                              
-REMARK 500  9  DA A   4         0.11    SIDE_CHAIN                              
-REMARK 500  9  DT A  10         0.08    SIDE_CHAIN                              
-REMARK 500  9  DG A  12         0.12    SIDE_CHAIN                              
-REMARK 500  9  DC B  15         0.07    SIDE_CHAIN                              
-REMARK 500  9  DC B  17         0.08    SIDE_CHAIN                              
-REMARK 500  9  DT B  18         0.13    SIDE_CHAIN                              
-REMARK 500  9  DG B  23         0.07    SIDE_CHAIN                              
-REMARK 500  9  DC B  24         0.06    SIDE_CHAIN                              
-REMARK 500  9  DT B  27         0.10    SIDE_CHAIN                              
-REMARK 500  9 TYR P   8         0.09    SIDE_CHAIN                              
-REMARK 500  9 ARG P  10         0.09    SIDE_CHAIN                              
-REMARK 500  9 TYR P  11         0.16    SIDE_CHAIN                              
-REMARK 500  9 PHE P  20         0.08    SIDE_CHAIN                              
-REMARK 500  9 PHE P  22         0.08    SIDE_CHAIN                              
-REMARK 500  9 ARG P  28         0.08    SIDE_CHAIN                              
-REMARK 500  9 ARG P  53         0.08    SIDE_CHAIN                              
-REMARK 500 10  DA A   2         0.08    SIDE_CHAIN                              
-REMARK 500 10  DA A   3         0.09    SIDE_CHAIN                              
-REMARK 500 10  DA A   4         0.05    SIDE_CHAIN                              
-REMARK 500 10  DG A   5         0.10    SIDE_CHAIN                              
-REMARK 500 10  DG A  14         0.07    SIDE_CHAIN                              
-REMARK 500 10  DT B  18         0.20    SIDE_CHAIN                              
-REMARK 500 10  DA B  20         0.07    SIDE_CHAIN                              
-REMARK 500 10  DT B  21         0.06    SIDE_CHAIN                              
-REMARK 500 10  DG B  23         0.10    SIDE_CHAIN                              
-REMARK 500 10  DC B  28         0.12    SIDE_CHAIN                              
-REMARK 500 10 TYR P  11         0.13    SIDE_CHAIN                              
-REMARK 500 10 TYR P  25         0.10    SIDE_CHAIN                              
-REMARK 500 10 ARG P  30         0.08    SIDE_CHAIN                              
-REMARK 500 10 ARG P  53         0.09    SIDE_CHAIN                              
-REMARK 500 11  DA A   3         0.09    SIDE_CHAIN                              
-REMARK 500 11  DC A   7         0.15    SIDE_CHAIN                              
-REMARK 500 11  DT A   9         0.06    SIDE_CHAIN                              
-REMARK 500 11  DT A  10         0.13    SIDE_CHAIN                              
-REMARK 500 11  DA A  11         0.08    SIDE_CHAIN                              
-REMARK 500 11  DT B  18         0.23    SIDE_CHAIN                              
-REMARK 500 11  DA B  20         0.10    SIDE_CHAIN                              
-REMARK 500 11  DC B  24         0.10    SIDE_CHAIN                              
-REMARK 500 11  DT B  27         0.08    SIDE_CHAIN                              
-REMARK 500 11 TYR P  11         0.11    SIDE_CHAIN                              
-REMARK 500 11 TYR P  25         0.07    SIDE_CHAIN                              
-REMARK 500 11 ARG P  28         0.10    SIDE_CHAIN                              
-REMARK 500 11 ARG P  29         0.10    SIDE_CHAIN                              
-REMARK 500 11 ARG P  53         0.08    SIDE_CHAIN                              
-REMARK 500 12  DA A   3         0.08    SIDE_CHAIN                              
-REMARK 500 12  DG A   5         0.13    SIDE_CHAIN                              
-REMARK 500 12  DC A   6         0.08    SIDE_CHAIN                              
-REMARK 500 12  DA A   8         0.06    SIDE_CHAIN                              
-REMARK 500 12  DG A  12         0.06    SIDE_CHAIN                              
-REMARK 500 12  DA A  13         0.09    SIDE_CHAIN                              
-REMARK 500 12  DT B  16         0.07    SIDE_CHAIN                              
-REMARK 500 12  DT B  18         0.07    SIDE_CHAIN                              
-REMARK 500 12  DG B  23         0.09    SIDE_CHAIN                              
-REMARK 500 12 ARG P   3         0.11    SIDE_CHAIN                              
-REMARK 500 12 ARG P  10         0.09    SIDE_CHAIN                              
-REMARK 500 12 PHE P  20         0.12    SIDE_CHAIN                              
-REMARK 500 12 ARG P  29         0.08    SIDE_CHAIN                              
-REMARK 500 12 ARG P  31         0.10    SIDE_CHAIN                              
-REMARK 500 13  DA A   4         0.06    SIDE_CHAIN                              
-REMARK 500 13  DG A  12         0.14    SIDE_CHAIN                              
-REMARK 500 13  DG A  14         0.07    SIDE_CHAIN                              
-REMARK 500 13  DT B  18         0.19    SIDE_CHAIN                              
-REMARK 500 13  DG B  23         0.09    SIDE_CHAIN                              
-REMARK 500 13  DT B  26         0.10    SIDE_CHAIN                              
-REMARK 500 13 ARG P   1         0.09    SIDE_CHAIN                              
-REMARK 500 13 TYR P   8         0.15    SIDE_CHAIN                              
-REMARK 500 13 TYR P  25         0.08    SIDE_CHAIN                              
-REMARK 500 13 ARG P  29         0.10    SIDE_CHAIN                              
-REMARK 500 13 ARG P  30         0.09    SIDE_CHAIN                              
-REMARK 500 13 ARG P  31         0.11    SIDE_CHAIN                              
-REMARK 500 14  DG A   1         0.07    SIDE_CHAIN                              
-REMARK 500 14  DA A   2         0.10    SIDE_CHAIN                              
-REMARK 500 14  DG A   5         0.07    SIDE_CHAIN                              
-REMARK 500 14  DA A  11         0.07    SIDE_CHAIN                              
-REMARK 500 14  DG A  12         0.14    SIDE_CHAIN                              
-REMARK 500 14  DA A  13         0.07    SIDE_CHAIN                              
-REMARK 500 14  DT B  18         0.15    SIDE_CHAIN                              
-REMARK 500 14  DT B  21         0.08    SIDE_CHAIN                              
-REMARK 500 14  DG B  23         0.07    SIDE_CHAIN                              
-REMARK 500 14  DC B  24         0.10    SIDE_CHAIN                              
-REMARK 500 14 ARG P   5         0.08    SIDE_CHAIN                              
-REMARK 500 14 TYR P  25         0.13    SIDE_CHAIN                              
-REMARK 500 14 ARG P  31         0.17    SIDE_CHAIN                              
-REMARK 500 15  DA A   4         0.08    SIDE_CHAIN                              
-REMARK 500 15  DG A   5         0.06    SIDE_CHAIN                              
-REMARK 500 15  DG A  12         0.08    SIDE_CHAIN                              
-REMARK 500 15  DA A  13         0.06    SIDE_CHAIN                              
-REMARK 500 15  DC B  15         0.08    SIDE_CHAIN                              
-REMARK 500 15  DC B  17         0.08    SIDE_CHAIN                              
-REMARK 500 15  DT B  18         0.14    SIDE_CHAIN                              
-REMARK 500 15  DA B  19         0.06    SIDE_CHAIN                              
-REMARK 500 15  DG B  22         0.06    SIDE_CHAIN                              
-REMARK 500 15  DC B  24         0.13    SIDE_CHAIN                              
-REMARK 500 15  DT B  25         0.09    SIDE_CHAIN                              
-REMARK 500 15  DT B  27         0.07    SIDE_CHAIN                              
-REMARK 500 15 TYR P   8         0.10    SIDE_CHAIN                              
-REMARK 500 15 ARG P  10         0.08    SIDE_CHAIN                              
-REMARK 500 15 ARG P  24         0.12    SIDE_CHAIN                              
-REMARK 500 15 ARG P  29         0.08    SIDE_CHAIN                              
-REMARK 500 16  DG A   1         0.06    SIDE_CHAIN                              
-REMARK 500 16  DA A   3         0.06    SIDE_CHAIN                              
-REMARK 500 16  DA A   4         0.07    SIDE_CHAIN                              
-REMARK 500 16  DG A   5         0.13    SIDE_CHAIN                              
-REMARK 500 16  DC A   7         0.09    SIDE_CHAIN                              
-REMARK 500 16  DA A   8         0.07    SIDE_CHAIN                              
-REMARK 500 16  DT A  10         0.10    SIDE_CHAIN                              
-REMARK 500 16  DG A  12         0.09    SIDE_CHAIN                              
-REMARK 500 16  DA A  13         0.09    SIDE_CHAIN                              
-REMARK 500 16  DT B  18         0.09    SIDE_CHAIN                              
-REMARK 500 16  DT B  21         0.09    SIDE_CHAIN                              
-REMARK 500 16  DG B  22         0.08    SIDE_CHAIN                              
-REMARK 500 16  DG B  23         0.11    SIDE_CHAIN                              
-REMARK 500 16  DT B  27         0.09    SIDE_CHAIN                              
-REMARK 500 16 TYR P   8         0.08    SIDE_CHAIN                              
-REMARK 500 16 PHE P  22         0.08    SIDE_CHAIN                              
-REMARK 500 16 TYR P  25         0.11    SIDE_CHAIN                              
-REMARK 500 16 ARG P  52         0.09    SIDE_CHAIN                              
+REMARK 500  1  DA A   2         0.06    SIDE CHAIN                              
+REMARK 500  1  DA A   3         0.06    SIDE CHAIN                              
+REMARK 500  1  DT A   9         0.12    SIDE CHAIN                              
+REMARK 500  1  DT A  10         0.10    SIDE CHAIN                              
+REMARK 500  1  DT B  16         0.09    SIDE CHAIN                              
+REMARK 500  1  DC B  17         0.08    SIDE CHAIN                              
+REMARK 500  1  DT B  18         0.23    SIDE CHAIN                              
+REMARK 500  1  DA B  19         0.09    SIDE CHAIN                              
+REMARK 500  1  DG B  23         0.12    SIDE CHAIN                              
+REMARK 500  1  DC B  28         0.07    SIDE CHAIN                              
+REMARK 500  1 ARG P   3         0.14    SIDE CHAIN                              
+REMARK 500  1 TYR P   8         0.08    SIDE CHAIN                              
+REMARK 500  1 ARG P  10         0.08    SIDE CHAIN                              
+REMARK 500  1 TYR P  25         0.08    SIDE CHAIN                              
+REMARK 500  1 ARG P  28         0.08    SIDE CHAIN                              
+REMARK 500  1 ARG P  30         0.17    SIDE CHAIN                              
+REMARK 500  1 ARG P  31         0.13    SIDE CHAIN                              
+REMARK 500  2  DA A   3         0.09    SIDE CHAIN                              
+REMARK 500  2  DA A   4         0.10    SIDE CHAIN                              
+REMARK 500  2  DT A  10         0.08    SIDE CHAIN                              
+REMARK 500  2  DA A  11         0.08    SIDE CHAIN                              
+REMARK 500  2  DT B  18         0.12    SIDE CHAIN                              
+REMARK 500  2  DT B  21         0.10    SIDE CHAIN                              
+REMARK 500  2  DG B  22         0.11    SIDE CHAIN                              
+REMARK 500  2  DC B  24         0.07    SIDE CHAIN                              
+REMARK 500  2 TYR P  25         0.16    SIDE CHAIN                              
+REMARK 500  3  DG A   1         0.07    SIDE CHAIN                              
+REMARK 500  3  DA A   2         0.06    SIDE CHAIN                              
+REMARK 500  3  DA A   3         0.12    SIDE CHAIN                              
+REMARK 500  3  DA A   4         0.07    SIDE CHAIN                              
+REMARK 500  3  DG A   5         0.07    SIDE CHAIN                              
+REMARK 500  3  DT B  18         0.20    SIDE CHAIN                              
+REMARK 500  3  DA B  19         0.08    SIDE CHAIN                              
+REMARK 500  3  DA B  20         0.06    SIDE CHAIN                              
+REMARK 500  3  DT B  21         0.09    SIDE CHAIN                              
+REMARK 500  3  DT B  26         0.10    SIDE CHAIN                              
+REMARK 500  3 ARG P   5         0.09    SIDE CHAIN                              
+REMARK 500  3 TYR P   8         0.10    SIDE CHAIN                              
+REMARK 500  3 TYR P  11         0.07    SIDE CHAIN                              
+REMARK 500  3 ARG P  29         0.09    SIDE CHAIN                              
+REMARK 500  3 ARG P  43         0.08    SIDE CHAIN                              
+REMARK 500  4  DA A   2         0.08    SIDE CHAIN                              
+REMARK 500  4  DA A   3         0.07    SIDE CHAIN                              
+REMARK 500  4  DT A  10         0.11    SIDE CHAIN                              
+REMARK 500  4  DC B  17         0.08    SIDE CHAIN                              
+REMARK 500  4  DT B  18         0.18    SIDE CHAIN                              
+REMARK 500  4  DA B  20         0.07    SIDE CHAIN                              
+REMARK 500  4  DT B  21         0.10    SIDE CHAIN                              
+REMARK 500  4  DG B  22         0.09    SIDE CHAIN                              
+REMARK 500  4  DG B  23         0.11    SIDE CHAIN                              
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     221 PLANE DEVIATIONS.                             
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-DBREF  1AHD P    1    67  UNP    P02833   ANTP_DROME     297    363             
+DBREF  1AHD P    1    67  UNP    Q24645   ANTP_DROSU     313    379             
 DBREF  1AHD A    1    14  PDB    1AHD     1AHD             1     14             
 DBREF  1AHD B   15    28  PDB    1AHD     1AHD            15     28             
+SEQADV 1AHD MET P    0  UNP  Q24645              EXPRESSION TAG                 
+SEQADV 1AHD SER P   39  UNP  Q24645    CYS   351 ENGINEERED MUTATION            
 SEQRES   1 A   14   DG  DA  DA  DA  DG  DC  DC  DA  DT  DT  DA  DG  DA          
 SEQRES   2 A   14   DG                                                          
 SEQRES   1 B   14   DC  DT  DC  DT  DA  DA  DT  DG  DG  DC  DT  DT  DT          
@@ -34721,5 +34500,5 @@ ATOM   2128  HA2 GLY P  67     -10.786  -7.655  22.125  1.00 22.11           H
 ATOM   2129  HA3 GLY P  67     -10.713  -7.500  20.366  1.00 21.28           H  
 TER    2130      GLY P  67                                                      
 ENDMDL                                                                          
-MASTER      544    0    0    3    0    0    0    634032   48    0   10          
+MASTER      322    0    0    3    0    0    0    6 1177    3    0   10          
 END                                                                             

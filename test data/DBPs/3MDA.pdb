@@ -38,9 +38,10 @@ SOURCE  16 OTHER_DETAILS: THE DNA FRAGMENT IS CHEMICALLY SYNTHESIZED.;
 SOURCE  17 MOL_ID: 4;                                                           
 SOURCE  18 SYNTHETIC: YES;                                                      
 SOURCE  19 OTHER_DETAILS: THE DNA FRAGMENT IS CHEMICALLY SYNTHESIZED.           
-KEYWDS    PROTEIN-DNA COMPLEX, LYASE,TRANSFERASE-DNA COMPLEX                    
+KEYWDS    PROTEIN-DNA COMPLEX, LYASE, TRANSFERASE-DNA COMPLEX                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.GARCIA-DIAZ,M.MURRAY,T.KUNKEL,K.M.CHOU                              
+REVDAT   3   08-NOV-17 3MDA    1       REMARK                                   
 REVDAT   2   09-JUN-10 3MDA    1       JRNL                                     
 REVDAT   1   28-APR-10 3MDA    0                                                
 JRNL        AUTH   M.GARCIA-DIAZ,M.S.MURRAY,T.A.KUNKEL,K.M.CHOU                 
@@ -54,16 +55,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.03 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX                                               
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -113,8 +113,8 @@ REMARK   3    B11 (A**2) : -8.51000
 REMARK   3    B22 (A**2) : 9.96500                                              
 REMARK   3    B33 (A**2) : -1.45500                                             
 REMARK   3    B12 (A**2) : 0.00000                                              
-REMARK   3    B13 (A**2) : -0.00000                                             
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -136,10 +136,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3MDA COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3MDA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 12-APR-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB058405.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000058405.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -157,10 +157,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1.504
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : CCD DETECTOR                       
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU                             
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 52786                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.030                              
@@ -248,7 +248,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 5820 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 17260 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -68.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, T, D, P                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, T, P, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -316,7 +316,8 @@ REMARK 500     DC T   1   O4' -  C1' -  N1  ANGL. DEV. =  -4.6 DEGREES
 REMARK 500     DG T   2   C3' -  C2' -  C1' ANGL. DEV. =  -5.1 DEGREES          
 REMARK 500     DG T   2   O4' -  C1' -  N9  ANGL. DEV. =   5.1 DEGREES          
 REMARK 500     DG T   5   O4' -  C1' -  N9  ANGL. DEV. =  -6.4 DEGREES          
-REMARK 500     DT T  10   O4' -  C1' -  N1  ANGL. DEV. =  -7.6 DEGREES          
+REMARK 500     DT T  10   O4' -  C1' -  N1  ANGL. DEV. =  -7.5 DEGREES          
+REMARK 500    CAR P   7   O3' -  P   -  OP2 ANGL. DEV. =  23.4 DEGREES          
 REMARK 500     DG D   4   O5' -  C5' -  C4' ANGL. DEV. =  -4.9 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         

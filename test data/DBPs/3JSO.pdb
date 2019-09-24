@@ -31,6 +31,7 @@ KEYWDS   3 REPAIR, DNA REPLICATION, DNA-BINDING, HYDROLASE, SOS RESPONSE,
 KEYWDS   4 TRANSCRIPTION, TRANSCRIPTION REGULATION, HYDROLASE-DNA COMPLEX       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.P.P.ZHANG,Y.Z.PIGLI,P.A.RICE                                        
+REVDAT   3   01-NOV-17 3JSO    1       REMARK                                   
 REVDAT   2   21-MAR-12 3JSO    1       JRNL   VERSN                             
 REVDAT   1   18-AUG-10 3JSO    0                                                
 JRNL        AUTH   A.P.ZHANG,Y.Z.PIGLI,P.A.RICE                                 
@@ -90,7 +91,7 @@ REMARK   3    B22 (A**2) : -0.36000
 REMARK   3    B33 (A**2) : 0.64000                                              
 REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED OVERALL COORDINATE ERROR.                                 
 REMARK   3   ESU BASED ON R VALUE                            (A): 0.634         
@@ -133,8 +134,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1876 ; 0.099 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3017 ; 0.179 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2087 ; 0.283 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2518 ; 0.527 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -253,7 +259,7 @@ REMARK   4
 REMARK   4 3JSO COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 16-SEP-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB055109.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000055109.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -273,8 +279,8 @@ REMARK 200  OPTICS                         : MIRROS; NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD; NULL                          
 REMARK 200  DETECTOR MANUFACTURER          : RAYONIX MX-300; NULL               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 23570                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.290                              
@@ -299,7 +305,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH; MAD                         
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MAD, MR                      
-REMARK 200 SOFTWARE USED: SOLVE; PHASER                                         
+REMARK 200 SOFTWARE USED: PHASER, SOLVE, DM                                     
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -365,7 +371,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 8380 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 24830 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -49.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, C, B, D                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -430,7 +436,7 @@ REMARK 500     DA D   2   O4' -  C1' -  N9  ANGL. DEV. =   2.1 DEGREES
 REMARK 500     DA D   4   O4' -  C1' -  N9  ANGL. DEV. =   2.9 DEGREES          
 REMARK 500     DT D  12   C3' -  C2' -  C1' ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DT D  12   O4' -  C1' -  N1  ANGL. DEV. =   2.6 DEGREES          
-REMARK 500     DT D  16   O4' -  C1' -  N1  ANGL. DEV. =   3.6 DEGREES          
+REMARK 500     DT D  16   O4' -  C1' -  N1  ANGL. DEV. =   3.5 DEGREES          
 REMARK 500     DA D  19   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
@@ -8225,5 +8231,5 @@ HETATM 3899  O   HOH D  58      16.619  12.149  33.920  1.00 41.69           O
 HETATM 3900  O   HOH D  70      15.151   1.779  -0.615  1.00 46.81           O  
 HETATM 3901  O   HOH D  83      15.359  15.588   6.873  1.00 41.98           O  
 HETATM 3902  O   HOH D  84      13.630   0.784  -4.644  1.00 46.47           O  
-MASTER      420    0    0   10   31    0    0    6 3879    4    0   36          
+MASTER      425    0    0   10   31    0    0    6 3879    4    0   36          
 END                                                                             

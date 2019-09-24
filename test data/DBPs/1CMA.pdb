@@ -18,29 +18,27 @@ SOURCE   4 SYNTHETIC: YES;
 SOURCE   5 MOL_ID: 3;                                                           
 SOURCE   6 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   7 ORGANISM_TAXID: 562                                                  
-KEYWDS    PROTEIN-DNA COMPLEX, DOUBLE HELIX, TRANSCRIPTION/DNA COMPLEX          
+KEYWDS    PROTEIN-DNA COMPLEX, DOUBLE HELIX, TRANSCRIPTION-DNA COMPLEX          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    W.S.SOMERS,S.E.V.PHILLIPS                                             
+REVDAT   6   29-NOV-17 1CMA    1       HELIX                                    
 REVDAT   5   24-FEB-09 1CMA    1       VERSN                                    
 REVDAT   4   01-APR-03 1CMA    1       JRNL                                     
 REVDAT   3   07-SEP-01 1CMA    1       REMARK                                   
 REVDAT   2   27-NOV-00 1CMA    5                                                
 REVDAT   1   31-OCT-93 1CMA    0                                                
 JRNL        AUTH   W.S.SOMERS,S.E.PHILLIPS                                      
-JRNL        TITL   CRYSTAL STRUCTURE OF THE MET REPRESSOR-OPERATOR              
-JRNL        TITL 2 COMPLEX AT 2.8 A RESOLUTION REVEALS DNA                      
-JRNL        TITL 3 RECOGNITION BY BETA-STRANDS.                                 
+JRNL        TITL   CRYSTAL STRUCTURE OF THE MET REPRESSOR-OPERATOR COMPLEX AT   
+JRNL        TITL 2 2.8 A RESOLUTION REVEALS DNA RECOGNITION BY BETA-STRANDS.    
 JRNL        REF    NATURE                        V. 359   387 1992              
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   1406951                                                      
 JRNL        DOI    10.1038/359387A0                                             
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
-REMARK   1  AUTH   J.B.RAFFERTY,W.S.SOMERS,I.SAINT-GIRONS,                      
-REMARK   1  AUTH 2 S.E.V.PHILLIPS                                               
-REMARK   1  TITL   THREE-DIMENSIONAL CRYSTAL STRUCTURES OF                      
-REMARK   1  TITL 2 ESCHERICHIA COLI MET REPRESSOR WITH AND WITHOUT              
-REMARK   1  TITL 3 COREPRESSOR                                                  
+REMARK   1  AUTH   J.B.RAFFERTY,W.S.SOMERS,I.SAINT-GIRONS,S.E.V.PHILLIPS        
+REMARK   1  TITL   THREE-DIMENSIONAL CRYSTAL STRUCTURES OF ESCHERICHIA COLI MET 
+REMARK   1  TITL 2 REPRESSOR WITH AND WITHOUT COREPRESSOR                       
 REMARK   1  REF    NATURE                        V. 341   705 1989              
 REMARK   1  REFN                   ISSN 0028-0836                               
 REMARK   2                                                                      
@@ -105,9 +103,10 @@ REMARK   3   ISOTROPIC THERMAL FACTOR RESTRAINTS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1CMA COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1CMA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB.                                
+REMARK 100 THE DEPOSITION ID IS D_1000172388.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -162,8 +161,7 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 58.99                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.00                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PH 7.00, VAPOR DIFFUSION, HANGING        
-REMARK 280  DROP                                                                
+REMARK 280 CRYSTALLIZATION CONDITIONS: PH 7.00, VAPOR DIFFUSION, HANGING DROP   
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 62 2 2                         
@@ -267,7 +265,7 @@ REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
 REMARK 500   O    HOH A   111     O    HOH A   111    12565     0.56            
-REMARK 500   O3'  DT  C    10     P    DA  D    11    12565     1.48            
+REMARK 500   O3'   DT C    10     P     DA D    11    12565     1.48            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -340,7 +338,7 @@ REMARK 500     DC C   6   O4' -  C1' -  N1  ANGL. DEV. =   4.6 DEGREES
 REMARK 500     DG D  12   O4' -  C1' -  C2' ANGL. DEV. =  -6.4 DEGREES          
 REMARK 500     DG D  12   O4' -  C1' -  N9  ANGL. DEV. =  -5.0 DEGREES          
 REMARK 500     DT D  16   O4' -  C1' -  N1  ANGL. DEV. =   4.5 DEGREES          
-REMARK 500     DC D  17   O4' -  C1' -  N1  ANGL. DEV. =   1.8 DEGREES          
+REMARK 500     DC D  17   O4' -  C1' -  N1  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500     DT D  18   O4' -  C1' -  C2' ANGL. DEV. =  -5.4 DEGREES          
 REMARK 500    ASP A  82   CB  -  CG  -  OD2 ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500    ASP B  73   CB  -  CG  -  OD1 ANGL. DEV. =  -5.5 DEGREES          
@@ -384,6 +382,7 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAM A 105                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SAM B 105                 
@@ -2659,5 +2658,5 @@ CONECT 2131 2129 2132
 CONECT 2132 2131 2133                                                           
 CONECT 2133 2132 2134                                                           
 CONECT 2134 2125 2128 2133                                                      
-MASTER      353    0    2    6    2    2    6    6 2166    4   54   18          
+MASTER      352    0    2    6    2    0    6    6 2166    4   54   18          
 END                                                                             

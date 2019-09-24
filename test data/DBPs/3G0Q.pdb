@@ -26,28 +26,29 @@ SOURCE   9 MOL_ID: 2;
 SOURCE  10 SYNTHETIC: YES;                                                      
 SOURCE  11 MOL_ID: 3;                                                           
 SOURCE  12 SYNTHETIC: YES                                                       
-KEYWDS    HELIX-HAIRPIN-HELIX MOTIF, DNA GLYCOSYLASE, 8-OXOGUANINE,             
-KEYWDS   2 PROTEIN-DNA COMPLEX, ADENINE GLYCOSYLASE, DNA REPAIR,                
-KEYWDS   3 GLYCOSIDASE, HYDROLASE, HYDROLASE/DNA COMPLEX                        
+KEYWDS    HELIX-HAIRPIN-HELIX MOTIF, DNA GLYCOSYLASE, 8-OXOGUANINE, PROTEIN-DNA 
+KEYWDS   2 COMPLEX, ADENINE GLYCOSYLASE, DNA REPAIR, GLYCOSIDASE, HYDROLASE,    
+KEYWDS   3 HYDROLASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    S LEE,G.L.VERDINE                                                     
+AUTHOR    S.LEE,G.L.VERDINE                                                     
+REVDAT   3   24-JAN-18 3G0Q    1       AUTHOR                                   
+REVDAT   2   01-NOV-17 3G0Q    1       REMARK                                   
 REVDAT   1   17-NOV-09 3G0Q    0                                                
 JRNL        AUTH   S.LEE,G.L.VERDINE                                            
-JRNL        TITL   ATOMIC SUBSTITUTION REVEALS THE STRUCTURAL BASIS             
-JRNL        TITL 2 FOR SUBSTRATE ADENINE RECOGNITION AND REMOVAL BY             
-JRNL        TITL 3 ADENINE DNA GLYCOSYLASE.                                     
+JRNL        TITL   ATOMIC SUBSTITUTION REVEALS THE STRUCTURAL BASIS FOR         
+JRNL        TITL 2 SUBSTRATE ADENINE RECOGNITION AND REMOVAL BY ADENINE DNA     
+JRNL        TITL 3 GLYCOSYLASE.                                                 
 JRNL        REF    PROC.NATL.ACAD.SCI.USA        V. 106 18497 2009              
 JRNL        REFN                   ISSN 0027-8424                               
 JRNL        PMID   19841264                                                     
 JRNL        DOI    10.1073/PNAS.0902908106                                      
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.20 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -146,13 +147,13 @@ REMARK   3  TOPOLOGY FILE  4   : NULL
 REMARK   3  TOPOLOGY FILE  5   : NULL                                           
 REMARK   3  TOPOLOGY FILE  6   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: THE STRUCTURE WAS REFINED USING THE       
-REMARK   3  CNS 1.2 PROGRAM.                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: THE STRUCTURE WAS REFINED USING THE CNS   
+REMARK   3  1.2 PROGRAM.                                                        
 REMARK   4                                                                      
-REMARK   4 3G0Q COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3G0Q COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 03-MAR-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB051276.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 18-FEB-09.                  
+REMARK 100 THE DEPOSITION ID IS D_1000051276.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -170,10 +171,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : NULL
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : DIFFRACTOMETER                     
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU RAXIS V                     
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 24152                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.200                              
@@ -207,8 +208,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 49.85                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.45                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: TRIS, PEG4000 CALCIUM ACETATE, PH        
-REMARK 280  8.5, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 277K                
+REMARK 280 CRYSTALLIZATION CONDITIONS: TRIS, PEG4000 CALCIUM ACETATE, PH 8.5,   
+REMARK 280  VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 277K                     
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 21                       
@@ -283,7 +284,7 @@ REMARK 465     GLY A   291
 REMARK 465      DT C    23                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -328,8 +329,8 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A   1  CA                            
@@ -378,6 +379,7 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE SF4 A 400                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A 1                    

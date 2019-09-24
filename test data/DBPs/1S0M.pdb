@@ -32,6 +32,7 @@ KEYWDS    BENZO PYRENE, CARCINOGEN, LESION BYPASS, POLYMERASE, TRANSFERASE-DNA
 KEYWDS   2 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    H.LING,J.M.SAYER,F.BOUDSOCQ,B.S.PLOSKY,R.WOODGATE,W.YANG              
+REVDAT   4   04-APR-18 1S0M    1       REMARK                                   
 REVDAT   3   13-JUL-11 1S0M    1       VERSN                                    
 REVDAT   2   24-FEB-09 1S0M    1       VERSN                                    
 REVDAT   1   30-MAR-04 1S0M    0                                                
@@ -47,7 +48,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.70 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : CNS 1.1                                              
+REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
 REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
@@ -155,7 +156,7 @@ REMARK   4
 REMARK   4 1S0M COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-JAN-04.                  
-REMARK 100 THE RCSB ID CODE IS RCSB021216.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000021216.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -167,7 +168,7 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : N                                  
 REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
 REMARK 200  BEAMLINE                       : NULL                               
-REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200B                      
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200                       
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
 REMARK 200  MONOCHROMATOR                  : MIRRORS                            
@@ -357,7 +358,7 @@ REMARK 500
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500     DA D1904   OP1 -  P   -  OP2 ANGL. DEV. = -18.3 DEGREES          
 REMARK 500     DA D1904   O5' -  P   -  OP1 ANGL. DEV. =  15.2 DEGREES          
-REMARK 500     DA D1904   P   -  O5' -  C5' ANGL. DEV. =  25.3 DEGREES          
+REMARK 500     DA D1904   P   -  O5' -  C5' ANGL. DEV. =  25.4 DEGREES          
 REMARK 500     DA D1904   C5' -  C4' -  O4' ANGL. DEV. = -13.7 DEGREES          
 REMARK 500     DA F1904   O5' -  C5' -  C4' ANGL. DEV. =  31.7 DEGREES          
 REMARK 500     DA F1904   C5' -  C4' -  C3' ANGL. DEV. = -31.2 DEGREES          
@@ -430,19 +431,6 @@ REMARK 500  M RES CSSEQI        RMS     TYPE
 REMARK 500     DA F1904         0.11    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH E 238        DISTANCE =  5.88 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
 REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
@@ -672,26 +660,26 @@ SEQRES  25 B  352  SER GLU SER VAL LYS LEU LEU GLN LYS ILE LEU GLU GLU
 SEQRES  26 B  352  ASP GLU ARG LYS ILE ARG ARG ILE GLY VAL ARG PHE SER          
 SEQRES  27 B  352  LYS PHE ILE GLU ALA ILE GLY LEU ASP LYS PHE PHE ASP          
 SEQRES  28 B  352  THR                                                          
+HET    BAP  D1920      23                                                       
+HET     CA  E 408       1                                                       
+HET    BAP  F1920      23                                                       
 HET     MG  A 401       1                                                       
-HET     CA  B 403       1                                                       
 HET     CA  A 402       1                                                       
-HET     CA  B 404       1                                                       
-HET     CA  B 405       1                                                       
 HET     CA  A 406       1                                                       
 HET     CA  A 407       1                                                       
-HET     CA  E 408       1                                                       
-HET    BAP  D1920      23                                                       
-HET    BAP  F1920      23                                                       
 HET    DTP  A 803      30                                                       
+HET     CA  B 403       1                                                       
+HET     CA  B 404       1                                                       
+HET     CA  B 405       1                                                       
 HET    DTP  B 804      30                                                       
-HETNAM      MG MAGNESIUM ION                                                    
-HETNAM      CA CALCIUM ION                                                      
 HETNAM     BAP 1,2,3-TRIHYDROXY-1,2,3,4-TETRAHYDROBENZO[A]PYRENE                
+HETNAM      CA CALCIUM ION                                                      
+HETNAM      MG MAGNESIUM ION                                                    
 HETNAM     DTP 2'-DEOXYADENOSINE 5'-TRIPHOSPHATE                                
-FORMUL   7   MG    MG 2+                                                        
+FORMUL   7  BAP    2(C20 H16 O3)                                                
 FORMUL   8   CA    7(CA 2+)                                                     
-FORMUL  15  BAP    2(C20 H16 O3)                                                
-FORMUL  17  DTP    2(C10 H16 N5 O12 P3)                                         
+FORMUL  10   MG    MG 2+                                                        
+FORMUL  14  DTP    2(C10 H16 N5 O12 P3)                                         
 FORMUL  19  HOH   *337(H2 O)                                                    
 HELIX    1   1 TYR A   10  ASN A   20  1                                  11    
 HELIX    2   2 ASN A   47  LYS A   52  1                                   6    
@@ -8148,5 +8136,5 @@ CONECT 7082 6760
 CONECT 7083 6760                                                                
 CONECT 7091 6700                                                                
 CONECT 7119 6760                                                                
-MASTER      561    0   12   28   24    0   31    6 7121    6  174   62          
+MASTER      548    0   12   28   24    0   31    6 7121    6  174   62          
 END                                                                             

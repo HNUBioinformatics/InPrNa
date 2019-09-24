@@ -1,6 +1,5 @@
 HEADER    GENE REGULATION/DNA                     01-JUN-99   1QQA              
-TITLE     PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR             
-TITLE    2 COMPLEX                                                              
+TITLE     PURINE REPRESSOR MUTANT-HYPOXANTHINE-PALINDROMIC OPERATOR COMPLEX     
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA (5'-                                                   
 COMPND   3 D(*TP*AP*CP*GP*CP*AP*AP*GP*CP*GP*CP*TP*TP*GP*CP*GP*T)-3');           
@@ -26,17 +25,19 @@ SOURCE  11 EXPRESSION_SYSTEM_VECTOR: PET24A;
 SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PDNA100\:K55A;                            
 SOURCE  13 EXPRESSION_SYSTEM_GENE: PURR                                         
 KEYWDS    TRANSCRIPTION REGULATION, DNA-BINDING, REPRESSOR, PURINE              
-KEYWDS   2 BIOSYNTHESIS, COMPLEX (DNA-BINDING PROTEIN/DNA), GENE                
-KEYWDS   3 REGULATION/DNA COMPLEX                                               
+KEYWDS   2 BIOSYNTHESIS, COMPLEX (DNA-BINDING PROTEIN-DNA), GENE REGULATION-DNA 
+KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    A.GLASFELD,A.N.KOEHLER,M.A.SCHUMACHER,R.G.BRENNAN                     
+REVDAT   5   04-APR-18 1QQA    1       REMARK                                   
+REVDAT   4   04-OCT-17 1QQA    1       REMARK                                   
 REVDAT   3   24-FEB-09 1QQA    1       VERSN                                    
 REVDAT   2   20-DEC-99 1QQA    1       JRNL                                     
 REVDAT   1   09-JUN-99 1QQA    0                                                
 JRNL        AUTH   A.GLASFELD,A.N.KOEHLER,M.A.SCHUMACHER,R.G.BRENNAN            
-JRNL        TITL   THE ROLE OF LYSINE 55 IN DETERMINING THE                     
-JRNL        TITL 2 SPECIFICITY OF THE PURINE REPRESSOR FOR ITS                  
-JRNL        TITL 3 OPERATORS THROUGH MINOR GROOVE INTERACTIONS.                 
+JRNL        TITL   THE ROLE OF LYSINE 55 IN DETERMINING THE SPECIFICITY OF THE  
+JRNL        TITL 2 PURINE REPRESSOR FOR ITS OPERATORS THROUGH MINOR GROOVE      
+JRNL        TITL 3 INTERACTIONS.                                                
 JRNL        REF    J.MOL.BIOL.                   V. 291   347 1999              
 JRNL        REFN                   ISSN 0022-2836                               
 JRNL        PMID   10438625                                                     
@@ -44,8 +45,8 @@ JRNL        DOI    10.1006/JMBI.1999.2946
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
 REMARK   1  AUTH   M.A.SCHUMACHER,K.Y.CHOI,H.ZALKIN,R.G.BRENNAN                 
-REMARK   1  TITL   CRYSTAL STRUCTURE OF LACI MEMBER, PURR, BOUND TO             
-REMARK   1  TITL 2 DNA: MINOR GROOVE BINDING BY ALPHA HELICES                   
+REMARK   1  TITL   CRYSTAL STRUCTURE OF LACI MEMBER, PURR, BOUND TO DNA: MINOR  
+REMARK   1  TITL 2 GROOVE BINDING BY ALPHA HELICES                              
 REMARK   1  REF    SCIENCE                       V. 266   763 1994              
 REMARK   1  REFN                   ISSN 0036-8075                               
 REMARK   2                                                                      
@@ -110,10 +111,10 @@ REMARK   3   ISOTROPIC THERMAL FACTOR RESTRAINTS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1QQA COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1QQA COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 07-JUN-99.                  
-REMARK 100 THE RCSB ID CODE IS RCSB009140.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000009140.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -125,7 +126,7 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : N                                  
 REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
 REMARK 200  BEAMLINE                       : NULL                               
-REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200H                      
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200                       
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
 REMARK 200  MONOCHROMATOR                  : NULL                               
@@ -133,8 +134,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : AREA DETECTOR                      
 REMARK 200  DETECTOR MANUFACTURER          : UCSD MARK III                      
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : UCSD                               
-REMARK 200  DATA SCALING SOFTWARE          : UCSD                               
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : UCSD-SYSTEM                        
+REMARK 200  DATA SCALING SOFTWARE          : UCSD-SYSTEM                        
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 13539                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.000                              
@@ -165,8 +166,8 @@ REMARK 200
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS   (%): NULL                                      
-REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): NULL                     
+REMARK 280 SOLVENT CONTENT, VS   (%): 68.64                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.92                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 4000, (NH4)3PO4, (NH4)2SO4,          
 REMARK 280  [CO(NH3)6]CL3, PH 7.5, VAPOR DIFFUSION, HANGING DROP,               
@@ -270,10 +271,11 @@ REMARK 500     DC M 701   O4' -  C1' -  N1  ANGL. DEV. =   2.7 DEGREES
 REMARK 500    LEU A  92   CA  -  CB  -  CG  ANGL. DEV. =  14.4 DEGREES          
 REMARK 500    LEU A 131   CB  -  CG  -  CD2 ANGL. DEV. = -11.8 DEGREES          
 REMARK 500    THR A 155   CB  -  CA  -  C   ANGL. DEV. = -16.8 DEGREES          
+REMARK 500    PRO A 237   C   -  N   -  CD  ANGL. DEV. = -13.1 DEGREES          
 REMARK 500    LEU A 263   CA  -  CB  -  CG  ANGL. DEV. = -14.0 DEGREES          
 REMARK 500    VAL A 269   CB  -  CA  -  C   ANGL. DEV. = -13.0 DEGREES          
 REMARK 500    LEU A 271   CB  -  CG  -  CD1 ANGL. DEV. = -10.8 DEGREES          
-REMARK 500    LEU A 306   CA  -  CB  -  CG  ANGL. DEV. = -14.9 DEGREES          
+REMARK 500    LEU A 306   CA  -  CB  -  CG  ANGL. DEV. = -14.8 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -3410,5 +3412,5 @@ CONECT 3002 3001
 CONECT 3003 3000 3004                                                           
 CONECT 3004 3003 3005                                                           
 CONECT 3005 2999 3004                                                           
-MASTER      278    0    1   14   12    0    2    6 3006    2   10   29          
+MASTER      279    0    1   14   12    0    2    6 3006    2   10   29          
 END                                                                             

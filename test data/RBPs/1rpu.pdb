@@ -1,15 +1,14 @@
 HEADER    RNA BINDING PROTEIN/RNA                 03-DEC-03   1RPU              
 TITLE     CRYSTAL STRUCTURE OF CIRV P19 BOUND TO SIRNA                          
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-                                                        
-COMPND   3 R(P*CP*GP*UP*AP*CP*GP*CP*GP*UP*CP*AP*CP*GP*CP*GP*UP*AP*CP*G          
-COMPND   4 P*UP*U)-3';                                                          
-COMPND   5 CHAIN: C, D;                                                         
-COMPND   6 ENGINEERED: YES;                                                     
-COMPND   7 MOL_ID: 2;                                                           
-COMPND   8 MOLECULE: 19 KDA PROTEIN;                                            
-COMPND   9 CHAIN: A, B;                                                         
-COMPND  10 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-R(P*CP*GP*UP*AP*CP*GP*CP*GP*UP*CP*AP*CP*GP*CP*GP*UP*AP*C
+COMPND   3 P*GP*UP*U)-3';                                                       
+COMPND   4 CHAIN: C, D;                                                         
+COMPND   5 ENGINEERED: YES;                                                     
+COMPND   6 MOL_ID: 2;                                                           
+COMPND   7 MOLECULE: 19 KDA PROTEIN;                                            
+COMPND   8 CHAIN: A, B;                                                         
+COMPND   9 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 OTHER_DETAILS: SYNTHESIZED BY DHARMACON;                             
@@ -22,27 +21,27 @@ SOURCE   9 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE  10 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
 SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  12 EXPRESSION_SYSTEM_PLASMID: PGEX2T                                    
-KEYWDS    RNAI, PROTEIN-RNA COMPLEX, RNA DOUBLE HELIX, RNA LENGTH               
-KEYWDS   2 RECOGNITION, RNA BINDING PROTEIN/RNA COMPLEX                         
+KEYWDS    RNAI, PROTEIN-RNA COMPLEX, RNA DOUBLE HELIX, RNA LENGTH RECOGNITION,  
+KEYWDS   2 RNA BINDING PROTEIN-RNA COMPLEX                                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.M.VARGASON,G.SZITTYA,J.BURGYAN,T.M.T.HALL                           
+REVDAT   3   11-OCT-17 1RPU    1       REMARK                                   
 REVDAT   2   24-FEB-09 1RPU    1       VERSN                                    
 REVDAT   1   13-JAN-04 1RPU    0                                                
 JRNL        AUTH   J.M.VARGASON,G.SZITTYA,J.BURGYAN,T.M.T.HALL                  
-JRNL        TITL   SIZE SELECTIVE RECOGNITION OF SIRNA BY AN RNA                
-JRNL        TITL 2 SILENCING SUPPRESSOR                                         
+JRNL        TITL   SIZE SELECTIVE RECOGNITION OF SIRNA BY AN RNA SILENCING      
+JRNL        TITL 2 SUPPRESSOR                                                   
 JRNL        REF    CELL(CAMBRIDGE,MASS.)         V. 115   799 2003              
 JRNL        REFN                   ISSN 0092-8674                               
 JRNL        PMID   14697199                                                     
 JRNL        DOI    10.1016/S0092-8674(03)00984-X                                
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -79,7 +78,7 @@ REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : NULL
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
 REMARK   3   PROTEIN ATOMS            : 2164                                    
-REMARK   3   NUCLEIC ACID ATOMS       : 1780                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 890                                     
 REMARK   3   HETEROGEN ATOMS          : 0                                       
 REMARK   3   SOLVENT ATOMS            : 111                                     
 REMARK   3                                                                      
@@ -105,7 +104,7 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.18                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.180                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
 REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
 REMARK   3                                                                      
@@ -133,10 +132,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1RPU COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1RPU COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 05-DEC-03.                  
-REMARK 100 THE RCSB ID CODE IS RCSB020934.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000020934.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -191,9 +190,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 48.00                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.37                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG MME 2000, AMMONIUM SULFATE,          
-REMARK 280  SODIUM ACETATE, PH 4.6, VAPOR DIFFUSION, HANGING DROP,              
-REMARK 280  TEMPERATURE 277K                                                    
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG MME 2000, AMMONIUM SULFATE, SODIUM   
+REMARK 280  ACETATE, PH 4.6, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 277K    
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 61 2 2                         
@@ -355,7 +353,7 @@ REMARK 465     SER B   171
 REMARK 465     GLU B   172                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -384,6 +382,25 @@ REMARK 500      C C   1   P       C C   1   OP3    -0.089
 REMARK 500      C C   1   P       C C   1   OP3    -0.086                       
 REMARK 500      C D   1   P       C D   1   OP3    -0.088                       
 REMARK 500      C D   1   P       C D   1   OP3    -0.085                       
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    PRO A  56   C   -  N   -  CA  ANGL. DEV. =  11.1 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -432,7 +449,7 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500      U C   9         0.08    SIDE_CHAIN                              
+REMARK 500      U C   9         0.08    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 DBREF  1RPU A    1   172  UNP    Q66104   VP19_CIRV        1    172             
@@ -4557,5 +4574,5 @@ HETATM 4056  O   HOH B 212      -5.356  55.606  61.461  1.00 56.04           O
 HETATM 4057  O   HOH B 213     -18.780  50.703  49.189  1.00 36.44           O  
 HETATM 4058  O   HOH B 214     -19.347  31.312  55.077  1.00 36.16           O  
 HETATM 4059  O   HOH B 215      -8.971  36.813  68.037  1.00 31.55           O  
-MASTER      400    0    0   11    8    0    0    6 4055    4    0   32          
+MASTER      417    0    0   11    8    0    0    6 3165    4    0   32          
 END                                                                             

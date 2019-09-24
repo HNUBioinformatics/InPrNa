@@ -5,8 +5,8 @@ COMPND   2 MOLECULE: 5'-D(*GP*GP*G*GP*GP*AP*AP*GP*GP*AP*CP*CP*C)-3';
 COMPND   3 CHAIN: S, P;                                                         
 COMPND   4 ENGINEERED: YES;                                                     
 COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: 5'-                                                        
-COMPND   7 D(*TP*T*CP*CP*AP*GP*GP*GP*TP*CP*CP*TP*TP*CP*CP*CP*CP*C)-3';          
+COMPND   6 MOLECULE: 5'-D(*TP*T*CP*CP*AP*GP*GP*GP*TP*CP*CP*TP*TP*CP*CP*CP*CP*C)-
+COMPND   7 3';                                                                  
 COMPND   8 CHAIN: Q, T;                                                         
 COMPND   9 ENGINEERED: YES;                                                     
 COMPND  10 MOL_ID: 3;                                                           
@@ -28,26 +28,25 @@ SOURCE  10 EXPRESSION_SYSTEM: SACCHAROMYCES CEREVISIAE;
 SOURCE  11 EXPRESSION_SYSTEM_COMMON: BAKER'S YEAST;                             
 SOURCE  12 EXPRESSION_SYSTEM_TAXID: 4932;                                       
 SOURCE  13 EXPRESSION_SYSTEM_STRAIN: BJ5464                                     
-KEYWDS    DNA POLYMERASE, TRANSFERASE/DNA COMPLEX                               
+KEYWDS    DNA POLYMERASE, TRANSFERASE-DNA COMPLEX                               
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    S.LONE,S.A.TOWNSON,S.N ULJON,S.PRAKASH,L.PRAKASH,                     
-AUTHOR   2 A.K.AGGARWAL                                                         
+AUTHOR    S.LONE,S.A.TOWNSON,S.N.ULJON,S.PRAKASH,L.PRAKASH,A.K.AGGARWAL         
+REVDAT   3   24-JAN-18 2OH2    1       AUTHOR                                   
 REVDAT   2   24-FEB-09 2OH2    1       VERSN                                    
 REVDAT   1   27-FEB-07 2OH2    0                                                
-JRNL        AUTH   S.LONE,S.A.TOWNSON,S.N.ULJON,R.E.JOHNSON,A.BRAHMA,           
-JRNL        AUTH 2 D.T.NAIR,S.PRAKASH,L.PRAKASH,A.K.AGGARWAL                    
+JRNL        AUTH   S.LONE,S.A.TOWNSON,S.N.ULJON,R.E.JOHNSON,A.BRAHMA,D.T.NAIR,  
+JRNL        AUTH 2 S.PRAKASH,L.PRAKASH,A.K.AGGARWAL                             
 JRNL        TITL   TERNARY COMPLEX OF THE CATALYTIC CORE OF HUMAN DNA           
 JRNL        TITL 2 POLYMERASE KAPPA WITH DNA AND DTT                            
 JRNL        REF    TO BE PUBLISHED                                              
 JRNL        REFN                                                                
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.05 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -110,9 +109,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.61
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.077                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.38                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.380                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.48                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.04                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.037                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
 REMARK   3                                                                      
@@ -138,10 +137,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2OH2 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2OH2 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 10-JAN-07.                  
-REMARK 100 THE RCSB ID CODE IS RCSB041126.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000041126.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -440,7 +439,7 @@ REMARK 465     GLN B   525
 REMARK 465     GLN B   526                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -651,34 +650,8 @@ REMARK 500    VAL B 148       90.62    -56.36
 REMARK 500    CYS B 161       72.48   -175.48                                   
 REMARK 500    GLN B 163       42.43    -85.34                                   
 REMARK 500    ASP B 189      113.78   -168.06                                   
-REMARK 500    PHE B 192       99.88    -53.90                                   
-REMARK 500    MET B 195      -75.94    -87.89                                   
-REMARK 500    SER B 196     -163.21   -103.03                                   
-REMARK 500    ALA B 200      143.38   -171.99                                   
-REMARK 500    ASN B 203       60.33   -102.17                                   
-REMARK 500    ILE B 204       30.80    -61.02                                   
-REMARK 500    ARG B 211       -2.44    -44.36                                   
-REMARK 500    ARG B 219       28.35    -75.40                                   
-REMARK 500    GLU B 302      -70.56    -54.15                                   
-REMARK 500    GLN B 303       39.96    -75.57                                   
-REMARK 500    LYS B 304      -11.38   -151.48                                   
-REMARK 500    THR B 305      -23.84   -140.37                                   
-REMARK 500    THR B 306      -11.19     90.24                                   
-REMARK 500    LYS B 328      -46.66    -20.01                                   
-REMARK 500    PRO B 329       47.31    -64.50                                   
-REMARK 500    ASN B 330       89.14     75.53                                   
-REMARK 500    LEU B 336      136.59    -27.31                                   
-REMARK 500    PRO B 337       44.20    -53.47                                   
-REMARK 500    LEU B 407      169.45    -46.92                                   
-REMARK 500    ARG B 409      134.77    -31.94                                   
-REMARK 500    ASP B 410      103.44    -25.43                                   
-REMARK 500    GLU B 424      151.18    -45.85                                   
-REMARK 500    SER B 472      111.25    177.85                                   
-REMARK 500    SER B 476      -94.93    -55.30                                   
-REMARK 500    VAL B 477      122.57    149.18                                   
-REMARK 500    SER B 479      -39.25   -156.32                                   
-REMARK 500    PHE B 500      -78.41    -15.81                                   
-REMARK 500    SER B 515       75.14     66.46                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS      78 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -694,15 +667,15 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500     DC S  12         0.07    SIDE_CHAIN                              
-REMARK 500     DG Q   8         0.07    SIDE_CHAIN                              
-REMARK 500     DC P  12         0.08    SIDE_CHAIN                              
+REMARK 500     DC S  12         0.07    SIDE CHAIN                              
+REMARK 500     DG Q   8         0.07    SIDE CHAIN                              
+REMARK 500     DC P  12         0.08    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG A 872  MG                            
@@ -733,20 +706,23 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 872                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 873                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TTP A 873                 
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE TTP B 874                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1T94   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF THE CATALYTIC CORE OF HUMAN DNA                 
-REMARK 900 POLYMERASE KAPPA                                                     
+REMARK 900 CRYSTAL STRUCTURE OF THE CATALYTIC CORE OF HUMAN DNA POLYMERASE      
+REMARK 900 KAPPA                                                                
 DBREF  2OH2 A   19   526  UNP    Q9UBT6   POLK_HUMAN      19    526             
 DBREF  2OH2 B   19   526  UNP    Q9UBT6   POLK_HUMAN      19    526             
 DBREF  2OH2 S    1    13  PDB    2OH2     2OH2             1     13             
@@ -840,13 +816,13 @@ SEQRES  38 B  508  PHE PRO HIS PRO LEU ARG LEU ARG LEU MET GLY VAL ARG
 SEQRES  39 B  508  ILE SER SER PHE PRO ASN GLU GLU ASP ARG LYS HIS GLN          
 SEQRES  40 B  508  GLN                                                          
 HET     MG  A 872       1                                                       
-HET     MG  B 873       1                                                       
 HET    TTP  A 873      29                                                       
+HET     MG  B 873       1                                                       
 HET    TTP  B 874      29                                                       
 HETNAM      MG MAGNESIUM ION                                                    
 HETNAM     TTP THYMIDINE-5'-TRIPHOSPHATE                                        
 FORMUL   7   MG    2(MG 2+)                                                     
-FORMUL   9  TTP    2(C10 H17 N2 O14 P3)                                         
+FORMUL   8  TTP    2(C10 H17 N2 O14 P3)                                         
 FORMUL  11  HOH   *21(H2 O)                                                     
 HELIX    1   1 LYS A   35  ALA A   43  1                                   9    
 HELIX    2   2 SER A   47  GLN A   73  1                                  27    
@@ -8608,5 +8584,5 @@ CONECT 7565 7564
 CONECT 7566 7564 7567 7568                                                      
 CONECT 7567 7566                                                                
 CONECT 7568 7560 7566                                                           
-MASTER      707    0    4   38   29    0   12    6 7583    6   70   86          
+MASTER      683    0    4   38   29    0   12    6 7583    6   70   86          
 END                                                                             

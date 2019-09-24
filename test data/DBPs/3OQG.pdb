@@ -34,6 +34,7 @@ KEYWDS   2 GIY-YIG NUCLEASE, CATALYTIC MECHANISM, PSEUDOPALINDROME, HYDROLASE-
 KEYWDS   3 DNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SOKOLOWSKA,H.CZAPINSKA,M.BOCHTLER                                   
+REVDAT   4   08-NOV-17 3OQG    1       REMARK                                   
 REVDAT   3   06-APR-11 3OQG    1       JRNL                                     
 REVDAT   2   05-JAN-11 3OQG    1       JRNL                                     
 REVDAT   1   20-OCT-10 3OQG    0                                                
@@ -72,7 +73,7 @@ REMARK   3
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.75                         
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.79                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.80                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 3222                         
 REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 97.00                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2280                       
@@ -137,8 +138,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2036 ; 0.600 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   801 ; 0.000 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3387 ; 1.107 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2186 ; 1.492 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2514 ; 2.251 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -240,17 +246,17 @@ REMARK   3  B172) IS VERY WEAK. IT MIGHT CORRESPOND TO A (HALF OCCUPIED) WATER
 REMARK   3  MOLECULE OR A HYDROXIDE ION.                                        
 REMARK   3  ACCORDING TO THE MS DATA, THE SELENOMETHIONINE SUBSTITUTION WAS     
 REMARK   3  SUCCESSFUL ONLY IN PART. THEREFORE, ONLY MET56 WAS MODELED AS       
-REMARK   3  SELENOMETHIONINE. HOWEVER, ALL THREE MET POSITIONS ARE LIKELY TO BE 
-REMARK   3  PARTIALLY OCCUPIED BY MET AND PARTIALLY BY MSE.THE CNS PROGRAM HAS  
-REMARK   3  BEEN USED FOR DNA REFINEMENT.                                       
+REMARK   3  SELENOMETHIONINE. HOWEVER, ALL THREE MET POSITIONS ARE LIKELY TO    
+REMARK   3  BE PARTIALLY OCCUPIED BY MET AND PARTIALLY BY MSE.THE CNS PROGRAM   
+REMARK   3  HAS BEEN USED FOR DNA REFINEMENT.                                   
 REMARK   3  NO SUGAR PUCKER CONSTRAINTS HAVE BEEN APPLIED. HYDROGENS HAVE BEEN  
 REMARK   3  ADDED IN THE RIDING POSITIONS.                                      
 REMARK   3  TLS REFINEMENT HAS BEEN USED.                                       
 REMARK   4                                                                      
-REMARK   4 3OQG COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3OQG COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 07-SEP-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB061444.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000061444.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -296,7 +302,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 3.265
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MAD                          
-REMARK 200 SOFTWARE USED: SHELXC, SHELXD, SHELXE, MLPHARE, DM, ARP/WARP         
+REMARK 200 SOFTWARE USED: SHELXCD, SHELXD, MLPHARE, DM                          
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -356,13 +362,13 @@ REMARK 290   SMTRY3   8  0.000000  0.000000 -1.000000      110.31500
 REMARK 290                                                                      
 REMARK 290 REMARK: NULL                                                         
 REMARK 300                                                                      
-REMARK 300 BIOLOGICAL UNIT CONTAINS PROTEIN CHAINS A AND B, DNA STRANDS C AND   
-REMARK 300 D. THE TETRAMER (ACCORDING TO PDB CONVENTIONS) IS A COMPLEX OF THE   
-REMARK 300 DIMERIC RESTRICTION ENZYME WITH ITS SUBSTRATE, DOUBLE STRANDED DNA.  
-REMARK 300 THE NATURAL PROTEIN OLIGOMERIZATION STATE IS A DIMER - THE DNA IS A  
-REMARK 300 SUBSTRATE. UNDER THE PHYSIOLOGICAL CONDITIONS THE PROTEIN DIMER      
-REMARK 300 BINDS DOUBLE STRANDED DNA AND CLEAVES IT TO TWO DOUBLE STRANDED DNA  
-REMARK 300 FRAGMENTS.                                                           
+REMARK 300 BIOLOGICAL UNIT CONTAINS PROTEIN CHAINS A AND B, DNA STRANDS C       
+REMARK 300 AND D. THE TETRAMER (ACCORDING TO PDB CONVENTIONS) IS A COMPLEX      
+REMARK 300 OF THE DIMERIC RESTRICTION ENZYME WITH ITS SUBSTRATE, DOUBLE         
+REMARK 300 STRANDED DNA. THE NATURAL PROTEIN OLIGOMERIZATION STATE IS A         
+REMARK 300 DIMER - THE DNA IS A SUBSTRATE. UNDER THE PHYSIOLOGICAL              
+REMARK 300 CONDITIONS THE PROTEIN DIMER BINDS DOUBLE STRANDED DNA AND           
+REMARK 300 CLEAVES IT TO TWO DOUBLE STRANDED DNA FRAGMENTS.                     
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -414,6 +420,7 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500     DG D   1   C3' -  C2' -  C1' ANGL. DEV. =  -5.8 DEGREES          
+REMARK 500     DG D   1   C3' -  C2' -  C1' ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DG D   1   O4' -  C1' -  N9  ANGL. DEV. =   2.1 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
@@ -432,7 +439,9 @@ REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-
 REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    THR A 168      -50.99   -121.75                                   
 REMARK 500    THR B 168      -51.46   -124.74                                   
+REMARK 500    THR B 168      -52.88   -124.74                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 800                                                                      
@@ -463,19 +472,19 @@ REMARK 900 RESTRICTION ENDONUCLEASE HPY188I IN COMPLEX WITH PRODUCT DNA
 REMARK 900 RELATED ID: 3MX1   RELATED DB: PDB                                   
 REMARK 900 THE STRUCTURE OF GIY-YIG ENDONUCLEASE R.ECO29KI                      
 REMARK 900 RELATED ID: 3MX4   RELATED DB: PDB                                   
-REMARK 900 DNA BINDING AND CLEAVAGE BY THE GIY-YIG ENDONUCLEASE                 
-REMARK 900 R.ECO29KI INACTIVE VARIANT E142Q                                     
+REMARK 900 DNA BINDING AND CLEAVAGE BY THE GIY-YIG ENDONUCLEASE R.ECO29KI       
+REMARK 900 INACTIVE VARIANT E142Q                                               
 REMARK 900 RELATED ID: 3NIC   RELATED DB: PDB                                   
-REMARK 900 DNA BINDING AND CLEAVAGE BY THE GIY-YIG ENDONUCLEASE                 
-REMARK 900 R.ECO29KI INACTIVE VARIANT Y49F                                      
+REMARK 900 DNA BINDING AND CLEAVAGE BY THE GIY-YIG ENDONUCLEASE R.ECO29KI       
+REMARK 900 INACTIVE VARIANT Y49F                                                
 REMARK 900 RELATED ID: 2WSH   RELATED DB: PDB                                   
 REMARK 900 STRUCTURE OF BACTERIOPHAGE T4 ENDOII E118A MUTANT                    
 REMARK 900 RELATED ID: 1MK0   RELATED DB: PDB                                   
 REMARK 900 CATALYTIC DOMAIN OF INTRON ENDONUCLEASE I-TEVI, E75A MUTANT          
 REMARK 900 RELATED ID: 1YD1   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF THE GIY-YIG N-TERMINAL ENDONUCLEASE             
-REMARK 900 DOMAIN OF UVRC FROM THERMOTOGA MARITIMA BOUND TO ITS                 
-REMARK 900 CATALYTIC DIVALENT CATION: MAGNESIUM                                 
+REMARK 900 CRYSTAL STRUCTURE OF THE GIY-YIG N-TERMINAL ENDONUCLEASE DOMAIN OF   
+REMARK 900 UVRC FROM THERMOTOGA MARITIMA BOUND TO ITS CATALYTIC DIVALENT        
+REMARK 900 CATION: MAGNESIUM                                                    
 DBREF  3OQG A    1   170  UNP    Q9KJ88   Q9KJ88_HELPY     1    170             
 DBREF  3OQG B    1   170  UNP    Q9KJ88   Q9KJ88_HELPY     1    170             
 DBREF  3OQG C   -4     4  PDB    3OQG     3OQG            -4      4             
@@ -9045,5 +9054,5 @@ CONECT 2244 2243 2245
 CONECT 2245 2244 2246                                                           
 CONECT 2246 2245                                                                
 CONECT 2247 2241                                                                
-MASTER      432    0    5   18   14    0    9    6 3619    4   20   30          
+MASTER      440    0    5   18   14    0    9    6 3619    4   20   30          
 END                                                                             

@@ -32,7 +32,8 @@ SOURCE  13 SYNTHETIC: YES
 KEYWDS    HELIX-TURN-HELIX, BACTERIAL GENE REGULATORY PROTEIN, DNA BINDING      
 KEYWDS   2 PROTEIN-DNA COMPLEX                                                  
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    N.J.BALL,J.E.MCGEEHAN,S.D.STREETER,S-J.THRESH,G.G.KNEALE              
+AUTHOR    N.J.BALL,J.E.MCGEEHAN,S.D.STREETER,S.-J.THRESH,G.G.KNEALE             
+REVDAT   4   12-NOV-14 3UFD    1       AUTHOR                                   
 REVDAT   3   19-DEC-12 3UFD    1       JRNL                                     
 REVDAT   2   12-SEP-12 3UFD    1       JRNL                                     
 REVDAT   1   11-JUL-12 3UFD    0                                                
@@ -136,8 +137,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1509 ; 0.359 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2450 ; 0.719 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2724 ; 1.146 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  3548 ; 1.897 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -8753,5 +8759,5 @@ HETATM 4044  O   HOH H  20      12.668  27.358  28.180  1.00 16.73           O
 HETATM 4045  O   HOH H  21      -2.206  37.413  28.706  1.00 61.57           O  
 HETATM 4046  O   HOH H  22      12.034  26.194  25.738  1.00 40.50           O  
 HETATM 4047  O   HOH H  23      -0.743  36.585  25.407  1.00 30.69           O  
-MASTER      551    0    1   20    0    0    0    6 4039    8    0   36          
+MASTER      556    0    1   20    0    0    0    6 4039    8    0   36          
 END                                                                             

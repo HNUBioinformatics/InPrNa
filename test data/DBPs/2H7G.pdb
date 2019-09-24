@@ -1,22 +1,20 @@
 HEADER    ISOMERASE/DNA                           02-JUN-06   2H7G              
-TITLE     STRUCTURE OF VARIOLA TOPOISOMERASE NON-COVALENTLY BOUND TO            
-TITLE    2 DNA                                                                  
+TITLE     STRUCTURE OF VARIOLA TOPOISOMERASE NON-COVALENTLY BOUND TO DNA        
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: 5'-D(*TP*TP*GP*TP*CP*GP*CP*CP*CP*TP*TP*A)-3';              
 COMPND   3 CHAIN: Y;                                                            
 COMPND   4 ENGINEERED: YES;                                                     
 COMPND   5 MOL_ID: 2;                                                           
-COMPND   6 MOLECULE: 5'-D(*TP*AP*AP*TP*AP*AP*GP*GP*GP*CP*GP*AP*CP*A)-           
-COMPND   7 3';                                                                  
-COMPND   8 CHAIN: Z;                                                            
-COMPND   9 ENGINEERED: YES;                                                     
-COMPND  10 MOL_ID: 3;                                                           
-COMPND  11 MOLECULE: DNA TOPOISOMERASE 1;                                       
-COMPND  12 CHAIN: X;                                                            
-COMPND  13 SYNONYM: DNA TOPOISOMERASE I;                                        
-COMPND  14 EC: 5.99.1.2;                                                        
-COMPND  15 ENGINEERED: YES;                                                     
-COMPND  16 MUTATION: YES                                                        
+COMPND   6 MOLECULE: 5'-D(*TP*AP*AP*TP*AP*AP*GP*GP*GP*CP*GP*AP*CP*A)-3';        
+COMPND   7 CHAIN: Z;                                                            
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: DNA TOPOISOMERASE 1;                                       
+COMPND  11 CHAIN: X;                                                            
+COMPND  12 SYNONYM: DNA TOPOISOMERASE I;                                        
+COMPND  13 EC: 5.99.1.2;                                                        
+COMPND  14 ENGINEERED: YES;                                                     
+COMPND  15 MUTATION: YES                                                        
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
@@ -30,10 +28,11 @@ SOURCE  10 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE  11 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
 SOURCE  12 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  13 EXPRESSION_SYSTEM_PLASMID: PET28                                     
-KEYWDS    TYPE IB TOPOISOMERASE, DNA BINDING, PROTEIN-DNA COMPLEX,              
-KEYWDS   2 ISOMERASE, ISOMERASE/DNA COMPLEX                                     
+KEYWDS    TYPE IB TOPOISOMERASE, DNA BINDING, PROTEIN-DNA COMPLEX, ISOMERASE,   
+KEYWDS   2 ISOMERASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    K.PERRY,Y.HWANG,F.D.BUSHMAN,G.D.VAN DUYNE                             
+REVDAT   3   18-OCT-17 2H7G    1       REMARK                                   
 REVDAT   2   24-FEB-09 2H7G    1       VERSN                                    
 REVDAT   1   15-AUG-06 2H7G    0                                                
 JRNL        AUTH   K.PERRY,Y.HWANG,F.D.BUSHMAN,G.D.VAN DUYNE                    
@@ -43,12 +42,11 @@ JRNL        REF    MOL.CELL                      V.  23   343 2006
 JRNL        REFN                   ISSN 1097-2765                               
 JRNL        PMID   16885024                                                     
 JRNL        DOI    10.1016/J.MOLCEL.2006.06.015                                 
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    1.90 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.2.0005                                      
+REMARK   3   PROGRAM     : REFMAC REFMAC_5.2.0005                               
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -80,8 +78,8 @@ REMARK   3   BIN FREE R VALUE SET COUNT          : 147
 REMARK   3   BIN FREE R VALUE                    : 0.3130                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 2622                                    
-REMARK   3   NUCLEIC ACID ATOMS       : 531                                     
+REMARK   3   PROTEIN ATOMS            : 2568                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 510                                     
 REMARK   3   HETEROGEN ATOMS          : 0                                       
 REMARK   3   SOLVENT ATOMS            : 395                                     
 REMARK   3                                                                      
@@ -137,8 +135,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1651 ; 0.797 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2631 ; 1.276 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2003 ; 2.147 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1916 ; 2.994 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -160,10 +163,10 @@ REMARK   3   SHRINKAGE RADIUS   : 0.80
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2H7G COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2H7G COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-JUN-06.                  
-REMARK 100 THE RCSB ID CODE IS RCSB038024.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000038024.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -184,7 +187,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 38372                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.900                              
@@ -298,7 +301,7 @@ REMARK 465     ASP X   313
 REMARK 465     GLY X   314                                                      
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -354,18 +357,18 @@ REMARK 500     DT Y 511   C6  -  C5  -  C7  ANGL. DEV. =  -4.1 DEGREES
 REMARK 500     DT Y 511   C3' -  O3' -  P   ANGL. DEV. =   8.8 DEGREES          
 REMARK 500     DA Z 516   O4' -  C1' -  C2' ANGL. DEV. =   4.1 DEGREES          
 REMARK 500     DA Z 516   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
+REMARK 500     DA Z 516   C3' -  O3' -  P   ANGL. DEV. =   8.2 DEGREES          
 REMARK 500     DA Z 517   O4' -  C1' -  N9  ANGL. DEV. =   6.2 DEGREES          
 REMARK 500     DA Z 517   O4' -  C1' -  N9  ANGL. DEV. =   4.7 DEGREES          
-REMARK 500     DA Z 516   C3' -  O3' -  P   ANGL. DEV. =   8.2 DEGREES          
 REMARK 500     DT Z 518   O4' -  C1' -  N1  ANGL. DEV. =   5.0 DEGREES          
 REMARK 500     DA Z 520   O4' -  C1' -  N9  ANGL. DEV. =   6.4 DEGREES          
 REMARK 500     DG Z 521   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500     DG Z 523   O4' -  C1' -  N9  ANGL. DEV. =  -5.9 DEGREES          
-REMARK 500     DC Z 524   O4' -  C1' -  N1  ANGL. DEV. =   6.0 DEGREES          
 REMARK 500     DG Z 523   C3' -  O3' -  P   ANGL. DEV. =   8.0 DEGREES          
+REMARK 500     DC Z 524   O4' -  C1' -  N1  ANGL. DEV. =   6.0 DEGREES          
 REMARK 500     DA Z 526   O4' -  C1' -  N9  ANGL. DEV. =  -4.8 DEGREES          
-REMARK 500     DC Z 527   O4' -  C4' -  C3' ANGL. DEV. =  -3.0 DEGREES          
 REMARK 500     DC Z 527   O3' -  P   -  OP2 ANGL. DEV. =   7.7 DEGREES          
+REMARK 500     DC Z 527   O4' -  C4' -  C3' ANGL. DEV. =  -3.0 DEGREES          
 REMARK 500     DA Z 528   O4' -  C1' -  N9  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500    ARG X  67   NE  -  CZ  -  NH2 ANGL. DEV. =  -3.2 DEGREES          
 REMARK 500                                                                      
@@ -390,27 +393,6 @@ REMARK 500    MET X 275       43.92    -72.70
 REMARK 500    SER X 311      -72.87    -61.23                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH Y 328        DISTANCE =  5.82 ANGSTROMS                       
-REMARK 525    HOH X 443        DISTANCE =  5.45 ANGSTROMS                       
-REMARK 525    HOH X 486        DISTANCE =  5.53 ANGSTROMS                       
-REMARK 525    HOH X 517        DISTANCE =  5.96 ANGSTROMS                       
-REMARK 525    HOH X 520        DISTANCE =  6.19 ANGSTROMS                       
-REMARK 525    HOH X 525        DISTANCE =  5.46 ANGSTROMS                       
-REMARK 525    HOH X 542        DISTANCE =  5.08 ANGSTROMS                       
-REMARK 525    HOH X 611        DISTANCE =  6.89 ANGSTROMS                       
-REMARK 525    HOH X 620        DISTANCE =  5.12 ANGSTROMS                       
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2H7F   RELATED DB: PDB                                   
@@ -4029,5 +4011,5 @@ HETATM 3547  O   HOH X 625       8.922 -45.273  16.407  1.00 45.37           O
 HETATM 3548  O   HOH X 626       1.240 -19.496  15.985  1.00 29.28           O  
 HETATM 3549  O   HOH X 627       4.981 -42.826  23.938  1.00 66.33           O  
 HETATM 3550  O   HOH X 628       7.446 -35.387  22.778  1.00 47.03           O  
-MASTER      371    0    0   16    8    0    0    6 3547    3    0   28          
+MASTER      354    0    0   16    8    0    0    6 3473    3    0   28          
 END                                                                             

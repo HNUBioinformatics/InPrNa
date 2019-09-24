@@ -26,6 +26,7 @@ KEYWDS   2 REPAIR, DNA, DNA DAMAGE, GUANINE, ALKYLATION, DNA BINDING PROTEIN-
 KEYWDS   3 DNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.L.TUBBS,A.S.ARVAI,J.A.TAINER                                        
+REVDAT   3   29-MAR-17 4ENN    1       COMPND                                   
 REVDAT   2   01-AUG-12 4ENN    1       JRNL                                     
 REVDAT   1   20-JUN-12 4ENN    0                                                
 JRNL        AUTH   V.F.LATYPOV,J.L.TUBBS,A.J.WATSON,A.S.MARRIOTT,G.MCGOWN,      
@@ -43,7 +44,7 @@ REMARK   2 RESOLUTION.    2.84 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.1_357)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
 REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
 REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
 REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
@@ -1096,6 +1097,30 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,2(A3,1X,A1,I4,A1,1X,A4,3X),1X,F6.3)               
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   RES CSSEQI ATM2   DEVIATION                     
+REMARK 500     DG C   6   O3'    DG C   6   C3'    -0.037                       
+REMARK 500     DC C   8   O3'    DC C   8   C3'    -0.047                       
+REMARK 500     DG C  11   O3'    DG C  11   C3'    -0.043                       
+REMARK 500     DG E   6   O3'    DG E   6   C3'    -0.047                       
+REMARK 500     DC E   8   O3'    DC E   8   C3'    -0.045                       
+REMARK 500     DC F   8   P      DC F   8   OP2    -0.122                       
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
 REMARK 500                                                                      
 REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
@@ -1111,6 +1136,57 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500    PRO A  55   C   -  N   -  CA  ANGL. DEV. =   9.1 DEGREES          
+REMARK 500     DG C   1   O4' -  C1' -  N9  ANGL. DEV. =  -6.9 DEGREES          
+REMARK 500     DC C   2   O4' -  C1' -  N1  ANGL. DEV. =   4.4 DEGREES          
+REMARK 500     DC C   3   O4' -  C1' -  N1  ANGL. DEV. =   3.0 DEGREES          
+REMARK 500     DT C   5   C1' -  O4' -  C4' ANGL. DEV. =  -9.4 DEGREES          
+REMARK 500     DT C   5   O4' -  C1' -  N1  ANGL. DEV. =   2.8 DEGREES          
+REMARK 500     DG C   6   O4' -  C1' -  C2' ANGL. DEV. =   3.3 DEGREES          
+REMARK 500     DC C   8   O5' -  C5' -  C4' ANGL. DEV. =  -5.9 DEGREES          
+REMARK 500     DT C   9   C3' -  C2' -  C1' ANGL. DEV. =  -5.8 DEGREES          
+REMARK 500     DT C   9   O4' -  C1' -  C2' ANGL. DEV. =  -6.5 DEGREES          
+REMARK 500     DT C   9   C5  -  C4  -  O4  ANGL. DEV. =  -4.3 DEGREES          
+REMARK 500     DA C  10   O4' -  C4' -  C3' ANGL. DEV. =  -2.5 DEGREES          
+REMARK 500     DG C  11   O4' -  C4' -  C3' ANGL. DEV. =  -2.9 DEGREES          
+REMARK 500     DG C  11   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
+REMARK 500     DG C  11   N9  -  C4  -  C5  ANGL. DEV. =   2.6 DEGREES          
+REMARK 500     DG C  11   N3  -  C4  -  N9  ANGL. DEV. =  -4.4 DEGREES          
+REMARK 500     DT C  12   P   -  O5' -  C5' ANGL. DEV. =  17.9 DEGREES          
+REMARK 500     DT C  12   C5' -  C4' -  C3' ANGL. DEV. = -11.3 DEGREES          
+REMARK 500     DT C  12   O4' -  C1' -  N1  ANGL. DEV. =   4.1 DEGREES          
+REMARK 500     DG D   1   O4' -  C4' -  C3' ANGL. DEV. =  -3.8 DEGREES          
+REMARK 500     DC D   2   O4' -  C1' -  N1  ANGL. DEV. =   2.4 DEGREES          
+REMARK 500     DC D   3   C4' -  C3' -  C2' ANGL. DEV. =  -4.8 DEGREES          
+REMARK 500     DC D   3   O4' -  C1' -  N1  ANGL. DEV. =   4.6 DEGREES          
+REMARK 500     DG D   6   C3' -  C2' -  C1' ANGL. DEV. =  -6.4 DEGREES          
+REMARK 500     DG D   6   O4' -  C1' -  N9  ANGL. DEV. =   3.0 DEGREES          
+REMARK 500     DT D   9   O4' -  C1' -  N1  ANGL. DEV. =   6.6 DEGREES          
+REMARK 500     DG D  11   N3  -  C4  -  C5  ANGL. DEV. =   3.3 DEGREES          
+REMARK 500     DG D  11   N9  -  C4  -  C5  ANGL. DEV. =   3.1 DEGREES          
+REMARK 500     DG D  11   N3  -  C4  -  N9  ANGL. DEV. =  -6.4 DEGREES          
+REMARK 500     DG D  11   N1  -  C2  -  N2  ANGL. DEV. =   6.5 DEGREES          
+REMARK 500     DG D  11   N3  -  C2  -  N2  ANGL. DEV. =  -8.3 DEGREES          
+REMARK 500     DG D  11   C8  -  N9  -  C1' ANGL. DEV. =   8.2 DEGREES          
+REMARK 500     DT D  12   O4' -  C1' -  N1  ANGL. DEV. =   3.5 DEGREES          
+REMARK 500     DG E   1   O4' -  C1' -  N9  ANGL. DEV. =  -6.1 DEGREES          
+REMARK 500     DC E   2   C3' -  C2' -  C1' ANGL. DEV. =  -5.5 DEGREES          
+REMARK 500     DC E   2   O4' -  C1' -  N1  ANGL. DEV. =   2.1 DEGREES          
+REMARK 500     DC E   3   O4' -  C1' -  N1  ANGL. DEV. =   3.1 DEGREES          
+REMARK 500     DT E   5   O4' -  C4' -  C3' ANGL. DEV. =  -4.2 DEGREES          
+REMARK 500     DT E   5   C1' -  O4' -  C4' ANGL. DEV. =  -8.7 DEGREES          
+REMARK 500     DT E   5   O4' -  C1' -  N1  ANGL. DEV. =   2.1 DEGREES          
+REMARK 500     DG E   6   O4' -  C1' -  C2' ANGL. DEV. =   3.7 DEGREES          
+REMARK 500     DC E   8   O5' -  C5' -  C4' ANGL. DEV. =  -5.1 DEGREES          
+REMARK 500     DC E   8   O4' -  C1' -  N1  ANGL. DEV. =   1.8 DEGREES          
+REMARK 500     DT E   9   C3' -  C2' -  C1' ANGL. DEV. =  -6.1 DEGREES          
+REMARK 500     DT E   9   O4' -  C1' -  C2' ANGL. DEV. =  -6.2 DEGREES          
+REMARK 500     DA E  10   O4' -  C4' -  C3' ANGL. DEV. =  -2.9 DEGREES          
+REMARK 500     DG E  11   O4' -  C4' -  C3' ANGL. DEV. =  -2.8 DEGREES          
+REMARK 500     DG E  11   N9  -  C4  -  C5  ANGL. DEV. =   2.7 DEGREES          
+REMARK 500     DG E  11   N3  -  C4  -  N9  ANGL. DEV. =  -5.0 DEGREES          
+REMARK 500     DG E  11   N3  -  C2  -  N2  ANGL. DEV. =  -7.2 DEGREES          
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS      71 ANGLE DEVIATIONS.                             
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -7073,5 +7149,5 @@ CONECT 2735 2736 2737 2738
 CONECT 2736 2735                                                                
 CONECT 2737 2735                                                                
 CONECT 2738 2731 2735                                                           
-MASTER     1121    0    4   14    8    0    0    6 2856    6  108   22          
+MASTER     1196    0    4   14    8    0    0    6 2856    6  108   22          
 END                                                                             

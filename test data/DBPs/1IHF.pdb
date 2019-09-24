@@ -38,6 +38,7 @@ KEYWDS    COMPLEX (TRANSCRIPTION REGULATION-DNA), TRANSCRIPTION FACTOR, BETA
 KEYWDS   2 RIBBON MOTIF, DNA BENDING PROTEIN, TRANSCRIPTION-DNA COMPLEX         
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    P.A.RICE,S.-W.YANG,K.MIZUUCHI,H.A.NASH                                
+REVDAT   6   01-MAY-19 1IHF    1       REMARK                                   
 REVDAT   5   09-MAY-12 1IHF    1       REMARK                                   
 REVDAT   4   02-MAY-12 1IHF    1       LINK   REMARK SITE   VERSN               
 REVDAT   3   24-FEB-09 1IHF    1       VERSN                                    
@@ -54,7 +55,7 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : X-PLOR 3.1, 3.816                                    
+REMARK   3   PROGRAM     : X-PLOR 3.816                                         
 REMARK   3   AUTHORS     : BRUNGER                                              
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
@@ -115,7 +116,7 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.18                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.180                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
 REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
 REMARK   3                                                                      
@@ -143,11 +144,11 @@ REMARK   3  TOPOLOGY FILE  3   : NULL
 REMARK   3  TOPOLOGY FILE  4   : NULL                                           
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS:                                           
-REMARK   3  DIFFRACTION IS ANISOTROPIC. <I/SIGI> FALLS BELOW 2 ALONG X AT 2.5   
+REMARK   3  DIFFRACTION IS ANISOTROPIC.  <I/SIGI> FALLS BELOW 2 ALONG X AT 2.5  
 REMARK   3  ANGSTROM, ALONG Y AT 3.0 ANGSTROM, AND ALONG Z IS STILL >2 AT 2.2   
-REMARK   3  ANGSTROM. THE COMPLETENESS OF THE DATA WITHIN AN ELLIPSOID WITH     
-REMARK   3  THESE PRINCIPLE AXES IS 98.0%. THIS EXPLAINS THE LOW VALUE OF THE   
-REMARK   3  COMPLETENESS IN THE HIGHEST RESOLUTION BIN. THE REPORTED OVERALL    
+REMARK   3  ANGSTROM.  THE COMPLETENESS OF THE DATA WITHIN AN ELLIPSOID WITH    
+REMARK   3  THESE PRINCIPLE AXES IS 98.0%.  THIS EXPLAINS THE LOW VALUE OF THE  
+REMARK   3  COMPLETENESS IN THE HIGHEST RESOLUTION BIN.  THE REPORTED OVERALL   
 REMARK   3  RESOLUTION OF 2.5 ANGSTROM IS AN AVERAGE VALUE.                     
 REMARK   3                                                                      
 REMARK   3  DNA PARAMETERS FROM PARKINSON, G., VOJTECHOVSKY, J., CLOWNEY, L.,   
@@ -159,7 +160,8 @@ REMARK   3   T C  29  HOOGSTEEN BASE PAIR.
 REMARK   4                                                                      
 REMARK   4 1IHF COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB.                                
+REMARK 100 THE DEPOSITION ID IS D_1000174160.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -547,21 +549,21 @@ SEQRES   5 B   94  LEU HIS TYR ARG ALA PRO ARG THR GLY ARG ASN PRO LYS
 SEQRES   6 B   94  THR GLY ASP LYS VAL GLU LEU GLU GLY LYS TYR VAL PRO          
 SEQRES   7 B   94  HIS PHE LYS PRO GLY LYS GLU LEU ARG ASP ARG ALA ASN          
 SEQRES   8 B   94  ILE TYR GLY                                                  
-HET     CD  E 301       1                                                       
-HET     CD  B 302       1                                                       
 HET     CD  C 303       1                                                       
-HET     CD  D 304       1                                                       
-HET     CD  D 305       1                                                       
 HET     CD  C 306       1                                                       
-HET     CD  A 307       1                                                       
-HET     CD  B 308       1                                                       
-HET     CD  D 309       1                                                       
-HET     CD  B 310       1                                                       
-HET     CD  A 311       1                                                       
-HET     CD  A 312       1                                                       
 HET     CD  C 313       1                                                       
 HET     CD  C 314       1                                                       
 HET     CD  C 315       1                                                       
+HET     CD  D 304       1                                                       
+HET     CD  D 305       1                                                       
+HET     CD  D 309       1                                                       
+HET     CD  E 301       1                                                       
+HET     CD  A 307       1                                                       
+HET     CD  A 311       1                                                       
+HET     CD  A 312       1                                                       
+HET     CD  B 302       1                                                       
+HET     CD  B 308       1                                                       
+HET     CD  B 310       1                                                       
 HETNAM      CD CADMIUM ION                                                      
 FORMUL   6   CD    15(CD 2+)                                                    
 FORMUL  21  HOH   *385(H2 O)                                                    
@@ -4573,5 +4575,5 @@ CONECT 3716 3471
 CONECT 3816 3474                                                                
 CONECT 3826 3473                                                                
 CONECT 3827 3473                                                                
-MASTER      469    0   15    6   10    0   17    6 3337    5   59   23          
+MASTER      470    0   15    6   10    0   17    6 3337    5   59   23          
 END                                                                             

@@ -26,6 +26,8 @@ KEYWDS   2 DIRECTED DNA POLYMERASE, NUCLEIC ACID BINDING PROTEIN-DNA-RNA
 KEYWDS   3 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    E.SKORDALAKES                                                         
+REVDAT   5   17-JUL-19 3KYL    1       REMARK                                   
+REVDAT   4   01-NOV-17 3KYL    1       REMARK                                   
 REVDAT   3   22-FEB-12 3KYL    1       JRNL                                     
 REVDAT   2   13-JUL-11 3KYL    1       VERSN                                    
 REVDAT   1   31-MAR-10 3KYL    0                                                
@@ -41,7 +43,8 @@ REMARK   2 RESOLUTION.    2.70 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -130,8 +133,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  3059 ; 0.375 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  4878 ; 0.667 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  3106 ; 0.575 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2874 ; 0.940 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -246,7 +254,7 @@ REMARK   4
 REMARK   4 3KYL COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-DEC-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB056609.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000056609.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -302,7 +310,7 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 52.61
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.60                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: 0.1 M HEPES 7.5, 10% PEG 4K, 0.2M KCL,   
-REMARK 280  VAPOR DIFFUSION, SITTING DROP, TEMPERATURE 291K                     
+REMARK 280  VAPOR DIFFUSION, SITTING DROP, TEMPERATURE 291K, PH 7.5             
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -6109,5 +6117,5 @@ CONECT 2864 5482
 CONECT 5460 5482                                                                
 CONECT 5482 2098 2856 2863 2864                                                 
 CONECT 5482 5460                                                                
-MASTER      416    0    1   25   16    0    2    6 5535    2    7   48          
+MASTER      422    0    1   25   16    0    2    6 5535    2    7   48          
 END                                                                             

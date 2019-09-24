@@ -48,6 +48,8 @@ KEYWDS   2 SUPERCOILING, DNA REPLICATION, ATP-BINDING, DNA-BINDING, ISOMERASE,
 KEYWDS   3 NUCLEOTIDE-BINDING, NUCLEUS, PHOSPHOPROTEIN, ISOMERASE-DNA COMPLEX   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    B.H.SCHMIDT,A.B.BURGIN,J.E.DEWEESE,N.OSHEROFF,J.M.BERGER              
+REVDAT   5   31-JUL-19 3L4J    1       LINK                                     
+REVDAT   4   13-SEP-17 3L4J    1       REMARK                                   
 REVDAT   3   16-JUN-10 3L4J    1       JRNL                                     
 REVDAT   2   09-JUN-10 3L4J    1       JRNL                                     
 REVDAT   1   26-MAY-10 3L4J    0                                                
@@ -63,15 +65,14 @@ REMARK   2 RESOLUTION.    2.48 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.5_2)                        
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -356,10 +357,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3L4J COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3L4J COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 15-JAN-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB056823.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000056823.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -449,7 +450,7 @@ REMARK 290   SMTRY3   4  0.000000  0.000000  1.000000       58.36600
 REMARK 290                                                                      
 REMARK 290 REMARK: NULL                                                         
 REMARK 300                                                                      
-REMARK 300 BIOMOLECULE: 1, 2                                                    
+REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
@@ -462,17 +463,8 @@ REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TRIMERIC                   
-REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C                               
-REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
-REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 350                                                                      
-REMARK 350 BIOMOLECULE: 2                                                       
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TRIMERIC                   
-REMARK 350 SOFTWARE USED: PISA                                                  
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, D, E                               
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: PENTAMERIC                        
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, E                         
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -483,8 +475,9 @@ REMARK 375 OF A SYMMETRY RELATED ATOM AND ARE ASSUMED TO BE ON SPECIAL
 REMARK 375 POSITIONS.                                                           
 REMARK 375                                                                      
 REMARK 375 ATOM RES CSSEQI                                                      
-REMARK 375      HOH A 181  LIES ON A SPECIAL POSITION.                          
 REMARK 375 CZ   ARG A1120  LIES ON A SPECIAL POSITION.                          
+REMARK 375 NH2  ARG A1120  LIES ON A SPECIAL POSITION.                          
+REMARK 375      HOH A 181  LIES ON A SPECIAL POSITION.                          
 REMARK 465                                                                      
 REMARK 465 MISSING RESIDUES                                                     
 REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
@@ -566,10 +559,17 @@ REMARK 500    PRO A 571   C   -  N   -  CD  ANGL. DEV. = -14.4 DEGREES
 REMARK 500    GLY A1069   N   -  CA  -  C   ANGL. DEV. =  17.4 DEGREES          
 REMARK 500    ARG A1120   NH1 -  CZ  -  NH2 ANGL. DEV. =   7.4 DEGREES          
 REMARK 500    ARG A1120   NE  -  CZ  -  NH2 ANGL. DEV. =  -8.6 DEGREES          
-REMARK 500     DA B  10   O4' -  C4' -  C3' ANGL. DEV. =  -2.8 DEGREES          
 REMARK 500     DT B   9   C3' -  O3' -  P   ANGL. DEV. =   7.7 DEGREES          
+REMARK 500     DA B  10   O4' -  C4' -  C3' ANGL. DEV. =  -2.8 DEGREES          
 REMARK 500     DC C   1   O4' -  C1' -  N1  ANGL. DEV. =   3.0 DEGREES          
-REMARK 500     DC C   1   C3' -  O3' -  P   ANGL. DEV. =  -8.5 DEGREES          
+REMARK 500     DC C   1   C3' -  O3' -  P   ANGL. DEV. =  -8.4 DEGREES          
+REMARK 500     DG D   2   O3' -  P   -  OP2 ANGL. DEV. = -19.9 DEGREES          
+REMARK 500     DG D   2   O3' -  P   -  OP1 ANGL. DEV. =   7.5 DEGREES          
+REMARK 500     DA D   6   O4' -  C4' -  C3' ANGL. DEV. =  -2.5 DEGREES          
+REMARK 500     DT D  10   O4' -  C4' -  C3' ANGL. DEV. =  -3.5 DEGREES          
+REMARK 500     DT D  10   O4' -  C1' -  N1  ANGL. DEV. =   3.7 DEGREES          
+REMARK 500     DG E   2   O4' -  C1' -  N9  ANGL. DEV. =   3.0 DEGREES          
+REMARK 500     DC E  11   O4' -  C1' -  N1  ANGL. DEV. =   2.0 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -14914,5 +14914,5 @@ CONECT 7002 7001
 CONECT 7003 7001 7004 7005                                                      
 CONECT 7004 7003                                                                
 CONECT 7005 6997 7003                                                           
-MASTER      557    0    2   28   26    0    4    6 7113    5   39   65          
+MASTER      555    0    2   28   26    0    4    6 7113    5   39   65          
 END                                                                             

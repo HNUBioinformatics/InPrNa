@@ -27,6 +27,7 @@ KEYWDS    WATER STRUCTURE, RNA, VIRUS ASSEMBLY, MACROMOLECULAR INTERACTIONS,
 KEYWDS   2 SATELLITE TOBACCO MOSAIC VIRUS, ICOSAHEDRAL VIRUS, VIRUS-RNA COMPLEX 
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.B.LARSON,J.DAY,A.J.GREENWOOD,A.MCPHERSON                            
+REVDAT   4   17-JUL-19 1A34    1       REMARK                                   
 REVDAT   3   25-JUL-12 1A34    1       CRYST1 SOURCE VERSN                      
 REVDAT   2   24-FEB-09 1A34    1       VERSN                                    
 REVDAT   1   29-APR-98 1A34    0                                                
@@ -128,9 +129,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.17
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.009                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.80                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.800                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 17.77                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.39                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.390                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : INDIVIDUAL RESTRAINED                     
 REMARK   3                                                                      
@@ -165,14 +166,15 @@ REMARK   3  OTHER REFINEMENT REMARKS: THE RMS DEVIATIONS LISTED ABOVE ARE FOR
 REMARK   3  THE PROTEIN. RMS DEVIATIONS FOR THE DOUBLE HELICAL RNA ARE THE      
 REMARK   3  FOLLOWING: BONDS: 0.021 ANGLES: 3.06 DIHEDRAL ANGLES: 11.12         
 REMARK   3  IMPROPER ANGLES: 2.05 MEAN B FOR RNA IS 99.1 AND FOR ALL NON-       
-REMARK   3  HYDROGEN ATOMS THE MEAN B IS 37.6. NCS RESTRAINTS WERE APPLIED TO   
-REMARK   3  THE RNA BACKBONE ONLY. THREE GROUPS WERE DEFINED: GROUP 1,          
+REMARK   3  HYDROGEN ATOMS THE MEAN B IS 37.6. NCS RESTRAINTS WERE APPLIED      
+REMARK   3  TO THE RNA BACKBONE ONLY. THREE GROUPS WERE DEFINED: GROUP 1,       
 REMARK   3  NUCLEOTIDES 1002 - 1006 AND 1102 - 1106; GROUP 2, 1001, 1007 AND    
 REMARK   3  1101, 1107; GROUP 3, 1000, 1008, 1009 AND 1100, 1108, 1109.         
 REMARK   4                                                                      
 REMARK   4 1A34 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB.                                
+REMARK 100 THE DEPOSITION ID IS D_1000170332.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -218,7 +220,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MIR, MOLECULAR REPLACEMENT   
-REMARK 200 SOFTWARE USED: HEAVY, BRICOGNE'S GENERATE AND INTERPOLATE, TNT       
+REMARK 200 SOFTWARE USED: HEAVY, BRICOGNE'S GENERATE, INTERPOLATE, TNT          
 REMARK 200 STARTING MODEL: MODIFIED STNV                                        
 REMARK 200                                                                      
 REMARK 200 REMARK: 8 SPACE-GROWN CRYSTALS AND 12 EARTH-GROWN CRYSTALS           
@@ -599,6 +601,7 @@ REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
 REMARK 500    ARG A  24         0.28    SIDE CHAIN                              
+REMARK 500    ARG A  79         0.15    SIDE CHAIN                              
 REMARK 500    ARG A  95         0.08    SIDE CHAIN                              
 REMARK 500    ARG A 148         0.27    SIDE CHAIN                              
 REMARK 500                                                                      
@@ -637,12 +640,12 @@ SEQRES  12 A  159  ARG SER ASN CYS ARG GLN VAL ALA LEU VAL ILE SER CYS
 SEQRES  13 A  159  CYS PHE ASN                                                  
 SEQRES   1 B   10    A   A   A   A   A   A   A   A   A   A                      
 SEQRES   1 C   10    U   U   U   U   U   U   U   U   U   U                      
-HET      U  B  11      20                                                       
 HET    SO4  A3001       5                                                       
-HETNAM       U URIDINE-5'-MONOPHOSPHATE                                         
+HET      U  B  11      20                                                       
 HETNAM     SO4 SULFATE ION                                                      
-FORMUL   4    U    C9 H13 N2 O9 P                                               
-FORMUL   5  SO4    O4 S 2-                                                      
+HETNAM       U URIDINE-5'-MONOPHOSPHATE                                         
+FORMUL   4  SO4    O4 S 2-                                                      
+FORMUL   5    U    C9 H13 N2 O9 P                                               
 FORMUL   6  HOH   *168(H2 O)                                                    
 HELIX    1   1 VAL A   57  LEU A   60  5                                   4    
 HELIX    2   2 ALA A   63  PHE A   65  5                                   3    
@@ -3657,539 +3660,539 @@ ATOM   2945  H3    U C  10      24.221  39.212  11.728  0.50210.30           H
 ATOM   2946  H5    U C  10      26.805  41.955  13.631  0.50210.30           H  
 ATOM   2947  H6    U C  10      28.194  40.090  14.259  0.50210.30           H  
 TER    2948        U C  10                                                      
-HETATM 2949  OP3   U B  11       3.680  50.863  29.802  0.42 50.55           O  
-HETATM 2950  P     U B  11       2.853  49.648  30.032  0.42 50.87           P  
-HETATM 2951  OP1   U B  11       1.623  49.400  29.271  0.42 52.08           O  
-HETATM 2952  OP2   U B  11       3.849  48.411  29.790  0.42 53.38           O  
-HETATM 2953  O5'   U B  11       2.542  49.585  31.601  0.42 51.27           O  
-HETATM 2954  C5'   U B  11       3.198  50.474  32.547  0.42 49.14           C  
-HETATM 2955  C4'   U B  11       2.722  50.189  33.956  0.42 49.59           C  
-HETATM 2956  O4'   U B  11       1.353  49.695  33.902  0.42 49.37           O  
-HETATM 2957  C3'   U B  11       3.517  49.133  34.722  0.42 50.15           C  
-HETATM 2958  C2'   U B  11       2.697  47.865  34.505  0.42 50.65           C  
-HETATM 2959  O2'   U B  11       2.877  46.907  35.531  0.42 53.72           O  
-HETATM 2960  C1'   U B  11       1.276  48.424  34.520  0.42 49.00           C  
-HETATM 2961  N1    U B  11       0.313  47.604  33.774  0.42 48.48           N  
-HETATM 2962  H5'   U B  11       2.728  51.445  32.503  0.42 50.36           H  
-HETATM 2963 H5''   U B  11       4.240  50.571  32.284  0.42 50.36           H  
-HETATM 2964  H4'   U B  11       3.311  50.716  34.658  0.42 50.36           H  
-HETATM 2965  H3'   U B  11       4.823  48.648  33.622  0.42 50.36           H  
-HETATM 2966 HO3'   U B  11       4.375  49.717  35.886  0.42 50.36           H  
-HETATM 2967 HO2'   U B  11       3.546  46.686  35.695  0.42 50.36           H  
-HETATM 2968  H1'   U B  11       1.650  48.031  35.624  0.42 50.36           H  
-HETATM 2969  S   SO4 A3001      39.024  62.544   0.215  0.20  6.79           S  
-HETATM 2970  O1  SO4 A3001      38.734  63.529  -0.770  0.20  7.12           O  
-HETATM 2971  O2  SO4 A3001      38.618  61.308  -0.197  0.20  7.10           O  
-HETATM 2972  O3  SO4 A3001      40.439  62.538   0.409  0.20  7.50           O  
-HETATM 2973  O4  SO4 A3001      38.353  62.852   1.409  0.20  6.26           O  
-HETATM 2974  O   HOH B2201      19.053  41.531  38.168  1.00 64.74           O  
-HETATM 2975  H1  HOH B2201      19.089  42.392  37.710  1.00 64.74           H  
-HETATM 2976  H2  HOH B2201      18.473  41.012  37.631  1.00 64.74           H  
-HETATM 2977  O   HOH B2202      18.390  42.485  34.359  1.00 41.95           O  
-HETATM 2978  H1  HOH B2202      18.620  42.984  35.135  1.00 41.95           H  
-HETATM 2979  H2  HOH B2202      19.105  41.885  34.207  1.00 41.95           H  
-HETATM 2980  O   HOH B2203      16.350  44.138  36.768  1.00 33.54           O  
-HETATM 2981  H1  HOH B2203      16.034  44.969  37.046  1.00 33.54           H  
-HETATM 2982  H2  HOH B2203      17.300  44.215  36.710  1.00 33.54           H  
-HETATM 2983  O   HOH B2204       9.137  49.767  31.419  1.00 39.75           O  
-HETATM 2984  H1  HOH B2204       9.494  50.275  30.698  1.00 39.75           H  
-HETATM 2985  H2  HOH B2204       9.712  48.995  31.483  1.00 39.75           H  
-HETATM 2986  O   HOH B2210      12.042  46.802  40.435  1.00 67.43           O  
-HETATM 2987  H1  HOH B2210      12.821  47.351  40.178  1.00 67.43           H  
-HETATM 2988  H2  HOH B2210      11.454  46.955  39.667  1.00 67.43           H  
-HETATM 2989  O   HOH B2211      14.655  46.854  42.213  1.00 66.10           O  
-HETATM 2990  H1  HOH B2211      14.251  47.395  42.935  1.00 66.10           H  
-HETATM 2991  H2  HOH B2211      14.558  47.396  41.460  1.00 66.10           H  
-HETATM 2992  O   HOH B2602      16.225  50.202  40.984  1.00 15.72           O  
-HETATM 2993  H1  HOH B2602      16.202  50.608  41.853  1.00 15.72           H  
-HETATM 2994  H2  HOH B2602      15.431  49.696  40.912  1.00 15.72           H  
-HETATM 2995  O   HOH B2603      15.496  51.936  38.829  1.00  8.72           O  
-HETATM 2996  H1  HOH B2603      15.797  51.311  39.497  1.00  8.72           H  
-HETATM 2997  H2  HOH B2603      15.869  51.604  38.010  1.00  8.72           H  
-HETATM 2998  O   HOH B2604      19.403  43.960  40.648  1.00 20.56           O  
-HETATM 2999  H1  HOH B2604      18.646  44.440  41.036  1.00 20.56           H  
-HETATM 3000  H2  HOH B2604      19.682  44.468  39.999  1.00 20.56           H  
-HETATM 3001  O   HOH B2605      22.112  50.020  32.261  1.00 18.92           O  
-HETATM 3002  H1  HOH B2605      21.609  49.281  31.944  1.00 18.92           H  
-HETATM 3003  H2  HOH B2605      21.606  50.373  32.991  1.00 18.92           H  
-HETATM 3004  O   HOH B2801      20.409  51.069  34.760  1.00 13.63           O  
-HETATM 3005  H1  HOH B2801      21.094  51.001  35.442  1.00 13.63           H  
-HETATM 3006  H2  HOH B2801      19.830  50.358  34.960  1.00 13.63           H  
-HETATM 3007  O   HOH C2205      23.547  50.804  20.604  1.00 55.04           O  
-HETATM 3008  H1  HOH C2205      23.442  51.482  21.294  1.00 55.04           H  
-HETATM 3009  H2  HOH C2205      23.370  49.989  21.069  1.00 55.04           H  
-HETATM 3010  O   HOH C2206      21.690  55.986  21.826  1.00 43.35           O  
-HETATM 3011  H1  HOH C2206      21.786  55.078  22.087  1.00 43.35           H  
-HETATM 3012  H2  HOH C2206      22.615  56.241  21.579  1.00 43.35           H  
-HETATM 3013  O   HOH C2208      10.010  51.420  29.374  1.00 37.94           O  
-HETATM 3014  H1  HOH C2208       9.412  51.680  28.645  1.00 37.94           H  
-HETATM 3015  H2  HOH C2208      10.583  50.774  28.985  1.00 37.94           H  
-HETATM 3016  O   HOH C2209      29.491  48.622  18.950  1.00 70.68           O  
-HETATM 3017  H1  HOH C2209      29.498  48.863  19.889  1.00 70.68           H  
-HETATM 3018  H2  HOH C2209      29.823  47.783  18.942  1.00 70.68           H  
-HETATM 3019  O   HOH C2212      20.145  48.502  21.977  1.00 70.89           O  
-HETATM 3020  H1  HOH C2212      20.103  49.468  22.028  1.00 70.89           H  
-HETATM 3021  H2  HOH C2212      20.786  48.269  22.649  1.00 70.89           H  
-HETATM 3022  O   HOH C2608      11.889  53.191  19.009  1.00 77.28           O  
-HETATM 3023  H1  HOH C2608      12.163  52.904  19.857  1.00 77.28           H  
-HETATM 3024  H2  HOH C2608      12.356  54.018  18.847  1.00 77.28           H  
-HETATM 3025  O   HOH C2609      20.833  53.718  19.993  1.00 75.76           O  
-HETATM 3026  H1  HOH C2609      21.249  53.536  20.847  1.00 75.76           H  
-HETATM 3027  H2  HOH C2609      19.890  53.635  20.187  1.00 75.76           H  
-HETATM 3028  O   HOH C2610      14.311  55.770  28.968  0.75 75.54           O  
-HETATM 3029  H1  HOH C2610      14.071  55.834  29.887  0.75 75.54           H  
-HETATM 3030  H2  HOH C2610      13.510  55.769  28.480  0.75 75.54           H  
-HETATM 3031  O   HOH A2001      54.820  61.130  16.268  1.00 49.51           O  
-HETATM 3032  H1  HOH A2001      55.725  60.913  16.502  1.00 49.51           H  
-HETATM 3033  H2  HOH A2001      54.781  60.880  15.312  1.00 49.51           H  
-HETATM 3034  O   HOH A2002      54.432  50.568  19.469  1.00 19.82           O  
-HETATM 3035  H1  HOH A2002      54.205  51.354  19.994  1.00 19.82           H  
-HETATM 3036  H2  HOH A2002      53.624  50.391  18.970  1.00 19.82           H  
-HETATM 3037  O   HOH A2003      35.566  59.709  42.528  1.00 40.51           O  
-HETATM 3038  H1  HOH A2003      36.183  60.270  42.039  1.00 40.51           H  
-HETATM 3039  H2  HOH A2003      35.544  60.055  43.399  1.00 40.51           H  
-HETATM 3040  O   HOH A2004      30.205  66.058  27.164  1.00 48.09           O  
-HETATM 3041  H1  HOH A2004      29.460  66.259  27.578  1.00 48.09           H  
-HETATM 3042  H2  HOH A2004      30.169  66.667  26.302  1.00 48.09           H  
-HETATM 3043  O   HOH A2005      25.463  67.147  27.473  1.00 37.25           O  
-HETATM 3044  H1  HOH A2005      24.650  67.545  27.612  1.00 37.25           H  
-HETATM 3045  H2  HOH A2005      25.745  67.312  26.586  1.00 37.25           H  
-HETATM 3046  O   HOH A2006      25.919  68.872  30.673  1.00 64.52           O  
-HETATM 3047  H1  HOH A2006      26.297  69.262  31.549  1.00 64.52           H  
-HETATM 3048  H2  HOH A2006      25.270  69.522  30.467  1.00 64.52           H  
-HETATM 3049  O   HOH A2007      34.884  69.489  19.654  1.00 64.06           O  
-HETATM 3050  H1  HOH A2007      34.632  70.394  19.700  1.00 64.06           H  
-HETATM 3051  H2  HOH A2007      35.370  69.409  18.815  1.00 64.06           H  
-HETATM 3052  O   HOH A2008      37.731  56.847  45.076  1.00 53.54           O  
-HETATM 3053  H1  HOH A2008      37.130  57.318  45.670  1.00 53.54           H  
-HETATM 3054  H2  HOH A2008      37.284  56.899  44.219  1.00 53.54           H  
-HETATM 3055  O   HOH A2009      40.796  51.874   7.224  1.00 53.08           O  
-HETATM 3056  H1  HOH A2009      41.752  51.666   7.178  1.00 53.08           H  
-HETATM 3057  H2  HOH A2009      40.748  52.595   7.830  1.00 53.08           H  
-HETATM 3058  O   HOH A2010      42.574  70.064   3.459  1.00 83.72           O  
-HETATM 3059  H1  HOH A2010      41.736  69.901   3.026  1.00 83.72           H  
-HETATM 3060  H2  HOH A2010      43.071  69.229   3.281  1.00 83.72           H  
-HETATM 3061  O   HOH A2011      43.793  69.460   6.643  1.00 52.47           O  
-HETATM 3062  H1  HOH A2011      42.985  69.927   6.948  1.00 52.47           H  
-HETATM 3063  H2  HOH A2011      44.475  69.812   7.192  1.00 52.47           H  
-HETATM 3064  O   HOH A2012      46.492  70.166  14.967  1.00 48.23           O  
-HETATM 3065  H1  HOH A2012      47.174  70.839  15.227  1.00 48.23           H  
-HETATM 3066  H2  HOH A2012      46.799  69.941  14.071  1.00 48.23           H  
-HETATM 3067  O   HOH A2013      56.160  51.351  17.478  1.00 54.57           O  
-HETATM 3068  H1  HOH A2013      55.623  51.143  18.183  1.00 54.57           H  
-HETATM 3069  H2  HOH A2013      56.680  52.126  17.701  1.00 54.57           H  
-HETATM 3070  O   HOH A2014       2.008  40.799  54.570  1.00 50.14           O  
-HETATM 3071  H1  HOH A2014       1.971  39.955  54.120  1.00 50.14           H  
-HETATM 3072  H2  HOH A2014       1.628  41.412  53.877  1.00 50.14           H  
-HETATM 3073  O   HOH A2015       4.656  39.727  55.159  1.00 45.59           O  
-HETATM 3074  H1  HOH A2015       5.331  40.420  55.219  1.00 45.59           H  
-HETATM 3075  H2  HOH A2015       3.855  40.201  54.941  1.00 45.59           H  
-HETATM 3076  O   HOH A2016       9.945  40.265  46.651  1.00 71.06           O  
-HETATM 3077  H1  HOH A2016       9.213  40.827  47.139  1.00 71.06           H  
-HETATM 3078  H2  HOH A2016       9.455  39.477  46.500  1.00 71.06           H  
-HETATM 3079  O   HOH A2017      29.808  57.809  48.124  1.00 74.00           O  
-HETATM 3080  H1  HOH A2017      29.517  58.044  47.241  1.00 74.00           H  
-HETATM 3081  H2  HOH A2017      30.357  57.071  48.050  1.00 74.00           H  
-HETATM 3082  O   HOH A2018      43.952  45.495  42.651  1.00 66.90           O  
-HETATM 3083  H1  HOH A2018      43.280  45.663  43.339  1.00 66.90           H  
-HETATM 3084  H2  HOH A2018      43.480  45.088  41.951  1.00 66.90           H  
-HETATM 3085  O   HOH A2019      45.974  50.396  43.119  1.00 74.63           O  
-HETATM 3086  H1  HOH A2019      45.303  51.049  43.224  1.00 74.63           H  
-HETATM 3087  H2  HOH A2019      46.461  50.616  42.345  1.00 74.63           H  
-HETATM 3088  O   HOH A2020      50.839  69.453  13.244  1.00 69.63           O  
-HETATM 3089  H1  HOH A2020      51.368  69.893  13.894  1.00 69.63           H  
-HETATM 3090  H2  HOH A2020      50.414  68.724  13.762  1.00 69.63           H  
-HETATM 3091  O   HOH A2021      40.319  47.369  34.607  0.50 18.96           O  
-HETATM 3092  H1  HOH A2021      39.417  47.693  34.583  0.50 18.96           H  
-HETATM 3093  H2  HOH A2021      40.833  48.146  34.297  0.50 18.96           H  
-HETATM 3094  O   HOH A2022      40.671  48.791  32.938  0.50 23.81           O  
-HETATM 3095  H1  HOH A2022      41.319  49.102  33.547  0.50 23.81           H  
-HETATM 3096  H2  HOH A2022      41.213  48.694  32.091  0.50 23.81           H  
-HETATM 3097  O   HOH A2023      49.181  50.693  38.836  0.50 27.12           O  
-HETATM 3098  H1  HOH A2023      49.567  49.852  38.536  0.50 27.12           H  
-HETATM 3099  H2  HOH A2023      49.834  51.344  38.599  0.50 27.12           H  
-HETATM 3100  O   HOH A2024      41.960  42.746  42.219  0.33 35.30           O  
-HETATM 3101  H1  HOH A2024      41.912  43.093  41.654  0.33 35.30           H  
-HETATM 3102  H2  HOH A2024      41.479  42.477  42.841  0.33 35.30           H  
-HETATM 3103  O   HOH A2101      -3.910  48.444  34.480  1.00 43.80           O  
-HETATM 3104  H1  HOH A2101      -3.220  47.786  34.525  1.00 43.80           H  
-HETATM 3105  H2  HOH A2101      -4.265  48.477  35.375  1.00 43.80           H  
-HETATM 3106  O   HOH A2102      -2.881  44.703  38.282  1.00 40.17           O  
-HETATM 3107  H1  HOH A2102      -2.608  45.162  37.501  1.00 40.17           H  
-HETATM 3108  H2  HOH A2102      -2.197  44.035  38.425  1.00 40.17           H  
-HETATM 3109  O   HOH A2103      12.024  48.417  42.765  1.00 25.94           O  
-HETATM 3110  H1  HOH A2103      12.165  47.934  41.952  1.00 25.94           H  
-HETATM 3111  H2  HOH A2103      12.176  47.773  43.464  1.00 25.94           H  
-HETATM 3112  O   HOH A2104      18.623  47.990  41.128  1.00 19.17           O  
-HETATM 3113  H1  HOH A2104      18.138  47.167  41.158  1.00 19.17           H  
-HETATM 3114  H2  HOH A2104      17.962  48.679  41.143  1.00 19.17           H  
-HETATM 3115  O   HOH A2105      21.303  48.129  40.595  1.00 14.23           O  
-HETATM 3116  H1  HOH A2105      21.643  47.319  40.248  1.00 14.23           H  
-HETATM 3117  H2  HOH A2105      20.397  47.985  40.825  1.00 14.23           H  
-HETATM 3118  O   HOH A2106      36.048  65.687  26.580  1.00 24.82           O  
-HETATM 3119  H1  HOH A2106      36.411  66.498  26.140  1.00 24.82           H  
-HETATM 3120  H2  HOH A2106      36.387  65.791  27.477  1.00 24.82           H  
-HETATM 3121  O   HOH A2107      39.646  64.812  29.435  1.00 68.66           O  
-HETATM 3122  H1  HOH A2107      38.795  64.702  29.820  1.00 68.66           H  
-HETATM 3123  H2  HOH A2107      39.528  64.744  28.489  1.00 68.66           H  
-HETATM 3124  O   HOH A2108      43.523  65.886  28.342  1.00 32.81           O  
-HETATM 3125  H1  HOH A2108      44.211  65.482  28.794  1.00 32.81           H  
-HETATM 3126  H2  HOH A2108      42.732  65.807  28.888  1.00 32.81           H  
-HETATM 3127  O   HOH A2109      40.948  67.841  25.492  1.00 61.47           O  
-HETATM 3128  H1  HOH A2109      40.372  68.513  25.827  1.00 61.47           H  
-HETATM 3129  H2  HOH A2109      40.599  67.015  25.856  1.00 61.47           H  
-HETATM 3130  O   HOH A2110      50.854  62.995  25.491  1.00 19.34           O  
-HETATM 3131  H1  HOH A2110      51.171  63.355  26.335  1.00 19.34           H  
-HETATM 3132  H2  HOH A2110      51.533  62.392  25.219  1.00 19.34           H  
-HETATM 3133  O   HOH A2111      54.459  58.274  20.538  1.00 36.75           O  
-HETATM 3134  H1  HOH A2111      54.974  57.700  19.908  1.00 36.75           H  
-HETATM 3135  H2  HOH A2111      54.261  59.033  19.985  1.00 36.75           H  
-HETATM 3136  O   HOH A2112      35.493  64.212  32.092  1.00 29.23           O  
-HETATM 3137  H1  HOH A2112      34.898  64.677  31.503  1.00 29.23           H  
-HETATM 3138  H2  HOH A2112      35.224  63.327  32.123  1.00 29.23           H  
-HETATM 3139  O   HOH A2113      36.314  62.524  38.961  1.00 46.11           O  
-HETATM 3140  H1  HOH A2113      36.429  62.146  38.079  1.00 46.11           H  
-HETATM 3141  H2  HOH A2113      35.572  63.132  38.844  1.00 46.11           H  
-HETATM 3142  O   HOH A2114      35.912  64.506  35.621  1.00 46.58           O  
-HETATM 3143  H1  HOH A2114      35.257  63.872  35.882  1.00 46.58           H  
-HETATM 3144  H2  HOH A2114      35.439  65.332  35.517  1.00 46.58           H  
-HETATM 3145  O   HOH A2115      31.043  66.954  37.519  1.00 28.60           O  
-HETATM 3146  H1  HOH A2115      30.687  67.848  37.566  1.00 28.60           H  
-HETATM 3147  H2  HOH A2115      31.231  66.706  38.402  1.00 28.60           H  
-HETATM 3148  O   HOH A2116      24.566  67.207  32.863  1.00 30.58           O  
-HETATM 3149  H1  HOH A2116      25.095  67.565  32.155  1.00 30.58           H  
-HETATM 3150  H2  HOH A2116      25.129  66.581  33.311  1.00 30.58           H  
-HETATM 3151  O   HOH A2117      27.665  66.608  28.454  1.00 24.88           O  
-HETATM 3152  H1  HOH A2117      27.553  65.912  29.081  1.00 24.88           H  
-HETATM 3153  H2  HOH A2117      26.745  66.849  28.209  1.00 24.88           H  
-HETATM 3154  O   HOH A2118      24.556  66.527  38.270  1.00 48.25           O  
-HETATM 3155  H1  HOH A2118      24.028  66.432  39.066  1.00 48.25           H  
-HETATM 3156  H2  HOH A2118      25.123  65.729  38.288  1.00 48.25           H  
-HETATM 3157  O   HOH A2119      25.011  60.358  38.803  1.00 11.53           O  
-HETATM 3158  H1  HOH A2119      24.680  61.269  38.889  1.00 11.53           H  
-HETATM 3159  H2  HOH A2119      25.027  60.238  37.830  1.00 11.53           H  
-HETATM 3160  O   HOH A2120      25.768  57.727  45.827  1.00 48.63           O  
-HETATM 3161  H1  HOH A2120      25.116  58.451  45.685  1.00 48.63           H  
-HETATM 3162  H2  HOH A2120      26.331  57.778  45.068  1.00 48.63           H  
-HETATM 3163  O   HOH A2121      34.926  53.818  45.239  1.00 19.00           O  
-HETATM 3164  H1  HOH A2121      35.438  53.340  45.914  1.00 19.00           H  
-HETATM 3165  H2  HOH A2121      34.719  53.146  44.591  1.00 19.00           H  
-HETATM 3166  O   HOH A2122      36.512  57.198  42.603  1.00 12.40           O  
-HETATM 3167  H1  HOH A2122      36.026  58.018  42.686  1.00 12.40           H  
-HETATM 3168  H2  HOH A2122      35.841  56.513  42.577  1.00 12.40           H  
-HETATM 3169  O   HOH A2123      37.679  48.586  35.519  1.00 17.54           O  
-HETATM 3170  H1  HOH A2123      37.857  49.397  35.987  1.00 17.54           H  
-HETATM 3171  H2  HOH A2123      37.497  47.945  36.218  1.00 17.54           H  
-HETATM 3172  O   HOH A2124      34.100  67.007  18.240  1.00 18.30           O  
-HETATM 3173  H1  HOH A2124      34.436  67.806  18.622  1.00 18.30           H  
-HETATM 3174  H2  HOH A2124      33.250  66.868  18.706  1.00 18.30           H  
-HETATM 3175  O   HOH A2125      53.902  58.862  10.406  1.00 34.12           O  
-HETATM 3176  H1  HOH A2125      53.315  58.656   9.687  1.00 34.12           H  
-HETATM 3177  H2  HOH A2125      53.719  59.716  10.701  1.00 34.12           H  
-HETATM 3178  O   HOH A2126      46.855  67.318  15.456  1.00 13.72           O  
-HETATM 3179  H1  HOH A2126      46.651  68.251  15.379  1.00 13.72           H  
-HETATM 3180  H2  HOH A2126      46.546  66.934  14.628  1.00 13.72           H  
-HETATM 3181  O   HOH A2127      47.551  69.338  11.765  1.00 40.24           O  
-HETATM 3182  H1  HOH A2127      47.875  68.587  11.323  1.00 40.24           H  
-HETATM 3183  H2  HOH A2127      46.620  69.356  11.695  1.00 40.24           H  
-HETATM 3184  O   HOH A2128      52.169  69.998  10.246  1.00 32.93           O  
-HETATM 3185  H1  HOH A2128      53.112  69.824  10.380  1.00 32.93           H  
-HETATM 3186  H2  HOH A2128      51.806  69.907  11.146  1.00 32.93           H  
-HETATM 3187  O   HOH A2129      51.497  66.933   1.294  1.00 52.20           O  
-HETATM 3188  H1  HOH A2129      52.226  66.737   1.856  1.00 52.20           H  
-HETATM 3189  H2  HOH A2129      51.782  66.868   0.410  1.00 52.20           H  
-HETATM 3190  O   HOH A2130      48.537  64.813   6.369  1.00 14.03           O  
-HETATM 3191  H1  HOH A2130      49.215  65.009   7.043  1.00 14.03           H  
-HETATM 3192  H2  HOH A2130      48.459  63.857   6.411  1.00 14.03           H  
-HETATM 3193  O   HOH A2131      55.466  65.984   9.046  1.00 47.56           O  
-HETATM 3194  H1  HOH A2131      54.755  65.952   8.422  1.00 47.56           H  
-HETATM 3195  H2  HOH A2131      55.360  65.165   9.568  1.00 47.56           H  
-HETATM 3196  O   HOH A2132      54.648  60.484  13.491  1.00 33.92           O  
-HETATM 3197  H1  HOH A2132      54.157  60.852  12.767  1.00 33.92           H  
-HETATM 3198  H2  HOH A2132      54.715  59.554  13.325  1.00 33.92           H  
-HETATM 3199  O   HOH A2133      53.025  54.232  13.943  1.00 15.73           O  
-HETATM 3200  H1  HOH A2133      52.354  53.556  14.022  1.00 15.73           H  
-HETATM 3201  H2  HOH A2133      53.844  53.736  13.845  1.00 15.73           H  
-HETATM 3202  O   HOH A2134      44.642  60.754   8.653  1.00  6.80           O  
-HETATM 3203  H1  HOH A2134      44.429  61.442   8.009  1.00  6.80           H  
-HETATM 3204  H2  HOH A2134      43.793  60.369   8.869  1.00  6.80           H  
-HETATM 3205  O   HOH A2135      53.247  51.305  32.211  1.00 44.41           O  
-HETATM 3206  H1  HOH A2135      53.567  52.097  32.604  1.00 44.41           H  
-HETATM 3207  H2  HOH A2135      52.718  50.890  32.952  1.00 44.41           H  
-HETATM 3208  O   HOH A2136      42.690  48.610  30.635  1.00  9.83           O  
-HETATM 3209  H1  HOH A2136      43.331  47.900  30.685  1.00  9.83           H  
-HETATM 3210  H2  HOH A2136      43.188  49.404  30.829  1.00  9.83           H  
-HETATM 3211  O   HOH A2137      42.681  49.668  34.464  1.00 17.01           O  
-HETATM 3212  H1  HOH A2137      43.461  49.360  33.934  1.00 17.01           H  
-HETATM 3213  H2  HOH A2137      42.891  50.558  34.671  1.00 17.01           H  
-HETATM 3214  O   HOH A2138      42.940  48.163  37.062  1.00 21.10           O  
-HETATM 3215  H1  HOH A2138      42.222  47.920  37.498  1.00 21.10           H  
-HETATM 3216  H2  HOH A2138      42.668  48.709  36.275  1.00 21.10           H  
-HETATM 3217  O   HOH A2139      45.511  51.260  36.718  1.00 34.53           O  
-HETATM 3218  H1  HOH A2139      46.431  51.076  36.507  1.00 34.53           H  
-HETATM 3219  H2  HOH A2139      45.134  51.587  35.901  1.00 34.53           H  
-HETATM 3220  O   HOH A2140      50.322  48.205  37.767  1.00 29.21           O  
-HETATM 3221  H1  HOH A2140      49.487  47.920  37.409  1.00 29.21           H  
-HETATM 3222  H2  HOH A2140      50.544  47.586  38.455  1.00 29.21           H  
-HETATM 3223  O   HOH A2141      41.109  45.554  36.437  1.00 41.79           O  
-HETATM 3224  H1  HOH A2141      40.850  46.289  35.807  1.00 41.79           H  
-HETATM 3225  H2  HOH A2141      40.699  44.799  36.058  1.00 41.79           H  
-HETATM 3226  O   HOH A2142      48.336  50.844  36.260  1.00 18.72           O  
-HETATM 3227  H1  HOH A2142      48.644  50.701  37.085  1.00 18.72           H  
-HETATM 3228  H2  HOH A2142      48.803  50.162  35.672  1.00 18.72           H  
-HETATM 3229  O   HOH A2143      41.061  46.955  39.030  1.00 31.92           O  
-HETATM 3230  H1  HOH A2143      40.841  46.588  38.182  1.00 31.92           H  
-HETATM 3231  H2  HOH A2143      40.260  47.388  39.339  1.00 31.92           H  
-HETATM 3232  O   HOH A2144      55.428  47.975  24.744  1.00 28.89           O  
-HETATM 3233  H1  HOH A2144      56.199  47.428  25.062  1.00 28.89           H  
-HETATM 3234  H2  HOH A2144      54.690  47.431  24.890  1.00 28.89           H  
-HETATM 3235  O   HOH A2145      42.176  44.195  39.958  1.00 31.16           O  
-HETATM 3236  H1  HOH A2145      41.694  43.612  39.459  1.00 31.16           H  
-HETATM 3237  H2  HOH A2145      41.859  45.099  39.747  1.00 31.16           H  
-HETATM 3238  O   HOH A2146      52.406  53.771  25.357  1.00 21.51           O  
-HETATM 3239  H1  HOH A2146      52.604  52.887  25.031  1.00 21.51           H  
-HETATM 3240  H2  HOH A2146      52.480  53.704  26.295  1.00 21.51           H  
-HETATM 3241  O   HOH A2147      50.176  53.709  23.701  1.00 12.28           O  
-HETATM 3242  H1  HOH A2147      50.844  53.899  24.356  1.00 12.28           H  
-HETATM 3243  H2  HOH A2147      50.434  52.865  23.325  1.00 12.28           H  
-HETATM 3244  O   HOH A2148      52.106  49.916  18.127  1.00 11.95           O  
-HETATM 3245  H1  HOH A2148      51.785  50.289  17.302  1.00 11.95           H  
-HETATM 3246  H2  HOH A2148      51.337  49.414  18.455  1.00 11.95           H  
-HETATM 3247  O   HOH A2149      53.986  50.458  14.909  1.00 33.75           O  
-HETATM 3248  H1  HOH A2149      54.564  49.767  15.142  1.00 33.75           H  
-HETATM 3249  H2  HOH A2149      53.280  50.528  15.448  1.00 33.75           H  
-HETATM 3250  O   HOH A2150      41.410  55.346   6.577  1.00 16.34           O  
-HETATM 3251  H1  HOH A2150      41.189  55.023   7.447  1.00 16.34           H  
-HETATM 3252  H2  HOH A2150      41.191  56.287   6.602  1.00 16.34           H  
-HETATM 3253  O   HOH A2151      40.932  54.425   9.297  1.00 23.95           O  
-HETATM 3254  H1  HOH A2151      40.900  55.240   9.772  1.00 23.95           H  
-HETATM 3255  H2  HOH A2151      40.236  53.875   9.708  1.00 23.95           H  
-HETATM 3256  O   HOH A2152      39.387  56.736   0.670  1.00 43.70           O  
-HETATM 3257  H1  HOH A2152      39.865  55.991   1.142  1.00 43.70           H  
-HETATM 3258  H2  HOH A2152      39.720  56.704  -0.188  1.00 43.70           H  
-HETATM 3259  O   HOH A2153      43.454  67.477   2.794  1.00 48.37           O  
-HETATM 3260  H1  HOH A2153      42.839  67.487   2.064  1.00 48.37           H  
-HETATM 3261  H2  HOH A2153      43.141  66.766   3.363  1.00 48.37           H  
-HETATM 3262  O   HOH A2154      37.813  56.002  11.164  1.00 24.96           O  
-HETATM 3263  H1  HOH A2154      38.019  55.080  11.059  1.00 24.96           H  
-HETATM 3264  H2  HOH A2154      38.640  56.466  11.005  1.00 24.96           H  
-HETATM 3265  O   HOH A2155      40.444  57.567  43.804  1.00 24.09           O  
-HETATM 3266  H1  HOH A2155      39.604  57.310  44.164  1.00 24.09           H  
-HETATM 3267  H2  HOH A2155      41.091  57.124  44.378  1.00 24.09           H  
-HETATM 3268  O   HOH A2156      43.705  52.721  43.625  1.00 41.75           O  
-HETATM 3269  H1  HOH A2156      43.665  52.669  42.671  1.00 41.75           H  
-HETATM 3270  H2  HOH A2156      43.865  53.626  43.828  1.00 41.75           H  
-HETATM 3271  O   HOH A2157      49.096  53.660  36.059  1.00 35.33           O  
-HETATM 3272  H1  HOH A2157      49.926  53.471  35.607  1.00 35.33           H  
-HETATM 3273  H2  HOH A2157      48.675  52.823  36.171  1.00 35.33           H  
-HETATM 3274  O   HOH A2158      53.857  63.661  16.094  1.00 45.46           O  
-HETATM 3275  H1  HOH A2158      54.395  64.049  16.746  1.00 45.46           H  
-HETATM 3276  H2  HOH A2158      54.044  62.715  16.106  1.00 45.46           H  
-HETATM 3277  O   HOH A2159      50.715  64.310  19.215  1.00 31.81           O  
-HETATM 3278  H1  HOH A2159      49.783  64.309  19.093  1.00 31.81           H  
-HETATM 3279  H2  HOH A2159      51.005  63.416  19.046  1.00 31.81           H  
-HETATM 3280  O   HOH A2160      49.649  67.105  15.030  1.00 30.45           O  
-HETATM 3281  H1  HOH A2160      49.889  66.206  15.097  1.00 30.45           H  
-HETATM 3282  H2  HOH A2160      48.726  67.185  15.170  1.00 30.45           H  
-HETATM 3283  O   HOH A2161      51.771  60.564  21.575  1.00 18.33           O  
-HETATM 3284  H1  HOH A2161      51.939  61.502  21.547  1.00 18.33           H  
-HETATM 3285  H2  HOH A2161      51.825  60.333  22.504  1.00 18.33           H  
-HETATM 3286  O   HOH A2162      43.764  44.489  37.685  1.00 19.78           O  
-HETATM 3287  H1  HOH A2162      43.067  44.922  37.195  1.00 19.78           H  
-HETATM 3288  H2  HOH A2162      43.429  44.322  38.545  1.00 19.78           H  
-HETATM 3289  O   HOH A2163      49.511  66.402   4.189  1.00 21.12           O  
-HETATM 3290  H1  HOH A2163      49.153  67.239   4.459  1.00 21.12           H  
-HETATM 3291  H2  HOH A2163      49.223  65.769   4.832  1.00 21.12           H  
-HETATM 3292  O   HOH A2164      54.592  52.867  21.145  1.00 36.69           O  
-HETATM 3293  H1  HOH A2164      55.439  52.787  21.617  1.00 36.69           H  
-HETATM 3294  H2  HOH A2164      53.994  53.162  21.871  1.00 36.69           H  
-HETATM 3295  O   HOH A2165      33.115  66.742  22.958  1.00 42.58           O  
-HETATM 3296  H1  HOH A2165      33.179  67.407  23.635  1.00 42.58           H  
-HETATM 3297  H2  HOH A2165      33.954  66.262  23.026  1.00 42.58           H  
-HETATM 3298  O   HOH A2166       9.930  42.046  50.115  1.00 31.32           O  
-HETATM 3299  H1  HOH A2166       9.220  41.972  49.492  1.00 31.32           H  
-HETATM 3300  H2  HOH A2166      10.160  42.996  50.104  1.00 31.32           H  
-HETATM 3301  O   HOH A2167      32.706  60.559  41.739  1.00 33.93           O  
-HETATM 3302  H1  HOH A2167      33.592  60.278  41.888  1.00 33.93           H  
-HETATM 3303  H2  HOH A2167      32.188  59.770  41.625  1.00 33.93           H  
-HETATM 3304  O   HOH A2168       3.092  40.709  46.399  1.00 36.20           O  
-HETATM 3305  H1  HOH A2168       3.526  40.849  45.511  1.00 36.20           H  
-HETATM 3306  H2  HOH A2168       2.523  39.980  46.240  1.00 36.20           H  
-HETATM 3307  O   HOH A2169      31.486  64.231  25.498  1.00 37.65           O  
-HETATM 3308  H1  HOH A2169      31.048  64.693  26.198  1.00 37.65           H  
-HETATM 3309  H2  HOH A2169      31.814  63.406  25.935  1.00 37.65           H  
-HETATM 3310  O   HOH A2170      33.939  51.075  23.477  1.00 19.98           O  
-HETATM 3311  H1  HOH A2170      34.279  51.909  23.823  1.00 19.98           H  
-HETATM 3312  H2  HOH A2170      33.233  50.828  24.058  1.00 19.98           H  
-HETATM 3313  O   HOH A2171      37.783  68.354  20.139  1.00 35.07           O  
-HETATM 3314  H1  HOH A2171      38.689  68.196  20.139  1.00 35.07           H  
-HETATM 3315  H2  HOH A2171      37.569  68.754  19.303  1.00 35.07           H  
-HETATM 3316  O   HOH A2172      -3.785  54.762  23.859  1.00 59.48           O  
-HETATM 3317  H1  HOH A2172      -3.702  55.616  24.332  1.00 59.48           H  
-HETATM 3318  H2  HOH A2172      -4.174  54.206  24.591  1.00 59.48           H  
-HETATM 3319  O   HOH A2173       0.868  42.552  52.126  1.00 56.09           O  
-HETATM 3320  H1  HOH A2173       1.614  42.239  51.596  1.00 56.09           H  
-HETATM 3321  H2  HOH A2173       0.840  43.485  51.988  1.00 56.09           H  
-HETATM 3322  O   HOH A2174      33.806  47.497  16.970  1.00 65.49           O  
-HETATM 3323  H1  HOH A2174      34.671  47.110  16.839  1.00 65.49           H  
-HETATM 3324  H2  HOH A2174      33.192  46.952  16.533  1.00 65.49           H  
-HETATM 3325  O   HOH A2175      33.547  66.085  30.428  1.00 55.23           O  
-HETATM 3326  H1  HOH A2175      34.215  66.757  30.490  1.00 55.23           H  
-HETATM 3327  H2  HOH A2175      33.529  65.823  29.510  1.00 55.23           H  
-HETATM 3328  O   HOH A2176      52.884  47.346  36.496  1.00 49.31           O  
-HETATM 3329  H1  HOH A2176      52.062  47.685  36.929  1.00 49.31           H  
-HETATM 3330  H2  HOH A2176      53.419  47.081  37.238  1.00 49.31           H  
-HETATM 3331  O   HOH A2177      36.464  68.019  22.898  1.00 55.96           O  
-HETATM 3332  H1  HOH A2177      36.839  68.148  22.042  1.00 55.96           H  
-HETATM 3333  H2  HOH A2177      36.185  67.096  22.922  1.00 55.96           H  
-HETATM 3334  O   HOH A2178      38.848  53.081  10.599  1.00 52.02           O  
-HETATM 3335  H1  HOH A2178      38.962  53.040  11.567  1.00 52.02           H  
-HETATM 3336  H2  HOH A2178      38.542  52.178  10.391  1.00 52.02           H  
-HETATM 3337  O   HOH A2179      45.321  69.765  21.951  1.00 58.78           O  
-HETATM 3338  H1  HOH A2179      44.963  69.555  22.802  1.00 58.78           H  
-HETATM 3339  H2  HOH A2179      45.559  68.902  21.569  1.00 58.78           H  
-HETATM 3340  O   HOH A2180      46.597  52.405  40.350  1.00 61.37           O  
-HETATM 3341  H1  HOH A2180      45.644  52.443  40.593  1.00 61.37           H  
-HETATM 3342  H2  HOH A2180      46.555  52.042  39.452  1.00 61.37           H  
-HETATM 3343  O   HOH A2181      51.677  52.713  34.764  1.00 47.54           O  
-HETATM 3344  H1  HOH A2181      52.412  52.720  35.399  1.00 47.54           H  
-HETATM 3345  H2  HOH A2181      51.578  51.741  34.598  1.00 47.54           H  
-HETATM 3346  O   HOH A2182      53.658  60.800  18.854  1.00 36.88           O  
-HETATM 3347  H1  HOH A2182      52.719  61.001  18.784  1.00 36.88           H  
-HETATM 3348  H2  HOH A2182      53.968  60.914  17.922  1.00 36.88           H  
-HETATM 3349  O   HOH A2183      55.455  50.091  26.765  1.00 63.62           O  
-HETATM 3350  H1  HOH A2183      55.607  50.893  26.294  1.00 63.62           H  
-HETATM 3351  H2  HOH A2183      55.518  49.392  26.091  1.00 63.62           H  
-HETATM 3352  O   HOH A2184      55.997  57.081  16.844  1.00 71.81           O  
-HETATM 3353  H1  HOH A2184      55.973  57.772  17.474  1.00 71.81           H  
-HETATM 3354  H2  HOH A2184      55.882  57.545  15.980  1.00 71.81           H  
-HETATM 3355  O   HOH A2185       7.536  41.893  47.964  1.00 64.21           O  
-HETATM 3356  H1  HOH A2185       7.739  42.743  48.340  1.00 64.21           H  
-HETATM 3357  H2  HOH A2185       6.627  41.726  48.181  1.00 64.21           H  
-HETATM 3358  O   HOH A2186      27.022  69.926  33.024  1.00 76.13           O  
-HETATM 3359  H1  HOH A2186      27.820  69.468  32.726  1.00 76.13           H  
-HETATM 3360  H2  HOH A2186      27.272  70.798  33.218  1.00 76.13           H  
-HETATM 3361  O   HOH A2187      33.692  67.086  35.328  1.00 54.74           O  
-HETATM 3362  H1  HOH A2187      33.000  67.052  35.966  1.00 54.74           H  
-HETATM 3363  H2  HOH A2187      33.939  68.018  35.272  1.00 54.74           H  
-HETATM 3364  O   HOH A2188      41.289  63.188  31.134  1.00 69.06           O  
-HETATM 3365  H1  HOH A2188      41.934  63.655  31.613  1.00 69.06           H  
-HETATM 3366  H2  HOH A2188      40.775  63.806  30.639  1.00 69.06           H  
-HETATM 3367  O   HOH A2189      52.168  65.989  17.106  1.00 52.80           O  
-HETATM 3368  H1  HOH A2189      52.730  65.272  16.734  1.00 52.80           H  
-HETATM 3369  H2  HOH A2189      51.662  65.562  17.776  1.00 52.80           H  
-HETATM 3370  O   HOH A2190      55.211  53.857  27.023  1.00 71.30           O  
-HETATM 3371  H1  HOH A2190      54.276  54.052  27.271  1.00 71.30           H  
-HETATM 3372  H2  HOH A2190      55.692  54.150  27.805  1.00 71.30           H  
-HETATM 3373  O   HOH A2191      55.743  64.020  13.300  1.00 59.17           O  
-HETATM 3374  H1  HOH A2191      55.169  63.897  14.058  1.00 59.17           H  
-HETATM 3375  H2  HOH A2191      55.262  63.643  12.565  1.00 59.17           H  
-HETATM 3376  O   HOH A2192      31.955  55.221  47.725  0.50 12.07           O  
-HETATM 3377  H1  HOH A2192      31.802  54.356  48.044  0.50 12.07           H  
-HETATM 3378  H2  HOH A2192      32.151  55.146  46.793  0.50 12.07           H  
-HETATM 3379  O   HOH A2193      43.961  66.226   6.491  0.50 13.26           O  
-HETATM 3380  H1  HOH A2193      43.523  66.046   5.654  0.50 13.26           H  
-HETATM 3381  H2  HOH A2193      44.062  67.176   6.506  0.50 13.26           H  
-HETATM 3382  O   HOH A2194      47.349  67.563   7.652  0.50 22.11           O  
-HETATM 3383  H1  HOH A2194      47.320  67.385   8.560  0.50 22.11           H  
-HETATM 3384  H2  HOH A2194      47.698  66.772   7.230  0.50 22.11           H  
-HETATM 3385  O   HOH A2195      38.367  46.515  33.919  0.50 18.43           O  
-HETATM 3386  H1  HOH A2195      37.756  46.248  33.209  0.50 18.43           H  
-HETATM 3387  H2  HOH A2195      38.776  45.674  34.173  0.50 18.43           H  
-HETATM 3388  O   HOH A2196      45.807  65.804   6.634  0.50 15.56           O  
-HETATM 3389  H1  HOH A2196      46.725  65.620   6.493  0.50 15.56           H  
-HETATM 3390  H2  HOH A2196      45.380  64.964   6.735  0.50 15.56           H  
-HETATM 3391  O   HOH A2197      53.741  48.730  30.540  0.50 15.47           O  
-HETATM 3392  H1  HOH A2197      53.367  49.454  31.060  0.50 15.47           H  
-HETATM 3393  H2  HOH A2197      52.947  48.275  30.197  0.50 15.47           H  
-HETATM 3394  O   HOH A2198      51.434  46.348  39.771  0.50 35.28           O  
-HETATM 3395  H1  HOH A2198      51.785  46.205  40.690  0.50 35.28           H  
-HETATM 3396  H2  HOH A2198      50.465  46.368  39.982  0.50 35.28           H  
-HETATM 3397  O   HOH A2199      41.571  67.215   0.935  0.20  7.73           O  
-HETATM 3398  H1  HOH A2199      42.123  67.528   0.203  0.20  7.73           H  
-HETATM 3399  H2  HOH A2199      40.939  66.624   0.493  0.20  7.73           H  
-HETATM 3400  O   HOH A2207       9.039  45.001  41.432  1.00 59.23           O  
-HETATM 3401  H1  HOH A2207       9.055  45.962  41.524  1.00 59.23           H  
-HETATM 3402  H2  HOH A2207       9.887  44.743  41.866  1.00 59.23           H  
-HETATM 3403  O   HOH A2301       9.027  53.968  48.749  1.00  6.96           O  
-HETATM 3404  H1  HOH A2301       9.291  54.653  49.373  1.00  6.96           H  
-HETATM 3405  H2  HOH A2301       8.637  54.468  48.019  1.00  6.96           H  
-HETATM 3406  O   HOH A2302      13.691  50.647  43.100  1.00 12.13           O  
-HETATM 3407  H1  HOH A2302      13.225  49.868  42.794  1.00 12.13           H  
-HETATM 3408  H2  HOH A2302      13.408  51.378  42.668  1.00 12.13           H  
-HETATM 3409  O   HOH A2303      15.755  53.577  41.636  1.00  9.83           O  
-HETATM 3410  H1  HOH A2303      16.165  52.975  42.254  1.00  9.83           H  
-HETATM 3411  H2  HOH A2303      14.833  53.311  41.609  1.00  9.83           H  
-HETATM 3412  O   HOH A2304      -4.186  52.680  31.620  1.00 19.24           O  
-HETATM 3413  H1  HOH A2304      -4.451  52.074  32.293  1.00 19.24           H  
-HETATM 3414  H2  HOH A2304      -4.895  53.313  31.533  1.00 19.24           H  
-HETATM 3415  O   HOH A2305      33.833  50.801  16.086  1.00 63.56           O  
-HETATM 3416  H1  HOH A2305      33.081  50.928  15.529  1.00 63.56           H  
-HETATM 3417  H2  HOH A2305      33.903  49.868  16.240  1.00 63.56           H  
-HETATM 3418  O   HOH A2306      24.028  62.978  38.947  0.50 31.03           O  
-HETATM 3419  H1  HOH A2306      23.577  63.559  39.559  0.50 31.03           H  
-HETATM 3420  H2  HOH A2306      24.905  63.352  38.863  0.50 31.03           H  
-HETATM 3421  O   HOH A2401       7.440  43.697  51.804  1.00 10.44           O  
-HETATM 3422  H1  HOH A2401       8.164  44.075  52.324  1.00 10.44           H  
-HETATM 3423  H2  HOH A2401       7.596  44.059  50.918  1.00 10.44           H  
-HETATM 3424  O   HOH A2402      10.838  44.854  50.366  1.00 10.04           O  
-HETATM 3425  H1  HOH A2402      11.107  45.475  49.670  1.00 10.04           H  
-HETATM 3426  H2  HOH A2402       9.921  44.679  50.172  1.00 10.04           H  
-HETATM 3427  O   HOH A2403      30.091  53.796  43.266  1.00  9.94           O  
-HETATM 3428  H1  HOH A2403      30.683  53.247  43.781  1.00  9.94           H  
-HETATM 3429  H2  HOH A2403      29.871  53.269  42.518  1.00  9.94           H  
-HETATM 3430  O   HOH A2404      42.373  53.084  11.463  1.00  8.86           O  
-HETATM 3431  H1  HOH A2404      41.714  53.334  10.816  1.00  8.86           H  
-HETATM 3432  H2  HOH A2404      43.195  53.054  10.969  1.00  8.86           H  
-HETATM 3433  O   HOH A2405      50.727  44.886  41.127  0.50 38.23           O  
-HETATM 3434  H1  HOH A2405      51.057  45.342  41.898  0.50 38.23           H  
-HETATM 3435  H2  HOH A2405      49.999  45.444  40.817  0.50 38.23           H  
-HETATM 3436  O   HOH A2501      -7.477  59.134  32.516  1.00 14.28           O  
-HETATM 3437  H1  HOH A2501      -7.491  59.328  31.580  1.00 14.28           H  
-HETATM 3438  H2  HOH A2501      -7.895  59.900  32.924  1.00 14.28           H  
-HETATM 3439  O   HOH A2502      -7.863  59.900  29.838  1.00 18.14           O  
-HETATM 3440  H1  HOH A2502      -7.666  59.178  29.268  1.00 18.14           H  
-HETATM 3441  H2  HOH A2502      -8.223  60.587  29.273  1.00 18.14           H  
-HETATM 3442  O   HOH A2503      42.920  62.365  12.428  1.00  7.09           O  
-HETATM 3443  H1  HOH A2503      43.754  62.057  12.067  1.00  7.09           H  
-HETATM 3444  H2  HOH A2503      43.151  63.182  12.880  1.00  7.09           H  
-HETATM 3445  O   HOH A2504      34.765  66.127  15.629  1.00 11.67           O  
-HETATM 3446  H1  HOH A2504      34.597  66.823  15.004  1.00 11.67           H  
-HETATM 3447  H2  HOH A2504      34.367  66.421  16.454  1.00 11.67           H  
-HETATM 3448  O   HOH A2505      42.682  64.082   8.861  1.00 21.43           O  
-HETATM 3449  H1  HOH A2505      42.114  63.499   9.365  1.00 21.43           H  
-HETATM 3450  H2  HOH A2505      43.128  63.527   8.236  1.00 21.43           H  
-HETATM 3451  O   HOH A2506      10.323  42.667  44.701  1.00 25.68           O  
-HETATM 3452  H1  HOH A2506       9.435  42.966  44.482  1.00 25.68           H  
-HETATM 3453  H2  HOH A2506      10.207  41.907  45.247  1.00 25.68           H  
-HETATM 3454  O   HOH A2507      37.539  67.476  15.472  1.00  9.81           O  
-HETATM 3455  H1  HOH A2507      38.215  66.805  15.639  1.00  9.81           H  
-HETATM 3456  H2  HOH A2507      36.712  66.989  15.568  1.00  9.81           H  
-HETATM 3457  O   HOH A2508      12.017  44.639  42.753  1.00 40.16           O  
-HETATM 3458  H1  HOH A2508      12.179  45.062  43.542  1.00 40.16           H  
-HETATM 3459  H2  HOH A2508      12.075  45.172  42.025  1.00 40.16           H  
-HETATM 3460  O   HOH A2509      31.884  38.974  31.169  1.00 62.13           O  
-HETATM 3461  H1  HOH A2509      31.787  39.456  30.410  1.00 62.13           H  
-HETATM 3462  H2  HOH A2509      32.809  38.584  31.106  1.00 62.13           H  
-HETATM 3463  O   HOH A2601     -10.600  54.055  27.232  1.00 41.78           O  
-HETATM 3464  H1  HOH A2601     -10.726  53.118  27.160  1.00 41.78           H  
-HETATM 3465  H2  HOH A2601     -11.324  54.415  27.674  1.00 41.78           H  
-HETATM 3466  O   HOH A2606      29.273  53.102  20.749  1.00 35.06           O  
-HETATM 3467  H1  HOH A2606      28.937  52.339  21.172  1.00 35.06           H  
-HETATM 3468  H2  HOH A2606      28.763  53.845  21.108  1.00 35.06           H  
-HETATM 3469  O   HOH A2607     -10.378  53.981  24.202  1.00 59.94           O  
-HETATM 3470  H1  HOH A2607     -10.401  53.982  25.208  1.00 59.94           H  
-HETATM 3471  H2  HOH A2607      -9.787  54.706  24.030  1.00 59.94           H  
-HETATM 3472  O   HOH A2701      36.766  59.492   0.926  0.20 32.29           O  
-HETATM 3473  H1  HOH A2701      37.519  60.079   0.729  0.20 32.29           H  
-HETATM 3474  H2  HOH A2701      36.890  59.246   1.827  0.20 32.29           H  
-HETATM 3475  O   HOH A2901      22.615  45.952  39.516  1.00 11.70           O  
-HETATM 3476  H1  HOH A2901      21.854  45.465  39.360  1.00 11.70           H  
-HETATM 3477  H2  HOH A2901      23.185  45.318  39.955  1.00 11.70           H  
-CONECT 2969 2970 2971 2972 2973                                                 
-CONECT 2970 2969                                                                
-CONECT 2971 2969                                                                
-CONECT 2972 2969                                                                
-CONECT 2973 2969                                                                
-MASTER      582    0    2    3    8    2    2   51 1745    3    5   15          
+HETATM 2949  S   SO4 A3001      39.024  62.544   0.215  0.20  6.79           S  
+HETATM 2950  O1  SO4 A3001      38.734  63.529  -0.770  0.20  7.12           O  
+HETATM 2951  O2  SO4 A3001      38.618  61.308  -0.197  0.20  7.10           O  
+HETATM 2952  O3  SO4 A3001      40.439  62.538   0.409  0.20  7.50           O  
+HETATM 2953  O4  SO4 A3001      38.353  62.852   1.409  0.20  6.26           O  
+HETATM 2954  OP3   U B  11       3.680  50.863  29.802  0.42 50.55           O  
+HETATM 2955  P     U B  11       2.853  49.648  30.032  0.42 50.87           P  
+HETATM 2956  OP1   U B  11       1.623  49.400  29.271  0.42 52.08           O  
+HETATM 2957  OP2   U B  11       3.849  48.411  29.790  0.42 53.38           O  
+HETATM 2958  O5'   U B  11       2.542  49.585  31.601  0.42 51.27           O  
+HETATM 2959  C5'   U B  11       3.198  50.474  32.547  0.42 49.14           C  
+HETATM 2960  C4'   U B  11       2.722  50.189  33.956  0.42 49.59           C  
+HETATM 2961  O4'   U B  11       1.353  49.695  33.902  0.42 49.37           O  
+HETATM 2962  C3'   U B  11       3.517  49.133  34.722  0.42 50.15           C  
+HETATM 2963  C2'   U B  11       2.697  47.865  34.505  0.42 50.65           C  
+HETATM 2964  O2'   U B  11       2.877  46.907  35.531  0.42 53.72           O  
+HETATM 2965  C1'   U B  11       1.276  48.424  34.520  0.42 49.00           C  
+HETATM 2966  N1    U B  11       0.313  47.604  33.774  0.42 48.48           N  
+HETATM 2967  H5'   U B  11       2.728  51.445  32.503  0.42 50.36           H  
+HETATM 2968 H5''   U B  11       4.240  50.571  32.284  0.42 50.36           H  
+HETATM 2969  H4'   U B  11       3.311  50.716  34.658  0.42 50.36           H  
+HETATM 2970  H3'   U B  11       4.823  48.648  33.622  0.42 50.36           H  
+HETATM 2971 HO3'   U B  11       4.375  49.717  35.886  0.42 50.36           H  
+HETATM 2972 HO2'   U B  11       3.546  46.686  35.695  0.42 50.36           H  
+HETATM 2973  H1'   U B  11       1.650  48.031  35.624  0.42 50.36           H  
+HETATM 2974  O   HOH A2001      54.820  61.130  16.268  1.00 49.51           O  
+HETATM 2975  H1  HOH A2001      55.725  60.913  16.502  1.00 49.51           H  
+HETATM 2976  H2  HOH A2001      54.781  60.880  15.312  1.00 49.51           H  
+HETATM 2977  O   HOH A2002      54.432  50.568  19.469  1.00 19.82           O  
+HETATM 2978  H1  HOH A2002      54.205  51.354  19.994  1.00 19.82           H  
+HETATM 2979  H2  HOH A2002      53.624  50.391  18.970  1.00 19.82           H  
+HETATM 2980  O   HOH A2003      35.566  59.709  42.528  1.00 40.51           O  
+HETATM 2981  H1  HOH A2003      36.183  60.270  42.039  1.00 40.51           H  
+HETATM 2982  H2  HOH A2003      35.544  60.055  43.399  1.00 40.51           H  
+HETATM 2983  O   HOH A2004      30.205  66.058  27.164  1.00 48.09           O  
+HETATM 2984  H1  HOH A2004      29.460  66.259  27.578  1.00 48.09           H  
+HETATM 2985  H2  HOH A2004      30.169  66.667  26.302  1.00 48.09           H  
+HETATM 2986  O   HOH A2005      25.463  67.147  27.473  1.00 37.25           O  
+HETATM 2987  H1  HOH A2005      24.650  67.545  27.612  1.00 37.25           H  
+HETATM 2988  H2  HOH A2005      25.745  67.312  26.586  1.00 37.25           H  
+HETATM 2989  O   HOH A2006      25.919  68.872  30.673  1.00 64.52           O  
+HETATM 2990  H1  HOH A2006      26.297  69.262  31.549  1.00 64.52           H  
+HETATM 2991  H2  HOH A2006      25.270  69.522  30.467  1.00 64.52           H  
+HETATM 2992  O   HOH A2007      34.884  69.489  19.654  1.00 64.06           O  
+HETATM 2993  H1  HOH A2007      34.632  70.394  19.700  1.00 64.06           H  
+HETATM 2994  H2  HOH A2007      35.370  69.409  18.815  1.00 64.06           H  
+HETATM 2995  O   HOH A2008      37.731  56.847  45.076  1.00 53.54           O  
+HETATM 2996  H1  HOH A2008      37.130  57.318  45.670  1.00 53.54           H  
+HETATM 2997  H2  HOH A2008      37.284  56.899  44.219  1.00 53.54           H  
+HETATM 2998  O   HOH A2009      40.796  51.874   7.224  1.00 53.08           O  
+HETATM 2999  H1  HOH A2009      41.752  51.666   7.178  1.00 53.08           H  
+HETATM 3000  H2  HOH A2009      40.748  52.595   7.830  1.00 53.08           H  
+HETATM 3001  O   HOH A2010      42.574  70.064   3.459  1.00 83.72           O  
+HETATM 3002  H1  HOH A2010      41.736  69.901   3.026  1.00 83.72           H  
+HETATM 3003  H2  HOH A2010      43.071  69.229   3.281  1.00 83.72           H  
+HETATM 3004  O   HOH A2011      43.793  69.460   6.643  1.00 52.47           O  
+HETATM 3005  H1  HOH A2011      42.985  69.927   6.948  1.00 52.47           H  
+HETATM 3006  H2  HOH A2011      44.475  69.812   7.192  1.00 52.47           H  
+HETATM 3007  O   HOH A2012      46.492  70.166  14.967  1.00 48.23           O  
+HETATM 3008  H1  HOH A2012      47.174  70.839  15.227  1.00 48.23           H  
+HETATM 3009  H2  HOH A2012      46.799  69.941  14.071  1.00 48.23           H  
+HETATM 3010  O   HOH A2013      56.160  51.351  17.478  1.00 54.57           O  
+HETATM 3011  H1  HOH A2013      55.623  51.143  18.183  1.00 54.57           H  
+HETATM 3012  H2  HOH A2013      56.680  52.126  17.701  1.00 54.57           H  
+HETATM 3013  O   HOH A2014       2.008  40.799  54.570  1.00 50.14           O  
+HETATM 3014  H1  HOH A2014       1.971  39.955  54.120  1.00 50.14           H  
+HETATM 3015  H2  HOH A2014       1.628  41.412  53.877  1.00 50.14           H  
+HETATM 3016  O   HOH A2015       4.656  39.727  55.159  1.00 45.59           O  
+HETATM 3017  H1  HOH A2015       5.331  40.420  55.219  1.00 45.59           H  
+HETATM 3018  H2  HOH A2015       3.855  40.201  54.941  1.00 45.59           H  
+HETATM 3019  O   HOH A2016       9.945  40.265  46.651  1.00 71.06           O  
+HETATM 3020  H1  HOH A2016       9.213  40.827  47.139  1.00 71.06           H  
+HETATM 3021  H2  HOH A2016       9.455  39.477  46.500  1.00 71.06           H  
+HETATM 3022  O   HOH A2017      29.808  57.809  48.124  1.00 74.00           O  
+HETATM 3023  H1  HOH A2017      29.517  58.044  47.241  1.00 74.00           H  
+HETATM 3024  H2  HOH A2017      30.357  57.071  48.050  1.00 74.00           H  
+HETATM 3025  O   HOH A2018      43.952  45.495  42.651  1.00 66.90           O  
+HETATM 3026  H1  HOH A2018      43.280  45.663  43.339  1.00 66.90           H  
+HETATM 3027  H2  HOH A2018      43.480  45.088  41.951  1.00 66.90           H  
+HETATM 3028  O   HOH A2019      45.974  50.396  43.119  1.00 74.63           O  
+HETATM 3029  H1  HOH A2019      45.303  51.049  43.224  1.00 74.63           H  
+HETATM 3030  H2  HOH A2019      46.461  50.616  42.345  1.00 74.63           H  
+HETATM 3031  O   HOH A2020      50.839  69.453  13.244  1.00 69.63           O  
+HETATM 3032  H1  HOH A2020      51.368  69.893  13.894  1.00 69.63           H  
+HETATM 3033  H2  HOH A2020      50.414  68.724  13.762  1.00 69.63           H  
+HETATM 3034  O   HOH A2021      40.319  47.369  34.607  0.50 18.96           O  
+HETATM 3035  H1  HOH A2021      39.417  47.693  34.583  0.50 18.96           H  
+HETATM 3036  H2  HOH A2021      40.833  48.146  34.297  0.50 18.96           H  
+HETATM 3037  O   HOH A2022      40.671  48.791  32.938  0.50 23.81           O  
+HETATM 3038  H1  HOH A2022      41.319  49.102  33.547  0.50 23.81           H  
+HETATM 3039  H2  HOH A2022      41.213  48.694  32.091  0.50 23.81           H  
+HETATM 3040  O   HOH A2023      49.181  50.693  38.836  0.50 27.12           O  
+HETATM 3041  H1  HOH A2023      49.567  49.852  38.536  0.50 27.12           H  
+HETATM 3042  H2  HOH A2023      49.834  51.344  38.599  0.50 27.12           H  
+HETATM 3043  O   HOH A2024      41.960  42.746  42.219  0.33 35.30           O  
+HETATM 3044  H1  HOH A2024      41.912  43.093  41.654  0.33 35.30           H  
+HETATM 3045  H2  HOH A2024      41.479  42.477  42.841  0.33 35.30           H  
+HETATM 3046  O   HOH A2101      -3.910  48.444  34.480  1.00 43.80           O  
+HETATM 3047  H1  HOH A2101      -3.220  47.786  34.525  1.00 43.80           H  
+HETATM 3048  H2  HOH A2101      -4.265  48.477  35.375  1.00 43.80           H  
+HETATM 3049  O   HOH A2102      -2.881  44.703  38.282  1.00 40.17           O  
+HETATM 3050  H1  HOH A2102      -2.608  45.162  37.501  1.00 40.17           H  
+HETATM 3051  H2  HOH A2102      -2.197  44.035  38.425  1.00 40.17           H  
+HETATM 3052  O   HOH A2103      12.024  48.417  42.765  1.00 25.94           O  
+HETATM 3053  H1  HOH A2103      12.165  47.934  41.952  1.00 25.94           H  
+HETATM 3054  H2  HOH A2103      12.176  47.773  43.464  1.00 25.94           H  
+HETATM 3055  O   HOH A2104      18.623  47.990  41.128  1.00 19.17           O  
+HETATM 3056  H1  HOH A2104      18.138  47.167  41.158  1.00 19.17           H  
+HETATM 3057  H2  HOH A2104      17.962  48.679  41.143  1.00 19.17           H  
+HETATM 3058  O   HOH A2105      21.303  48.129  40.595  1.00 14.23           O  
+HETATM 3059  H1  HOH A2105      21.643  47.319  40.248  1.00 14.23           H  
+HETATM 3060  H2  HOH A2105      20.397  47.985  40.825  1.00 14.23           H  
+HETATM 3061  O   HOH A2106      36.048  65.687  26.580  1.00 24.82           O  
+HETATM 3062  H1  HOH A2106      36.411  66.498  26.140  1.00 24.82           H  
+HETATM 3063  H2  HOH A2106      36.387  65.791  27.477  1.00 24.82           H  
+HETATM 3064  O   HOH A2107      39.646  64.812  29.435  1.00 68.66           O  
+HETATM 3065  H1  HOH A2107      38.795  64.702  29.820  1.00 68.66           H  
+HETATM 3066  H2  HOH A2107      39.528  64.744  28.489  1.00 68.66           H  
+HETATM 3067  O   HOH A2108      43.523  65.886  28.342  1.00 32.81           O  
+HETATM 3068  H1  HOH A2108      44.211  65.482  28.794  1.00 32.81           H  
+HETATM 3069  H2  HOH A2108      42.732  65.807  28.888  1.00 32.81           H  
+HETATM 3070  O   HOH A2109      40.948  67.841  25.492  1.00 61.47           O  
+HETATM 3071  H1  HOH A2109      40.372  68.513  25.827  1.00 61.47           H  
+HETATM 3072  H2  HOH A2109      40.599  67.015  25.856  1.00 61.47           H  
+HETATM 3073  O   HOH A2110      50.854  62.995  25.491  1.00 19.34           O  
+HETATM 3074  H1  HOH A2110      51.171  63.355  26.335  1.00 19.34           H  
+HETATM 3075  H2  HOH A2110      51.533  62.392  25.219  1.00 19.34           H  
+HETATM 3076  O   HOH A2111      54.459  58.274  20.538  1.00 36.75           O  
+HETATM 3077  H1  HOH A2111      54.974  57.700  19.908  1.00 36.75           H  
+HETATM 3078  H2  HOH A2111      54.261  59.033  19.985  1.00 36.75           H  
+HETATM 3079  O   HOH A2112      35.493  64.212  32.092  1.00 29.23           O  
+HETATM 3080  H1  HOH A2112      34.898  64.677  31.503  1.00 29.23           H  
+HETATM 3081  H2  HOH A2112      35.224  63.327  32.123  1.00 29.23           H  
+HETATM 3082  O   HOH A2113      36.314  62.524  38.961  1.00 46.11           O  
+HETATM 3083  H1  HOH A2113      36.429  62.146  38.079  1.00 46.11           H  
+HETATM 3084  H2  HOH A2113      35.572  63.132  38.844  1.00 46.11           H  
+HETATM 3085  O   HOH A2114      35.912  64.506  35.621  1.00 46.58           O  
+HETATM 3086  H1  HOH A2114      35.257  63.872  35.882  1.00 46.58           H  
+HETATM 3087  H2  HOH A2114      35.439  65.332  35.517  1.00 46.58           H  
+HETATM 3088  O   HOH A2115      31.043  66.954  37.519  1.00 28.60           O  
+HETATM 3089  H1  HOH A2115      30.687  67.848  37.566  1.00 28.60           H  
+HETATM 3090  H2  HOH A2115      31.231  66.706  38.402  1.00 28.60           H  
+HETATM 3091  O   HOH A2116      24.566  67.207  32.863  1.00 30.58           O  
+HETATM 3092  H1  HOH A2116      25.095  67.565  32.155  1.00 30.58           H  
+HETATM 3093  H2  HOH A2116      25.129  66.581  33.311  1.00 30.58           H  
+HETATM 3094  O   HOH A2117      27.665  66.608  28.454  1.00 24.88           O  
+HETATM 3095  H1  HOH A2117      27.553  65.912  29.081  1.00 24.88           H  
+HETATM 3096  H2  HOH A2117      26.745  66.849  28.209  1.00 24.88           H  
+HETATM 3097  O   HOH A2118      24.556  66.527  38.270  1.00 48.25           O  
+HETATM 3098  H1  HOH A2118      24.028  66.432  39.066  1.00 48.25           H  
+HETATM 3099  H2  HOH A2118      25.123  65.729  38.288  1.00 48.25           H  
+HETATM 3100  O   HOH A2119      25.011  60.358  38.803  1.00 11.53           O  
+HETATM 3101  H1  HOH A2119      24.680  61.269  38.889  1.00 11.53           H  
+HETATM 3102  H2  HOH A2119      25.027  60.238  37.830  1.00 11.53           H  
+HETATM 3103  O   HOH A2120      25.768  57.727  45.827  1.00 48.63           O  
+HETATM 3104  H1  HOH A2120      25.116  58.451  45.685  1.00 48.63           H  
+HETATM 3105  H2  HOH A2120      26.331  57.778  45.068  1.00 48.63           H  
+HETATM 3106  O   HOH A2121      34.926  53.818  45.239  1.00 19.00           O  
+HETATM 3107  H1  HOH A2121      35.438  53.340  45.914  1.00 19.00           H  
+HETATM 3108  H2  HOH A2121      34.719  53.146  44.591  1.00 19.00           H  
+HETATM 3109  O   HOH A2122      36.512  57.198  42.603  1.00 12.40           O  
+HETATM 3110  H1  HOH A2122      36.026  58.018  42.686  1.00 12.40           H  
+HETATM 3111  H2  HOH A2122      35.841  56.513  42.577  1.00 12.40           H  
+HETATM 3112  O   HOH A2123      37.679  48.586  35.519  1.00 17.54           O  
+HETATM 3113  H1  HOH A2123      37.857  49.397  35.987  1.00 17.54           H  
+HETATM 3114  H2  HOH A2123      37.497  47.945  36.218  1.00 17.54           H  
+HETATM 3115  O   HOH A2124      34.100  67.007  18.240  1.00 18.30           O  
+HETATM 3116  H1  HOH A2124      34.436  67.806  18.622  1.00 18.30           H  
+HETATM 3117  H2  HOH A2124      33.250  66.868  18.706  1.00 18.30           H  
+HETATM 3118  O   HOH A2125      53.902  58.862  10.406  1.00 34.12           O  
+HETATM 3119  H1  HOH A2125      53.315  58.656   9.687  1.00 34.12           H  
+HETATM 3120  H2  HOH A2125      53.719  59.716  10.701  1.00 34.12           H  
+HETATM 3121  O   HOH A2126      46.855  67.318  15.456  1.00 13.72           O  
+HETATM 3122  H1  HOH A2126      46.651  68.251  15.379  1.00 13.72           H  
+HETATM 3123  H2  HOH A2126      46.546  66.934  14.628  1.00 13.72           H  
+HETATM 3124  O   HOH A2127      47.551  69.338  11.765  1.00 40.24           O  
+HETATM 3125  H1  HOH A2127      47.875  68.587  11.323  1.00 40.24           H  
+HETATM 3126  H2  HOH A2127      46.620  69.356  11.695  1.00 40.24           H  
+HETATM 3127  O   HOH A2128      52.169  69.998  10.246  1.00 32.93           O  
+HETATM 3128  H1  HOH A2128      53.112  69.824  10.380  1.00 32.93           H  
+HETATM 3129  H2  HOH A2128      51.806  69.907  11.146  1.00 32.93           H  
+HETATM 3130  O   HOH A2129      51.497  66.933   1.294  1.00 52.20           O  
+HETATM 3131  H1  HOH A2129      52.226  66.737   1.856  1.00 52.20           H  
+HETATM 3132  H2  HOH A2129      51.782  66.868   0.410  1.00 52.20           H  
+HETATM 3133  O   HOH A2130      48.537  64.813   6.369  1.00 14.03           O  
+HETATM 3134  H1  HOH A2130      49.215  65.009   7.043  1.00 14.03           H  
+HETATM 3135  H2  HOH A2130      48.459  63.857   6.411  1.00 14.03           H  
+HETATM 3136  O   HOH A2131      55.466  65.984   9.046  1.00 47.56           O  
+HETATM 3137  H1  HOH A2131      54.755  65.952   8.422  1.00 47.56           H  
+HETATM 3138  H2  HOH A2131      55.360  65.165   9.568  1.00 47.56           H  
+HETATM 3139  O   HOH A2132      54.648  60.484  13.491  1.00 33.92           O  
+HETATM 3140  H1  HOH A2132      54.157  60.852  12.767  1.00 33.92           H  
+HETATM 3141  H2  HOH A2132      54.715  59.554  13.325  1.00 33.92           H  
+HETATM 3142  O   HOH A2133      53.025  54.232  13.943  1.00 15.73           O  
+HETATM 3143  H1  HOH A2133      52.354  53.556  14.022  1.00 15.73           H  
+HETATM 3144  H2  HOH A2133      53.844  53.736  13.845  1.00 15.73           H  
+HETATM 3145  O   HOH A2134      44.642  60.754   8.653  1.00  6.80           O  
+HETATM 3146  H1  HOH A2134      44.429  61.442   8.009  1.00  6.80           H  
+HETATM 3147  H2  HOH A2134      43.793  60.369   8.869  1.00  6.80           H  
+HETATM 3148  O   HOH A2135      53.247  51.305  32.211  1.00 44.41           O  
+HETATM 3149  H1  HOH A2135      53.567  52.097  32.604  1.00 44.41           H  
+HETATM 3150  H2  HOH A2135      52.718  50.890  32.952  1.00 44.41           H  
+HETATM 3151  O   HOH A2136      42.690  48.610  30.635  1.00  9.83           O  
+HETATM 3152  H1  HOH A2136      43.331  47.900  30.685  1.00  9.83           H  
+HETATM 3153  H2  HOH A2136      43.188  49.404  30.829  1.00  9.83           H  
+HETATM 3154  O   HOH A2137      42.681  49.668  34.464  1.00 17.01           O  
+HETATM 3155  H1  HOH A2137      43.461  49.360  33.934  1.00 17.01           H  
+HETATM 3156  H2  HOH A2137      42.891  50.558  34.671  1.00 17.01           H  
+HETATM 3157  O   HOH A2138      42.940  48.163  37.062  1.00 21.10           O  
+HETATM 3158  H1  HOH A2138      42.222  47.920  37.498  1.00 21.10           H  
+HETATM 3159  H2  HOH A2138      42.668  48.709  36.275  1.00 21.10           H  
+HETATM 3160  O   HOH A2139      45.511  51.260  36.718  1.00 34.53           O  
+HETATM 3161  H1  HOH A2139      46.431  51.076  36.507  1.00 34.53           H  
+HETATM 3162  H2  HOH A2139      45.134  51.587  35.901  1.00 34.53           H  
+HETATM 3163  O   HOH A2140      50.322  48.205  37.767  1.00 29.21           O  
+HETATM 3164  H1  HOH A2140      49.487  47.920  37.409  1.00 29.21           H  
+HETATM 3165  H2  HOH A2140      50.544  47.586  38.455  1.00 29.21           H  
+HETATM 3166  O   HOH A2141      41.109  45.554  36.437  1.00 41.79           O  
+HETATM 3167  H1  HOH A2141      40.850  46.289  35.807  1.00 41.79           H  
+HETATM 3168  H2  HOH A2141      40.699  44.799  36.058  1.00 41.79           H  
+HETATM 3169  O   HOH A2142      48.336  50.844  36.260  1.00 18.72           O  
+HETATM 3170  H1  HOH A2142      48.644  50.701  37.085  1.00 18.72           H  
+HETATM 3171  H2  HOH A2142      48.803  50.162  35.672  1.00 18.72           H  
+HETATM 3172  O   HOH A2143      41.061  46.955  39.030  1.00 31.92           O  
+HETATM 3173  H1  HOH A2143      40.841  46.588  38.182  1.00 31.92           H  
+HETATM 3174  H2  HOH A2143      40.260  47.388  39.339  1.00 31.92           H  
+HETATM 3175  O   HOH A2144      55.428  47.975  24.744  1.00 28.89           O  
+HETATM 3176  H1  HOH A2144      56.199  47.428  25.062  1.00 28.89           H  
+HETATM 3177  H2  HOH A2144      54.690  47.431  24.890  1.00 28.89           H  
+HETATM 3178  O   HOH A2145      42.176  44.195  39.958  1.00 31.16           O  
+HETATM 3179  H1  HOH A2145      41.694  43.612  39.459  1.00 31.16           H  
+HETATM 3180  H2  HOH A2145      41.859  45.099  39.747  1.00 31.16           H  
+HETATM 3181  O   HOH A2146      52.406  53.771  25.357  1.00 21.51           O  
+HETATM 3182  H1  HOH A2146      52.604  52.887  25.031  1.00 21.51           H  
+HETATM 3183  H2  HOH A2146      52.480  53.704  26.295  1.00 21.51           H  
+HETATM 3184  O   HOH A2147      50.176  53.709  23.701  1.00 12.28           O  
+HETATM 3185  H1  HOH A2147      50.844  53.899  24.356  1.00 12.28           H  
+HETATM 3186  H2  HOH A2147      50.434  52.865  23.325  1.00 12.28           H  
+HETATM 3187  O   HOH A2148      52.106  49.916  18.127  1.00 11.95           O  
+HETATM 3188  H1  HOH A2148      51.785  50.289  17.302  1.00 11.95           H  
+HETATM 3189  H2  HOH A2148      51.337  49.414  18.455  1.00 11.95           H  
+HETATM 3190  O   HOH A2149      53.986  50.458  14.909  1.00 33.75           O  
+HETATM 3191  H1  HOH A2149      54.564  49.767  15.142  1.00 33.75           H  
+HETATM 3192  H2  HOH A2149      53.280  50.528  15.448  1.00 33.75           H  
+HETATM 3193  O   HOH A2150      41.410  55.346   6.577  1.00 16.34           O  
+HETATM 3194  H1  HOH A2150      41.189  55.023   7.447  1.00 16.34           H  
+HETATM 3195  H2  HOH A2150      41.191  56.287   6.602  1.00 16.34           H  
+HETATM 3196  O   HOH A2151      40.932  54.425   9.297  1.00 23.95           O  
+HETATM 3197  H1  HOH A2151      40.900  55.240   9.772  1.00 23.95           H  
+HETATM 3198  H2  HOH A2151      40.236  53.875   9.708  1.00 23.95           H  
+HETATM 3199  O   HOH A2152      39.387  56.736   0.670  1.00 43.70           O  
+HETATM 3200  H1  HOH A2152      39.865  55.991   1.142  1.00 43.70           H  
+HETATM 3201  H2  HOH A2152      39.720  56.704  -0.188  1.00 43.70           H  
+HETATM 3202  O   HOH A2153      43.454  67.477   2.794  1.00 48.37           O  
+HETATM 3203  H1  HOH A2153      42.839  67.487   2.064  1.00 48.37           H  
+HETATM 3204  H2  HOH A2153      43.141  66.766   3.363  1.00 48.37           H  
+HETATM 3205  O   HOH A2154      37.813  56.002  11.164  1.00 24.96           O  
+HETATM 3206  H1  HOH A2154      38.019  55.080  11.059  1.00 24.96           H  
+HETATM 3207  H2  HOH A2154      38.640  56.466  11.005  1.00 24.96           H  
+HETATM 3208  O   HOH A2155      40.444  57.567  43.804  1.00 24.09           O  
+HETATM 3209  H1  HOH A2155      39.604  57.310  44.164  1.00 24.09           H  
+HETATM 3210  H2  HOH A2155      41.091  57.124  44.378  1.00 24.09           H  
+HETATM 3211  O   HOH A2156      43.705  52.721  43.625  1.00 41.75           O  
+HETATM 3212  H1  HOH A2156      43.665  52.669  42.671  1.00 41.75           H  
+HETATM 3213  H2  HOH A2156      43.865  53.626  43.828  1.00 41.75           H  
+HETATM 3214  O   HOH A2157      49.096  53.660  36.059  1.00 35.33           O  
+HETATM 3215  H1  HOH A2157      49.926  53.471  35.607  1.00 35.33           H  
+HETATM 3216  H2  HOH A2157      48.675  52.823  36.171  1.00 35.33           H  
+HETATM 3217  O   HOH A2158      53.857  63.661  16.094  1.00 45.46           O  
+HETATM 3218  H1  HOH A2158      54.395  64.049  16.746  1.00 45.46           H  
+HETATM 3219  H2  HOH A2158      54.044  62.715  16.106  1.00 45.46           H  
+HETATM 3220  O   HOH A2159      50.715  64.310  19.215  1.00 31.81           O  
+HETATM 3221  H1  HOH A2159      49.783  64.309  19.093  1.00 31.81           H  
+HETATM 3222  H2  HOH A2159      51.005  63.416  19.046  1.00 31.81           H  
+HETATM 3223  O   HOH A2160      49.649  67.105  15.030  1.00 30.45           O  
+HETATM 3224  H1  HOH A2160      49.889  66.206  15.097  1.00 30.45           H  
+HETATM 3225  H2  HOH A2160      48.726  67.185  15.170  1.00 30.45           H  
+HETATM 3226  O   HOH A2161      51.771  60.564  21.575  1.00 18.33           O  
+HETATM 3227  H1  HOH A2161      51.939  61.502  21.547  1.00 18.33           H  
+HETATM 3228  H2  HOH A2161      51.825  60.333  22.504  1.00 18.33           H  
+HETATM 3229  O   HOH A2162      43.764  44.489  37.685  1.00 19.78           O  
+HETATM 3230  H1  HOH A2162      43.067  44.922  37.195  1.00 19.78           H  
+HETATM 3231  H2  HOH A2162      43.429  44.322  38.545  1.00 19.78           H  
+HETATM 3232  O   HOH A2163      49.511  66.402   4.189  1.00 21.12           O  
+HETATM 3233  H1  HOH A2163      49.153  67.239   4.459  1.00 21.12           H  
+HETATM 3234  H2  HOH A2163      49.223  65.769   4.832  1.00 21.12           H  
+HETATM 3235  O   HOH A2164      54.592  52.867  21.145  1.00 36.69           O  
+HETATM 3236  H1  HOH A2164      55.439  52.787  21.617  1.00 36.69           H  
+HETATM 3237  H2  HOH A2164      53.994  53.162  21.871  1.00 36.69           H  
+HETATM 3238  O   HOH A2165      33.115  66.742  22.958  1.00 42.58           O  
+HETATM 3239  H1  HOH A2165      33.179  67.407  23.635  1.00 42.58           H  
+HETATM 3240  H2  HOH A2165      33.954  66.262  23.026  1.00 42.58           H  
+HETATM 3241  O   HOH A2166       9.930  42.046  50.115  1.00 31.32           O  
+HETATM 3242  H1  HOH A2166       9.220  41.972  49.492  1.00 31.32           H  
+HETATM 3243  H2  HOH A2166      10.160  42.996  50.104  1.00 31.32           H  
+HETATM 3244  O   HOH A2167      32.706  60.559  41.739  1.00 33.93           O  
+HETATM 3245  H1  HOH A2167      33.592  60.278  41.888  1.00 33.93           H  
+HETATM 3246  H2  HOH A2167      32.188  59.770  41.625  1.00 33.93           H  
+HETATM 3247  O   HOH A2168       3.092  40.709  46.399  1.00 36.20           O  
+HETATM 3248  H1  HOH A2168       3.526  40.849  45.511  1.00 36.20           H  
+HETATM 3249  H2  HOH A2168       2.523  39.980  46.240  1.00 36.20           H  
+HETATM 3250  O   HOH A2169      31.486  64.231  25.498  1.00 37.65           O  
+HETATM 3251  H1  HOH A2169      31.048  64.693  26.198  1.00 37.65           H  
+HETATM 3252  H2  HOH A2169      31.814  63.406  25.935  1.00 37.65           H  
+HETATM 3253  O   HOH A2170      33.939  51.075  23.477  1.00 19.98           O  
+HETATM 3254  H1  HOH A2170      34.279  51.909  23.823  1.00 19.98           H  
+HETATM 3255  H2  HOH A2170      33.233  50.828  24.058  1.00 19.98           H  
+HETATM 3256  O   HOH A2171      37.783  68.354  20.139  1.00 35.07           O  
+HETATM 3257  H1  HOH A2171      38.689  68.196  20.139  1.00 35.07           H  
+HETATM 3258  H2  HOH A2171      37.569  68.754  19.303  1.00 35.07           H  
+HETATM 3259  O   HOH A2172      -3.785  54.762  23.859  1.00 59.48           O  
+HETATM 3260  H1  HOH A2172      -3.702  55.616  24.332  1.00 59.48           H  
+HETATM 3261  H2  HOH A2172      -4.174  54.206  24.591  1.00 59.48           H  
+HETATM 3262  O   HOH A2173       0.868  42.552  52.126  1.00 56.09           O  
+HETATM 3263  H1  HOH A2173       1.614  42.239  51.596  1.00 56.09           H  
+HETATM 3264  H2  HOH A2173       0.840  43.485  51.988  1.00 56.09           H  
+HETATM 3265  O   HOH A2174      33.806  47.497  16.970  1.00 65.49           O  
+HETATM 3266  H1  HOH A2174      34.671  47.110  16.839  1.00 65.49           H  
+HETATM 3267  H2  HOH A2174      33.192  46.952  16.533  1.00 65.49           H  
+HETATM 3268  O   HOH A2175      33.547  66.085  30.428  1.00 55.23           O  
+HETATM 3269  H1  HOH A2175      34.215  66.757  30.490  1.00 55.23           H  
+HETATM 3270  H2  HOH A2175      33.529  65.823  29.510  1.00 55.23           H  
+HETATM 3271  O   HOH A2176      52.884  47.346  36.496  1.00 49.31           O  
+HETATM 3272  H1  HOH A2176      52.062  47.685  36.929  1.00 49.31           H  
+HETATM 3273  H2  HOH A2176      53.419  47.081  37.238  1.00 49.31           H  
+HETATM 3274  O   HOH A2177      36.464  68.019  22.898  1.00 55.96           O  
+HETATM 3275  H1  HOH A2177      36.839  68.148  22.042  1.00 55.96           H  
+HETATM 3276  H2  HOH A2177      36.185  67.096  22.922  1.00 55.96           H  
+HETATM 3277  O   HOH A2178      38.848  53.081  10.599  1.00 52.02           O  
+HETATM 3278  H1  HOH A2178      38.962  53.040  11.567  1.00 52.02           H  
+HETATM 3279  H2  HOH A2178      38.542  52.178  10.391  1.00 52.02           H  
+HETATM 3280  O   HOH A2179      45.321  69.765  21.951  1.00 58.78           O  
+HETATM 3281  H1  HOH A2179      44.963  69.555  22.802  1.00 58.78           H  
+HETATM 3282  H2  HOH A2179      45.559  68.902  21.569  1.00 58.78           H  
+HETATM 3283  O   HOH A2180      46.597  52.405  40.350  1.00 61.37           O  
+HETATM 3284  H1  HOH A2180      45.644  52.443  40.593  1.00 61.37           H  
+HETATM 3285  H2  HOH A2180      46.555  52.042  39.452  1.00 61.37           H  
+HETATM 3286  O   HOH A2181      51.677  52.713  34.764  1.00 47.54           O  
+HETATM 3287  H1  HOH A2181      52.412  52.720  35.399  1.00 47.54           H  
+HETATM 3288  H2  HOH A2181      51.578  51.741  34.598  1.00 47.54           H  
+HETATM 3289  O   HOH A2182      53.658  60.800  18.854  1.00 36.88           O  
+HETATM 3290  H1  HOH A2182      52.719  61.001  18.784  1.00 36.88           H  
+HETATM 3291  H2  HOH A2182      53.968  60.914  17.922  1.00 36.88           H  
+HETATM 3292  O   HOH A2183      55.455  50.091  26.765  1.00 63.62           O  
+HETATM 3293  H1  HOH A2183      55.607  50.893  26.294  1.00 63.62           H  
+HETATM 3294  H2  HOH A2183      55.518  49.392  26.091  1.00 63.62           H  
+HETATM 3295  O   HOH A2184      55.997  57.081  16.844  1.00 71.81           O  
+HETATM 3296  H1  HOH A2184      55.973  57.772  17.474  1.00 71.81           H  
+HETATM 3297  H2  HOH A2184      55.882  57.545  15.980  1.00 71.81           H  
+HETATM 3298  O   HOH A2185       7.536  41.893  47.964  1.00 64.21           O  
+HETATM 3299  H1  HOH A2185       7.739  42.743  48.340  1.00 64.21           H  
+HETATM 3300  H2  HOH A2185       6.627  41.726  48.181  1.00 64.21           H  
+HETATM 3301  O   HOH A2186      27.022  69.926  33.024  1.00 76.13           O  
+HETATM 3302  H1  HOH A2186      27.820  69.468  32.726  1.00 76.13           H  
+HETATM 3303  H2  HOH A2186      27.272  70.798  33.218  1.00 76.13           H  
+HETATM 3304  O   HOH A2187      33.692  67.086  35.328  1.00 54.74           O  
+HETATM 3305  H1  HOH A2187      33.000  67.052  35.966  1.00 54.74           H  
+HETATM 3306  H2  HOH A2187      33.939  68.018  35.272  1.00 54.74           H  
+HETATM 3307  O   HOH A2188      41.289  63.188  31.134  1.00 69.06           O  
+HETATM 3308  H1  HOH A2188      41.934  63.655  31.613  1.00 69.06           H  
+HETATM 3309  H2  HOH A2188      40.775  63.806  30.639  1.00 69.06           H  
+HETATM 3310  O   HOH A2189      52.168  65.989  17.106  1.00 52.80           O  
+HETATM 3311  H1  HOH A2189      52.730  65.272  16.734  1.00 52.80           H  
+HETATM 3312  H2  HOH A2189      51.662  65.562  17.776  1.00 52.80           H  
+HETATM 3313  O   HOH A2190      55.211  53.857  27.023  1.00 71.30           O  
+HETATM 3314  H1  HOH A2190      54.276  54.052  27.271  1.00 71.30           H  
+HETATM 3315  H2  HOH A2190      55.692  54.150  27.805  1.00 71.30           H  
+HETATM 3316  O   HOH A2191      55.743  64.020  13.300  1.00 59.17           O  
+HETATM 3317  H1  HOH A2191      55.169  63.897  14.058  1.00 59.17           H  
+HETATM 3318  H2  HOH A2191      55.262  63.643  12.565  1.00 59.17           H  
+HETATM 3319  O   HOH A2192      31.955  55.221  47.725  0.50 12.07           O  
+HETATM 3320  H1  HOH A2192      31.802  54.356  48.044  0.50 12.07           H  
+HETATM 3321  H2  HOH A2192      32.151  55.146  46.793  0.50 12.07           H  
+HETATM 3322  O   HOH A2193      43.961  66.226   6.491  0.50 13.26           O  
+HETATM 3323  H1  HOH A2193      43.523  66.046   5.654  0.50 13.26           H  
+HETATM 3324  H2  HOH A2193      44.062  67.176   6.506  0.50 13.26           H  
+HETATM 3325  O   HOH A2194      47.349  67.563   7.652  0.50 22.11           O  
+HETATM 3326  H1  HOH A2194      47.320  67.385   8.560  0.50 22.11           H  
+HETATM 3327  H2  HOH A2194      47.698  66.772   7.230  0.50 22.11           H  
+HETATM 3328  O   HOH A2195      38.367  46.515  33.919  0.50 18.43           O  
+HETATM 3329  H1  HOH A2195      37.756  46.248  33.209  0.50 18.43           H  
+HETATM 3330  H2  HOH A2195      38.776  45.674  34.173  0.50 18.43           H  
+HETATM 3331  O   HOH A2196      45.807  65.804   6.634  0.50 15.56           O  
+HETATM 3332  H1  HOH A2196      46.725  65.620   6.493  0.50 15.56           H  
+HETATM 3333  H2  HOH A2196      45.380  64.964   6.735  0.50 15.56           H  
+HETATM 3334  O   HOH A2197      53.741  48.730  30.540  0.50 15.47           O  
+HETATM 3335  H1  HOH A2197      53.367  49.454  31.060  0.50 15.47           H  
+HETATM 3336  H2  HOH A2197      52.947  48.275  30.197  0.50 15.47           H  
+HETATM 3337  O   HOH A2198      51.434  46.348  39.771  0.50 35.28           O  
+HETATM 3338  H1  HOH A2198      51.785  46.205  40.690  0.50 35.28           H  
+HETATM 3339  H2  HOH A2198      50.465  46.368  39.982  0.50 35.28           H  
+HETATM 3340  O   HOH A2199      41.571  67.215   0.935  0.20  7.73           O  
+HETATM 3341  H1  HOH A2199      42.123  67.528   0.203  0.20  7.73           H  
+HETATM 3342  H2  HOH A2199      40.939  66.624   0.493  0.20  7.73           H  
+HETATM 3343  O   HOH A2207       9.039  45.001  41.432  1.00 59.23           O  
+HETATM 3344  H1  HOH A2207       9.055  45.962  41.524  1.00 59.23           H  
+HETATM 3345  H2  HOH A2207       9.887  44.743  41.866  1.00 59.23           H  
+HETATM 3346  O   HOH A2301       9.027  53.968  48.749  1.00  6.96           O  
+HETATM 3347  H1  HOH A2301       9.291  54.653  49.373  1.00  6.96           H  
+HETATM 3348  H2  HOH A2301       8.637  54.468  48.019  1.00  6.96           H  
+HETATM 3349  O   HOH A2302      13.691  50.647  43.100  1.00 12.13           O  
+HETATM 3350  H1  HOH A2302      13.225  49.868  42.794  1.00 12.13           H  
+HETATM 3351  H2  HOH A2302      13.408  51.378  42.668  1.00 12.13           H  
+HETATM 3352  O   HOH A2303      15.755  53.577  41.636  1.00  9.83           O  
+HETATM 3353  H1  HOH A2303      16.165  52.975  42.254  1.00  9.83           H  
+HETATM 3354  H2  HOH A2303      14.833  53.311  41.609  1.00  9.83           H  
+HETATM 3355  O   HOH A2304      -4.186  52.680  31.620  1.00 19.24           O  
+HETATM 3356  H1  HOH A2304      -4.451  52.074  32.293  1.00 19.24           H  
+HETATM 3357  H2  HOH A2304      -4.895  53.313  31.533  1.00 19.24           H  
+HETATM 3358  O   HOH A2305      33.833  50.801  16.086  1.00 63.56           O  
+HETATM 3359  H1  HOH A2305      33.081  50.928  15.529  1.00 63.56           H  
+HETATM 3360  H2  HOH A2305      33.903  49.868  16.240  1.00 63.56           H  
+HETATM 3361  O   HOH A2306      24.028  62.978  38.947  0.50 31.03           O  
+HETATM 3362  H1  HOH A2306      23.577  63.559  39.559  0.50 31.03           H  
+HETATM 3363  H2  HOH A2306      24.905  63.352  38.863  0.50 31.03           H  
+HETATM 3364  O   HOH A2401       7.440  43.697  51.804  1.00 10.44           O  
+HETATM 3365  H1  HOH A2401       8.164  44.075  52.324  1.00 10.44           H  
+HETATM 3366  H2  HOH A2401       7.596  44.059  50.918  1.00 10.44           H  
+HETATM 3367  O   HOH A2402      10.838  44.854  50.366  1.00 10.04           O  
+HETATM 3368  H1  HOH A2402      11.107  45.475  49.670  1.00 10.04           H  
+HETATM 3369  H2  HOH A2402       9.921  44.679  50.172  1.00 10.04           H  
+HETATM 3370  O   HOH A2403      30.091  53.796  43.266  1.00  9.94           O  
+HETATM 3371  H1  HOH A2403      30.683  53.247  43.781  1.00  9.94           H  
+HETATM 3372  H2  HOH A2403      29.871  53.269  42.518  1.00  9.94           H  
+HETATM 3373  O   HOH A2404      42.373  53.084  11.463  1.00  8.86           O  
+HETATM 3374  H1  HOH A2404      41.714  53.334  10.816  1.00  8.86           H  
+HETATM 3375  H2  HOH A2404      43.195  53.054  10.969  1.00  8.86           H  
+HETATM 3376  O   HOH A2405      50.727  44.886  41.127  0.50 38.23           O  
+HETATM 3377  H1  HOH A2405      51.057  45.342  41.898  0.50 38.23           H  
+HETATM 3378  H2  HOH A2405      49.999  45.444  40.817  0.50 38.23           H  
+HETATM 3379  O   HOH A2501      -7.477  59.134  32.516  1.00 14.28           O  
+HETATM 3380  H1  HOH A2501      -7.491  59.328  31.580  1.00 14.28           H  
+HETATM 3381  H2  HOH A2501      -7.895  59.900  32.924  1.00 14.28           H  
+HETATM 3382  O   HOH A2502      -7.863  59.900  29.838  1.00 18.14           O  
+HETATM 3383  H1  HOH A2502      -7.666  59.178  29.268  1.00 18.14           H  
+HETATM 3384  H2  HOH A2502      -8.223  60.587  29.273  1.00 18.14           H  
+HETATM 3385  O   HOH A2503      42.920  62.365  12.428  1.00  7.09           O  
+HETATM 3386  H1  HOH A2503      43.754  62.057  12.067  1.00  7.09           H  
+HETATM 3387  H2  HOH A2503      43.151  63.182  12.880  1.00  7.09           H  
+HETATM 3388  O   HOH A2504      34.765  66.127  15.629  1.00 11.67           O  
+HETATM 3389  H1  HOH A2504      34.597  66.823  15.004  1.00 11.67           H  
+HETATM 3390  H2  HOH A2504      34.367  66.421  16.454  1.00 11.67           H  
+HETATM 3391  O   HOH A2505      42.682  64.082   8.861  1.00 21.43           O  
+HETATM 3392  H1  HOH A2505      42.114  63.499   9.365  1.00 21.43           H  
+HETATM 3393  H2  HOH A2505      43.128  63.527   8.236  1.00 21.43           H  
+HETATM 3394  O   HOH A2506      10.323  42.667  44.701  1.00 25.68           O  
+HETATM 3395  H1  HOH A2506       9.435  42.966  44.482  1.00 25.68           H  
+HETATM 3396  H2  HOH A2506      10.207  41.907  45.247  1.00 25.68           H  
+HETATM 3397  O   HOH A2507      37.539  67.476  15.472  1.00  9.81           O  
+HETATM 3398  H1  HOH A2507      38.215  66.805  15.639  1.00  9.81           H  
+HETATM 3399  H2  HOH A2507      36.712  66.989  15.568  1.00  9.81           H  
+HETATM 3400  O   HOH A2508      12.017  44.639  42.753  1.00 40.16           O  
+HETATM 3401  H1  HOH A2508      12.179  45.062  43.542  1.00 40.16           H  
+HETATM 3402  H2  HOH A2508      12.075  45.172  42.025  1.00 40.16           H  
+HETATM 3403  O   HOH A2509      31.884  38.974  31.169  1.00 62.13           O  
+HETATM 3404  H1  HOH A2509      31.787  39.456  30.410  1.00 62.13           H  
+HETATM 3405  H2  HOH A2509      32.809  38.584  31.106  1.00 62.13           H  
+HETATM 3406  O   HOH A2601     -10.600  54.055  27.232  1.00 41.78           O  
+HETATM 3407  H1  HOH A2601     -10.726  53.118  27.160  1.00 41.78           H  
+HETATM 3408  H2  HOH A2601     -11.324  54.415  27.674  1.00 41.78           H  
+HETATM 3409  O   HOH A2606      29.273  53.102  20.749  1.00 35.06           O  
+HETATM 3410  H1  HOH A2606      28.937  52.339  21.172  1.00 35.06           H  
+HETATM 3411  H2  HOH A2606      28.763  53.845  21.108  1.00 35.06           H  
+HETATM 3412  O   HOH A2607     -10.378  53.981  24.202  1.00 59.94           O  
+HETATM 3413  H1  HOH A2607     -10.401  53.982  25.208  1.00 59.94           H  
+HETATM 3414  H2  HOH A2607      -9.787  54.706  24.030  1.00 59.94           H  
+HETATM 3415  O   HOH A2701      36.766  59.492   0.926  0.20 32.29           O  
+HETATM 3416  H1  HOH A2701      37.519  60.079   0.729  0.20 32.29           H  
+HETATM 3417  H2  HOH A2701      36.890  59.246   1.827  0.20 32.29           H  
+HETATM 3418  O   HOH A2901      22.615  45.952  39.516  1.00 11.70           O  
+HETATM 3419  H1  HOH A2901      21.854  45.465  39.360  1.00 11.70           H  
+HETATM 3420  H2  HOH A2901      23.185  45.318  39.955  1.00 11.70           H  
+HETATM 3421  O   HOH B2201      19.053  41.531  38.168  1.00 64.74           O  
+HETATM 3422  H1  HOH B2201      19.089  42.392  37.710  1.00 64.74           H  
+HETATM 3423  H2  HOH B2201      18.473  41.012  37.631  1.00 64.74           H  
+HETATM 3424  O   HOH B2202      18.390  42.485  34.359  1.00 41.95           O  
+HETATM 3425  H1  HOH B2202      18.620  42.984  35.135  1.00 41.95           H  
+HETATM 3426  H2  HOH B2202      19.105  41.885  34.207  1.00 41.95           H  
+HETATM 3427  O   HOH B2203      16.350  44.138  36.768  1.00 33.54           O  
+HETATM 3428  H1  HOH B2203      16.034  44.969  37.046  1.00 33.54           H  
+HETATM 3429  H2  HOH B2203      17.300  44.215  36.710  1.00 33.54           H  
+HETATM 3430  O   HOH B2204       9.137  49.767  31.419  1.00 39.75           O  
+HETATM 3431  H1  HOH B2204       9.494  50.275  30.698  1.00 39.75           H  
+HETATM 3432  H2  HOH B2204       9.712  48.995  31.483  1.00 39.75           H  
+HETATM 3433  O   HOH B2210      12.042  46.802  40.435  1.00 67.43           O  
+HETATM 3434  H1  HOH B2210      12.821  47.351  40.178  1.00 67.43           H  
+HETATM 3435  H2  HOH B2210      11.454  46.955  39.667  1.00 67.43           H  
+HETATM 3436  O   HOH B2211      14.655  46.854  42.213  1.00 66.10           O  
+HETATM 3437  H1  HOH B2211      14.251  47.395  42.935  1.00 66.10           H  
+HETATM 3438  H2  HOH B2211      14.558  47.396  41.460  1.00 66.10           H  
+HETATM 3439  O   HOH B2602      16.225  50.202  40.984  1.00 15.72           O  
+HETATM 3440  H1  HOH B2602      16.202  50.608  41.853  1.00 15.72           H  
+HETATM 3441  H2  HOH B2602      15.431  49.696  40.912  1.00 15.72           H  
+HETATM 3442  O   HOH B2603      15.496  51.936  38.829  1.00  8.72           O  
+HETATM 3443  H1  HOH B2603      15.797  51.311  39.497  1.00  8.72           H  
+HETATM 3444  H2  HOH B2603      15.869  51.604  38.010  1.00  8.72           H  
+HETATM 3445  O   HOH B2604      19.403  43.960  40.648  1.00 20.56           O  
+HETATM 3446  H1  HOH B2604      18.646  44.440  41.036  1.00 20.56           H  
+HETATM 3447  H2  HOH B2604      19.682  44.468  39.999  1.00 20.56           H  
+HETATM 3448  O   HOH B2605      22.112  50.020  32.261  1.00 18.92           O  
+HETATM 3449  H1  HOH B2605      21.609  49.281  31.944  1.00 18.92           H  
+HETATM 3450  H2  HOH B2605      21.606  50.373  32.991  1.00 18.92           H  
+HETATM 3451  O   HOH B2801      20.409  51.069  34.760  1.00 13.63           O  
+HETATM 3452  H1  HOH B2801      21.094  51.001  35.442  1.00 13.63           H  
+HETATM 3453  H2  HOH B2801      19.830  50.358  34.960  1.00 13.63           H  
+HETATM 3454  O   HOH C2205      23.547  50.804  20.604  1.00 55.04           O  
+HETATM 3455  H1  HOH C2205      23.442  51.482  21.294  1.00 55.04           H  
+HETATM 3456  H2  HOH C2205      23.370  49.989  21.069  1.00 55.04           H  
+HETATM 3457  O   HOH C2206      21.690  55.986  21.826  1.00 43.35           O  
+HETATM 3458  H1  HOH C2206      21.786  55.078  22.087  1.00 43.35           H  
+HETATM 3459  H2  HOH C2206      22.615  56.241  21.579  1.00 43.35           H  
+HETATM 3460  O   HOH C2208      10.010  51.420  29.374  1.00 37.94           O  
+HETATM 3461  H1  HOH C2208       9.412  51.680  28.645  1.00 37.94           H  
+HETATM 3462  H2  HOH C2208      10.583  50.774  28.985  1.00 37.94           H  
+HETATM 3463  O   HOH C2209      29.491  48.622  18.950  1.00 70.68           O  
+HETATM 3464  H1  HOH C2209      29.498  48.863  19.889  1.00 70.68           H  
+HETATM 3465  H2  HOH C2209      29.823  47.783  18.942  1.00 70.68           H  
+HETATM 3466  O   HOH C2212      20.145  48.502  21.977  1.00 70.89           O  
+HETATM 3467  H1  HOH C2212      20.103  49.468  22.028  1.00 70.89           H  
+HETATM 3468  H2  HOH C2212      20.786  48.269  22.649  1.00 70.89           H  
+HETATM 3469  O   HOH C2608      11.889  53.191  19.009  1.00 77.28           O  
+HETATM 3470  H1  HOH C2608      12.163  52.904  19.857  1.00 77.28           H  
+HETATM 3471  H2  HOH C2608      12.356  54.018  18.847  1.00 77.28           H  
+HETATM 3472  O   HOH C2609      20.833  53.718  19.993  1.00 75.76           O  
+HETATM 3473  H1  HOH C2609      21.249  53.536  20.847  1.00 75.76           H  
+HETATM 3474  H2  HOH C2609      19.890  53.635  20.187  1.00 75.76           H  
+HETATM 3475  O   HOH C2610      14.311  55.770  28.968  0.75 75.54           O  
+HETATM 3476  H1  HOH C2610      14.071  55.834  29.887  0.75 75.54           H  
+HETATM 3477  H2  HOH C2610      13.510  55.769  28.480  0.75 75.54           H  
+CONECT 2949 2950 2951 2952 2953                                                 
+CONECT 2950 2949                                                                
+CONECT 2951 2949                                                                
+CONECT 2952 2949                                                                
+CONECT 2953 2949                                                                
+MASTER      584    0    2    3    8    0    2   51 1745    3    5   15          
 END                                                                             

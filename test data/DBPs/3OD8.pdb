@@ -36,6 +36,7 @@ KEYWDS    PROTEIN-DNA COMPLEX, PARP ZINC FINGER, DNA BINDING PROTEIN-DNA
 KEYWDS   2 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.M.PASCAL,M.-F.LANGELIER                                             
+REVDAT   4   08-NOV-17 3OD8    1       REMARK                                   
 REVDAT   3   08-JUN-11 3OD8    1       MTRIX1 MTRIX2 MTRIX3                     
 REVDAT   2   13-APR-11 3OD8    1       JRNL                                     
 REVDAT   1   12-JAN-11 3OD8    0                                                
@@ -51,16 +52,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.1_357)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.6.1_357                                     
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -109,9 +109,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : 8.18530                                              
 REMARK   3    B22 (A**2) : -10.59090                                            
 REMARK   3    B33 (A**2) : 2.40560                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 2.49080                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -132,75 +132,77 @@ REMARK   3  NCS DETAILS
 REMARK   3   NUMBER OF NCS GROUPS : 3                                           
 REMARK   3   NCS GROUP : 1                                                      
 REMARK   3    NCS OPERATOR : 1                                                  
-REMARK   3     REFERENCE SELECTION: chain 'A' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'C' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'A' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'C' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 268                                         
 REMARK   3     RMSD               : 0.113                                       
 REMARK   3    NCS OPERATOR : 2                                                  
-REMARK   3     REFERENCE SELECTION: chain 'A' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'E' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'A' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'E' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 268                                         
 REMARK   3     RMSD               : 0.122                                       
 REMARK   3    NCS OPERATOR : 3                                                  
-REMARK   3     REFERENCE SELECTION: chain 'A' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'G' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'A' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'G' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 268                                         
 REMARK   3     RMSD               : 0.126                                       
 REMARK   3   NCS GROUP : 2                                                      
 REMARK   3    NCS OPERATOR : 1                                                  
-REMARK   3     REFERENCE SELECTION: chain 'A' and (resseq 39:48) and (not       
-REMARK   3                          element H) and (not element D) and backbone 
-REMARK   3     SELECTION          : chain 'C' and (resseq 39:48) and (not       
-REMARK   3                          element H) and (not element D) and backbone 
+REMARK   3     REFERENCE SELECTION: CHAIN 'A' AND (RESSEQ 39:48) AND (NOT       
+REMARK   3                          ELEMENT H) AND (NOT ELEMENT D) AND          
+REMARK   3                          BACKBONE                                    
+REMARK   3     SELECTION          : CHAIN 'C' AND (RESSEQ 39:48) AND (NOT       
+REMARK   3                          ELEMENT H) AND (NOT ELEMENT D) AND          
+REMARK   3                          BACKBONE                                    
 REMARK   3     ATOM PAIRS NUMBER  : 40                                          
 REMARK   3     RMSD               : 0.149                                       
 REMARK   3   NCS GROUP : 3                                                      
 REMARK   3    NCS OPERATOR : 1                                                  
-REMARK   3     REFERENCE SELECTION: chain 'B' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'D' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'B' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'D' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 271                                         
 REMARK   3     RMSD               : 0.139                                       
 REMARK   3    NCS OPERATOR : 2                                                  
-REMARK   3     REFERENCE SELECTION: chain 'B' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'F' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'B' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'F' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 272                                         
 REMARK   3     RMSD               : 0.168                                       
 REMARK   3    NCS OPERATOR : 3                                                  
-REMARK   3     REFERENCE SELECTION: chain 'B' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
-REMARK   3     SELECTION          : chain 'H' and (resseq 6:38 or resseq 49:    
-REMARK   3                          59 or resseq 68:91 ) and (not element H)    
-REMARK   3                          and (not element D) and backbone            
+REMARK   3     REFERENCE SELECTION: CHAIN 'B' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
+REMARK   3     SELECTION          : CHAIN 'H' AND (RESSEQ 6:38 OR RESSEQ        
+REMARK   3                          49:59 OR RESSEQ 68:91 ) AND (NOT ELEMENT    
+REMARK   3                          H) AND (NOT ELEMENT D) AND BACKBONE         
 REMARK   3     ATOM PAIRS NUMBER  : 272                                         
 REMARK   3     RMSD               : 0.132                                       
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3OD8 COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3OD8 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 16-AUG-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB060968.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000060968.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -220,8 +222,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315R                  
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL-2000                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK, HKL-2000                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 44580                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.400                              
@@ -581,7 +583,10 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   RES CSSEQI ATM2   DEVIATION                     
 REMARK 500     DG I   4   O3'    DG I   4   C3'    -0.037                       
+REMARK 500     DA J   4   O3'    DA J   4   C3'    -0.041                       
 REMARK 500     DG K   4   O3'    DG K   4   C3'    -0.046                       
+REMARK 500     DA L   4   O3'    DA L   4   C3'    -0.039                       
+REMARK 500     DG M   4   O3'    DG M   4   C3'    -0.047                       
 REMARK 500     DA N   4   O3'    DA N   4   C3'    -0.045                       
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
@@ -602,17 +607,33 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500     DT I   7   O4' -  C1' -  N1  ANGL. DEV. =  -5.6 DEGREES          
+REMARK 500     DT I   7   O4' -  C1' -  N1  ANGL. DEV. =  -7.4 DEGREES          
 REMARK 500     DG I  10   O4' -  C1' -  N9  ANGL. DEV. =   4.3 DEGREES          
+REMARK 500     DG I  10   O4' -  C1' -  N9  ANGL. DEV. =   2.6 DEGREES          
+REMARK 500     DA J   5   O4' -  C1' -  N9  ANGL. DEV. =  -4.3 DEGREES          
 REMARK 500     DC J   7   O4' -  C1' -  N1  ANGL. DEV. =  -6.8 DEGREES          
+REMARK 500     DC J   7   O4' -  C1' -  N1  ANGL. DEV. =  -5.8 DEGREES          
 REMARK 500     DC J  10   O4' -  C1' -  N1  ANGL. DEV. =   4.2 DEGREES          
+REMARK 500     DC J  10   O4' -  C1' -  N1  ANGL. DEV. =   7.2 DEGREES          
+REMARK 500     DG K   1   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
+REMARK 500     DC K   3   C3' -  C2' -  C1' ANGL. DEV. =  -6.1 DEGREES          
+REMARK 500     DC K   3   O4' -  C1' -  N1  ANGL. DEV. =   4.1 DEGREES          
 REMARK 500     DT K   6   N3  -  C2  -  O2  ANGL. DEV. =  -3.7 DEGREES          
 REMARK 500     DT K   7   O4' -  C1' -  N1  ANGL. DEV. =  -5.6 DEGREES          
+REMARK 500     DG K   9   O4' -  C1' -  N9  ANGL. DEV. =   2.3 DEGREES          
+REMARK 500     DG K  10   N1  -  C6  -  O6  ANGL. DEV. =   4.1 DEGREES          
+REMARK 500     DG K  10   C5  -  C6  -  O6  ANGL. DEV. =  -4.1 DEGREES          
 REMARK 500     DC L   1   O4' -  C1' -  N1  ANGL. DEV. =   3.0 DEGREES          
 REMARK 500     DC L   3   C3' -  C2' -  C1' ANGL. DEV. =  -6.4 DEGREES          
 REMARK 500     DC L   3   O4' -  C1' -  N1  ANGL. DEV. =   4.4 DEGREES          
+REMARK 500     DC L   7   O4' -  C1' -  N1  ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500     DG L   8   O4' -  C1' -  N9  ANGL. DEV. =  -4.6 DEGREES          
 REMARK 500     DG L   9   O4' -  C1' -  N9  ANGL. DEV. =   2.1 DEGREES          
 REMARK 500     DC L  10   O4' -  C1' -  N1  ANGL. DEV. =   3.9 DEGREES          
+REMARK 500     DC L  10   O4' -  C1' -  N1  ANGL. DEV. =   2.5 DEGREES          
+REMARK 500     DG M   4   C3' -  C2' -  C1' ANGL. DEV. =  -5.0 DEGREES          
+REMARK 500     DT M   6   N3  -  C2  -  O2  ANGL. DEV. =  -4.1 DEGREES          
+REMARK 500     DC N   1   O4' -  C1' -  N1  ANGL. DEV. =  -4.8 DEGREES          
 REMARK 500     DA N   4   C3' -  C2' -  C1' ANGL. DEV. =  -5.1 DEGREES          
 REMARK 500     DA N   5   O4' -  C1' -  N9  ANGL. DEV. =  -4.6 DEGREES          
 REMARK 500     DC N  10   O4' -  C1' -  N1  ANGL. DEV. =   3.8 DEGREES          
@@ -620,10 +641,16 @@ REMARK 500     DC O   2   C3' -  C2' -  C1' ANGL. DEV. =  -4.8 DEGREES
 REMARK 500     DC O   3   C3' -  C2' -  C1' ANGL. DEV. =  -6.4 DEGREES          
 REMARK 500     DC O   3   O4' -  C1' -  N1  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500     DG O   4   C3' -  C2' -  C1' ANGL. DEV. =  -5.5 DEGREES          
+REMARK 500     DG O   4   C3' -  C2' -  C1' ANGL. DEV. =  -6.5 DEGREES          
+REMARK 500     DT O   6   C3' -  C2' -  C1' ANGL. DEV. =  -5.4 DEGREES          
 REMARK 500     DT O   7   C3' -  C2' -  C1' ANGL. DEV. =  -5.9 DEGREES          
 REMARK 500     DG O  10   O4' -  C1' -  N9  ANGL. DEV. =   3.5 DEGREES          
+REMARK 500     DC P   3   C3' -  C2' -  C1' ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DA P   4   C3' -  C2' -  C1' ANGL. DEV. =  -6.3 DEGREES          
+REMARK 500     DA P   4   C3' -  C2' -  C1' ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DA P   5   O4' -  C1' -  N9  ANGL. DEV. =  -4.7 DEGREES          
+REMARK 500     DC P   7   C3' -  C2' -  C1' ANGL. DEV. =  -5.1 DEGREES          
+REMARK 500     DC P  10   O4' -  C1' -  N1  ANGL. DEV. =   4.2 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -10894,5 +10921,5 @@ CONECT 8984 3000 3024 3257 3283
 CONECT 8985 3711 3735 3968 3994                                                 
 CONECT 8986 4442 4466 4699 4725                                                 
 CONECT 8987 5153 5177 5410 5436                                                 
-MASTER      732    0   32   33   32    0    8   27 7663   16  280   80          
+MASTER      758    0   32   33   32    0    8   27 7663   16  280   80          
 END                                                                             

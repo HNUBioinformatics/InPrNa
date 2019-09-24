@@ -24,30 +24,28 @@ SOURCE   8 GENE: 4;
 SOURCE   9 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE  10 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE  11 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID                               
-KEYWDS    PROTEIN-DNA COMPLEX; N-HOOK DNA-BINDING MOTIF;                        
-KEYWDS   2 TRANSCRIPTION REGULATION, TRANSCRIPTION/DNA COMPLEX                  
+KEYWDS    PROTEIN-DNA COMPLEX; N-HOOK DNA-BINDING MOTIF; TRANSCRIPTION          
+KEYWDS   2 REGULATION, TRANSCRIPTION-DNA COMPLEX                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.BADIA,A.CAMACHO,L.PEREZ-LAGO,C.ESCANDON,M.SALAS,M.COLL              
+REVDAT   4   18-OCT-17 2FIO    1       REMARK                                   
 REVDAT   3   24-FEB-09 2FIO    1       VERSN                                    
 REVDAT   2   03-OCT-06 2FIO    1       JRNL                                     
 REVDAT   1   26-SEP-06 2FIO    0                                                
-JRNL        AUTH   D.BADIA,A.CAMACHO,L.PEREZ-LAGO,C.ESCANDON,M.SALAS,           
-JRNL        AUTH 2 M.COLL                                                       
-JRNL        TITL   THE STRUCTURE OF PHAGE PHI29 TRANSCRIPTION                   
-JRNL        TITL 2 REGULATOR P4-DNA COMPLEX REVEALS AN N-HOOK MOTIF             
-JRNL        TITL 3 FOR DNA                                                      
+JRNL        AUTH   D.BADIA,A.CAMACHO,L.PEREZ-LAGO,C.ESCANDON,M.SALAS,M.COLL     
+JRNL        TITL   THE STRUCTURE OF PHAGE PHI29 TRANSCRIPTION REGULATOR P4-DNA  
+JRNL        TITL 2 COMPLEX REVEALS AN N-HOOK MOTIF FOR DNA                      
 JRNL        REF    MOL.CELL                      V.  22    73 2006              
 JRNL        REFN                   ISSN 1097-2765                               
 JRNL        PMID   16600871                                                     
 JRNL        DOI    10.1016/J.MOLCEL.2006.02.019                                 
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.70 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -110,7 +108,7 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.007                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.26                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.260                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : NULL                            
 REMARK   3   IMPROPER ANGLES        (DEGREES) : NULL                            
 REMARK   3                                                                      
@@ -125,7 +123,7 @@ REMARK   3
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : NULL                                                 
 REMARK   3   KSOL        : NULL                                                 
-REMARK   3   BSOL        : 37.63                                                
+REMARK   3   BSOL        : 37.64                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
@@ -144,10 +142,10 @@ REMARK   3  TOPOLOGY FILE  4   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2FIO COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2FIO COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-FEB-06.                  
-REMARK 100 THE RCSB ID CODE IS RCSB035923.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000035923.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -167,7 +165,7 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : MARRESEARCH                        
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : MAR                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XDS                                
 REMARK 200  DATA SCALING SOFTWARE          : XDS                                
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 13386                              
@@ -202,9 +200,9 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 50.93                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.51                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 20% PEG 6000, 80MM MAGNESIUM             
-REMARK 280  CHLORIDE, 50MM CHES, PH 7.5, VAPOR DIFFUSION, HANGING DROP,         
-REMARK 280  TEMPERATURE 277K                                                    
+REMARK 280 CRYSTALLIZATION CONDITIONS: 20% PEG 6000, 80MM MAGNESIUM CHLORIDE,   
+REMARK 280  50MM CHES, PH 7.5, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE       
+REMARK 280  277K                                                                
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 2 1                          
@@ -272,18 +270,18 @@ REMARK 480 OCCUPANCY. THE LOCATION AND PROPERTIES OF THESE ATOMS
 REMARK 480 MAY NOT BE RELIABLE. (M=MODEL NUMBER; RES=RESIDUE NAME;              
 REMARK 480 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):         
 REMARK 480   M RES C SSEQI ATOMS                                                
-REMARK 480     LYS A   36   CD    CE    NZ                                      
-REMARK 480     LYS A   46   CD    CE    NZ                                      
-REMARK 480     LYS A   50   CE    NZ                                            
-REMARK 480     ARG A  118   CG    CD    NE    CZ    NH1   NH2                   
-REMARK 480     GLU A  119   CG    CD    OE1   OE2                               
-REMARK 480     ARG A  121   CG    CD    NE    CZ    NH1   NH2                   
-REMARK 480     LYS B    3   CE    NZ                                            
+REMARK 480     LYS A   36   CD   CE   NZ                                        
+REMARK 480     LYS A   46   CD   CE   NZ                                        
+REMARK 480     LYS A   50   CE   NZ                                             
+REMARK 480     ARG A  118   CG   CD   NE   CZ   NH1  NH2                        
+REMARK 480     GLU A  119   CG   CD   OE1  OE2                                  
+REMARK 480     ARG A  121   CG   CD   NE   CZ   NH1  NH2                        
+REMARK 480     LYS B    3   CE   NZ                                             
 REMARK 480     LYS B   13   NZ                                                  
-REMARK 480     LYS B   47   CD    CE    NZ                                      
-REMARK 480     LYS B   50   CD    CE    NZ                                      
-REMARK 480     GLU B   73   CG    CD    OE1   OE2                               
-REMARK 480     LYS B  114   CD    CE    NZ                                      
+REMARK 480     LYS B   47   CD   CE   NZ                                        
+REMARK 480     LYS B   50   CD   CE   NZ                                        
+REMARK 480     GLU B   73   CG   CD   OE1  OE2                                  
+REMARK 480     LYS B  114   CD   CE   NZ                                        
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
@@ -300,8 +298,8 @@ REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS
 REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
-REMARK 500   OP1  DC  C    12     NH1  ARG A   118     1655     1.93            
-REMARK 500   C2   DA  C    41     C2   DA  C    41     2656     2.00            
+REMARK 500   OP1   DC C    12     NH1  ARG A   118     1655     1.93            
+REMARK 500   C2    DA C    41     C2    DA C    41     2656     2.00            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -4172,5 +4170,5 @@ HETATM 3778  O   HOH B 144       6.422 -10.747  59.892  1.00 56.84           O
 HETATM 3779  O   HOH B 145      13.813   4.965  77.166  1.00 51.00           O  
 HETATM 3780  O   HOH B 146       0.638   6.385  62.931  1.00 59.53           O  
 HETATM 3781  O   HOH B 147      19.877   8.826  67.409  1.00 49.69           O  
-MASTER      291    0    0   10   10    0    0    6 3777    4    0   28          
+MASTER      290    0    0   10   10    0    0    6 3777    4    0   28          
 END                                                                             

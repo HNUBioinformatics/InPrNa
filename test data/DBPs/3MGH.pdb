@@ -37,9 +37,11 @@ SOURCE  13 MOL_ID: 3;
 SOURCE  14 SYNTHETIC: YES;                                                      
 SOURCE  15 MOL_ID: 4;                                                           
 SOURCE  16 SYNTHETIC: YES                                                       
-KEYWDS    PROTEIN-DNA COMPLEX, LYASE,TRANSFERASE-DNA COMPLEX                    
+KEYWDS    PROTEIN-DNA COMPLEX, LYASE, TRANSFERASE-DNA COMPLEX                   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.GARCIA-DIAZ,K.BEBENEK,R.Z.ZHOU,L.F.POVIRK,T.KUNKEL                  
+REVDAT   4   08-NOV-17 3MGH    1       REMARK                                   
+REVDAT   3   26-JUL-17 3MGH    1       SOURCE REMARK                            
 REVDAT   2   06-OCT-10 3MGH    1       JRNL                                     
 REVDAT   1   19-MAY-10 3MGH    0                                                
 JRNL        AUTH   K.BEBENEK,M.GARCIA-DIAZ,R.Z.ZHOU,L.F.POVIRK,T.A.KUNKEL       
@@ -52,16 +54,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.40 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX                                               
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -116,8 +117,8 @@ REMARK   3    B11 (A**2) : 0.92300
 REMARK   3    B22 (A**2) : 5.12100                                              
 REMARK   3    B33 (A**2) : -6.04400                                             
 REMARK   3    B12 (A**2) : 0.00000                                              
-REMARK   3    B13 (A**2) : -0.00000                                             
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -139,10 +140,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3MGH COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3MGH COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 23-APR-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB058515.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 20-APR-10.                  
+REMARK 100 THE DEPOSITION ID IS D_1000058515.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -160,10 +161,10 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1.504
 REMARK 200  MONOCHROMATOR                  : NULL                               
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : CCD DETECTOR                       
+REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU                             
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 47103                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.300                              
@@ -251,7 +252,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 3750 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 18110 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -34.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, D, P, T                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, T, P, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -263,7 +264,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 4120 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 18020 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -59.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, G, F, E                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, E, F, G                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -6871,5 +6872,5 @@ CONECT 5875 5838
 CONECT 6035 5838                                                                
 CONECT 6055 5841                                                                
 CONECT 6070 5839                                                                
-MASTER      414    0    4   36   20    0    7    6 6194    8   30   58          
+MASTER      413    0    4   36   20    0    7    6 6194    8   30   58          
 END                                                                             

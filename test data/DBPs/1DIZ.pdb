@@ -1,57 +1,58 @@
 HEADER    HYDROLASE/DNA                           30-NOV-99   1DIZ              
-TITLE     CRYSTAL STRUCTURE OF E. COLI 3-METHYLADENINE DNA                      
-TITLE    2 GLYCOSYLASE (ALKA) COMPLEXED WITH DNA                                
+TITLE     CRYSTAL STRUCTURE OF E. COLI 3-METHYLADENINE DNA GLYCOSYLASE (ALKA)   
+TITLE    2 COMPLEXED WITH DNA                                                   
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: DNA (5'-D(*GP*AP*CP*AP*TP*GP*AP*(NRI)                      
-COMPND   3 P*TP*GP*CP*CP*T)-3');                                                
-COMPND   4 CHAIN: C, E;                                                         
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: DNA (5'-                                                   
-COMPND   8 D(*GP*GP*CP*AP*AP*TP*CP*AP*TP*GP*TP*CP*A)-3');                       
-COMPND   9 CHAIN: D, F;                                                         
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: 3-METHYLADENINE DNA GLYCOSYLASE II;                        
-COMPND  13 CHAIN: A, B;                                                         
-COMPND  14 SYNONYM: 3-METHYLADENINE-DNA GLYCOSYLASE II, INDUCIBLE,              
-COMPND  15 TAG II, ALKA;                                                        
-COMPND  16 EC: 3.2.2.21;                                                        
-COMPND  17 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: DNA (5'-D(*GP*AP*CP*AP*TP*GP*AP*(NRI)P*TP*GP*CP*CP*T)-3'); 
+COMPND   3 CHAIN: C, E;                                                         
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: DNA (5'-D(*GP*GP*CP*AP*AP*TP*CP*AP*TP*GP*TP*CP*A)-3');     
+COMPND   7 CHAIN: D, F;                                                         
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: 3-METHYLADENINE DNA GLYCOSYLASE II;                        
+COMPND  11 CHAIN: A, B;                                                         
+COMPND  12 SYNONYM: 3-METHYLADENINE-DNA GLYCOSYLASE II, INDUCIBLE, TAG II, ALKA;
+COMPND  13 EC: 3.2.2.21;                                                        
+COMPND  14 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
-SOURCE   3 OTHER_DETAILS: THIS SEQUENCE OCCURS NATURALLY IN E. COLI;            
-SOURCE   4 MOL_ID: 2;                                                           
-SOURCE   5 SYNTHETIC: YES;                                                      
-SOURCE   6 OTHER_DETAILS: THIS SEQUENCE OCCURS NATURALLY IN E. COLI;            
-SOURCE   7 MOL_ID: 3;                                                           
+SOURCE   3 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE   4 ORGANISM_TAXID: 562;                                                 
+SOURCE   5 OTHER_DETAILS: THIS SEQUENCE OCCURS NATURALLY IN E. COLI;            
+SOURCE   6 MOL_ID: 2;                                                           
+SOURCE   7 SYNTHETIC: YES;                                                      
 SOURCE   8 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
 SOURCE   9 ORGANISM_TAXID: 562;                                                 
-SOURCE  10 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE  11 EXPRESSION_SYSTEM_TAXID: 562                                         
-KEYWDS    3-METHYLADENINE DNA GLYCOSYLASE, ALKA, HELIX-HAIRPIN-HELIX,           
-KEYWDS   2 PROTEIN-DNA COMPLEX, 1-AZARIBOSE, HYDROLASE/DNA COMPLEX              
+SOURCE  10 OTHER_DETAILS: THIS SEQUENCE OCCURS NATURALLY IN E. COLI;            
+SOURCE  11 MOL_ID: 3;                                                           
+SOURCE  12 ORGANISM_SCIENTIFIC: ESCHERICHIA COLI;                               
+SOURCE  13 ORGANISM_TAXID: 562;                                                 
+SOURCE  14 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  15 EXPRESSION_SYSTEM_TAXID: 562                                         
+KEYWDS    3-METHYLADENINE DNA GLYCOSYLASE, ALKA, HELIX-HAIRPIN-HELIX, PROTEIN-  
+KEYWDS   2 DNA COMPLEX, 1-AZARIBOSE, HYDROLASE-DNA COMPLEX                      
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.HOLLIS,Y.ICHIKAWA,T.E.ELLENBERGER                                   
+REVDAT   4   27-APR-16 1DIZ    1       CONECT LINK   SOURCE VERSN               
 REVDAT   3   24-FEB-09 1DIZ    1       VERSN                                    
 REVDAT   2   20-JUN-00 1DIZ    1       LINK                                     
 REVDAT   1   20-MAR-00 1DIZ    0                                                
 JRNL        AUTH   T.HOLLIS,Y.ICHIKAWA,T.ELLENBERGER                            
-JRNL        TITL   DNA BENDING AND A FLIP-OUT MECHANISM FOR BASE                
-JRNL        TITL 2 EXCISION BY THE HELIX-HAIRPIN-HELIX DNA                      
-JRNL        TITL 3 GLYCOSYLASE, ESCHERICHIA COLI ALKA.                          
+JRNL        TITL   DNA BENDING AND A FLIP-OUT MECHANISM FOR BASE EXCISION BY    
+JRNL        TITL 2 THE HELIX-HAIRPIN-HELIX DNA GLYCOSYLASE, ESCHERICHIA COLI    
+JRNL        TITL 3 ALKA.                                                        
 JRNL        REF    EMBO J.                       V.  19   758 2000              
 JRNL        REFN                   ISSN 0261-4189                               
 JRNL        PMID   10675345                                                     
 JRNL        DOI    10.1093/EMBOJ/19.4.758                                       
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 0.5                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -114,9 +115,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.43
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.010                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.60                            
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.70                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.01                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.600                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.700                          
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.010                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -150,7 +151,7 @@ REMARK   3  TOPOLOGY FILE  5   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1DIZ COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1DIZ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 03-DEC-99.                  
 REMARK 100 THE RCSB ID CODE IS RCSB010118.                                      
@@ -208,9 +209,9 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 50.27                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.47                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 15% PEG 4000, 100MM HEPES, 100MM         
-REMARK 280  NACL, 50MM MGCL2, PH 7.5, VAPOR DIFFUSION, HANGING DROP,            
-REMARK 280  TEMPERATURE 298.0K                                                  
+REMARK 280 CRYSTALLIZATION CONDITIONS: 15% PEG 4000, 100MM HEPES, 100MM NACL,   
+REMARK 280  50MM MGCL2, PH 7.5, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE      
+REMARK 280  298.0K                                                              
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 31 2 1                         
@@ -279,7 +280,7 @@ REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -296,8 +297,28 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
+REMARK 500   O3'   DA E     7     O2P  NRI E     8              2.02            
 REMARK 500   O    ARG B    80     OD1  ASP B    83              2.13            
 REMARK 500   NH1  ARG A    80     OE1  GLU B    73              2.16            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: COVALENT BOND ANGLES                                       
+REMARK 500                                                                      
+REMARK 500 THE STEREOCHEMICAL PARAMETERS OF THE FOLLOWING RESIDUES              
+REMARK 500 HAVE VALUES WHICH DEVIATE FROM EXPECTED VALUES BY MORE               
+REMARK 500 THAN 6*RMSD (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN               
+REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                 
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,3(1X,A4,2X),12X,F5.1)              
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999                        
+REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    PRO A 150   C   -  N   -  CA  ANGL. DEV. =  10.6 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -349,8 +370,8 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500     DA D  18         0.06    SIDE_CHAIN                              
-REMARK 500     DA F  18         0.08    SIDE_CHAIN                              
+REMARK 500     DA D  18         0.06    SIDE CHAIN                              
+REMARK 500     DA F  18         0.08    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 525                                                                      
@@ -365,14 +386,14 @@ REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE
 REMARK 525 NUMBER; I=INSERTION CODE):                                           
 REMARK 525                                                                      
 REMARK 525  M RES CSSEQI                                                        
+REMARK 525    HOH A 898        DISTANCE =  6.19 ANGSTROMS                       
 REMARK 525    HOH B 848        DISTANCE =  5.33 ANGSTROMS                       
 REMARK 525    HOH B 866        DISTANCE =  5.47 ANGSTROMS                       
-REMARK 525    HOH A 898        DISTANCE =  6.19 ANGSTROMS                       
 REMARK 525    HOH B 901        DISTANCE =  6.51 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              NA A 825  NA                            
@@ -380,24 +401,25 @@ REMARK 620 N RES CSSEQI ATOM
 REMARK 620 1  DC E  11   OP2                                                    
 REMARK 620 2 GLN A 210   O   140.7                                              
 REMARK 620 3 HOH A 850   O    98.9  74.3                                        
-REMARK 620 4 PHE A 212   O   110.4 100.3 134.6                                  
-REMARK 620 5 ILE A 215   O    75.4  85.9 140.8  81.4                            
+REMARK 620 4 ILE A 215   O    75.4  85.9 140.8                                  
+REMARK 620 5 PHE A 212   O   110.4 100.3 134.6  81.4                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              NA B 824  NA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1  DC C  11   OP2                                                    
-REMARK 620 2 GLN B 210   O   125.8                                              
-REMARK 620 3 PHE B 212   O   129.1 103.2                                        
-REMARK 620 4 ILE B 215   O    81.4  84.5  91.3                                  
-REMARK 620 5 HOH B 844   O    75.2  71.3 141.1 125.2                            
+REMARK 620 2 PHE B 212   O   129.1                                              
+REMARK 620 3 GLN B 210   O   125.8 103.2                                        
+REMARK 620 4 ILE B 215   O    81.4  91.3  84.5                                  
+REMARK 620 5 HOH B 844   O    75.2 141.1  71.3 125.2                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NA B 824                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NA A 825                  
@@ -459,8 +481,8 @@ HET    NRI  C   8      11
 HET    NRI  E   8      11                                                       
 HET     NA  B 824       1                                                       
 HET     NA  A 825       1                                                       
-HETNAM     NRI PHOSPHORIC ACID MONO-(4-HYDROXY-PYRROLIDIN-3-                    
-HETNAM   2 NRI  YLMETHYL) ESTER                                                 
+HETNAM     NRI PHOSPHORIC ACID MONO-(4-HYDROXY-PYRROLIDIN-3-YLMETHYL)           
+HETNAM   2 NRI  ESTER                                                           
 HETNAM      NA SODIUM ION                                                       
 FORMUL   1  NRI    2(C5 H12 N O5 P)                                             
 FORMUL   7   NA    2(NA 1+)                                                     
@@ -510,20 +532,19 @@ SHEET    4   B 5 TYR B  35  VAL B  41 -1  O  TYR B  35   N  ALA B  50
 SHEET    5   B 5 GLU B  28  VAL B  30 -1  N  THR B  29   O  ALA B  36           
 SHEET    1   C 2 ARG B 145  LEU B 146  0                                        
 SHEET    2   C 2 PHE B 149  ILE B 153 -1  N  PHE B 149   O  LEU B 146           
-LINK         O3'  DA E   7                 P   NRI E   8     1555   1555  1.55  
 LINK         O3'  DA C   7                 P   NRI C   8     1555   1555  1.57  
 LINK         O3' NRI C   8                 P    DT C   9     1555   1555  1.68  
-LINK         P    DT E   9                 O3' NRI E   8     1555   1555  1.78  
-LINK        NA    NA A 825                 OP2  DC E  11     1555   1555  2.53  
-LINK        NA    NA A 825                 O   GLN A 210     1555   1555  2.54  
+LINK         O3'  DA E   7                 P   NRI E   8     1555   1555  1.55  
+LINK         O3' NRI E   8                 P    DT E   9     1555   1555  1.78  
+LINK         OP2  DC E  11                NA    NA A 825     1555   1555  2.53  
+LINK         O   GLN A 210                NA    NA A 825     1555   1555  2.54  
 LINK        NA    NA A 825                 O   HOH A 850     1555   1555  2.57  
-LINK        NA    NA B 824                 OP2  DC C  11     1555   1555  2.57  
-LINK         O3'  DA E   7                 O2P NRI E   8     1555   1555  2.02  
-LINK         O   PHE A 212                NA    NA A 825     1555   1555  2.84  
-LINK         O   ILE A 215                NA    NA A 825     1555   1555  2.74  
-LINK         O   GLN B 210                NA    NA B 824     1555   1555  2.68  
+LINK         OP2  DC C  11                NA    NA B 824     1555   1555  2.57  
 LINK         O   PHE B 212                NA    NA B 824     1555   1555  2.62  
+LINK         O   GLN B 210                NA    NA B 824     1555   1555  2.68  
 LINK         O   ILE B 215                NA    NA B 824     1555   1555  2.68  
+LINK         O   ILE A 215                NA    NA A 825     1555   1555  2.74  
+LINK         O   PHE A 212                NA    NA A 825     1555   1555  2.84  
 LINK        NA    NA B 824                 O   HOH B 844     1555   1555  2.84  
 CISPEP   1 PRO A    8    PRO A    9          0         0.11                     
 CISPEP   2 LYS A  261    PRO A  262          0        -0.20                     
@@ -6203,10 +6224,10 @@ CONECT  153  148  152
 CONECT  154  151  155                                                           
 CONECT  155  154                                                                
 CONECT  199 5442                                                                
-CONECT  651  664  666                                                           
+CONECT  651  664                                                                
 CONECT  664  651  665  666  667                                                 
 CONECT  665  664                                                                
-CONECT  666  651  664                                                           
+CONECT  666  664                                                                
 CONECT  667  664  669                                                           
 CONECT  668  671  673                                                           
 CONECT  669  667  670                                                           
@@ -6229,5 +6250,5 @@ CONECT 5442  199 4810 4826 4848
 CONECT 5442 5585                                                                
 CONECT 5517 5441                                                                
 CONECT 5585 5442                                                                
-MASTER      357    0    4   33   12    0    4    6 5643    6   40   48          
+MASTER      377    0    4   33   12    0    4    6 5643    6   40   48          
 END                                                                             

@@ -36,6 +36,8 @@ KEYWDS   3 DNA BINDING PROTEIN-DNA COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    C.V.PAPAGIANNIS,M.D.SAM,M.A.ABBANI,D.CASCIO,D.YOO,R.T.CLUBB,          
 AUTHOR   2 R.C.JOHNSON                                                          
+REVDAT   5   04-APR-18 2OG0    1       REMARK                                   
+REVDAT   4   18-OCT-17 2OG0    1       REMARK                                   
 REVDAT   3   13-JUL-11 2OG0    1       VERSN                                    
 REVDAT   2   24-FEB-09 2OG0    1       VERSN                                    
 REVDAT   1   13-MAR-07 2OG0    0                                                
@@ -51,8 +53,9 @@ REMARK   2
 REMARK   2 RESOLUTION.    1.90 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   PROGRAM     : REFMAC                                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -141,8 +144,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):   665 ; 1.200 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   198 ; 0.287 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):   848 ; 1.433 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1623 ; 2.342 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1659 ; 3.113 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -240,7 +248,7 @@ REMARK   4
 REMARK   4 2OG0 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 09-JAN-07.                  
-REMARK 100 THE RCSB ID CODE IS RCSB041088.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000041088.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -252,7 +260,7 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : N                                  
 REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
 REMARK 200  BEAMLINE                       : NULL                               
-REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200HB                     
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200                       
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
 REMARK 200  MONOCHROMATOR                  : CONFOCAL MIRRORS                   
@@ -261,7 +269,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : IMAGE PLATE                        
 REMARK 200  DETECTOR MANUFACTURER          : RIGAKU RAXIS IV                    
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 15654                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.900                              
@@ -270,7 +278,7 @@ REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 0.000
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 97.8                               
-REMARK 200  DATA REDUNDANCY                : 10.320                             
+REMARK 200  DATA REDUNDANCY                : 10.32                              
 REMARK 200  R MERGE                    (I) : NULL                               
 REMARK 200  R SYM                      (I) : 0.07100                            
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 20.6000                            
@@ -425,17 +433,17 @@ REMARK 500     DT C   7   O4' -  C1' -  N1  ANGL. DEV. =   2.9 DEGREES
 REMARK 500     DG C   8   O5' -  P   -  OP2 ANGL. DEV. =  -5.8 DEGREES          
 REMARK 500     DG C   8   C3' -  O3' -  P   ANGL. DEV. =   9.0 DEGREES          
 REMARK 500     DA C  10   O4' -  C4' -  C3' ANGL. DEV. =   3.6 DEGREES          
-REMARK 500     DA C  10   C1' -  O4' -  C4' ANGL. DEV. =  -6.4 DEGREES          
+REMARK 500     DA C  10   C1' -  O4' -  C4' ANGL. DEV. =  -6.5 DEGREES          
 REMARK 500     DA C  10   O4' -  C1' -  C2' ANGL. DEV. =   3.5 DEGREES          
 REMARK 500     DA C  10   C6  -  N1  -  C2  ANGL. DEV. =   4.9 DEGREES          
 REMARK 500     DA C  10   C5  -  C6  -  N1  ANGL. DEV. =  -3.5 DEGREES          
 REMARK 500     DG C  11   O5' -  P   -  OP1 ANGL. DEV. =   7.3 DEGREES          
 REMARK 500     DG C  11   O4' -  C1' -  N9  ANGL. DEV. =   2.4 DEGREES          
 REMARK 500     DT C  12   O4' -  C1' -  N1  ANGL. DEV. =   2.4 DEGREES          
-REMARK 500     DT C  12   N3  -  C2  -  O2  ANGL. DEV. =   3.8 DEGREES          
+REMARK 500     DT C  12   N3  -  C2  -  O2  ANGL. DEV. =   3.9 DEGREES          
 REMARK 500     DT C  12   N3  -  C4  -  O4  ANGL. DEV. =   4.6 DEGREES          
 REMARK 500     DT C  12   C5  -  C4  -  O4  ANGL. DEV. =  -5.7 DEGREES          
-REMARK 500     DC C  13   OP1 -  P   -  OP2 ANGL. DEV. =   9.1 DEGREES          
+REMARK 500     DC C  13   OP1 -  P   -  OP2 ANGL. DEV. =   9.2 DEGREES          
 REMARK 500     DC C  13   O5' -  P   -  OP2 ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DC C  13   O4' -  C4' -  C3' ANGL. DEV. =  -2.4 DEGREES          
 REMARK 500     DC C  13   N3  -  C2  -  O2  ANGL. DEV. =   4.6 DEGREES          
@@ -452,7 +460,7 @@ REMARK 500     DA D  20   O4' -  C1' -  N9  ANGL. DEV. =   3.3 DEGREES
 REMARK 500     DC D  22   O4' -  C1' -  N1  ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DC D  22   C2  -  N3  -  C4  ANGL. DEV. =   4.3 DEGREES          
 REMARK 500     DA D  23   O5' -  P   -  OP2 ANGL. DEV. =  -7.1 DEGREES          
-REMARK 500     DG D  24   O4' -  C1' -  N9  ANGL. DEV. =   3.8 DEGREES          
+REMARK 500     DG D  24   O4' -  C1' -  N9  ANGL. DEV. =   3.9 DEGREES          
 REMARK 500     DT D  27   C4  -  C5  -  C7  ANGL. DEV. =   5.8 DEGREES          
 REMARK 500     DT D  27   C6  -  C5  -  C7  ANGL. DEV. =  -4.7 DEGREES          
 REMARK 500     DA D  28   N1  -  C6  -  N6  ANGL. DEV. =   3.8 DEGREES          
@@ -2312,5 +2320,5 @@ HETATM 1805  O   HOH B  98      25.849  42.587  12.752  1.00 29.41           O
 HETATM 1806  O   HOH B  99      37.642  28.523  19.024  1.00 24.22           O  
 HETATM 1807  O   HOH B 100      37.459  32.172   1.363  1.00 37.73           O  
 HETATM 1808  O   HOH B 101      39.766  30.335  11.281  1.00 41.84           O  
-MASTER      415    0    0    4   10    0    0    6 1804    4    0   12          
+MASTER      421    0    0    4   10    0    0    6 1804    4    0   12          
 END                                                                             

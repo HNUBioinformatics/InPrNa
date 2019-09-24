@@ -17,14 +17,16 @@ COMPND  14 MUTATION: YES;
 COMPND  15 OTHER_DETAILS: DNA BINDING DOMAIN;                                   
 COMPND  16 MOL_ID: 3;                                                           
 COMPND  17 MOLECULE: DNA(5'-(*GP*AP*TP*GP*TP*GP*GP*CP*GP*CP*AP*                 
-COMPND  18  AP*TP*CP*CP*TP*TP*AP*AP*CP*GP*GP*AP*CP*TP*G)-3');                   
+COMPND  18 AP*TP*CP*CP*TP*TP*AP*AP*CP*GP*GP*AP*CP*TP*G)-3');                    
 COMPND  19 CHAIN: D;                                                            
 COMPND  20 FRAGMENT: FRAGMENT FROM TOM-1A PROMOTER;                             
-COMPND  21 MOL_ID: 4;                                                           
-COMPND  22 MOLECULE: DNA(5'-(*CP*CP*AP*GP*TP*CP*CP*GP*TP*TP*AP*                 
-COMPND  23  AP*GP*GP*AP*TP*TP*GP*CP*GP*CP*CP*AP*CP*AP*T)-3');                   
-COMPND  24 CHAIN: E;                                                            
-COMPND  25 FRAGMENT: FRAGMENT FROM TOM-1A PROMOTER                              
+COMPND  21 ENGINEERED: YES;                                                     
+COMPND  22 MOL_ID: 4;                                                           
+COMPND  23 MOLECULE: DNA(5'-(*CP*CP*AP*GP*TP*CP*CP*GP*TP*TP*AP*                 
+COMPND  24 AP*GP*GP*AP*TP*TP*GP*CP*GP*CP*CP*AP*CP*AP*T)-3');                    
+COMPND  25 CHAIN: E;                                                            
+COMPND  26 FRAGMENT: FRAGMENT FROM TOM-1A PROMOTER;                             
+COMPND  27 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
 SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
@@ -45,14 +47,19 @@ SOURCE  17 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE  18 EXPRESSION_SYSTEM_PLASMID: PAR2156;                                  
 SOURCE  19 MOL_ID: 3;                                                           
 SOURCE  20 SYNTHETIC: YES;                                                      
-SOURCE  21 MOL_ID: 4;                                                           
-SOURCE  22 SYNTHETIC: YES                                                       
-KEYWDS    TRANSCRIPTION-DNA COMPLEX, TRANSCRIPTION REGULATION, BZIP,            
-KEYWDS   2 PROTO-ONCOGENE, MYB, C-MYB, C/EBP                                    
+SOURCE  21 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  22 ORGANISM_TAXID: 9606;                                                
+SOURCE  23 MOL_ID: 4;                                                           
+SOURCE  24 SYNTHETIC: YES;                                                      
+SOURCE  25 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  26 ORGANISM_TAXID: 9606                                                 
+KEYWDS    TRANSCRIPTION-DNA COMPLEX, TRANSCRIPTION REGULATION, BZIP, PROTO-     
+KEYWDS   2 ONCOGENE, MYB, C-MYB, C/EBP                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.H.TAHIROV,K.OGATA                                                   
+REVDAT   4   08-MAY-19 1H88    1       SOURCE REMARK                            
 REVDAT   3   06-MAR-13 1H88    1       SOURCE KEYWDS JRNL   REMARK              
-REVDAT   3 2                           VERSN  FORMUL MASTER                     
+REVDAT   3 2                   1       VERSN  FORMUL MASTER                     
 REVDAT   2   24-FEB-09 1H88    1       VERSN                                    
 REVDAT   1   28-JAN-02 1H88    0                                                
 JRNL        AUTH   T.H.TAHIROV,K.SATO,E.ICHIKAWA-IWATA,M.SASAKI,T.INOUE-BUNGO,  
@@ -97,8 +104,8 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.80                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 19.87                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.0                            
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1568847.92                     
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1568847.920                    
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 96.1                           
 REMARK   3   NUMBER OF REFLECTIONS             : 16664                          
@@ -108,7 +115,7 @@ REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
 REMARK   3   R VALUE            (WORKING SET) : 0.222                           
 REMARK   3   FREE R VALUE                     : 0.277                           
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.9                             
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.900                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 818                             
 REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.010                           
 REMARK   3                                                                      
@@ -116,11 +123,11 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 2.80                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 2.97                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 88.2                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 88.20                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 2424                         
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.412                        
-REMARK   3   BIN FREE R VALUE                    : 0.452                        
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 4.2                          
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.4120                       
+REMARK   3   BIN FREE R VALUE                    : 0.4520                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 4.20                         
 REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 105                          
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.044                        
 REMARK   3                                                                      
@@ -131,20 +138,20 @@ REMARK   3   HETEROGEN ATOMS          : 1
 REMARK   3   SOLVENT ATOMS            : 25                                      
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 72.7                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 80.4                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 72.70                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 80.40                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 36.22                                                
-REMARK   3    B22 (A**2) : -23.51                                               
-REMARK   3    B33 (A**2) : -12.71                                               
-REMARK   3    B12 (A**2) : 0.00                                                 
-REMARK   3    B13 (A**2) : 15.66                                                
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : 36.22000                                             
+REMARK   3    B22 (A**2) : -23.51000                                            
+REMARK   3    B33 (A**2) : -12.71000                                            
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 15.66000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.41                            
 REMARK   3   ESD FROM SIGMAA              (A) : 0.54                            
-REMARK   3   LOW RESOLUTION CUTOFF        (A) : 20.00                           
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 20.0                            
 REMARK   3                                                                      
 REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
 REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.52                            
@@ -152,21 +159,21 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.58
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.1                             
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 18.0                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.13                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.100                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 18.00                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.130                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
-REMARK   3   MAIN-CHAIN BOND              (A**2) : 5.91  ; 1.50                 
-REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 8.80  ; 2.00                 
-REMARK   3   SIDE-CHAIN BOND              (A**2) : 10.10 ; 2.00                 
-REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 13.64 ; 2.50                 
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 5.910 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 8.800 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 10.100; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 13.640; 2.500                
 REMARK   3                                                                      
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : FLAT MODEL                                           
-REMARK   3   KSOL        : 0.269175                                             
+REMARK   3   KSOL        : 0.27                                                 
 REMARK   3   BSOL        : 34.54                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
@@ -184,14 +191,14 @@ REMARK   3  TOPOLOGY FILE  2   : DNA-RNA.TOP
 REMARK   3  TOPOLOGY FILE  3   : WATER.TOP                                      
 REMARK   3  TOPOLOGY FILE  4   : NULL                                           
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED. ATOMS C, O,      
-REMARK   3  N, CA AND CB ARE HARMONICALLY RESTRAINED DURING REFINEMENT          
-REMARK   3  WITH HARMONIC RESTRAINT CONSTANT OF 100                             
+REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED. ATOMS C, O, N,   
+REMARK   3  CA AND CB ARE HARMONICALLY RESTRAINED DURING REFINEMENT WITH        
+REMARK   3  HARMONIC RESTRAINT CONSTANT OF 100                                  
 REMARK   4                                                                      
 REMARK   4 1H88 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 30-JAN-01.                  
-REMARK 100 THE PDBE ID CODE IS EBI-5841.                                        
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 29-JAN-01.                  
+REMARK 100 THE DEPOSITION ID IS D_1290005841.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -243,12 +250,13 @@ REMARK 200
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS   (%): 62.3                                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 62.30                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.34                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 0.05 M AMMONIUM ACETATE,                 
-REMARK 280  0.01 M MAGNESIUM CHLORIDE, 10% V/V MPD, 6% V/V GLYCEROL,            
-REMARK 280  0.05 M TRIS HCL BUFFER PH 7.5 AT 24 DEGREES C                       
+REMARK 280 CRYSTALLIZATION CONDITIONS: 0.05 M AMMONIUM ACETATE, 0.01 M          
+REMARK 280  MAGNESIUM CHLORIDE, 10% V/V MPD, 6% V/V GLYCEROL, 0.05 M TRIS       
+REMARK 280  HCL BUFFER PH 7.5 AT 24 DEGREES C, PH 7.50, VAPOR DIFFUSION,        
+REMARK 280  SITTING DROP, TEMPERATURE 297K                                      
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -279,10 +287,9 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300                                                                      
-REMARK 300 DETAILS:OF C/EBP BETA AND MONOMER OF MYB PROTO-                      
-REMARK 300 ONCOGENE PROTEINBOUND TO A DUPLEX DNA FRAGMENTFOR                    
-REMARK 300 THE HETERO-ASSEMBLY DESCRIBED BY REMARK 350 THE                      
+REMARK 300 REMARK: OF C/EBP BETA AND MONOMER OF MYB PROTO-                      
+REMARK 300  ONCOGENE PROTEINBOUND TO A DUPLEX DNA FRAGMENTFOR                   
+REMARK 300  THE HETERO-ASSEMBLY DESCRIBED BY REMARK 350 THE                     
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -297,15 +304,15 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 6360 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 34030 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -14.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, D, E, C                         
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, E                         
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 400                                                                      
 REMARK 400 COMPOUND                                                             
-REMARK 400  CHAIN C ENGINEERED MUTATION LYS47MET, ARG48GLY                      
+REMARK 400 CHAIN C ENGINEERED MUTATION LYS47MET, ARG48GLY                       
 REMARK 400  C/EBP BETA IS IMPORTANT TRANSCRIPTIONAL ACTIVATOR IN THE REGULATION 
-REMARK 400  OF GENES INVOLVED IN IMMUNE AND INFLAMMATORY RESPONSES. SPECIFICALLY
+REMARK 400  OF GENES INVOLVED IN IMMUNE AND INFLAMMATORY RESPONSES. SPECIFICALL 
 REMARK 465                                                                      
 REMARK 465 MISSING RESIDUES                                                     
 REMARK 465 THE FOLLOWING RESIDUES WERE NOT LOCATED IN THE                       
@@ -417,7 +424,7 @@ REMARK 800
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NH4 C1191                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NH4 C 1191                
 DBREF  1H88 A  259   336  UNP    P17676   CEBB_HUMAN     259    336             
 DBREF  1H88 B  259   336  UNP    P17676   CEBB_HUMAN     259    336             
 DBREF  1H88 C   35   193  UNP    P06876   MYB_MOUSE       35    193             
@@ -3027,10 +3034,10 @@ ATOM   2546  C2   DT D   3       6.745  49.680  17.264  1.00 50.45           C
 ATOM   2547  O2   DT D   3       7.157  49.511  18.404  1.00 57.87           O  
 ATOM   2548  N3   DT D   3       7.583  49.684  16.174  1.00 27.71           N  
 ATOM   2549  C4   DT D   3       7.224  49.850  14.852  1.00 43.14           C  
-ATOM   2550  C5   DT D   3       5.799  50.034  14.615  1.00 37.78           C  
-ATOM   2551  C6   DT D   3       4.972  50.045  15.677  1.00 33.41           C  
-ATOM   2552  O4   DT D   3       8.096  49.831  13.969  1.00 33.13           O  
-ATOM   2553  C7   DT D   3       5.318  50.185  13.205  1.00 29.34           C  
+ATOM   2550  O4   DT D   3       8.096  49.831  13.969  1.00 33.13           O  
+ATOM   2551  C5   DT D   3       5.799  50.034  14.615  1.00 37.78           C  
+ATOM   2552  C7   DT D   3       5.318  50.185  13.205  1.00 29.34           C  
+ATOM   2553  C6   DT D   3       4.972  50.045  15.677  1.00 33.41           C  
 ATOM   2554  P    DG D   4       3.455  51.793  21.444  1.00 63.90           P  
 ATOM   2555  OP1  DG D   4       2.806  51.665  22.779  1.00 35.97           O  
 ATOM   2556  OP2  DG D   4       3.111  52.946  20.562  1.00 72.66           O  
@@ -3069,10 +3076,10 @@ ATOM   2588  C2   DT D   5      12.700  55.270  19.125  1.00 50.97           C
 ATOM   2589  O2   DT D   5      13.906  55.115  19.058  1.00 61.97           O  
 ATOM   2590  N3   DT D   5      11.931  55.544  18.017  1.00 50.42           N  
 ATOM   2591  C4   DT D   5      10.563  55.740  17.980  1.00 45.54           C  
-ATOM   2592  C5   DT D   5       9.895  55.658  19.255  1.00 33.94           C  
-ATOM   2593  C6   DT D   5      10.635  55.383  20.345  1.00 38.80           C  
-ATOM   2594  O4   DT D   5      10.004  55.963  16.911  1.00 42.36           O  
-ATOM   2595  C7   DT D   5       8.418  55.881  19.304  1.00 32.36           C  
+ATOM   2592  O4   DT D   5      10.004  55.963  16.911  1.00 42.36           O  
+ATOM   2593  C5   DT D   5       9.895  55.658  19.255  1.00 33.94           C  
+ATOM   2594  C7   DT D   5       8.418  55.881  19.304  1.00 32.36           C  
+ATOM   2595  C6   DT D   5      10.635  55.383  20.345  1.00 38.80           C  
 ATOM   2596  P    DG D   6      14.783  55.844  25.019  1.00 87.80           P  
 ATOM   2597  OP1  DG D   6      15.666  55.287  26.067  1.00 76.09           O  
 ATOM   2598  OP2  DG D   6      13.741  56.844  25.386  1.00 86.65           O  
@@ -3235,10 +3242,10 @@ ATOM   2754  C2   DT D  13      11.499  80.460  23.980  1.00 69.17           C
 ATOM   2755  O2   DT D  13      11.536  79.890  25.064  1.00 55.21           O  
 ATOM   2756  N3   DT D  13      12.621  80.624  23.201  1.00 44.06           N  
 ATOM   2757  C4   DT D  13      12.702  81.259  21.979  1.00 63.61           C  
-ATOM   2758  C5   DT D  13      11.450  81.804  21.479  1.00 65.05           C  
-ATOM   2759  C6   DT D  13      10.345  81.645  22.230  1.00 52.60           C  
-ATOM   2760  O4   DT D  13      13.785  81.327  21.398  1.00 62.79           O  
-ATOM   2761  C7   DT D  13      11.447  82.510  20.158  1.00 44.45           C  
+ATOM   2758  O4   DT D  13      13.785  81.327  21.398  1.00 62.79           O  
+ATOM   2759  C5   DT D  13      11.450  81.804  21.479  1.00 65.05           C  
+ATOM   2760  C7   DT D  13      11.447  82.510  20.158  1.00 44.45           C  
+ATOM   2761  C6   DT D  13      10.345  81.645  22.230  1.00 52.60           C  
 ATOM   2762  P    DC D  14       6.537  81.928  26.849  1.00126.20           P  
 ATOM   2763  OP1  DC D  14       5.473  81.662  27.854  1.00119.99           O  
 ATOM   2764  OP2  DC D  14       6.620  83.265  26.206  1.00121.50           O  
@@ -3293,10 +3300,10 @@ ATOM   2812  C2   DT D  16      18.726  86.663  30.786  1.00 49.53           C
 ATOM   2813  O2   DT D  16      19.862  86.550  30.344  1.00 50.57           O  
 ATOM   2814  N3   DT D  16      17.738  87.315  30.097  1.00 49.69           N  
 ATOM   2815  C4   DT D  16      16.433  87.505  30.501  1.00 51.37           C  
-ATOM   2816  C5   DT D  16      16.096  86.958  31.788  1.00 43.44           C  
-ATOM   2817  C6   DT D  16      17.048  86.318  32.468  1.00 54.89           C  
-ATOM   2818  O4   DT D  16      15.654  88.105  29.778  1.00 67.40           O  
-ATOM   2819  C7   DT D  16      14.703  87.129  32.307  1.00 44.18           C  
+ATOM   2816  O4   DT D  16      15.654  88.105  29.778  1.00 67.40           O  
+ATOM   2817  C5   DT D  16      16.096  86.958  31.788  1.00 43.44           C  
+ATOM   2818  C7   DT D  16      14.703  87.129  32.307  1.00 44.18           C  
+ATOM   2819  C6   DT D  16      17.048  86.318  32.468  1.00 54.89           C  
 ATOM   2820  P    DT D  17      22.103  84.904  35.770  1.00 91.17           P  
 ATOM   2821  OP1  DT D  17      23.328  84.148  36.156  1.00 73.52           O  
 ATOM   2822  OP2  DT D  17      21.118  85.300  36.815  1.00 65.96           O  
@@ -3313,10 +3320,10 @@ ATOM   2832  C2   DT D  17      19.610  89.839  32.125  1.00 57.30           C
 ATOM   2833  O2   DT D  17      20.216  89.980  31.072  1.00 59.73           O  
 ATOM   2834  N3   DT D  17      18.244  89.972  32.202  1.00 49.58           N  
 ATOM   2835  C4   DT D  17      17.457  89.844  33.326  1.00 54.83           C  
-ATOM   2836  C5   DT D  17      18.167  89.526  34.544  1.00 48.66           C  
-ATOM   2837  C6   DT D  17      19.505  89.390  34.488  1.00 38.89           C  
-ATOM   2838  O4   DT D  17      16.242  90.001  33.245  1.00 58.72           O  
-ATOM   2839  C7   DT D  17      17.376  89.360  35.803  1.00 53.09           C  
+ATOM   2836  O4   DT D  17      16.242  90.001  33.245  1.00 58.72           O  
+ATOM   2837  C5   DT D  17      18.167  89.526  34.544  1.00 48.66           C  
+ATOM   2838  C7   DT D  17      17.376  89.360  35.803  1.00 53.09           C  
+ATOM   2839  C6   DT D  17      19.505  89.390  34.488  1.00 38.89           C  
 ATOM   2840  P    DA D  18      25.709  90.193  34.330  1.00 77.02           P  
 ATOM   2841  OP1  DA D  18      26.956  89.419  34.558  1.00 67.10           O  
 ATOM   2842  OP2  DA D  18      24.979  90.773  35.495  1.00 71.65           O  
@@ -3478,10 +3485,10 @@ ATOM   2997  C2   DT D  25      22.584 114.770  43.334  1.00 62.79           C
 ATOM   2998  O2   DT D  25      23.618 114.457  43.906  1.00 76.39           O  
 ATOM   2999  N3   DT D  25      22.542 115.037  41.988  1.00 57.52           N  
 ATOM   3000  C4   DT D  25      21.431 115.395  41.247  1.00 54.78           C  
-ATOM   3001  C5   DT D  25      20.195 115.480  41.987  1.00 46.81           C  
-ATOM   3002  C6   DT D  25      20.224 115.214  43.300  1.00 50.97           C  
-ATOM   3003  O4   DT D  25      21.543 115.616  40.043  1.00 61.48           O  
-ATOM   3004  C7   DT D  25      18.943 115.863  41.265  1.00 43.01           C  
+ATOM   3001  O4   DT D  25      21.543 115.616  40.043  1.00 61.48           O  
+ATOM   3002  C5   DT D  25      20.195 115.480  41.987  1.00 46.81           C  
+ATOM   3003  C7   DT D  25      18.943 115.863  41.265  1.00 43.01           C  
+ATOM   3004  C6   DT D  25      20.224 115.214  43.300  1.00 50.97           C  
 ATOM   3005  P    DG D  26      21.577 116.205  49.151  1.00104.95           P  
 ATOM   3006  OP1  DG D  26      21.895 115.859  50.562  1.00 87.00           O  
 ATOM   3007  OP2  DG D  26      20.470 117.163  48.854  1.00 88.53           O  
@@ -3599,10 +3606,10 @@ ATOM   3118  C2   DT E   5      22.930 107.688  41.015  1.00 57.56           C
 ATOM   3119  O2   DT E   5      22.023 107.669  41.825  1.00 61.37           O  
 ATOM   3120  N3   DT E   5      22.723 108.029  39.696  1.00 43.98           N  
 ATOM   3121  C4   DT E   5      23.672 108.075  38.690  1.00 50.86           C  
-ATOM   3122  C5   DT E   5      25.019 107.739  39.097  1.00 47.14           C  
-ATOM   3123  C6   DT E   5      25.232 107.408  40.381  1.00 47.67           C  
-ATOM   3124  O4   DT E   5      23.343 108.384  37.543  1.00 52.76           O  
-ATOM   3125  C7   DT E   5      26.110 107.777  38.071  1.00 44.85           C  
+ATOM   3122  O4   DT E   5      23.343 108.384  37.543  1.00 52.76           O  
+ATOM   3123  C5   DT E   5      25.019 107.739  39.097  1.00 47.14           C  
+ATOM   3124  C7   DT E   5      26.110 107.777  38.071  1.00 44.85           C  
+ATOM   3125  C6   DT E   5      25.232 107.408  40.381  1.00 47.67           C  
 ATOM   3126  P    DC E   6      25.125 103.995  45.713  1.00 91.98           P  
 ATOM   3127  OP1  DC E   6      25.463 103.878  47.151  1.00 85.55           O  
 ATOM   3128  OP2  DC E   6      25.742 103.062  44.725  1.00 85.53           O  
@@ -3679,10 +3686,10 @@ ATOM   3198  C2   DT E   9      15.466  97.189  33.235  1.00 63.23           C
 ATOM   3199  O2   DT E   9      15.746  97.541  32.094  1.00 65.92           O  
 ATOM   3200  N3   DT E   9      16.420  96.696  34.101  1.00 51.98           N  
 ATOM   3201  C4   DT E   9      16.218  96.250  35.396  1.00 63.52           C  
-ATOM   3202  C5   DT E   9      14.850  96.312  35.867  1.00 63.35           C  
-ATOM   3203  C6   DT E   9      13.909  96.792  35.034  1.00 47.86           C  
-ATOM   3204  O4   DT E   9      17.166  95.841  36.064  1.00 57.40           O  
-ATOM   3205  C7   DT E   9      14.554  95.849  37.259  1.00 64.70           C  
+ATOM   3202  O4   DT E   9      17.166  95.841  36.064  1.00 57.40           O  
+ATOM   3203  C5   DT E   9      14.850  96.312  35.867  1.00 63.35           C  
+ATOM   3204  C7   DT E   9      14.554  95.849  37.259  1.00 64.70           C  
+ATOM   3205  C6   DT E   9      13.909  96.792  35.034  1.00 47.86           C  
 ATOM   3206  P    DT E  10       9.768  97.979  30.423  1.00 93.11           P  
 ATOM   3207  OP1  DT E  10       8.742  98.862  29.801  1.00 98.17           O  
 ATOM   3208  OP2  DT E  10       9.347  96.756  31.147  1.00 91.54           O  
@@ -3699,10 +3706,10 @@ ATOM   3218  C2   DT E  10      16.697  94.975  30.096  1.00 64.20           C
 ATOM   3219  O2   DT E  10      17.603  95.239  29.312  1.00 56.55           O  
 ATOM   3220  N3   DT E  10      16.926  94.317  31.287  1.00 39.75           N  
 ATOM   3221  C4   DT E  10      15.992  93.966  32.235  1.00 41.32           C  
-ATOM   3222  C5   DT E  10      14.621  94.300  31.915  1.00 43.48           C  
-ATOM   3223  C6   DT E  10      14.374  94.931  30.755  1.00 35.38           C  
-ATOM   3224  O4   DT E  10      16.347  93.421  33.263  1.00 42.67           O  
-ATOM   3225  C7   DT E  10      13.555  93.941  32.900  1.00 27.40           C  
+ATOM   3222  O4   DT E  10      16.347  93.421  33.263  1.00 42.67           O  
+ATOM   3223  C5   DT E  10      14.621  94.300  31.915  1.00 43.48           C  
+ATOM   3224  C7   DT E  10      13.555  93.941  32.900  1.00 27.40           C  
+ATOM   3225  C6   DT E  10      14.374  94.931  30.755  1.00 35.38           C  
 ATOM   3226  P    DA E  11      13.395  97.058  24.773  1.00 89.58           P  
 ATOM   3227  OP1  DA E  11      13.126  98.314  24.022  1.00 91.52           O  
 ATOM   3228  OP2  DA E  11      12.378  95.969  24.774  1.00 86.22           O  
@@ -3826,10 +3833,10 @@ ATOM   3345  C2   DT E  16      13.486  75.894  25.004  1.00 57.50           C
 ATOM   3346  O2   DT E  16      12.318  76.102  25.304  1.00 64.39           O  
 ATOM   3347  N3   DT E  16      14.000  76.244  23.777  1.00 43.32           N  
 ATOM   3348  C4   DT E  16      15.297  76.059  23.339  1.00 50.17           C  
-ATOM   3349  C5   DT E  16      16.192  75.421  24.293  1.00 44.81           C  
-ATOM   3350  C6   DT E  16      15.698  75.076  25.493  1.00 28.82           C  
-ATOM   3351  O4   DT E  16      15.619  76.428  22.209  1.00 62.26           O  
-ATOM   3352  C7   DT E  16      17.617  75.179  23.898  1.00 39.60           C  
+ATOM   3349  O4   DT E  16      15.619  76.428  22.209  1.00 62.26           O  
+ATOM   3350  C5   DT E  16      16.192  75.421  24.293  1.00 44.81           C  
+ATOM   3351  C7   DT E  16      17.617  75.179  23.898  1.00 39.60           C  
+ATOM   3352  C6   DT E  16      15.698  75.076  25.493  1.00 28.82           C  
 ATOM   3353  P    DT E  17      12.437  72.254  30.098  1.00 86.72           P  
 ATOM   3354  OP1  DT E  17      11.969  72.218  31.508  1.00 89.90           O  
 ATOM   3355  OP2  DT E  17      13.247  71.124  29.560  1.00 82.65           O  
@@ -3846,10 +3853,10 @@ ATOM   3365  C2   DT E  17      11.420  73.430  22.873  1.00 66.25           C
 ATOM   3366  O2   DT E  17      10.371  73.930  22.490  1.00 70.86           O  
 ATOM   3367  N3   DT E  17      12.585  73.510  22.140  1.00 54.16           N  
 ATOM   3368  C4   DT E  17      13.816  72.981  22.475  1.00 58.97           C  
-ATOM   3369  C5   DT E  17      13.862  72.285  23.743  1.00 52.59           C  
-ATOM   3370  C6   DT E  17      12.740  72.208  24.465  1.00 50.12           C  
-ATOM   3371  O4   DT E  17      14.771  73.117  21.712  1.00 62.97           O  
-ATOM   3372  C7   DT E  17      15.153  71.678  24.189  1.00 53.34           C  
+ATOM   3369  O4   DT E  17      14.771  73.117  21.712  1.00 62.97           O  
+ATOM   3370  C5   DT E  17      13.862  72.285  23.743  1.00 52.59           C  
+ATOM   3371  C7   DT E  17      15.153  71.678  24.189  1.00 53.34           C  
+ATOM   3372  C6   DT E  17      12.740  72.208  24.465  1.00 50.12           C  
 ATOM   3373  P    DG E  18       7.495  70.029  26.642  1.00113.99           P  
 ATOM   3374  OP1  DG E  18       6.527  69.875  27.761  1.00 94.92           O  
 ATOM   3375  OP2  DG E  18       8.569  69.011  26.460  1.00 99.98           O  
@@ -4028,10 +4035,10 @@ ATOM   3547  C2   DT E  26      10.569  45.873  18.845  1.00 46.92           C
 ATOM   3548  O2   DT E  26       9.477  46.080  19.370  1.00 52.31           O  
 ATOM   3549  N3   DT E  26      10.712  45.710  17.481  1.00 18.55           N  
 ATOM   3550  C4   DT E  26      11.887  45.486  16.787  1.00 38.59           C  
-ATOM   3551  C5   DT E  26      13.082  45.406  17.606  1.00 39.29           C  
-ATOM   3552  C6   DT E  26      12.956  45.565  18.938  1.00 27.46           C  
-ATOM   3553  O4   DT E  26      11.870  45.376  15.551  1.00 30.78           O  
-ATOM   3554  C7   DT E  26      14.395  45.150  16.930  1.00 31.09           C  
+ATOM   3551  O4   DT E  26      11.870  45.376  15.551  1.00 30.78           O  
+ATOM   3552  C5   DT E  26      13.082  45.406  17.606  1.00 39.29           C  
+ATOM   3553  C7   DT E  26      14.395  45.150  16.930  1.00 31.09           C  
+ATOM   3554  C6   DT E  26      12.956  45.565  18.938  1.00 27.46           C  
 TER    3555       DT E  26                                                      
 HETATM 3556  N   NH4 C1191      34.582 109.156  24.340  1.00 49.70           N  
 HETATM 3557  O   HOH A2001      15.135  41.647  48.438  1.00 66.68           O  

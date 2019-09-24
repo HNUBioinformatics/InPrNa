@@ -1,6 +1,6 @@
 HEADER    HYDROLASE/DNA                           14-SEP-07   2VBJ              
-TITLE     MOLECULAR BASIS OF HUMAN XPC GENE RECOGNITION AND CLEAVAGE            
-TITLE    2 BY ENGINEERED HOMING ENDONUCLEASE HETERODIMERS                       
+TITLE     MOLECULAR BASIS OF HUMAN XPC GENE RECOGNITION AND CLEAVAGE BY         
+TITLE    2 ENGINEERED HOMING ENDONUCLEASE HETERODIMERS                          
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA ENDONUCLEASE I-CREI;                                   
 COMPND   3 CHAIN: A;                                                            
@@ -17,12 +17,14 @@ COMPND  13 EC: 3.1.-.-;
 COMPND  14 ENGINEERED: YES;                                                     
 COMPND  15 MOL_ID: 3;                                                           
 COMPND  16 MOLECULE: 5'-D(*TP*CP*TP*GP*CP*CP*TP*TP*TP*TP                        
-COMPND  17  *TP*TP*GP*AP*AP*GP*GP*AP*TP*CP*CP*TP*AP*A)-3';                      
+COMPND  17 *TP*TP*GP*AP*AP*GP*GP*AP*TP*CP*CP*TP*AP*A)-3';                       
 COMPND  18 CHAIN: C;                                                            
-COMPND  19 MOL_ID: 4;                                                           
-COMPND  20 MOLECULE: 5'-D(*TP*TP*AP*GP*GP*AP*TP*CP*CP*TP                        
-COMPND  21  *TP*CP*AP*AP*AP*AP*AP*AP*GP*GP*CP*AP*GP*A)-3';                      
-COMPND  22 CHAIN: E                                                             
+COMPND  19 ENGINEERED: YES;                                                     
+COMPND  20 MOL_ID: 4;                                                           
+COMPND  21 MOLECULE: 5'-D(*TP*TP*AP*GP*GP*AP*TP*CP*CP*TP                        
+COMPND  22 *TP*CP*AP*AP*AP*AP*AP*AP*GP*GP*CP*AP*GP*A)-3';                       
+COMPND  23 CHAIN: E;                                                            
+COMPND  24 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: CHLAMYDOMONAS REINHARDTII;                      
 SOURCE   3 ORGANISM_TAXID: 3055;                                                
@@ -43,25 +45,29 @@ SOURCE  17 EXPRESSION_SYSTEM_PLASMID: CDFDUET-1;
 SOURCE  18 OTHER_DETAILS: AMEL4 STREP-TAG C-TERM AMEL3 HIS-TAG C-TERM;          
 SOURCE  19 MOL_ID: 3;                                                           
 SOURCE  20 SYNTHETIC: YES;                                                      
-SOURCE  21 MOL_ID: 4;                                                           
-SOURCE  22 SYNTHETIC: YES                                                       
-KEYWDS    DOUBLE STRAND BREAK (DSB), CUTTING DNA ENDONUCLEASES,                 
-KEYWDS   2 AMEL3-4-CALCIUM, UV-INDUCED DNA DAMAGE, HOMING                       
-KEYWDS   3 ENDONUCLEASES (HES), HYDROLASE-DNA COMPLEX                           
+SOURCE  21 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  22 ORGANISM_TAXID: 32630;                                               
+SOURCE  23 MOL_ID: 4;                                                           
+SOURCE  24 SYNTHETIC: YES;                                                      
+SOURCE  25 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  26 ORGANISM_TAXID: 32630                                                
+KEYWDS    DOUBLE STRAND BREAK (DSB), CUTTING DNA ENDONUCLEASES, AMEL3-4-        
+KEYWDS   2 CALCIUM, UV-INDUCED DNA DAMAGE, HOMING ENDONUCLEASES (HES),          
+KEYWDS   3 HYDROLASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    P.REDONDO,J.PRIETO,I.G.MUNOZ,A.ALIBES,F.STRICHER,L.SERRANO,           
-AUTHOR   2 S.ARNOULD,C.PEREZ,J.P.CABANIOLS,P.DUCHATEAU,F.PAQUES,                
-AUTHOR   3 F.J.BLANCO,G.MONTOYA                                                 
+AUTHOR    P.REDONDO,J.PRIETO,I.G.MUNOZ,A.ALIBES,F.STRICHER,L.SERRANO,S.ARNOULD, 
+AUTHOR   2 C.PEREZ,J.P.CABANIOLS,P.DUCHATEAU,F.PAQUES,F.J.BLANCO,G.MONTOYA      
+REVDAT   5   29-MAY-19 2VBJ    1       SOURCE REMARK                            
 REVDAT   4   20-JUN-12 2VBJ    1       HEADER KEYWDS JRNL   REMARK              
-REVDAT   4 2                           VERSN  FORMUL                            
+REVDAT   4 2                   1       VERSN  FORMUL                            
 REVDAT   3   24-FEB-09 2VBJ    1       VERSN                                    
 REVDAT   2   11-NOV-08 2VBJ    1       JRNL                                     
 REVDAT   1   28-OCT-08 2VBJ    0                                                
-JRNL        AUTH   P.REDONDO,J.PRIETO,I.G.MUNOZ,A.ALIBES,F.STRICHER,            
-JRNL        AUTH 2 L.SERRANO,J.P.CABANIOLS,F.DABOUSSI,S.ARNOULD,                
-JRNL        AUTH 3 C.PEREZ,P.DUCHATEAU,F.PAQUES,F.J.BLANCO,G.MONTOYA            
-JRNL        TITL   MOLECULAR BASIS OF XERODERMA PIGMENTOSUM GROUP C             
-JRNL        TITL 2 DNA RECOGNITION BY ENGINEERED MEGANUCLEASES                  
+JRNL        AUTH   P.REDONDO,J.PRIETO,I.G.MUNOZ,A.ALIBES,F.STRICHER,L.SERRANO,  
+JRNL        AUTH 2 J.P.CABANIOLS,F.DABOUSSI,S.ARNOULD,C.PEREZ,P.DUCHATEAU,      
+JRNL        AUTH 3 F.PAQUES,F.J.BLANCO,G.MONTOYA                                
+JRNL        TITL   MOLECULAR BASIS OF XERODERMA PIGMENTOSUM GROUP C DNA         
+JRNL        TITL 2 RECOGNITION BY ENGINEERED MEGANUCLEASES                      
 JRNL        REF    NATURE                        V. 456   107 2008              
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   18987743                                                     
@@ -71,7 +77,8 @@ REMARK   2 RESOLUTION.    1.95 ANGSTROMS.
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -159,8 +166,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1565 ; 3.994 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2466 ; 5.244 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2638 ; 7.198 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2599 ; 8.695 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -185,7 +197,7 @@ REMARK   4
 REMARK   4 2VBJ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 14-SEP-07.                  
-REMARK 100 THE PDBE ID CODE IS EBI-33736.                                       
+REMARK 100 THE DEPOSITION ID IS D_1290033736.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -204,28 +216,28 @@ REMARK 200  MONOCHROMATOR                  : NULL
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
-REMARK 200  DETECTOR MANUFACTURER          : ADSC                               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL2000                            
+REMARK 200  DETECTOR MANUFACTURER          : ADSC CCD                           
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
 REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 35740                              
-REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.95                               
-REMARK 200  RESOLUTION RANGE LOW       (A) : 32.88                              
-REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.0                                
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 1.950                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 32.880                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.000                              
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 96.7                               
-REMARK 200  DATA REDUNDANCY                : 4.1                                
-REMARK 200  R MERGE                    (I) : 0.05                               
+REMARK 200  DATA REDUNDANCY                : 4.100                              
+REMARK 200  R MERGE                    (I) : 0.05000                            
 REMARK 200  R SYM                      (I) : NULL                               
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : NULL                               
 REMARK 200                                                                      
 REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 1.95                     
-REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.001                    
+REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 2.00                     
 REMARK 200  COMPLETENESS FOR SHELL     (%) : 96.7                               
-REMARK 200  DATA REDUNDANCY IN SHELL       : 4.1                                
-REMARK 200  R MERGE FOR SHELL          (I) : 0.05                               
+REMARK 200  DATA REDUNDANCY IN SHELL       : 4.10                               
+REMARK 200  R MERGE FOR SHELL          (I) : 0.05000                            
 REMARK 200  R SYM FOR SHELL            (I) : NULL                               
 REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL                               
 REMARK 200                                                                      
@@ -237,12 +249,12 @@ REMARK 200
 REMARK 200 REMARK: NONE                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS  (%): 59.13                                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 59.13                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.56                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: HANGING-DROP DNA-PROTEIN                 
-REMARK 280  COMPLEX SOLUTION WAS 4 MG/ML. 35% 2-ETHOXYETHANOL IN 0.1M           
-REMARK 280  NA-CACODYLATE PH6.5                                                 
+REMARK 280 CRYSTALLIZATION CONDITIONS: HANGING-DROP DNA-PROTEIN COMPLEX         
+REMARK 280  SOLUTION WAS 4 MG/ML. 35% 2-ETHOXYETHANOL IN 0.1M NA-CACODYLATE     
+REMARK 280  PH6.5, VAPOR DIFFUSION, HANGING DROP                                
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -308,12 +320,12 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   NH1  ARG A    68     OP2   DT E     7              2.05            
-REMARK 500   O    LEU A   152     O    HOH A  1089              2.13            
-REMARK 500   OG1  THR B   143     O    HOH B  1107              2.08            
 REMARK 500   O    HOH B  1008     O    HOH B  1070              1.03            
 REMARK 500   O    HOH C  1049     O    HOH C  1053              1.95            
-REMARK 500   O    HOH E  1039     O    HOH C  1045              2.01            
+REMARK 500   O    HOH C  1045     O    HOH E  1039              2.01            
+REMARK 500   NH1  ARG A    68     OP2   DT E     7              2.05            
+REMARK 500   OG1  THR B   143     O    HOH B  1107              2.08            
+REMARK 500   O    LEU A   152     O    HOH A  1089              2.13            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -355,40 +367,40 @@ REMARK 500    ARG A 141   NE  -  CZ  -  NH2 ANGL. DEV. =  -3.3 DEGREES
 REMARK 500    ARG B  38   NE  -  CZ  -  NH2 ANGL. DEV. =  -3.5 DEGREES          
 REMARK 500     DT C   3   N1  -  C2  -  N3  ANGL. DEV. =   3.9 DEGREES          
 REMARK 500     DT C   3   N3  -  C2  -  O2  ANGL. DEV. =  -5.0 DEGREES          
-REMARK 500     DC C   5   C3' -  O3' -  P   ANGL. DEV. =   8.1 DEGREES          
+REMARK 500     DG C   4   C3' -  O3' -  P   ANGL. DEV. =   8.1 DEGREES          
 REMARK 500     DC C   6   C5  -  C4  -  N4  ANGL. DEV. =   5.3 DEGREES          
-REMARK 500     DT C   8   C5  -  C4  -  O4  ANGL. DEV. =   5.3 DEGREES          
-REMARK 500     DT C   8   C6  -  C5  -  C7  ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DT C   8   N1  -  C2  -  N3  ANGL. DEV. =   4.2 DEGREES          
 REMARK 500     DT C   8   N3  -  C4  -  O4  ANGL. DEV. =  -4.9 DEGREES          
+REMARK 500     DT C   8   C5  -  C4  -  O4  ANGL. DEV. =   5.3 DEGREES          
+REMARK 500     DT C   8   C6  -  C5  -  C7  ANGL. DEV. =  -5.6 DEGREES          
+REMARK 500     DT C   9   O5' -  C5' -  C4' ANGL. DEV. =  -6.7 DEGREES          
+REMARK 500     DT C   9   O4' -  C1' -  N1  ANGL. DEV. =  -4.7 DEGREES          
 REMARK 500     DT C   9   C4  -  C5  -  C7  ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DT C   9   C6  -  C5  -  C7  ANGL. DEV. =  -4.1 DEGREES          
-REMARK 500     DT C   9   O4' -  C1' -  N1  ANGL. DEV. =  -4.7 DEGREES          
-REMARK 500     DT C   9   O5' -  C5' -  C4' ANGL. DEV. =  -6.7 DEGREES          
 REMARK 500     DT C  10   O4' -  C1' -  N1  ANGL. DEV. =  -8.4 DEGREES          
-REMARK 500     DT C  12   C2  -  N3  -  C4  ANGL. DEV. =  -3.9 DEGREES          
-REMARK 500     DT C  12   N1  -  C1' -  C2' ANGL. DEV. =  10.4 DEGREES          
 REMARK 500     DT C  12   O5' -  P   -  OP2 ANGL. DEV. =  -6.2 DEGREES          
+REMARK 500     DT C  12   N1  -  C1' -  C2' ANGL. DEV. =  10.4 DEGREES          
+REMARK 500     DT C  12   C2  -  N3  -  C4  ANGL. DEV. =  -3.9 DEGREES          
+REMARK 500     DG C  13   O4' -  C1' -  C2' ANGL. DEV. =  -6.7 DEGREES          
+REMARK 500     DG C  13   O4' -  C1' -  N9  ANGL. DEV. =  -7.0 DEGREES          
 REMARK 500     DG C  13   C4  -  C5  -  N7  ANGL. DEV. =  -2.7 DEGREES          
 REMARK 500     DG C  13   C6  -  C5  -  N7  ANGL. DEV. =   3.8 DEGREES          
 REMARK 500     DG C  13   N1  -  C6  -  O6  ANGL. DEV. =  -5.7 DEGREES          
-REMARK 500     DG C  13   O4' -  C1' -  C2' ANGL. DEV. =  -6.7 DEGREES          
-REMARK 500     DG C  13   O4' -  C1' -  N9  ANGL. DEV. =  -7.0 DEGREES          
 REMARK 500     DA C  14   N1  -  C2  -  N3  ANGL. DEV. =  -3.4 DEGREES          
 REMARK 500     DA C  15   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
+REMARK 500     DG C  16   O4' -  C1' -  N9  ANGL. DEV. =   5.7 DEGREES          
 REMARK 500     DG C  16   C4  -  C5  -  N7  ANGL. DEV. =  -2.4 DEGREES          
 REMARK 500     DG C  16   N3  -  C2  -  N2  ANGL. DEV. =  -5.1 DEGREES          
-REMARK 500     DG C  16   O4' -  C1' -  N9  ANGL. DEV. =   5.7 DEGREES          
 REMARK 500     DG C  17   O4' -  C4' -  C3' ANGL. DEV. =  -3.0 DEGREES          
 REMARK 500     DC C  21   O4' -  C1' -  N1  ANGL. DEV. =  -4.6 DEGREES          
 REMARK 500     DT C  22   O4' -  C1' -  N1  ANGL. DEV. =   2.8 DEGREES          
+REMARK 500     DT C  22   C3' -  O3' -  P   ANGL. DEV. =   7.2 DEGREES          
 REMARK 500     DA C  23   O4' -  C1' -  N9  ANGL. DEV. =   3.9 DEGREES          
-REMARK 500     DA C  23   C3' -  O3' -  P   ANGL. DEV. =   7.2 DEGREES          
 REMARK 500     DT E   1   O4' -  C1' -  N1  ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DT E   2   C4  -  C5  -  C7  ANGL. DEV. =   4.4 DEGREES          
 REMARK 500     DT E   2   C6  -  C5  -  C7  ANGL. DEV. =  -4.4 DEGREES          
+REMARK 500     DA E   3   C3' -  O3' -  P   ANGL. DEV. =   8.1 DEGREES          
 REMARK 500     DG E   4   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
-REMARK 500     DG E   4   C3' -  O3' -  P   ANGL. DEV. =   8.1 DEGREES          
 REMARK 500     DG E   5   O4' -  C1' -  C2' ANGL. DEV. =  -5.3 DEGREES          
 REMARK 500     DT E   7   C5  -  C4  -  O4  ANGL. DEV. =  -4.7 DEGREES          
 REMARK 500     DT E  10   O4' -  C1' -  N1  ANGL. DEV. =  -5.5 DEGREES          
@@ -396,9 +408,9 @@ REMARK 500     DT E  11   OP1 -  P   -  OP2 ANGL. DEV. =  11.2 DEGREES
 REMARK 500     DC E  12   N1  -  C1' -  C2' ANGL. DEV. =   8.8 DEGREES          
 REMARK 500     DC E  12   N3  -  C4  -  C5  ANGL. DEV. =   3.0 DEGREES          
 REMARK 500     DC E  12   N3  -  C4  -  N4  ANGL. DEV. =  -6.1 DEGREES          
+REMARK 500     DA E  13   O5' -  C5' -  C4' ANGL. DEV. =  -5.5 DEGREES          
+REMARK 500     DA E  13   O4' -  C4' -  C3' ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500     DA E  13   C1' -  O4' -  C4' ANGL. DEV. =   4.4 DEGREES          
-REMARK 500     DA E  13   C2  -  N3  -  C4  ANGL. DEV. =   4.0 DEGREES          
-REMARK 500     DA E  13   N1  -  C2  -  N3  ANGL. DEV. =  -4.1 DEGREES          
 REMARK 500     DA E  13   O4' -  C1' -  C2' ANGL. DEV. =  -5.1 DEGREES          
 REMARK 500     DA E  13   O4' -  C1' -  N9  ANGL. DEV. =  -8.8 DEGREES          
 REMARK 500                                                                      
@@ -443,34 +455,32 @@ REMARK 500                                 MODEL     OMEGA
 REMARK 500 ARG A  149     ALA A  150                  144.20                    
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 FOR AMINO ACIDS AND C1'--O4'--N1(N9)--C2' FOR                        
-REMARK 500 NUCLEIC ACIDS OR EQUIVALENT ANGLE                                    
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500     DT C  12       -25.0      D          D   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
+REMARK 525                                                                      
+REMARK 525 SOLVENT                                                              
+REMARK 525                                                                      
+REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
+REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
+REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
+REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
+REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
+REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
+REMARK 525 NUMBER; I=INSERTION CODE):                                           
+REMARK 525                                                                      
+REMARK 525  M RES CSSEQI                                                        
+REMARK 525    HOH B1031        DISTANCE =  6.75 ANGSTROMS                       
+REMARK 525    HOH C1005        DISTANCE =  6.25 ANGSTROMS                       
+REMARK 525    HOH C1011        DISTANCE =  6.39 ANGSTROMS                       
+REMARK 525    HOH E1005        DISTANCE =  6.25 ANGSTROMS                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620   SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                           
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A1154  CA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
 REMARK 620 1  DA C  14   OP1                                                    
-REMARK 620 2  DA E  15   OP1  99.5                                              
+REMARK 620 2  DA E  15   OP2  99.5                                              
 REMARK 620 3 HOH E1035   O    86.7  78.9                                        
 REMARK 620 4 ASP A  20   OD1  93.8  76.1 154.7                                  
 REMARK 620 5 ASP A  20   OD2  84.4 125.6 154.9  49.6                            
@@ -481,67 +491,60 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A1155  CA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1  DA C  15   OP2                                                    
-REMARK 620 2 GLY A  19   O    84.6                                              
-REMARK 620 3 ASP B  20   OD1  77.4  86.9                                        
-REMARK 620 4 HOH C1051   O    77.5  95.6 154.4                                  
-REMARK 620 5 ASP B  20   OD2 126.2  93.8  48.9 155.2                            
-REMARK 620 6  DA E  14   OP1  98.2 177.1  93.1  85.6  84.1                      
-REMARK 620 7 HOH A1013   O   154.5  88.7 126.9  78.7  78.7  88.9                
+REMARK 620 1 GLY A  19   O                                                      
+REMARK 620 2 ASP B  20   OD1  86.9                                              
+REMARK 620 3 HOH C1051   O    95.6 154.4                                        
+REMARK 620 4 ASP B  20   OD2  93.8  48.9 155.2                                  
+REMARK 620 5  DA E  14   OP1 177.1  93.1  85.6  84.1                            
+REMARK 620 6 HOH A1013   O    88.7 126.9  78.7  78.7  88.9                      
+REMARK 620 7  DA C  15   OP2  84.6  77.4  77.5 126.2  98.2 154.5                
 REMARK 620 N                    1     2     3     4     5     6                 
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA A1154                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A 1154                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA A1155                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A 1155                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1G9Z   RELATED DB: PDB                                   
-REMARK 900  LAGLIDADG HOMING ENDONUCLEASE I-CREI / DNA                          
-REMARK 900  PRODUCT COMPLEXWITH MAGNESIUM                                       
+REMARK 900 LAGLIDADG HOMING ENDONUCLEASE I-CREI / DNA PRODUCT COMPLEXWITH       
+REMARK 900 MAGNESIUM                                                            
 REMARK 900 RELATED ID: 1BP7   RELATED DB: PDB                                   
-REMARK 900  GROUP I MOBILE INTRON ENDONUCLEASE I-CREI                           
-REMARK 900  COMPLEXED WITH HOMING SITE DEOXYRIBONUCLEIC                         
-REMARK 900  ACID                                                                
+REMARK 900 GROUP I MOBILE INTRON ENDONUCLEASE I-CREI COMPLEXED WITH HOMING      
+REMARK 900 SITE DEOXYRIBONUCLEIC ACID                                           
 REMARK 900 RELATED ID: 2VBL   RELATED DB: PDB                                   
-REMARK 900  MOLECULAR BASIS OF HUMAN XPC GENE                                   
-REMARK 900  RECOGNITION AND CLEAVAGE BY ENGINEERED HOMING                       
-REMARK 900   ENDONUCLEASE HETERODIMERS                                          
+REMARK 900 MOLECULAR BASIS OF HUMAN XPC GENE RECOGNITION AND CLEAVAGE BY        
+REMARK 900 ENGINEERED HOMING ENDONUCLEASE HETERODIMERS                          
 REMARK 900 RELATED ID: 1AF5   RELATED DB: PDB                                   
-REMARK 900  GROUP I MOBILE INTRON ENDONUCLEASE                                  
+REMARK 900 GROUP I MOBILE INTRON ENDONUCLEASE                                   
 REMARK 900 RELATED ID: 2VBO   RELATED DB: PDB                                   
-REMARK 900  MOLECULAR BASIS OF HUMAN XPC GENE                                   
-REMARK 900  RECOGNITION AND CLEAVAGE BY ENGINEERED HOMING                       
-REMARK 900   ENDONUCLEASE HETERODIMERS                                          
+REMARK 900 MOLECULAR BASIS OF HUMAN XPC GENE RECOGNITION AND CLEAVAGE BY        
+REMARK 900 ENGINEERED HOMING ENDONUCLEASE HETERODIMERS                          
 REMARK 900 RELATED ID: 1MOW   RELATED DB: PDB                                   
-REMARK 900  E-DREI                                                              
+REMARK 900 E-DREI                                                               
 REMARK 900 RELATED ID: 1G9Y   RELATED DB: PDB                                   
-REMARK 900  HOMING ENDONUCLEASE I-CREI / DNA SUBSTRATE                          
-REMARK 900  COMPLEX WITHCALCIUM                                                 
+REMARK 900 HOMING ENDONUCLEASE I-CREI / DNA SUBSTRATE COMPLEX WITHCALCIUM       
 REMARK 900 RELATED ID: 2VBN   RELATED DB: PDB                                   
-REMARK 900  MOLECULAR BASIS OF HUMAN XPC GENE                                   
-REMARK 900  RECOGNITION AND CLEAVAGE BY ENGINEERED HOMING                       
-REMARK 900   ENDONUCLEASE HETERODIMERS                                          
+REMARK 900 MOLECULAR BASIS OF HUMAN XPC GENE RECOGNITION AND CLEAVAGE BY        
+REMARK 900 ENGINEERED HOMING ENDONUCLEASE HETERODIMERS                          
 REMARK 900 RELATED ID: 1N3F   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF I-CREI BOUND TO A                              
-REMARK 900  PALINDROMIC DNASEQUENCE II (PALINDROME OF                           
-REMARK 900  RIGHT SIDE OF WILDTYPE DNATARGET SEQUENCE)                          
+REMARK 900 CRYSTAL STRUCTURE OF I-CREI BOUND TO A PALINDROMIC DNASEQUENCE II    
+REMARK 900 (PALINDROME OF RIGHT SIDE OF WILDTYPE DNATARGET SEQUENCE)            
 REMARK 900 RELATED ID: 1T9I   RELATED DB: PDB                                   
-REMARK 900  I-CREI(D20N)/DNA COMPLEX                                            
+REMARK 900 I-CREI(D20N)/DNA COMPLEX                                             
 REMARK 900 RELATED ID: 1U0D   RELATED DB: PDB                                   
-REMARK 900  Y33H MUTATANT OF HOMING ENDONUCLEASE I-CREI                         
+REMARK 900 Y33H MUTATANT OF HOMING ENDONUCLEASE I-CREI                          
 REMARK 900 RELATED ID: 1T9J   RELATED DB: PDB                                   
-REMARK 900  I-CREI(Q47E)/DNA COMPLEX                                            
+REMARK 900 I-CREI(Q47E)/DNA COMPLEX                                             
 REMARK 900 RELATED ID: 1N3E   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF I-CREI BOUND TO A                              
-REMARK 900  PALINDROMIC DNASEQUENCE I (PALINDROME OF LEFT                       
-REMARK 900   SIDE OF WILDTYPE DNA TARGETSEQUENCE)                               
+REMARK 900 CRYSTAL STRUCTURE OF I-CREI BOUND TO A PALINDROMIC DNASEQUENCE I     
+REMARK 900 (PALINDROME OF LEFT SIDE OF WILDTYPE DNA TARGETSEQUENCE)             
 REMARK 900 RELATED ID: 1U0C   RELATED DB: PDB                                   
-REMARK 900  Y33C MUTATANT OF HOMING ENDONUCLEASE I-CREI                         
+REMARK 900 Y33C MUTATANT OF HOMING ENDONUCLEASE I-CREI                          
 DBREF  2VBJ A    2   153  UNP    P05725   DNE1_CHLRE       2    153             
 DBREF  2VBJ B    2   153  UNP    P05725   DNE1_CHLRE       2    153             
 DBREF  2VBJ C    1    24  PDB    2VBJ     2VBJ             1     24             
@@ -599,7 +602,7 @@ HET     CA  A1154       1
 HET     CA  A1155       1                                                       
 HETNAM      CA CALCIUM ION                                                      
 FORMUL   5   CA    2(CA 2+)                                                     
-FORMUL   6  HOH   *330(H2 O)                                                    
+FORMUL   7  HOH   *330(H2 O)                                                    
 HELIX    1   1 ASN A    6  ASP A   20  1                                  15    
 HELIX    2   2 ARG A   51  GLY A   63  1                                  13    
 HELIX    3   3 GLU A   80  GLN A   92  1                                  13    
@@ -623,7 +626,7 @@ SHEET    2  BA 4 HIS B  37  LYS B  48 -1  O  ARG B  38   N  GLU B  28
 SHEET    3  BA 4 VAL B  73  LEU B  78 -1  O  SER B  74   N  GLN B  47           
 SHEET    4  BA 4 TYR B  66  SER B  70 -1  O  TYR B  66   N  ILE B  77           
 LINK        CA    CA A1154                 OP1  DA C  14     1555   1555  2.25  
-LINK        CA    CA A1154                 OP1  DA E  15     1555   1555  2.36  
+LINK        CA    CA A1154                 OP2  DA E  15     1555   1555  2.36  
 LINK        CA    CA A1154                 O   HOH E1035     1555   1555  2.47  
 LINK        CA    CA A1154                 OD1 ASP A  20     1555   1555  2.75  
 LINK        CA    CA A1154                 OD2 ASP A  20     1555   1555  2.49  
@@ -5587,14 +5590,14 @@ ATOM   2470  N3   DT C   1      10.174  25.122  49.713  1.00 37.24           N
 ANISOU 2470  N3   DT C   1     4840   4792   4517   -420   -641   -484       N  
 ATOM   2471  C4   DT C   1       8.836  25.164  50.103  1.00 40.94           C  
 ANISOU 2471  C4   DT C   1     5425   4468   5663   -140    144   -121       C  
-ATOM   2472  C5   DT C   1       8.056  26.218  49.501  1.00 43.23           C  
-ANISOU 2472  C5   DT C   1     5209   5592   5621     36    271    -47       C  
-ATOM   2473  C6   DT C   1       8.656  27.071  48.658  1.00 44.76           C  
-ANISOU 2473  C6   DT C   1     5856   5508   5643    301    225   -262       C  
-ATOM   2474  O4   DT C   1       8.341  24.374  50.911  1.00 41.59           O  
-ANISOU 2474  O4   DT C   1     5557   5034   5210   -478    200   -764       O  
-ATOM   2475  C7   DT C   1       6.607  26.335  49.849  1.00 44.35           C  
-ANISOU 2475  C7   DT C   1     5377   5546   5927    188     53     84       C  
+ATOM   2472  O4   DT C   1       8.341  24.374  50.911  1.00 41.59           O  
+ANISOU 2472  O4   DT C   1     5557   5034   5210   -478    200   -764       O  
+ATOM   2473  C5   DT C   1       8.056  26.218  49.501  1.00 43.23           C  
+ANISOU 2473  C5   DT C   1     5209   5592   5621     36    271    -47       C  
+ATOM   2474  C7   DT C   1       6.607  26.335  49.849  1.00 44.35           C  
+ANISOU 2474  C7   DT C   1     5377   5546   5927    188     53     84       C  
+ATOM   2475  C6   DT C   1       8.656  27.071  48.658  1.00 44.76           C  
+ANISOU 2475  C6   DT C   1     5856   5508   5643    301    225   -262       C  
 ATOM   2476  P    DC C   2      12.097  29.229  43.512  1.00 42.16           P  
 ANISOU 2476  P    DC C   2     5190   5566   5262   -138   -616    198       P  
 ATOM   2477  OP1  DC C   2      13.156  30.150  43.086  1.00 49.19           O  
@@ -5665,14 +5668,14 @@ ATOM   2509  N3   DT C   3      11.382  19.537  45.421  1.00 38.51           N
 ANISOU 2509  N3   DT C   3     5812   3431   5388      1   -700  -1390       N  
 ATOM   2510  C4   DT C   3      10.684  20.388  44.611  1.00 43.15           C  
 ANISOU 2510  C4   DT C   3     6183   5318   4892   -204    -83  -1236       C  
-ATOM   2511  C5   DT C   3      11.451  21.111  43.597  1.00 44.45           C  
-ANISOU 2511  C5   DT C   3     5992   5129   5765   -407   -439   -498       C  
-ATOM   2512  C6   DT C   3      12.789  20.899  43.500  1.00 34.05           C  
-ANISOU 2512  C6   DT C   3     4980   3198   4759   -273   -346  -1192       C  
-ATOM   2513  O4   DT C   3       9.462  20.487  44.733  1.00 46.70           O  
-ANISOU 2513  O4   DT C   3     5636   5898   6208   -534     -4  -1095       O  
-ATOM   2514  C7   DT C   3      10.642  22.024  42.690  1.00 45.43           C  
-ANISOU 2514  C7   DT C   3     6471   5809   4980     37   -160   -227       C  
+ATOM   2511  O4   DT C   3       9.462  20.487  44.733  1.00 46.70           O  
+ANISOU 2511  O4   DT C   3     5636   5898   6208   -534     -4  -1095       O  
+ATOM   2512  C5   DT C   3      11.451  21.111  43.597  1.00 44.45           C  
+ANISOU 2512  C5   DT C   3     5992   5129   5765   -407   -439   -498       C  
+ATOM   2513  C7   DT C   3      10.642  22.024  42.690  1.00 45.43           C  
+ANISOU 2513  C7   DT C   3     6471   5809   4980     37   -160   -227       C  
+ATOM   2514  C6   DT C   3      12.789  20.899  43.500  1.00 34.05           C  
+ANISOU 2514  C6   DT C   3     4980   3198   4759   -273   -346  -1192       C  
 ATOM   2515  P    DG C   4      18.806  18.194  42.480  1.00 62.98           P  
 ANISOU 2515  P    DG C   4     8459   6607   8863    408   -284     52       P  
 ATOM   2516  OP1  DG C   4      20.261  18.213  42.779  1.00 58.76           O  
@@ -5825,14 +5828,14 @@ ATOM   2589  N3   DT C   7       6.223   8.555  38.671  1.00 34.03           N
 ANISOU 2589  N3   DT C   7     3567   4378   4981   -441   -294   -868       N  
 ATOM   2590  C4   DT C   7       7.537   8.153  38.748  1.00 35.61           C  
 ANISOU 2590  C4   DT C   7     4226   4998   4306     87    177   -409       C  
-ATOM   2591  C5   DT C   7       7.833   7.114  39.702  1.00 36.94           C  
-ANISOU 2591  C5   DT C   7     4297   4862   4876    -63    -53   -358       C  
-ATOM   2592  C6   DT C   7       6.840   6.635  40.473  1.00 36.64           C  
-ANISOU 2592  C6   DT C   7     4513   4347   5060   -345   -123   -551       C  
-ATOM   2593  O4   DT C   7       8.370   8.670  38.028  1.00 34.15           O  
-ANISOU 2593  O4   DT C   7     3479   4510   4986      0    -87   -619       O  
-ATOM   2594  C7   DT C   7       9.242   6.629  39.854  1.00 38.21           C  
-ANISOU 2594  C7   DT C   7     4492   4800   5226    287    -91   -528       C  
+ATOM   2591  O4   DT C   7       8.370   8.670  38.028  1.00 34.15           O  
+ANISOU 2591  O4   DT C   7     3479   4510   4986      0    -87   -619       O  
+ATOM   2592  C5   DT C   7       7.833   7.114  39.702  1.00 36.94           C  
+ANISOU 2592  C5   DT C   7     4297   4862   4876    -63    -53   -358       C  
+ATOM   2593  C7   DT C   7       9.242   6.629  39.854  1.00 38.21           C  
+ANISOU 2593  C7   DT C   7     4492   4800   5226    287    -91   -528       C  
+ATOM   2594  C6   DT C   7       6.840   6.635  40.473  1.00 36.64           C  
+ANISOU 2594  C6   DT C   7     4513   4347   5060   -345   -123   -551       C  
 ATOM   2595  P    DT C   8       1.547   3.391  41.901  1.00 52.91           P  
 ANISOU 2595  P    DT C   8     5747   7697   6657  -1174   -650     59       P  
 ATOM   2596  OP1  DT C   8       0.257   3.366  42.631  1.00 60.79           O  
@@ -5865,14 +5868,14 @@ ATOM   2609  N3   DT C   8       5.434   6.837  35.502  1.00 34.17           N
 ANISOU 2609  N3   DT C   8     3345   5121   4515   -118     98   -565       N  
 ATOM   2610  C4   DT C   8       6.369   6.054  36.149  1.00 31.85           C  
 ANISOU 2610  C4   DT C   8     3430   4552   4120    -77    -16   -360       C  
-ATOM   2611  C5   DT C   8       5.819   5.143  37.147  1.00 32.17           C  
-ANISOU 2611  C5   DT C   8     3498   4493   4230    518   -206   -110       C  
-ATOM   2612  C6   DT C   8       4.473   5.111  37.407  1.00 33.73           C  
-ANISOU 2612  C6   DT C   8     3615   5061   4137    174    545   -658       C  
-ATOM   2613  O4   DT C   8       7.545   6.211  35.763  1.00 32.32           O  
-ANISOU 2613  O4   DT C   8     3267   4766   4244    612   -429   -465       O  
-ATOM   2614  C7   DT C   8       6.699   4.227  37.952  1.00 40.51           C  
-ANISOU 2614  C7   DT C   8     4310   5355   5727    -18    -15   -116       C  
+ATOM   2611  O4   DT C   8       7.545   6.211  35.763  1.00 32.32           O  
+ANISOU 2611  O4   DT C   8     3267   4766   4244    612   -429   -465       O  
+ATOM   2612  C5   DT C   8       5.819   5.143  37.147  1.00 32.17           C  
+ANISOU 2612  C5   DT C   8     3498   4493   4230    518   -206   -110       C  
+ATOM   2613  C7   DT C   8       6.699   4.227  37.952  1.00 40.51           C  
+ANISOU 2613  C7   DT C   8     4310   5355   5727    -18    -15   -116       C  
+ATOM   2614  C6   DT C   8       4.473   5.111  37.407  1.00 33.73           C  
+ANISOU 2614  C6   DT C   8     3615   5061   4137    174    545   -658       C  
 ATOM   2615  P    DT C   9      -1.618   3.952  36.079  1.00 46.54           P  
 ANISOU 2615  P    DT C   9     5062   6900   5719    -34   -194   -111       P  
 ATOM   2616  OP1  DT C   9      -3.071   4.252  36.180  1.00 43.78           O  
@@ -5905,14 +5908,14 @@ ATOM   2629  N3   DT C   9       4.514   5.663  31.827  1.00 27.72           N
 ANISOU 2629  N3   DT C   9     3636   3272   3623    -70     80   -131       N  
 ATOM   2630  C4   DT C   9       4.837   4.660  32.707  1.00 32.72           C  
 ANISOU 2630  C4   DT C   9     4141   4440   3851    412    465   -322       C  
-ATOM   2631  C5   DT C   9       3.680   4.084  33.365  1.00 31.94           C  
-ANISOU 2631  C5   DT C   9     4004   4346   3785    287    -19   -278       C  
-ATOM   2632  C6   DT C   9       2.476   4.574  33.081  1.00 36.01           C  
-ANISOU 2632  C6   DT C   9     4368   5038   4274    248   -191   -144       C  
-ATOM   2633  O4   DT C   9       6.013   4.327  32.892  1.00 31.02           O  
-ANISOU 2633  O4   DT C   9     3995   4162   3629    324   -387   -835       O  
-ATOM   2634  C7   DT C   9       3.787   2.956  34.352  1.00 40.10           C  
-ANISOU 2634  C7   DT C   9     5013   5533   4688    290    269    289       C  
+ATOM   2631  O4   DT C   9       6.013   4.327  32.892  1.00 31.02           O  
+ANISOU 2631  O4   DT C   9     3995   4162   3629    324   -387   -835       O  
+ATOM   2632  C5   DT C   9       3.680   4.084  33.365  1.00 31.94           C  
+ANISOU 2632  C5   DT C   9     4004   4346   3785    287    -19   -278       C  
+ATOM   2633  C7   DT C   9       3.787   2.956  34.352  1.00 40.10           C  
+ANISOU 2633  C7   DT C   9     5013   5533   4688    290    269    289       C  
+ATOM   2634  C6   DT C   9       2.476   4.574  33.081  1.00 36.01           C  
+ANISOU 2634  C6   DT C   9     4368   5038   4274    248   -191   -144       C  
 ATOM   2635  P    DT C  10      -2.960   6.009  30.119  1.00 36.96           P  
 ANISOU 2635  P    DT C  10     4370   4835   4835    134   -461    178       P  
 ATOM   2636  OP1  DT C  10      -4.088   6.928  29.860  1.00 33.55           O  
@@ -5945,14 +5948,14 @@ ATOM   2649  N3   DT C  10       4.333   4.485  28.314  1.00 24.46           N
 ANISOU 2649  N3   DT C  10     2569   3274   3451   -177    104    106       N  
 ATOM   2650  C4   DT C  10       3.829   3.526  29.186  1.00 24.96           C  
 ANISOU 2650  C4   DT C  10     3226   2928   3328    476    430   -414       C  
-ATOM   2651  C5   DT C  10       2.378   3.432  29.287  1.00 28.27           C  
-ANISOU 2651  C5   DT C  10     3319   3706   3715   -103    154    309       C  
-ATOM   2652  C6   DT C  10       1.639   4.270  28.541  1.00 23.60           C  
-ANISOU 2652  C6   DT C  10     2382   3619   2965   -135    139   -403       C  
-ATOM   2653  O4   DT C  10       4.581   2.841  29.867  1.00 30.15           O  
-ANISOU 2653  O4   DT C  10     3426   3861   4165    263    -57   -205       O  
-ATOM   2654  C7   DT C  10       1.767   2.417  30.214  1.00 28.65           C  
-ANISOU 2654  C7   DT C  10     2616   3944   4325   -115    -44    162       C  
+ATOM   2651  O4   DT C  10       4.581   2.841  29.867  1.00 30.15           O  
+ANISOU 2651  O4   DT C  10     3426   3861   4165    263    -57   -205       O  
+ATOM   2652  C5   DT C  10       2.378   3.432  29.287  1.00 28.27           C  
+ANISOU 2652  C5   DT C  10     3319   3706   3715   -103    154    309       C  
+ATOM   2653  C7   DT C  10       1.767   2.417  30.214  1.00 28.65           C  
+ANISOU 2653  C7   DT C  10     2616   3944   4325   -115    -44    162       C  
+ATOM   2654  C6   DT C  10       1.639   4.270  28.541  1.00 23.60           C  
+ANISOU 2654  C6   DT C  10     2382   3619   2965   -135    139   -403       C  
 ATOM   2655  P    DT C  11      -1.571   7.095  23.809  1.00 40.09           P  
 ANISOU 2655  P    DT C  11     4741   5715   4773    222    313   -547       P  
 ATOM   2656  OP1  DT C  11      -1.971   8.332  23.140  1.00 40.61           O  
@@ -5985,14 +5988,14 @@ ATOM   2669  N3   DT C  11       4.385   2.330  25.322  1.00 22.26           N
 ANISOU 2669  N3   DT C  11     1860   3543   3055   -513   -389   -735       N  
 ATOM   2670  C4   DT C  11       3.322   1.774  26.008  1.00 32.84           C  
 ANISOU 2670  C4   DT C  11     4046   4187   4244     29     63   -318       C  
-ATOM   2671  C5   DT C  11       1.984   2.092  25.545  1.00 30.44           C  
-ANISOU 2671  C5   DT C  11     3414   4231   3918     -6     42   -542       C  
-ATOM   2672  C6   DT C  11       1.872   2.889  24.488  1.00 30.67           C  
-ANISOU 2672  C6   DT C  11     3644   4083   3924   -500      9   -519       C  
-ATOM   2673  O4   DT C  11       3.498   1.072  26.987  1.00 28.88           O  
-ANISOU 2673  O4   DT C  11     3204   3792   3976      4    342    -81       O  
-ATOM   2674  C7   DT C  11       0.779   1.513  26.252  1.00 33.33           C  
-ANISOU 2674  C7   DT C  11     3203   4150   5309    -62   -340   -629       C  
+ATOM   2671  O4   DT C  11       3.498   1.072  26.987  1.00 28.88           O  
+ANISOU 2671  O4   DT C  11     3204   3792   3976      4    342    -81       O  
+ATOM   2672  C5   DT C  11       1.984   2.092  25.545  1.00 30.44           C  
+ANISOU 2672  C5   DT C  11     3414   4231   3918     -6     42   -542       C  
+ATOM   2673  C7   DT C  11       0.779   1.513  26.252  1.00 33.33           C  
+ANISOU 2673  C7   DT C  11     3203   4150   5309    -62   -340   -629       C  
+ATOM   2674  C6   DT C  11       1.872   2.889  24.488  1.00 30.67           C  
+ANISOU 2674  C6   DT C  11     3644   4083   3924   -500      9   -519       C  
 ATOM   2675  P    DT C  12       1.704   4.852  18.498  1.00 42.44           P  
 ANISOU 2675  P    DT C  12     4230   6213   5679     19   -236   -675       P  
 ATOM   2676  OP1  DT C  12       2.174   5.912  17.550  1.00 36.79           O  
@@ -6025,14 +6028,14 @@ ATOM   2689  N3   DT C  12       5.540  -0.047  22.783  1.00 28.64           N
 ANISOU 2689  N3   DT C  12     3685   3763   3434   -736     48   -821       N  
 ATOM   2690  C4   DT C  12       4.202  -0.377  22.789  1.00 30.61           C  
 ANISOU 2690  C4   DT C  12     3778   3343   4509    146   -265    -73       C  
-ATOM   2691  C5   DT C  12       3.362   0.276  21.818  1.00 31.72           C  
-ANISOU 2691  C5   DT C  12     3493   3855   4701     71    357     14       C  
-ATOM   2692  C6   DT C  12       3.880   1.213  21.031  1.00 35.95           C  
-ANISOU 2692  C6   DT C  12     4301   4512   4845    465    367    -48       C  
-ATOM   2693  O4   DT C  12       3.762  -1.208  23.556  1.00 31.32           O  
-ANISOU 2693  O4   DT C  12     3180   4010   4709   -749    -42   -451       O  
-ATOM   2694  C7   DT C  12       1.917  -0.080  21.790  1.00 37.61           C  
-ANISOU 2694  C7   DT C  12     4162   4554   5573      5   -634    161       C  
+ATOM   2691  O4   DT C  12       3.762  -1.208  23.556  1.00 31.32           O  
+ANISOU 2691  O4   DT C  12     3180   4010   4709   -749    -42   -451       O  
+ATOM   2692  C5   DT C  12       3.362   0.276  21.818  1.00 31.72           C  
+ANISOU 2692  C5   DT C  12     3493   3855   4701     71    357     14       C  
+ATOM   2693  C7   DT C  12       1.917  -0.080  21.790  1.00 37.61           C  
+ANISOU 2693  C7   DT C  12     4162   4554   5573      5   -634    161       C  
+ATOM   2694  C6   DT C  12       3.880   1.213  21.031  1.00 35.95           C  
+ANISOU 2694  C6   DT C  12     4301   4512   4845    465    367    -48       C  
 ATOM   2695  P    DG C  13       8.086   5.487  17.744  1.00 31.41           P  
 ANISOU 2695  P    DG C  13     3754   4075   4105     72   -250     -9       P  
 ATOM   2696  OP1  DG C  13       8.426   6.836  18.202  1.00 28.34           O  
@@ -6323,14 +6326,14 @@ ATOM   2838  N3   DT C  19      10.797 -16.091   5.742  1.00 40.48           N
 ANISOU 2838  N3   DT C  19     5728   4584   5067    375   -344   -850       N  
 ATOM   2839  C4   DT C  19      11.620 -16.736   6.635  1.00 45.84           C  
 ANISOU 2839  C4   DT C  19     6220   5245   5949    404     -4   -339       C  
-ATOM   2840  C5   DT C  19      11.041 -17.825   7.388  1.00 45.99           C  
-ANISOU 2840  C5   DT C  19     6007   5181   6286    134   -102   -531       C  
-ATOM   2841  C6   DT C  19       9.751 -18.129   7.170  1.00 46.57           C  
-ANISOU 2841  C6   DT C  19     6196   5781   5714    456    -59   -815       C  
-ATOM   2842  O4   DT C  19      12.790 -16.389   6.770  1.00 48.80           O  
-ANISOU 2842  O4   DT C  19     6868   4840   6831    112    281  -1018       O  
-ATOM   2843  C7   DT C  19      11.889 -18.574   8.393  1.00 49.14           C  
-ANISOU 2843  C7   DT C  19     6810   5407   6453    215    -49   -690       C  
+ATOM   2840  O4   DT C  19      12.790 -16.389   6.770  1.00 48.80           O  
+ANISOU 2840  O4   DT C  19     6868   4840   6831    112    281  -1018       O  
+ATOM   2841  C5   DT C  19      11.041 -17.825   7.388  1.00 45.99           C  
+ANISOU 2841  C5   DT C  19     6007   5181   6286    134   -102   -531       C  
+ATOM   2842  C7   DT C  19      11.889 -18.574   8.393  1.00 49.14           C  
+ANISOU 2842  C7   DT C  19     6810   5407   6453    215    -49   -690       C  
+ATOM   2843  C6   DT C  19       9.751 -18.129   7.170  1.00 46.57           C  
+ANISOU 2843  C6   DT C  19     6196   5781   5714    456    -59   -815       C  
 ATOM   2844  P    DC C  20       4.975 -20.198   3.497  1.00 62.83           P  
 ANISOU 2844  P    DC C  20     8791   8180   6902   -412   -735   -648       P  
 ATOM   2845  OP1  DC C  20       3.548 -20.257   3.083  1.00 65.98           O  
@@ -6439,14 +6442,14 @@ ATOM   2896  N3   DT C  22      15.825 -19.464  -3.764  1.00 52.40           N
 ANISOU 2896  N3   DT C  22     7309   6269   6329    156    564   -883       N  
 ATOM   2897  C4   DT C  22      14.711 -20.242  -3.494  1.00 52.56           C  
 ANISOU 2897  C4   DT C  22     7780   6084   6106      9     58   -643       C  
-ATOM   2898  C5   DT C  22      13.606 -20.113  -4.420  1.00 52.52           C  
-ANISOU 2898  C5   DT C  22     7253   6290   6410     55    269   -397       C  
-ATOM   2899  C6   DT C  22      13.749 -19.262  -5.452  1.00 49.83           C  
-ANISOU 2899  C6   DT C  22     7373   5144   6414    317    -80   -496       C  
-ATOM   2900  O4   DT C  22      14.673 -21.011  -2.533  1.00 55.98           O  
-ANISOU 2900  O4   DT C  22     8255   6704   6309    147    273   -774       O  
-ATOM   2901  C7   DT C  22      12.364 -20.939  -4.229  1.00 52.74           C  
-ANISOU 2901  C7   DT C  22     7201   6687   6150    193    272   -567       C  
+ATOM   2898  O4   DT C  22      14.673 -21.011  -2.533  1.00 55.98           O  
+ANISOU 2898  O4   DT C  22     8255   6704   6309    147    273   -774       O  
+ATOM   2899  C5   DT C  22      13.606 -20.113  -4.420  1.00 52.52           C  
+ANISOU 2899  C5   DT C  22     7253   6290   6410     55    269   -397       C  
+ATOM   2900  C7   DT C  22      12.364 -20.939  -4.229  1.00 52.74           C  
+ANISOU 2900  C7   DT C  22     7201   6687   6150    193    272   -567       C  
+ATOM   2901  C6   DT C  22      13.749 -19.262  -5.452  1.00 49.83           C  
+ANISOU 2901  C6   DT C  22     7373   5144   6414    317    -80   -496       C  
 ATOM   2902  P    DA C  23      15.730 -16.123 -10.891  1.00 71.93           P  
 ANISOU 2902  P    DA C  23    10196   9312   7821    441    240    -97       P  
 ATOM   2903  OP1  DA C  23      14.956 -14.934 -11.309  1.00 72.36           O  
@@ -6558,14 +6561,14 @@ ATOM   2956  N3   DT E   1      18.591 -25.800  -5.446  1.00 36.99           N
 ANISOU 2956  N3   DT E   1     4835   4231   4986    218    639   -412       N  
 ATOM   2957  C4   DT E   1      17.244 -26.019  -5.629  1.00 40.10           C  
 ANISOU 2957  C4   DT E   1     5630   4787   4816    233     47   -381       C  
-ATOM   2958  C5   DT E   1      16.670 -27.105  -4.849  1.00 41.38           C  
-ANISOU 2958  C5   DT E   1     5736   5091   4894    -33    171   -251       C  
-ATOM   2959  C6   DT E   1      17.469 -27.817  -4.033  1.00 36.59           C  
-ANISOU 2959  C6   DT E   1     4770   4791   4342    350    597   -510       C  
-ATOM   2960  O4   DT E   1      16.592 -25.321  -6.400  1.00 42.95           O  
-ANISOU 2960  O4   DT E   1     6092   5018   5206    531   -287   -241       O  
-ATOM   2961  C7   DT E   1      15.205 -27.396  -4.974  1.00 40.19           C  
-ANISOU 2961  C7   DT E   1     5509   4868   4891    137    109   -266       C  
+ATOM   2958  O4   DT E   1      16.592 -25.321  -6.400  1.00 42.95           O  
+ANISOU 2958  O4   DT E   1     6092   5018   5206    531   -287   -241       O  
+ATOM   2959  C5   DT E   1      16.670 -27.105  -4.849  1.00 41.38           C  
+ANISOU 2959  C5   DT E   1     5736   5091   4894    -33    171   -251       C  
+ATOM   2960  C7   DT E   1      15.205 -27.396  -4.974  1.00 40.19           C  
+ANISOU 2960  C7   DT E   1     5509   4868   4891    137    109   -266       C  
+ATOM   2961  C6   DT E   1      17.469 -27.817  -4.033  1.00 36.59           C  
+ANISOU 2961  C6   DT E   1     4770   4791   4342    350    597   -510       C  
 ATOM   2962  P    DT E   2      21.345 -29.312   0.725  1.00 44.77           P  
 ANISOU 2962  P    DT E   2     5717   5574   5719    -43   -209    146       P  
 ATOM   2963  OP1  DT E   2      22.662 -29.834   1.138  1.00 44.19           O  
@@ -6598,14 +6601,14 @@ ATOM   2976  N3   DT E   2      18.685 -23.085  -3.373  1.00 39.41           N
 ANISOU 2976  N3   DT E   2     5618   4679   4675    167   -110   -823       N  
 ATOM   2977  C4   DT E   2      17.550 -23.737  -2.935  1.00 40.91           C  
 ANISOU 2977  C4   DT E   2     5375   4736   5432     81    635   -633       C  
-ATOM   2978  C5   DT E   2      17.758 -24.693  -1.867  1.00 39.56           C  
-ANISOU 2978  C5   DT E   2     5100   5016   4912     18    169   -606       C  
-ATOM   2979  C6   DT E   2      18.994 -24.860  -1.410  1.00 38.23           C  
-ANISOU 2979  C6   DT E   2     5059   4373   5092    729    610  -1132       C  
-ATOM   2980  O4   DT E   2      16.470 -23.482  -3.477  1.00 45.23           O  
-ANISOU 2980  O4   DT E   2     5853   5453   5877     26    431   -621       O  
-ATOM   2981  C7   DT E   2      16.653 -25.508  -1.259  1.00 37.28           C  
-ANISOU 2981  C7   DT E   2     5968   3360   4833   -250    363   -744       C  
+ATOM   2978  O4   DT E   2      16.470 -23.482  -3.477  1.00 45.23           O  
+ANISOU 2978  O4   DT E   2     5853   5453   5877     26    431   -621       O  
+ATOM   2979  C5   DT E   2      17.758 -24.693  -1.867  1.00 39.56           C  
+ANISOU 2979  C5   DT E   2     5100   5016   4912     18    169   -606       C  
+ATOM   2980  C7   DT E   2      16.653 -25.508  -1.259  1.00 37.28           C  
+ANISOU 2980  C7   DT E   2     5968   3360   4833   -250    363   -744       C  
+ATOM   2981  C6   DT E   2      18.994 -24.860  -1.410  1.00 38.23           C  
+ANISOU 2981  C6   DT E   2     5059   4373   5092    729    610  -1132       C  
 ATOM   2982  P    DA E   3      24.036 -23.785   2.313  1.00 62.65           P  
 ANISOU 2982  P    DA E   3     8520   7146   8138   -457   -465   -175       P  
 ATOM   2983  OP1  DA E   3      25.357 -24.161   2.858  1.00 68.37           O  
@@ -6810,14 +6813,14 @@ ATOM   3082  N3   DT E   7      10.093 -11.674   5.705  1.00 35.71           N
 ANISOU 3082  N3   DT E   7     4688   4113   4765    235     30   -312       N  
 ATOM   3083  C4   DT E   7      11.228 -10.895   5.705  1.00 35.00           C  
 ANISOU 3083  C4   DT E   7     4891   4169   4236    404    -80   -109       C  
-ATOM   3084  C5   DT E   7      11.295  -9.819   4.757  1.00 40.53           C  
-ANISOU 3084  C5   DT E   7     5724   4989   4687    -20     35   -403       C  
-ATOM   3085  C6   DT E   7      10.239  -9.647   3.949  1.00 39.70           C  
-ANISOU 3085  C6   DT E   7     5201   4915   4964    323    214    -25       C  
-ATOM   3086  O4   DT E   7      12.152 -11.099   6.463  1.00 38.87           O  
-ANISOU 3086  O4   DT E   7     5590   4183   4995    550   -160   -913       O  
-ATOM   3087  C7   DT E   7      12.524  -8.961   4.746  1.00 40.58           C  
-ANISOU 3087  C7   DT E   7     5461   5554   4400    -77    422    335       C  
+ATOM   3084  O4   DT E   7      12.152 -11.099   6.463  1.00 38.87           O  
+ANISOU 3084  O4   DT E   7     5590   4183   4995    550   -160   -913       O  
+ATOM   3085  C5   DT E   7      11.295  -9.819   4.757  1.00 40.53           C  
+ANISOU 3085  C5   DT E   7     5724   4989   4687    -20     35   -403       C  
+ATOM   3086  C7   DT E   7      12.524  -8.961   4.746  1.00 40.58           C  
+ANISOU 3086  C7   DT E   7     5461   5554   4400    -77    422    335       C  
+ATOM   3087  C6   DT E   7      10.239  -9.647   3.949  1.00 39.70           C  
+ANISOU 3087  C6   DT E   7     5201   4915   4964    323    214    -25       C  
 ATOM   3088  P    DC E   8       4.373  -8.179   2.294  1.00 61.89           P  
 ANISOU 3088  P    DC E   8     7117   8610   7786    482    -45    233       P  
 ATOM   3089  OP1  DC E   8       3.029  -8.528   1.793  1.00 58.58           O  
@@ -6926,14 +6929,14 @@ ATOM   3140  N3   DT E  10       6.618  -8.553  16.021  1.00 29.82           N
 ANISOU 3140  N3   DT E  10     3615   3455   4260    145    189   -554       N  
 ATOM   3141  C4   DT E  10       5.972  -7.804  15.074  1.00 31.06           C  
 ANISOU 3141  C4   DT E  10     4147   3250   4402    102   -103  -1222       C  
-ATOM   3142  C5   DT E  10       4.562  -8.116  14.869  1.00 35.92           C  
-ANISOU 3142  C5   DT E  10     4720   4304   4624     20    147   -308       C  
-ATOM   3143  C6   DT E  10       3.991  -9.102  15.571  1.00 31.24           C  
-ANISOU 3143  C6   DT E  10     3982   3698   4189     50    483   -915       C  
-ATOM   3144  O4   DT E  10       6.560  -6.929  14.436  1.00 31.76           O  
-ANISOU 3144  O4   DT E  10     3675   4154   4237    -23    -91  -1025       O  
-ATOM   3145  C7   DT E  10       3.767  -7.315  13.883  1.00 37.60           C  
-ANISOU 3145  C7   DT E  10     4471   4900   4914    548    -84   -631       C  
+ATOM   3142  O4   DT E  10       6.560  -6.929  14.436  1.00 31.76           O  
+ANISOU 3142  O4   DT E  10     3675   4154   4237    -23    -91  -1025       O  
+ATOM   3143  C5   DT E  10       4.562  -8.116  14.869  1.00 35.92           C  
+ANISOU 3143  C5   DT E  10     4720   4304   4624     20    147   -308       C  
+ATOM   3144  C7   DT E  10       3.767  -7.315  13.883  1.00 37.60           C  
+ANISOU 3144  C7   DT E  10     4471   4900   4914    548    -84   -631       C  
+ATOM   3145  C6   DT E  10       3.991  -9.102  15.571  1.00 31.24           C  
+ANISOU 3145  C6   DT E  10     3982   3698   4189     50    483   -915       C  
 ATOM   3146  P    DT E  11       1.637 -13.170  20.080  1.00 47.09           P  
 ANISOU 3146  P    DT E  11     5868   6035   5987   -724     70   -403       P  
 ATOM   3147  OP1  DT E  11       1.907 -14.505  20.652  1.00 37.51           O  
@@ -6966,14 +6969,14 @@ ATOM   3160  N3   DT E  11       5.872  -6.731  18.933  1.00 27.89           N
 ANISOU 3160  N3   DT E  11     3429   3310   3855   -368   -389    -85       N  
 ATOM   3161  C4   DT E  11       4.736  -6.449  18.197  1.00 32.22           C  
 ANISOU 3161  C4   DT E  11     3913   3769   4558    241   -118     34       C  
-ATOM   3162  C5   DT E  11       3.497  -7.071  18.616  1.00 28.62           C  
-ANISOU 3162  C5   DT E  11     3323   3180   4369   -419   -699   -357       C  
-ATOM   3163  C6   DT E  11       3.534  -7.887  19.670  1.00 30.23           C  
-ANISOU 3163  C6   DT E  11     3749   3997   3737   -298   -594   -516       C  
-ATOM   3164  O4   DT E  11       4.771  -5.688  17.238  1.00 31.12           O  
-ANISOU 3164  O4   DT E  11     3298   4277   4249    -59   -219   -236       O  
-ATOM   3165  C7   DT E  11       2.242  -6.803  17.825  1.00 34.71           C  
-ANISOU 3165  C7   DT E  11     3649   4285   5254    665     44   -261       C  
+ATOM   3162  O4   DT E  11       4.771  -5.688  17.238  1.00 31.12           O  
+ANISOU 3162  O4   DT E  11     3298   4277   4249    -59   -219   -236       O  
+ATOM   3163  C5   DT E  11       3.497  -7.071  18.616  1.00 28.62           C  
+ANISOU 3163  C5   DT E  11     3323   3180   4369   -419   -699   -357       C  
+ATOM   3164  C7   DT E  11       2.242  -6.803  17.825  1.00 34.71           C  
+ANISOU 3164  C7   DT E  11     3649   4285   5254    665     44   -261       C  
+ATOM   3165  C6   DT E  11       3.534  -7.887  19.670  1.00 30.23           C  
+ANISOU 3165  C6   DT E  11     3749   3997   3737   -298   -594   -516       C  
 ATOM   3166  P    DC E  12       3.706 -10.259  25.575  1.00 50.11           P  
 ANISOU 3166  P    DC E  12     5544   7361   6134   -646     91   -415       P  
 ATOM   3167  OP1  DC E  12       4.525 -11.048  26.510  1.00 42.85           O  
@@ -7098,10 +7101,10 @@ ATOM   3226  C4   DA E  14       9.387   0.712  26.378  1.00 30.51           C
 ANISOU 3226  C4   DA E  14     4185   3866   3540   -331   -312   -550       C  
 ATOM   3227  P    DA E  15      14.219   1.825  23.300  1.00 28.38           P  
 ANISOU 3227  P    DA E  15     3501   3525   3754    -20    -15      8       P  
-ATOM   3228  OP1  DA E  15      15.114   1.496  22.195  1.00 25.47           O  
-ANISOU 3228  OP1  DA E  15     3224   3596   2855    -82   -224    -98       O  
-ATOM   3229  OP2  DA E  15      12.857   2.267  22.895  1.00 26.05           O  
-ANISOU 3229  OP2  DA E  15     3645   3071   3181    110    291   -431       O  
+ATOM   3228  OP1  DA E  15      12.857   2.267  22.895  1.00 26.05           O  
+ANISOU 3228  OP1  DA E  15     3645   3071   3181    110    291   -431       O  
+ATOM   3229  OP2  DA E  15      15.114   1.496  22.195  1.00 25.47           O  
+ANISOU 3229  OP2  DA E  15     3224   3596   2855    -82   -224    -98       O  
 ATOM   3230  O5'  DA E  15      14.862   2.756  24.444  1.00 24.37           O  
 ANISOU 3230  O5'  DA E  15     2128   3453   3676    253    285    137       O  
 ATOM   3231  C5'  DA E  15      14.986   4.164  24.441  1.00 28.50           C  
@@ -7862,14 +7865,14 @@ CONECT 1390 3440
 CONECT 2718 3439                                                                
 CONECT 2740 3440                                                                
 CONECT 3207 3440                                                                
-CONECT 3228 3439                                                                
+CONECT 3229 3439                                                                
 CONECT 3439  155  156 1381 2718                                                 
-CONECT 3439 3228 3545 3748                                                      
+CONECT 3439 3229 3545 3748                                                      
 CONECT 3440  148 1389 1390 2740                                                 
 CONECT 3440 3207 3453 3690                                                      
 CONECT 3453 3440                                                                
 CONECT 3545 3439                                                                
 CONECT 3690 3440                                                                
 CONECT 3748 3439                                                                
-MASTER      476    0    2   14    8    0    4    6 3766    4   18   28          
+MASTER      473    0    2   14    8    0    4    6 3766    4   18   28          
 END                                                                             

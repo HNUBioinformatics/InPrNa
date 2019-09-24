@@ -35,6 +35,7 @@ SOURCE  17 ORGANISM_TAXID: 9606
 KEYWDS    HYDROLASE/GENE REGULATION, RNAI, SLICER, RNA, HYDROLASE-RNA COMPLEX   
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    E.ELKAYAM,C.-D.KUHN,A.TOCILJ,L.JOSHUA-TOR                             
+REVDAT   3   15-NOV-17 4F3T    1       REMARK                                   
 REVDAT   2   25-JUL-12 4F3T    1       JRNL                                     
 REVDAT   1   30-MAY-12 4F3T    0                                                
 JRNL        AUTH   E.ELKAYAM,C.D.KUHN,A.TOCILJ,A.D.HAASE,E.M.GREENE,G.J.HANNON, 
@@ -48,16 +49,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.25 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.7.2_869)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.7.2_869                                     
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -105,9 +105,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -0.76000                                             
 REMARK   3    B22 (A**2) : -2.28900                                             
 REMARK   3    B33 (A**2) : 3.04900                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 1.88300                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -124,7 +124,7 @@ REMARK   3
 REMARK   3  TLS DETAILS                                                         
 REMARK   3   NUMBER OF TLS GROUPS  : 7                                          
 REMARK   3   TLS GROUP : 1                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 23:102 )                            
+REMARK   3    SELECTION: ( CHAIN A AND RESID 23:102 )                           
 REMARK   3    ORIGIN FOR THE GROUP (A):  35.9487   4.7367  45.2862              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1757 T22:   0.2536                                     
@@ -139,7 +139,7 @@ REMARK   3      S11:   0.0342 S12:   0.3272 S13:  -0.7607
 REMARK   3      S21:  -0.2341 S22:  -0.0844 S23:  -0.2471                       
 REMARK   3      S31:   0.4144 S32:   0.0224 S33:  -0.0202                       
 REMARK   3   TLS GROUP : 2                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 103:269 )                           
+REMARK   3    SELECTION: ( CHAIN A AND RESID 103:269 )                          
 REMARK   3    ORIGIN FOR THE GROUP (A):  36.9733  10.0425  58.2023              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1089 T22:   0.2671                                     
@@ -154,7 +154,7 @@ REMARK   3      S11:   0.0681 S12:   0.1199 S13:  -0.3111
 REMARK   3      S21:  -0.0050 S22:   0.1796 S23:   0.1131                       
 REMARK   3      S31:  -0.1547 S32:  -0.0418 S33:  -0.0953                       
 REMARK   3   TLS GROUP : 3                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 270:386 )                           
+REMARK   3    SELECTION: ( CHAIN A AND RESID 270:386 )                          
 REMARK   3    ORIGIN FOR THE GROUP (A):  37.1512   9.8795  79.0977              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.2994 T22:   0.3014                                     
@@ -169,7 +169,7 @@ REMARK   3      S11:  -0.1210 S12:   0.0962 S13:  -0.0707
 REMARK   3      S21:   0.2101 S22:   0.0585 S23:  -0.0190                       
 REMARK   3      S31:  -0.1580 S32:  -0.1936 S33:   0.0318                       
 REMARK   3   TLS GROUP : 4                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 387:641 )                           
+REMARK   3    SELECTION: ( CHAIN A AND RESID 387:641 )                          
 REMARK   3    ORIGIN FOR THE GROUP (A):  20.3820  44.0931  61.2143              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1799 T22:   0.3464                                     
@@ -184,7 +184,7 @@ REMARK   3      S11:  -0.2113 S12:  -0.4927 S13:   0.8040
 REMARK   3      S21:   0.2064 S22:   0.1229 S23:   0.0405                       
 REMARK   3      S31:  -0.1619 S32:  -0.1770 S33:   0.1922                       
 REMARK   3   TLS GROUP : 5                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 642:775 )                           
+REMARK   3    SELECTION: ( CHAIN A AND RESID 642:775 )                          
 REMARK   3    ORIGIN FOR THE GROUP (A):  18.5585  29.9490  45.0498              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1295 T22:   0.2204                                     
@@ -199,7 +199,7 @@ REMARK   3      S11:  -0.0368 S12:   0.3456 S13:  -0.1679
 REMARK   3      S21:  -0.0680 S22:   0.0297 S23:   0.1888                       
 REMARK   3      S31:   0.0692 S32:  -0.0997 S33:   0.0184                       
 REMARK   3   TLS GROUP : 6                                                      
-REMARK   3    SELECTION: (CHAIN A AND RESID 776:859 )                           
+REMARK   3    SELECTION: ( CHAIN A AND RESID 776:859 )                          
 REMARK   3    ORIGIN FOR THE GROUP (A):  15.6177  36.7051  59.0157              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.1711 T22:   0.3491                                     
@@ -214,7 +214,7 @@ REMARK   3      S11:  -0.1632 S12:  -0.5141 S13:   0.2388
 REMARK   3      S21:   0.3319 S22:  -0.1076 S23:   0.2165                       
 REMARK   3      S31:   0.0467 S32:  -0.5025 S33:  -0.0243                       
 REMARK   3   TLS GROUP : 7                                                      
-REMARK   3    SELECTION: (CHAIN R AND RESID 1:20 )                              
+REMARK   3    SELECTION: ( CHAIN R AND RESID 1:20 )                             
 REMARK   3    ORIGIN FOR THE GROUP (A):  31.7075  22.5965  67.7372              
 REMARK   3    T TENSOR                                                          
 REMARK   3      T11:   0.3838 T22:   0.0624                                     
@@ -237,7 +237,7 @@ REMARK   4
 REMARK   4 4F3T COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-MAY-12.                  
-REMARK 100 THE RCSB ID CODE IS RCSB072419.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000072419.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -254,16 +254,16 @@ REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.075                              
 REMARK 200  MONOCHROMATOR                  : CRYOGENICALLY COOLED DOUBLE        
 REMARK 200                                   CRYSTAL MONOCHROMETER WITH         
-REMARK 200                                   HORIZONTAL FOCUSING SAGITTAL BEND  
-REMARK 200                                   SECOND MONO CRYSTAL WITH 4:1       
-REMARK 200                                   MAGNIFICATION RATIO AND            
+REMARK 200                                   HORIZONTAL FOCUSING SAGITTAL       
+REMARK 200                                   BEND SECOND MONO CRYSTAL WITH 4:   
+REMARK 200                                   1 MAGNIFICATION RATIO AND          
 REMARK 200                                   VERTICALLY FOCUSING MIRROR         
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315                   
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 41096                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.250                              
@@ -288,7 +288,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: SAD                          
-REMARK 200 SOFTWARE USED: SHARP                                                 
+REMARK 200 SOFTWARE USED: SHARP, SOLOMON                                        
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -299,7 +299,7 @@ REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.16
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: MICROSEEDING IN 100 MM TRIS PH=9.0,      
 REMARK 280  10% PEG 3350 (W/V), 8% 2-PROPANOL (V/V), 0.12 M PHENOL, VAPOR       
-REMARK 280  DIFFUSION, HANGING DROP, TEMPERATURE 290K                           
+REMARK 280  DIFFUSION, HANGING DROP, TEMPERATURE 290K, PH 9.0                   
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -510,7 +510,6 @@ REMARK 500
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
 REMARK 500   O    THR A   759     O    HOH A  1034              1.96            
 REMARK 500   O    HIS A   634     O    HOH A  1117              2.04            
-REMARK 500   N2     G R    19     N7     G R    20              2.10            
 REMARK 500   NH1  ARG A   714     O    HOH A  1034              2.11            
 REMARK 500   NH2  ARG A   351     OP1    U R     9              2.16            
 REMARK 500   O    VAL A   284     O    HOH A  1126              2.18            
@@ -14384,5 +14383,5 @@ CONECT 6747 6746 6748
 CONECT 6748 6747 6749                                                           
 CONECT 6749 6744 6748                                                           
 CONECT 6750 6744                                                                
-MASTER      550    0    2   24   41    0    4    6 6884    2   14   69          
+MASTER      548    0    2   24   41    0    4    6 6884    2   14   69          
 END                                                                             

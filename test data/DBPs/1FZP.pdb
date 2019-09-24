@@ -1,6 +1,6 @@
 HEADER    TRANSCRIPTION/DNA                       03-OCT-00   1FZP              
-TITLE     CRYSTAL STRUCTURES OF SARA: A PLEIOTROPIC REGULATOR OF                
-TITLE    2 VIRULENCE GENES IN S. AUREUS                                         
+TITLE     CRYSTAL STRUCTURES OF SARA: A PLEIOTROPIC REGULATOR OF VIRULENCE GENES
+TITLE    2 IN S. AUREUS                                                         
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: 5'-D(P*AP*TP*AP*TP*AP*TP*A)-3';                            
 COMPND   3 CHAIN: W, K;                                                         
@@ -20,22 +20,21 @@ SOURCE   7 EXPRESSION_SYSTEM: ESCHERICHIA COLI;
 SOURCE   8 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET9                                      
-KEYWDS    PROTEIN-DNA COMPLEX, INDIRECT READOUT, D-DNA,                         
-KEYWDS   2 CONFORMATIONAL CHANGES,COIL TO HELIX, TRANSCRIPTION/DNA              
-KEYWDS   3 COMPLEX                                                              
+KEYWDS    PROTEIN-DNA COMPLEX, INDIRECT READOUT, D-DNA, CONFORMATIONAL CHANGES, 
+KEYWDS   2 COIL TO HELIX, TRANSCRIPTION-DNA COMPLEX                             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.A.SCHUMACHER,B.HURLBURT,R.G.BRENNAN                                 
+REVDAT   4   04-APR-18 1FZP    1       REMARK                                   
 REVDAT   3   24-FEB-09 1FZP    1       VERSN                                    
 REVDAT   2   01-APR-03 1FZP    1       JRNL                                     
 REVDAT   1   22-JAN-01 1FZP    0                                                
 JRNL        AUTH   M.A.SCHUMACHER,B.K.HURLBURT,R.G.BRENNAN                      
-JRNL        TITL   CRYSTAL STRUCTURES OF SARA, A PLEIOTROPIC                    
-JRNL        TITL 2 REGULATOR OF VIRULENCE GENES IN S. AUREUS.                   
+JRNL        TITL   CRYSTAL STRUCTURES OF SARA, A PLEIOTROPIC REGULATOR OF       
+JRNL        TITL 2 VIRULENCE GENES IN S. AUREUS.                                
 JRNL        REF    NATURE                        V. 409   215 2001              
 JRNL        REFN                   ISSN 0028-0836                               
 JRNL        PMID   11196648                                                     
 JRNL        DOI    10.1038/35051623                                             
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.95 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -98,10 +97,10 @@ REMARK   3   ISOTROPIC THERMAL FACTOR RESTRAINTS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1FZP COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1FZP COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-OCT-00.                  
-REMARK 100 THE RCSB ID CODE IS RCSB012051.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 13-OCT-00.                  
+REMARK 100 THE DEPOSITION ID IS D_1000012051.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -113,7 +112,7 @@ REMARK 200
 REMARK 200  SYNCHROTRON              (Y/N) : N                                  
 REMARK 200  RADIATION SOURCE               : ROTATING ANODE                     
 REMARK 200  BEAMLINE                       : NULL                               
-REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200H                      
+REMARK 200  X-RAY GENERATOR MODEL          : RIGAKU RU200                       
 REMARK 200  MONOCHROMATIC OR LAUE    (M/L) : M                                  
 REMARK 200  WAVELENGTH OR RANGE        (A) : 1.5418                             
 REMARK 200  MONOCHROMATOR                  : NULL                               
@@ -156,9 +155,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 54.43                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.70                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 8000, CALCIUM ACETATE,               
-REMARK 280  CACODYLATE, PH 6.5, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE      
-REMARK 280  298K                                                                
+REMARK 280 CRYSTALLIZATION CONDITIONS: PEG 8000, CALCIUM ACETATE, CACODYLATE,   
+REMARK 280  PH 6.5, VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 298K             
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1 21 1                         
@@ -258,8 +256,8 @@ REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
 REMARK 500   CG2  ILE D     3     CG2  ILE D     6              1.54            
-REMARK 500   N1   DA  W     3     N6   DA  K     7              1.83            
-REMARK 500   N6   DA  W     5     N6   DA  K     5              1.99            
+REMARK 500   N1    DA W     3     N6    DA K     7              1.83            
+REMARK 500   N6    DA W     5     N6    DA K     5              1.99            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -311,15 +309,15 @@ REMARK 500     DA W   5   O4' -  C1' -  C2' ANGL. DEV. =   3.7 DEGREES
 REMARK 500     DT W   6   O4' -  C4' -  C3' ANGL. DEV. =  -3.3 DEGREES          
 REMARK 500     DT W   6   C5' -  C4' -  C3' ANGL. DEV. =   8.4 DEGREES          
 REMARK 500     DT W   6   O4' -  C1' -  N1  ANGL. DEV. =   2.5 DEGREES          
+REMARK 500     DT W   6   C3' -  O3' -  P   ANGL. DEV. =   9.8 DEGREES          
 REMARK 500     DA W   7   O4' -  C4' -  C3' ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DA W   7   C3' -  C2' -  C1' ANGL. DEV. =  -7.3 DEGREES          
-REMARK 500     DT W   6   C3' -  O3' -  P   ANGL. DEV. =   9.8 DEGREES          
 REMARK 500     DT W   8   O4' -  C4' -  C3' ANGL. DEV. =  -9.6 DEGREES          
 REMARK 500     DT W   8   C3' -  C2' -  C1' ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DT W   8   O4' -  C1' -  C2' ANGL. DEV. =   3.3 DEGREES          
 REMARK 500     DA W   9   O5' -  P   -  OP2 ANGL. DEV. =  -8.7 DEGREES          
 REMARK 500     DA K   3   OP1 -  P   -  OP2 ANGL. DEV. =  24.1 DEGREES          
-REMARK 500     DA K   3   O5' -  P   -  OP2 ANGL. DEV. = -16.8 DEGREES          
+REMARK 500     DA K   3   O5' -  P   -  OP2 ANGL. DEV. = -16.9 DEGREES          
 REMARK 500     DA K   3   O4' -  C1' -  C2' ANGL. DEV. =   3.9 DEGREES          
 REMARK 500     DA K   5   O4' -  C1' -  C2' ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DT K   6   O4' -  C4' -  C3' ANGL. DEV. =  -4.7 DEGREES          
@@ -398,8 +396,8 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620  SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                            
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA B 200  CA                            
@@ -413,6 +411,7 @@ REMARK 800 SITE
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA D 200                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA B 200                  
@@ -2486,5 +2485,5 @@ CONECT  369 2000
 CONECT 1202 2001                                                                
 CONECT 2000  369                                                                
 CONECT 2001   64  270 1202                                                      
-MASTER      385    0    2   15    0    0    2    6 1997    4    6   22          
+MASTER      384    0    2   15    0    0    2    6 1997    4    6   22          
 END                                                                             

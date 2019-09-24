@@ -2,14 +2,14 @@ HEADER    GENE REGULATION/DNA                     11-MAY-98   1BDT
 TITLE     WILD TYPE GENE-REGULATING PROTEIN ARC/DNA COMPLEX                     
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA (5'-                                                   
-COMPND   3 D(*TP*AP*TP*AP*GP*TP*AP*GP*AP*GP*TP*GP*CP*TP*TP*CP*TP*AP*TP          
-COMPND   4 *CP*AP*T)-3');                                                       
+COMPND   3 D(*TP*AP*TP*AP*GP*TP*AP*GP*AP*GP*TP*GP*CP*TP*TP*CP*TP*AP*TP*CP*AP*T)-
+COMPND   4 3');                                                                 
 COMPND   5 CHAIN: E;                                                            
 COMPND   6 ENGINEERED: YES;                                                     
 COMPND   7 MOL_ID: 2;                                                           
 COMPND   8 MOLECULE: DNA (5'-                                                   
-COMPND   9 D(*AP*AP*TP*GP*AP*TP*AP*GP*AP*AP*GP*CP*AP*CP*TP*CP*TP*AP*CP          
-COMPND  10 *TP*AP*T)-3');                                                       
+COMPND   9 D(*AP*AP*TP*GP*AP*TP*AP*GP*AP*AP*GP*CP*AP*CP*TP*CP*TP*AP*CP*TP*AP*T)-
+COMPND  10 3');                                                                 
 COMPND  11 CHAIN: F;                                                            
 COMPND  12 ENGINEERED: YES;                                                     
 COMPND  13 MOL_ID: 3;                                                           
@@ -26,20 +26,20 @@ SOURCE   7 ORGANISM_TAXID: 10754;
 SOURCE   8 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
 SOURCE   9 EXPRESSION_SYSTEM_TAXID: 562;                                        
 SOURCE  10 OTHER_DETAILS: SYNTHETIC GENE                                        
-KEYWDS    GENE-REGULATING PROTEIN, GENE REGULATION/DNA COMPLEX                  
+KEYWDS    GENE-REGULATING PROTEIN, GENE REGULATION-DNA COMPLEX                  
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.F.SCHILBACH,A.W.KARZAI,B.E.RAUMANN,R.T.SAUER                        
+REVDAT   4   29-NOV-17 1BDT    1       HELIX                                    
 REVDAT   3   24-FEB-09 1BDT    1       VERSN                                    
 REVDAT   2   01-APR-03 1BDT    1       JRNL                                     
 REVDAT   1   16-FEB-99 1BDT    0                                                
 JRNL        AUTH   J.F.SCHILDBACH,A.W.KARZAI,B.E.RAUMANN,R.T.SAUER              
-JRNL        TITL   ORIGINS OF DNA-BINDING SPECIFICITY: ROLE OF                  
-JRNL        TITL 2 PROTEIN CONTACTS WITH THE DNA BACKBONE.                      
+JRNL        TITL   ORIGINS OF DNA-BINDING SPECIFICITY: ROLE OF PROTEIN CONTACTS 
+JRNL        TITL 2 WITH THE DNA BACKBONE.                                       
 JRNL        REF    PROC.NATL.ACAD.SCI.USA        V.  96   811 1999              
 JRNL        REFN                   ISSN 0027-8424                               
 JRNL        PMID   9927650                                                      
 JRNL        DOI    10.1073/PNAS.96.3.811                                        
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.50 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -105,9 +105,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : NULL
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.010                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.41                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.410                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.12                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.26                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.260                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : NULL                                      
 REMARK   3                                                                      
@@ -128,9 +128,10 @@ REMARK   3  TOPOLOGY FILE  1   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1BDT COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1BDT COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY BNL.                                
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY NDB.                                
+REMARK 100 THE DEPOSITION ID IS D_1000171635.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -263,24 +264,6 @@ REMARK 500    SER C   5       -5.58    -48.75
 REMARK 500    PHE D  10      123.32   -178.79                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH C 127        DISTANCE =  5.20 ANGSTROMS                       
-REMARK 525    HOH C 171        DISTANCE =  5.71 ANGSTROMS                       
-REMARK 525    HOH A 165        DISTANCE =  5.79 ANGSTROMS                       
-REMARK 525    HOH E 146        DISTANCE =  5.04 ANGSTROMS                       
-REMARK 525    HOH E 173        DISTANCE =  5.34 ANGSTROMS                       
-REMARK 525    HOH E 176        DISTANCE =  5.01 ANGSTROMS                       
 DBREF  1BDT A    1    53  UNP    P03050   RARC_BPP22       1     53             
 DBREF  1BDT B    1    53  UNP    P03050   RARC_BPP22       1     53             
 DBREF  1BDT C    1    53  UNP    P03050   RARC_BPP22       1     53             
@@ -3022,5 +3005,5 @@ HETATM 2679  O   HOH D 156      37.085  -4.166  35.582  1.00 57.53           O
 HETATM 2680  O   HOH D 170      40.131   5.089  37.355  1.00 51.34           O  
 HETATM 2681  O   HOH D 179      60.388   7.982  33.380  1.00 70.90           O  
 HETATM 2682  O   HOH D 180      59.173   8.144  37.236  1.00 43.08           O  
-MASTER      242    0    0    8    4    8    0   15 2676    6    0   24          
+MASTER      224    0    0    8    4    0    0   15 2676    6    0   24          
 END                                                                             

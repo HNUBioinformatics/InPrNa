@@ -1,11 +1,10 @@
 HEADER    TRANSFERASE                             17-JAN-07   2JEJ              
-TITLE     THE MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE                      
-TITLE    2 TRIPHOSPHATE INCORPORATION OPPOSITE O6-BENZYLGUANINE BY              
-TITLE    3 SULFOLOBUS SOLFATARICUS DNA POLYMERASE IV: STEADY-STATE              
-TITLE    4 AND PRE-STEADY-STATE KINETICS AND X-RAY CRYSTALLOGRAPHY OF           
-TITLE    5 CORRECT AND INCORRECT PAIRING                                        
-CAVEAT     2JEJ    NUCLEIC ACID RESIDUES HAVE CHIRALITY ERRORS                  
-CAVEAT   2 2JEJ    RESIDUE   C T   2    AT ATOM C3*                             
+TITLE     THE MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE TRIPHOSPHATE         
+TITLE    2 INCORPORATION OPPOSITE O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS   
+TITLE    3 DNA POLYMERASE IV: STEADY-STATE AND PRE-STEADY-STATE KINETICS AND X- 
+TITLE    4 RAY CRYSTALLOGRAPHY OF CORRECT AND INCORRECT PAIRING                 
+CAVEAT     2JEJ    NUCLEIC ACID RESIDUES HAVE CHIRALITY ERRORS RESIDUE C T 2 AT 
+CAVEAT   2 2JEJ    ATOM C3*                                                     
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: DNA POLYMERASE IV;                                         
 COMPND   3 CHAIN: A;                                                            
@@ -14,14 +13,15 @@ COMPND   5 EC: 2.7.7.7;
 COMPND   6 ENGINEERED: YES;                                                     
 COMPND   7 OTHER_DETAILS: HIS-TAG ADDED TO N-TERMINUS;                          
 COMPND   8 MOL_ID: 2;                                                           
-COMPND   9 MOLECULE: 5'-D(*GP*GP*GP*GP*GP*AP*AP*GP*GP*AP                        
-COMPND  10  *TP*TP*CP*CP*G)-3';                                                 
-COMPND  11 CHAIN: P;                                                            
+COMPND   9 MOLECULE: 5'-D(*GP*GP*GP*GP*GP*AP*AP*GP*GP*AP *TP*TP*CP*CP*G)-3';    
+COMPND  10 CHAIN: P;                                                            
+COMPND  11 ENGINEERED: YES;                                                     
 COMPND  12 MOL_ID: 3;                                                           
 COMPND  13 MOLECULE: 5'-D(*TP*CP*AP*C BZGP*GP*AP*AP*TP*CP*CP                    
-COMPND  14  *TP*TP*CP*CP*CP*CP*C)-3';                                           
+COMPND  14 *TP*TP*CP*CP*CP*CP*C)-3';                                            
 COMPND  15 CHAIN: T;                                                            
-COMPND  16 OTHER_DETAILS: BZG INDICATES O6-BENZYLGUANINE MODIFICATION           
+COMPND  16 ENGINEERED: YES;                                                     
+COMPND  17 OTHER_DETAILS: BZG INDICATES O6-BENZYLGUANINE MODIFICATION           
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: SULFOLOBUS SOLFATARICUS;                        
 SOURCE   3 ORGANISM_TAXID: 273057;                                              
@@ -36,22 +36,21 @@ SOURCE  11 MOL_ID: 3;
 SOURCE  12 SYNTHETIC: YES                                                       
 KEYWDS    DNA REPLICATION, MUTATOR PROTEIN, 06-BENZYLGUANINE,                   
 KEYWDS   2 NUCLEOTIDYLTRANSFERASE, DNA-DIRECTED DNA POLYMERASE, DPO4,           
-KEYWDS   3 MAGNESIUM, POLYMERASE, DNA DAMAGE, DNA REPAIR, ALKYLATING            
-KEYWDS   4 AGENTS, TRANSLESION SYNTHESIS, TRANSFERASE, DNA-BINDING,             
-KEYWDS   5 METAL-BINDING                                                        
+KEYWDS   3 MAGNESIUM, POLYMERASE, DNA DAMAGE, DNA REPAIR, ALKYLATING AGENTS,    
+KEYWDS   4 TRANSLESION SYNTHESIS, TRANSFERASE, DNA-BINDING, METAL-BINDING       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    R.L.EOFF,K.C.ANGEL,I.D.KOSEKOV,M.EGLI,F.P.GUENGERICH                  
+REVDAT   5   08-MAY-19 2JEJ    1       REMARK LINK                              
 REVDAT   4   24-FEB-09 2JEJ    1       VERSN                                    
 REVDAT   3   08-MAY-07 2JEJ    1       JRNL                                     
 REVDAT   2   27-MAR-07 2JEJ    1       REMARK                                   
 REVDAT   1   13-MAR-07 2JEJ    0                                                
 JRNL        AUTH   R.L.EOFF,K.C.ANGEL,M.EGLI,F.P.GUENGERICH                     
-JRNL        TITL   MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE                 
-JRNL        TITL 2 TRIPHOSPHATE INCORPORATION OPPOSITE O6-                      
-JRNL        TITL 3 BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS DNA                 
-JRNL        TITL 4 POLYMERASE DPO4: STEADY-STATE AND PRE-STEADY-STATE           
-JRNL        TITL 5 KINETICS AND X-RAY CRYSTALLOGRAPHY OF CORRECT AND            
-JRNL        TITL 6 INCORRECT PAIRING.                                           
+JRNL        TITL   MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE TRIPHOSPHATE    
+JRNL        TITL 2 INCORPORATION OPPOSITE O6-BENZYLGUANINE BY SULFOLOBUS        
+JRNL        TITL 3 SOLFATARICUS DNA POLYMERASE DPO4: STEADY-STATE AND           
+JRNL        TITL 4 PRE-STEADY-STATE KINETICS AND X-RAY CRYSTALLOGRAPHY OF       
+JRNL        TITL 5 CORRECT AND INCORRECT PAIRING.                               
 JRNL        REF    J.BIOL.CHEM.                  V. 282 13573 2007              
 JRNL        REFN                   ISSN 0021-9258                               
 JRNL        PMID   17337730                                                     
@@ -62,7 +61,7 @@ REMARK   3
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -70,8 +69,8 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.86                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 47.03                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.0                            
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 77259.95                       
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 77259.950                      
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 98.5                           
 REMARK   3   NUMBER OF REFLECTIONS             : 44116                          
@@ -81,7 +80,7 @@ REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
 REMARK   3   R VALUE            (WORKING SET) : 0.238                           
 REMARK   3   FREE R VALUE                     : 0.265                           
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.0                             
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 2209                            
 REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.006                           
 REMARK   3                                                                      
@@ -89,35 +88,35 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.86                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.98                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 92.0                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 92.00                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 6474                         
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.348                        
-REMARK   3   BIN FREE R VALUE                    : 0.363                        
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 4.4                          
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.3480                       
+REMARK   3   BIN FREE R VALUE                    : 0.3630                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 4.40                         
 REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 297                          
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.021                        
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 2755                                    
-REMARK   3   NUCLEIC ACID ATOMS       : 647                                     
-REMARK   3   HETEROGEN ATOMS          : 64                                      
+REMARK   3   PROTEIN ATOMS            : 2744                                    
+REMARK   3   NUCLEIC ACID ATOMS       : 676                                     
+REMARK   3   HETEROGEN ATOMS          : 35                                      
 REMARK   3   SOLVENT ATOMS            : 175                                     
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 32.9                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 37.6                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 32.90                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 37.60                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 1.12                                                 
-REMARK   3    B22 (A**2) : 3.22                                                 
-REMARK   3    B33 (A**2) : -4.33                                                
-REMARK   3    B12 (A**2) : 0.00                                                 
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : 1.12000                                              
+REMARK   3    B22 (A**2) : 3.22000                                              
+REMARK   3    B33 (A**2) : -4.33000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.27                            
 REMARK   3   ESD FROM SIGMAA              (A) : 0.23                            
-REMARK   3   LOW RESOLUTION CUTOFF        (A) : 50.00                           
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 50.0                            
 REMARK   3                                                                      
 REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
 REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.31                            
@@ -125,22 +124,22 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.22
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.006                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.3                             
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.1                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 2.93                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.300                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 22.10                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 2.930                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
-REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.36  ; 1.50                 
-REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.00  ; 2.00                 
-REMARK   3   SIDE-CHAIN BOND              (A**2) : 2.01  ; 2.00                 
-REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 3.06  ; 2.50                 
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.360 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.000 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 2.010 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 3.060 ; 2.500                
 REMARK   3                                                                      
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : FLAT MODEL                                           
-REMARK   3   KSOL        : 0.354195                                             
-REMARK   3   BSOL        : 47.9913                                              
+REMARK   3   KSOL        : 0.35                                                 
+REMARK   3   BSOL        : 47.99                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
@@ -163,10 +162,10 @@ REMARK   3  TOPOLOGY FILE  6   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 2JEJ COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2JEJ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 18-JAN-07.                  
-REMARK 100 THE PDBE ID CODE IS EBI-31141.                                       
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 17-JAN-07.                  
+REMARK 100 THE DEPOSITION ID IS D_1290031141.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -218,13 +217,13 @@ REMARK 200
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS   (%): 54.4                                      
-REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.6                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 54.40                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.60                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 10% POLYETHYLENE GLYCOL (W/V),           
-REMARK 280  100 MM CALCIUM ACETATE, 25 MM TRIS HCL PH 7.4, 50 MM NACL,          
-REMARK 280  5 MM CALCIUM CHLORIDE, 1 MM DGTP, 2.5% GLYCEROL (V/V), AT           
-REMARK 280  25 DEGREES CELSIUS.                                                 
+REMARK 280 CRYSTALLIZATION CONDITIONS: 10% POLYETHYLENE GLYCOL (W/V), 100 MM    
+REMARK 280  CALCIUM ACETATE, 25 MM TRIS HCL PH 7.4, 50 MM NACL, 5 MM CALCIUM    
+REMARK 280  CHLORIDE, 1 MM DGTP, 2.5% GLYCEROL (V/V), AT 25 DEGREES CELSIUS.,   
+REMARK 280  PH 7.40, VAPOR DIFFUSION, SITTING DROP, TEMPERATURE 298K            
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 2                        
@@ -261,17 +260,16 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
 REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
-REMARK 350 BIOMOLECULE:  1                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIMERIC                          
 REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TRIMERIC                   
 REMARK 350 SOFTWARE USED: PQS                                                   
@@ -308,7 +306,8 @@ REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
-REMARK 470     GLU A 342    CA   C    O    CB   CG   CD   OE1  OE2              
+REMARK 470     GLU A 342    CA   C    O    CB   CG   CD   OE1                   
+REMARK 470     GLU A 342    OE2                                                 
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: CLOSE CONTACTS IN SAME ASYMMETRIC UNIT                     
@@ -316,7 +315,7 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   N    ASP A    39  -  O    HOH A  2026              2.06            
+REMARK 500   N    ASP A    39     O    HOH A  2026              2.06            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -335,12 +334,8 @@ REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999
 REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500     DC T   2   C1' -  O4' -  C4' ANGL. DEV. = -12.2 DEGREES          
-REMARK 500     DC T   2   C5' -  C4' -  O4' ANGL. DEV. =  -9.3 DEGREES          
-REMARK 500     DC T   2   O4' -  C4' -  C3' ANGL. DEV. =  -7.5 DEGREES          
-REMARK 500     DG T   6   O3' -  P   -  O5' ANGL. DEV. =  37.2 DEGREES          
-REMARK 500     DG T   6   O3' -  P   -  OP1 ANGL. DEV. = -28.2 DEGREES          
-REMARK 500     DG T   6   O3' -  P   -  OP2 ANGL. DEV. = -28.2 DEGREES          
+REMARK 500     DC T   2   O4' -  C4' -  C3' ANGL. DEV. =  -6.0 DEGREES          
+REMARK 500     DC T   2   C1' -  O4' -  C4' ANGL. DEV. = -12.0 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -350,6 +345,7 @@ REMARK 500
 REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
 REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
 REMARK 500 STANDARD TABLE:                                                      
 REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
 REMARK 500                                                                      
@@ -369,43 +365,10 @@ REMARK 500    ASN A 234       68.37   -156.61
 REMARK 500    ASP A 277     -105.30     62.71                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500    PHE A  11        23.8      L          L   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 610                                                                      
-REMARK 610 MISSING HETEROATOM                                                   
-REMARK 610 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
-REMARK 610 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
-REMARK 610 I=INSERTION CODE):                                                   
-REMARK 610   M RES C SSEQI                                                      
-REMARK 610     BZG T    5                                                       
 REMARK 620                                                                      
 REMARK 620 METAL COORDINATION                                                   
-REMARK 620  (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;              
-REMARK 620   SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                           
+REMARK 620 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 620 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE):                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A1343  CA                            
@@ -432,11 +395,11 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              CA A1345  CA                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 ALA A 181   O                                                      
-REMARK 620 2 ILE A 186   O    84.6                                              
-REMARK 620 3 HOH P2004   O    91.1 147.3                                        
-REMARK 620 4 HOH P2017   O    81.6  74.0  73.2                                  
-REMARK 620 5 HOH P2016   O   165.3  92.7  83.4  83.8                            
+REMARK 620 1 HOH P2004   O                                                      
+REMARK 620 2 ILE A 186   O   147.3                                              
+REMARK 620 3 ALA A 181   O    91.1  84.6                                        
+REMARK 620 4 HOH P2017   O    73.2  74.0  81.6                                  
+REMARK 620 5 HOH P2016   O    83.4  92.7 165.3  83.8                            
 REMARK 620 N                    1     2     3     4                             
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
@@ -448,26 +411,26 @@ REMARK 620 3 HOH A2130   O    74.4 138.5
 REMARK 620 4 HOH P2021   O    92.2  75.6  63.0                                  
 REMARK 620 5  DC P  13   O3'  47.0  64.0 111.9  85.0                            
 REMARK 620 6  DG P  15   N7   90.4  69.0 151.7 142.9  70.2                      
-REMARK 620 7 DGT A1346   O1A  84.8 148.5  70.9 132.8 122.9  84.2                
-REMARK 620 8 HOH A2128   O   165.8  83.4  95.3  91.7 147.1  94.6  82.5          
+REMARK 620 7 HOH A2128   O   165.8  83.4  95.3  91.7 147.1  94.6                
+REMARK 620 8 DGT A1346   O1A  84.8 148.5  70.9 132.8 122.9  84.2  82.5          
 REMARK 620 N                    1     2     3     4     5     6     7           
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA A1343                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A1343                  
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA A1344                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A1344                  
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA A1345                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA A1345                  
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  CA P1016                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE CA P1016                  
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
@@ -475,148 +438,116 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE DGT A1346
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1JX4   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF A Y-FAMILY DNA                                 
-REMARK 900  POLYMERASE IN A TERNARYCOMPLEX WITH DNA                             
-REMARK 900  SUBSTRATES AND AN INCOMING NUCLEOTIDE                               
+REMARK 900 CRYSTAL STRUCTURE OF A Y-FAMILY DNA POLYMERASE IN A TERNARYCOMPLEX   
+REMARK 900 WITH DNA SUBSTRATES AND AN INCOMING NUCLEOTIDE                       
 REMARK 900 RELATED ID: 1JXL   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF A Y-FAMILY DNA                                 
-REMARK 900  POLYMERASE IN A TERNARYCOMPLEX WITH DNA                             
-REMARK 900  SUBSTRATES AND AN INCOMING NUCLEOTIDE                               
+REMARK 900 CRYSTAL STRUCTURE OF A Y-FAMILY DNA POLYMERASE IN A TERNARYCOMPLEX   
+REMARK 900 WITH DNA SUBSTRATES AND AN INCOMING NUCLEOTIDE                       
 REMARK 900 RELATED ID: 1N48   RELATED DB: PDB                                   
-REMARK 900  Y-FAMILY DNA POLYMERASE DPO4 IN COMPLEX                             
-REMARK 900  WITH DNA CONTAININGABASIC LESION                                    
+REMARK 900 Y-FAMILY DNA POLYMERASE DPO4 IN COMPLEX WITH DNA CONTAININGABASIC    
+REMARK 900 LESION                                                               
 REMARK 900 RELATED ID: 1N56   RELATED DB: PDB                                   
-REMARK 900  Y-FAMILY DNA POLYMERASE DPO4 IN COMPLEX                             
-REMARK 900  WITH DNA CONTAININGABASIC LESION                                    
+REMARK 900 Y-FAMILY DNA POLYMERASE DPO4 IN COMPLEX WITH DNA CONTAININGABASIC    
+REMARK 900 LESION                                                               
 REMARK 900 RELATED ID: 1RYR   RELATED DB: PDB                                   
-REMARK 900  REPLICATION OF A CIS-SYN THYMINE DIMER AT                           
-REMARK 900   ATOMIC RESOLUTION                                                  
+REMARK 900 REPLICATION OF A CIS-SYN THYMINE DIMER AT ATOMIC RESOLUTION          
 REMARK 900 RELATED ID: 1RYS   RELATED DB: PDB                                   
-REMARK 900  REPLICATION OF A CIS-SYN THYMINE DIMER AT                           
-REMARK 900   ATOMIC RESOLUTION                                                  
+REMARK 900 REPLICATION OF A CIS-SYN THYMINE DIMER AT ATOMIC RESOLUTION          
 REMARK 900 RELATED ID: 1S0M   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF A BENZO[A]PYRENE DIOL                          
-REMARK 900   EPOXIDE ADDUCTIN A TERNARY COMPLEX WITH A                          
-REMARK 900   DNA POLYMERASE                                                     
+REMARK 900 CRYSTAL STRUCTURE OF A BENZO[A]PYRENE DIOL EPOXIDE ADDUCTIN A        
+REMARK 900 TERNARY COMPLEX WITH A DNA POLYMERASE                                
 REMARK 900 RELATED ID: 1S0N   RELATED DB: PDB                                   
-REMARK 900  SNAPSHOTS OF REPLICATION THROUGH AN ABASIC                          
-REMARK 900  LESION:STRUCTURAL BASIS FOR BASE SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT                                                     
+REMARK 900 SNAPSHOTS OF REPLICATION THROUGH AN ABASIC LESION:STRUCTURAL BASIS   
+REMARK 900 FOR BASE SUBSTITUTION AND FRAMESHIFT                                 
 REMARK 900 RELATED ID: 1S0O   RELATED DB: PDB                                   
-REMARK 900  SNAPSHOTS OF REPLICATION THROUGH AN ABASIC                          
-REMARK 900  LESION:STRUCTURAL BASIS FOR BASE SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT                                                     
+REMARK 900 SNAPSHOTS OF REPLICATION THROUGH AN ABASIC LESION:STRUCTURAL BASIS   
+REMARK 900 FOR BASE SUBSTITUTION AND FRAMESHIFT                                 
 REMARK 900 RELATED ID: 1S10   RELATED DB: PDB                                   
-REMARK 900  SNAPSHOTS OF REPLICATION THROUGH AN ABASIC                          
-REMARK 900  LESION:STRUCTURAL BASIS FOR BASE SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT                                                     
+REMARK 900 SNAPSHOTS OF REPLICATION THROUGH AN ABASIC LESION:STRUCTURAL BASIS   
+REMARK 900 FOR BASE SUBSTITUTION AND FRAMESHIFT                                 
 REMARK 900 RELATED ID: 1S97   RELATED DB: PDB                                   
-REMARK 900  DPO4 WITH GT MISMATCH                                               
+REMARK 900 DPO4 WITH GT MISMATCH                                                
 REMARK 900 RELATED ID: 1S9F   RELATED DB: PDB                                   
-REMARK 900  DPO WITH AT MATCHED                                                 
+REMARK 900 DPO WITH AT MATCHED                                                  
 REMARK 900 RELATED ID: 2AGO   RELATED DB: PDB                                   
-REMARK 900  FIDELITY OF DPO4: EFFECT OF METAL IONS,                             
-REMARK 900  NUCLEOTIDESELECTION AND PYROPHOSPHOROLYSIS                          
+REMARK 900 FIDELITY OF DPO4: EFFECT OF METAL IONS, NUCLEOTIDESELECTION AND      
+REMARK 900 PYROPHOSPHOROLYSIS                                                   
 REMARK 900 RELATED ID: 2AGP   RELATED DB: PDB                                   
-REMARK 900  FIDELITY OF DPO4: EFFECT OF METAL IONS,                             
-REMARK 900  NUCLEOTIDESELECTION AND PYROPHOSPHOROLYSIS                          
+REMARK 900 FIDELITY OF DPO4: EFFECT OF METAL IONS, NUCLEOTIDESELECTION AND      
+REMARK 900 PYROPHOSPHOROLYSIS                                                   
 REMARK 900 RELATED ID: 2AGQ   RELATED DB: PDB                                   
-REMARK 900  FIDELITY OF DPO4: EFFECT OF METAL IONS,                             
-REMARK 900  NUCLEOTIDESELECTION AND PYROPHOSPHOROLYSIS                          
+REMARK 900 FIDELITY OF DPO4: EFFECT OF METAL IONS, NUCLEOTIDESELECTION AND      
+REMARK 900 PYROPHOSPHOROLYSIS                                                   
 REMARK 900 RELATED ID: 2ASD   RELATED DB: PDB                                   
-REMARK 900  OXOG-MODIFIED INSERTION TERNARY COMPLEX                             
+REMARK 900 OXOG-MODIFIED INSERTION TERNARY COMPLEX                              
 REMARK 900 RELATED ID: 2ASJ   RELATED DB: PDB                                   
-REMARK 900  OXOG-MODIFIED PREINSERTION BINARY COMPLEX                           
+REMARK 900 OXOG-MODIFIED PREINSERTION BINARY COMPLEX                            
 REMARK 900 RELATED ID: 2ASL   RELATED DB: PDB                                   
-REMARK 900  OXOG-MODIFIED POSTINSERTION BINARY COMPLEX                          
+REMARK 900 OXOG-MODIFIED POSTINSERTION BINARY COMPLEX                           
 REMARK 900 RELATED ID: 2ATL   RELATED DB: PDB                                   
-REMARK 900  UNMODIFIED INSERTION TERNARY COMPLEX                                
+REMARK 900 UNMODIFIED INSERTION TERNARY COMPLEX                                 
 REMARK 900 RELATED ID: 2AU0   RELATED DB: PDB                                   
-REMARK 900  UNMODIFIED PREINSERTION BINARY COMPLEX                              
+REMARK 900 UNMODIFIED PREINSERTION BINARY COMPLEX                               
 REMARK 900 RELATED ID: 2BQ3   RELATED DB: PDB                                   
-REMARK 900  DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS                      
-REMARK 900   SOLFATARICUS DPO4. ANALYSIS AND CRYSTAL                            
-REMARK 900  STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1                          
-REMARK 900  ,N2-ETHENOGUANINE                                                   
+REMARK 900 DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS SOLFATARICUS DPO4.    
+REMARK 900 ANALYSIS AND CRYSTAL STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION   
+REMARK 900 AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1 ,N2-ETHENOGUANINE          
 REMARK 900 RELATED ID: 2BQR   RELATED DB: PDB                                   
-REMARK 900  DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS                      
-REMARK 900   SOLFATARICUS DPO4. ANALYSIS AND CRYSTAL                            
-REMARK 900  STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1                          
-REMARK 900  ,N2-ETHENOGUANINE                                                   
+REMARK 900 DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS SOLFATARICUS DPO4.    
+REMARK 900 ANALYSIS AND CRYSTAL STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION   
+REMARK 900 AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1 ,N2-ETHENOGUANINE          
 REMARK 900 RELATED ID: 2BQU   RELATED DB: PDB                                   
-REMARK 900  DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS                      
-REMARK 900   SOLFATARICUS DPO4. ANALYSIS AND CRYSTAL                            
-REMARK 900  STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1                          
-REMARK 900  ,N2-ETHENOGUANINE                                                   
+REMARK 900 DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS SOLFATARICUS DPO4.    
+REMARK 900 ANALYSIS AND CRYSTAL STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION   
+REMARK 900 AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1 ,N2-ETHENOGUANINE          
 REMARK 900 RELATED ID: 2BR0   RELATED DB: PDB                                   
-REMARK 900  DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS                      
-REMARK 900   SOLFATARICUS DPO4. ANALYSIS AND CRYSTAL                            
-REMARK 900  STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION                       
-REMARK 900   AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1                          
-REMARK 900  ,N2-ETHENOGUANINE                                                   
+REMARK 900 DNA ADDUCT BYPASS POLYMERIZATION BY SULFOLOBUS SOLFATARICUS DPO4.    
+REMARK 900 ANALYSIS AND CRYSTAL STRUCTURES OF MULTIPLE BASE-PAIR SUBSTITUTION   
+REMARK 900 AND FRAMESHIFT PRODUCTS WITH THE ADDUCT 1 ,N2-ETHENOGUANINE          
 REMARK 900 RELATED ID: 2C22   RELATED DB: PDB                                   
-REMARK 900  EFFICIENT AND HIGH FIDELITY INCORPORATION OF                        
-REMARK 900  DCTP OPPOSITE 7,8-DIHYDRO-8-                                        
-REMARK 900  OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA                    
-REMARK 900   POLYMERASE DPO4                                                    
+REMARK 900 EFFICIENT AND HIGH FIDELITY INCORPORATION OF DCTP OPPOSITE 7,8-      
+REMARK 900 DIHYDRO-8- OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA          
+REMARK 900 POLYMERASE DPO4                                                      
 REMARK 900 RELATED ID: 2C28   RELATED DB: PDB                                   
-REMARK 900  EFFICIENT AND HIGH FIDELITY INCORPORATION OF                        
-REMARK 900  DCTP OPPOSITE 7,8-DIHYDRO-8-                                        
-REMARK 900  OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA                    
-REMARK 900   POLYMERASE DPO4                                                    
+REMARK 900 EFFICIENT AND HIGH FIDELITY INCORPORATION OF DCTP OPPOSITE 7,8-      
+REMARK 900 DIHYDRO-8- OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA          
+REMARK 900 POLYMERASE DPO4                                                      
 REMARK 900 RELATED ID: 2C2D   RELATED DB: PDB                                   
-REMARK 900  EFFICIENT AND HIGH FIDELITY INCORPORATION OF                        
-REMARK 900  DCTP OPPOSITE 7,8-DIHYDRO-8-                                        
-REMARK 900  OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA                    
-REMARK 900   POLYMERASE DPO4                                                    
+REMARK 900 EFFICIENT AND HIGH FIDELITY INCORPORATION OF DCTP OPPOSITE 7,8-      
+REMARK 900 DIHYDRO-8- OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA          
+REMARK 900 POLYMERASE DPO4                                                      
 REMARK 900 RELATED ID: 2C2E   RELATED DB: PDB                                   
-REMARK 900  EFFICIENT AND HIGH FIDELITY INCORPORATION OF                        
-REMARK 900  DCTP OPPOSITE 7,8-DIHYDRO-8-                                        
-REMARK 900  OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA                    
-REMARK 900   POLYMERASE DPO4                                                    
+REMARK 900 EFFICIENT AND HIGH FIDELITY INCORPORATION OF DCTP OPPOSITE 7,8-      
+REMARK 900 DIHYDRO-8- OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA          
+REMARK 900 POLYMERASE DPO4                                                      
 REMARK 900 RELATED ID: 2C2R   RELATED DB: PDB                                   
-REMARK 900  EFFICIENT AND HIGH FIDELITY INCORPORATION OF                        
-REMARK 900  DCTP OPPOSITE 7,8-DIHYDRO-8-                                        
-REMARK 900  OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA                    
-REMARK 900   POLYMERASE DPO4                                                    
+REMARK 900 EFFICIENT AND HIGH FIDELITY INCORPORATION OF DCTP OPPOSITE 7,8-      
+REMARK 900 DIHYDRO-8- OXODEOXYGUANOSINE BY SULFOLOBUS SOLFATARICUS DNA          
+REMARK 900 POLYMERASE DPO4                                                      
 REMARK 900 RELATED ID: 2J6S   RELATED DB: PDB                                   
-REMARK 900  TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS                          
-REMARK 900  DPO4 DNA POLYMERASE, O6-METHYLGUANINE MODIFIED                      
-REMARK 900   DNA, AND DATP.                                                     
+REMARK 900 TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS DPO4 DNA POLYMERASE, O6-  
+REMARK 900 METHYLGUANINE MODIFIED DNA, AND DATP.                                
 REMARK 900 RELATED ID: 2J6T   RELATED DB: PDB                                   
-REMARK 900  TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS                          
-REMARK 900  DPO4 DNA POLYMERASE, O6-METHYLGUANINE MODIFIED                      
-REMARK 900   DNA, AND DATP.                                                     
+REMARK 900 TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS DPO4 DNA POLYMERASE, O6-  
+REMARK 900 METHYLGUANINE MODIFIED DNA, AND DATP.                                
 REMARK 900 RELATED ID: 2J6U   RELATED DB: PDB                                   
-REMARK 900  TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS                          
-REMARK 900  DPO4 DNA POLYMERASE, O6-METHYLGUANINE MODIFIED                      
-REMARK 900   DNA, AND DGTP.                                                     
+REMARK 900 TERNARY COMPLEX OF SULFOLOBUS SOLFATARICUS DPO4 DNA POLYMERASE, O6-  
+REMARK 900 METHYLGUANINE MODIFIED DNA, AND DGTP.                                
 REMARK 900 RELATED ID: 2JEF   RELATED DB: PDB                                   
-REMARK 900  THE MOLECULAR BASIS OF SELECTIVITY OF                               
-REMARK 900  NUCLEOTIDE TRIPHOSPHATE INCORPORATION OPPOSITE                      
-REMARK 900  O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS                         
-REMARK 900  DNA POLYMERASE IV: STEADY-STATE AND PRE-                            
-REMARK 900  STEADY-STATE AND X-RAY CRYSTALLOGRAPHY OF                           
-REMARK 900  CORRECT AND INCORRECT PAIRING                                       
+REMARK 900 THE MOLECULAR BASIS OF SELECTIVITY OF NUCLEOTIDE TRIPHOSPHATE        
+REMARK 900 INCORPORATION OPPOSITE O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS   
+REMARK 900 DNA POLYMERASE IV: STEADY-STATE AND PRE- STEADY-STATE AND X-RAY      
+REMARK 900 CRYSTALLOGRAPHY OF CORRECT AND INCORRECT PAIRING                     
 REMARK 900 RELATED ID: 2JEG   RELATED DB: PDB                                   
-REMARK 900  THE MOLECULAR BASIS OF SELECTIVITY OF                               
-REMARK 900  NUCLEOSIDE TRIPHOSPHATE INCORPORATION OPPOSITE                      
-REMARK 900  O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS                         
-REMARK 900  DNA POLYMERASE IV: STEADY-STATE AND PRE-                            
-REMARK 900  STEADY-STATE KINETICS AND X-RAY                                     
-REMARK 900  CRYSTALLOGRAPHY OF CORRECT AND INCORRECT                            
-REMARK 900  PAIRING                                                             
+REMARK 900 THE MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE TRIPHOSPHATE        
+REMARK 900 INCORPORATION OPPOSITE O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS   
+REMARK 900 DNA POLYMERASE IV: STEADY-STATE AND PRE- STEADY-STATE KINETICS AND   
+REMARK 900 X-RAY CRYSTALLOGRAPHY OF CORRECT AND INCORRECT PAIRING               
 REMARK 900 RELATED ID: 2JEI   RELATED DB: PDB                                   
-REMARK 900  THE MOLECULAR BASIS OF SELECTIVITY OF                               
-REMARK 900  NUCLEOSIDE TRIPHOSPHATE INCORPORATION OPPOSITE                      
-REMARK 900  O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS                         
-REMARK 900  DNA POLYMERASE IV: STEADY-STATE AND PRE-                            
-REMARK 900  STEADY-STATE KINETICS AND X-RAY                                     
-REMARK 900  CRYSTALLOGRAPHY OF CORRECT AND INCORRECT                            
-REMARK 900  PAIRING                                                             
+REMARK 900 THE MOLECULAR BASIS OF SELECTIVITY OF NUCLEOSIDE TRIPHOSPHATE        
+REMARK 900 INCORPORATION OPPOSITE O6-BENZYLGUANINE BY SULFOLOBUS SOLFATARICUS   
+REMARK 900 DNA POLYMERASE IV: STEADY-STATE AND PRE- STEADY-STATE KINETICS AND   
+REMARK 900 X-RAY CRYSTALLOGRAPHY OF CORRECT AND INCORRECT PAIRING               
 REMARK 999                                                                      
 REMARK 999 SEQUENCE                                                             
 REMARK 999 6 HISTIDINES ADDED TO N-TERMINUS AND LAST 11 AMINO ACID              
@@ -625,10 +556,6 @@ DBREF  2JEJ A   -5     0  PDB    2JEJ     2JEJ            -5      0
 DBREF  2JEJ A    1   352  UNP    Q97W02   DPO42_SULSO      1    352             
 DBREF  2JEJ P    1    15  PDB    2JEJ     2JEJ             1     15             
 DBREF  2JEJ T    1    18  PDB    2JEJ     2JEJ             1     18             
-SEQRES   1 P   15   DG  DG  DG  DG  DG  DA  DA  DG  DG  DA  DT  DT  DC          
-SEQRES   2 P   15   DC  DG                                                      
-SEQRES   1 T   18   DT  DC  DA  DC BZG  DG  DA  DA  DT  DC  DC  DT  DT          
-SEQRES   2 T   18   DC  DC  DC  DC  DC                                          
 SEQRES   1 A  358  HIS HIS HIS HIS HIS HIS MET ILE VAL LEU PHE VAL ASP          
 SEQRES   2 A  358  PHE ASP TYR PHE TYR ALA GLN VAL GLU GLU VAL LEU ASN          
 SEQRES   3 A  358  PRO SER LEU LYS GLY LYS PRO VAL VAL VAL CYS VAL PHE          
@@ -657,22 +584,25 @@ SEQRES  25 A  358  SER LYS GLU THR ALA TYR SER GLU SER VAL LYS LEU LEU
 SEQRES  26 A  358  GLN LYS ILE LEU GLU GLU ASP GLU ARG LYS ILE ARG ARG          
 SEQRES  27 A  358  ILE GLY VAL ARG PHE SER LYS PHE ILE GLU ALA ILE GLY          
 SEQRES  28 A  358  LEU ASP LYS PHE PHE ASP THR                                  
-MODRES 2JEJ BZG T    5    G  O-6-BENZYL-2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE      
+SEQRES   1 P   15   DG  DG  DG  DG  DG  DA  DA  DG  DG  DA  DT  DT  DC          
+SEQRES   2 P   15   DC  DG                                                      
+SEQRES   1 T   18   DT  DC  DA  DC BZG  DG  DA  DA  DT  DC  DC  DT  DT          
+SEQRES   2 T   18   DC  DC  DC  DC  DC                                          
 HET    BZG  T   5      29                                                       
 HET     CA  A1343       1                                                       
 HET     CA  A1344       1                                                       
 HET     CA  A1345       1                                                       
-HET     CA  P1016       1                                                       
 HET    DGT  A1346      31                                                       
-HETNAM     BZG 6-(BENZYLOXY)-9-(2-DEOXY-5-O-PHOSPHONO-BETA-                     
-HETNAM   2 BZG  D-ERYTHRO-PENTOFURANOSYL)-9H-PURIN-2-AMINE                      
+HET     CA  P1016       1                                                       
+HETNAM     BZG 6-(BENZYLOXY)-9-(2-DEOXY-5-O-PHOSPHONO-BETA-D-ERYTHRO-           
+HETNAM   2 BZG  PENTOFURANOSYL)-9H-PURIN-2-AMINE                                
 HETNAM      CA CALCIUM ION                                                      
 HETNAM     DGT 2'-DEOXYGUANOSINE-5'-TRIPHOSPHATE                                
 HETSYN     BZG O6-BENZYL-2'-DEOXYGUANOSINE-5'-MONOPHOSPHATE                     
-FORMUL   2  BZG    C17 H20 N5 O7 P                                              
+FORMUL   3  BZG    C17 H20 N5 O7 P                                              
 FORMUL   4   CA    4(CA 2+)                                                     
-FORMUL   8  DGT    C10 H16 N5 O13 P3                                            
-FORMUL   9  HOH   *175(H2 O1)                                                   
+FORMUL   7  DGT    C10 H16 N5 O13 P3                                            
+FORMUL   9  HOH   *175(H2 O)                                                    
 HELIX    1   1 TYR A   10  ASN A   20  1                                  11    
 HELIX    2   2 PRO A   21  LYS A   24  5                                   4    
 HELIX    3   3 ASN A   47  LYS A   52  1                                   6    
@@ -704,7 +634,7 @@ SHEET    4  AC 4 ILE A 295  THR A 301 -1  O  VAL A 296   N  ALA A 288
 LINK        CA    CA A1343                 O   HOH P2019     1555   1555  2.64  
 LINK        CA    CA A1343                 OE2 GLU A 106     1555   1555  2.42  
 LINK        CA    CA A1343                 OD2 ASP A   7     1555   1555  2.52  
-LINK        CA    CA A1343                 O2A DGT A1346     1555   1555  2.50  
+LINK        CA    CA A1343                 O2A DGT A1346     1555   1555  2.51  
 LINK        CA    CA A1343                 OP2  DG P  15     1555   1555  2.51  
 LINK        CA    CA A1343                 OD1 ASP A 105     1555   1555  2.68  
 LINK        CA    CA A1344                 OD1 ASP A   7     1555   1555  2.45  
@@ -716,7 +646,7 @@ LINK        CA    CA A1344                 O2A DGT A1346     1555   1555  2.36
 LINK        CA    CA A1345                 O   HOH P2004     1555   1555  2.89  
 LINK        CA    CA A1345                 O   ILE A 186     1555   1555  2.68  
 LINK        CA    CA A1345                 O   ALA A 181     1555   1555  2.48  
-LINK        CA    CA A1345                 O   HOH P2017     1555   1555  2.68  
+LINK        CA    CA A1345                 O   HOH P2017     1555   1555  2.69  
 LINK        CA    CA A1345                 O   HOH P2016     1555   1555  2.60  
 LINK        CA    CA P1016                 OP2  DC P  14     1555   1555  2.58  
 LINK        CA    CA P1016                 O6   DG P  15     1555   1555  2.72  
@@ -2700,26 +2630,26 @@ ATOM   1947  CA  GLY A 246      34.683  36.376  24.877  1.00 24.23           C
 ATOM   1948  C   GLY A 246      35.448  36.992  23.737  1.00 26.74           C  
 ATOM   1949  O   GLY A 246      34.903  37.755  22.942  1.00 25.99           O  
 ATOM   1950  N  AARG A 247      36.728  36.655  23.658  0.50 25.96           N  
-ATOM   1951  CA AARG A 247      37.596  37.171  22.618  0.50 26.24           C  
-ATOM   1952  C  AARG A 247      38.666  36.125  22.377  0.50 25.72           C  
-ATOM   1953  O  AARG A 247      39.144  35.491  23.312  0.50 23.28           O  
-ATOM   1954  CB AARG A 247      38.250  38.481  23.064  0.50 27.81           C  
-ATOM   1955  CG AARG A 247      39.326  39.004  22.117  0.50 30.74           C  
-ATOM   1956  CD AARG A 247      38.885  40.272  21.407  0.50 33.63           C  
-ATOM   1957  NE AARG A 247      39.860  40.724  20.417  0.50 35.58           N  
-ATOM   1958  CZ AARG A 247      40.110  40.094  19.274  0.50 37.79           C  
-ATOM   1959  NH1AARG A 247      41.013  40.579  18.432  0.50 39.88           N  
-ATOM   1960  NH2AARG A 247      39.459  38.979  18.967  0.50 37.98           N  
-ATOM   1961  N  BARG A 247      36.734  36.671  23.658  0.50 25.75           N  
-ATOM   1962  CA BARG A 247      37.589  37.200  22.606  0.50 25.75           C  
-ATOM   1963  C  BARG A 247      38.728  36.215  22.383  0.50 25.57           C  
-ATOM   1964  O  BARG A 247      39.325  35.725  23.333  0.50 23.66           O  
-ATOM   1965  CB BARG A 247      38.126  38.581  23.005  0.50 26.63           C  
-ATOM   1966  CG BARG A 247      37.047  39.671  23.058  0.50 27.70           C  
-ATOM   1967  CD BARG A 247      36.398  39.892  21.691  0.50 29.49           C  
-ATOM   1968  NE BARG A 247      35.382  40.946  21.709  0.50 31.56           N  
-ATOM   1969  CZ BARG A 247      34.101  40.760  22.007  0.50 31.30           C  
-ATOM   1970  NH1BARG A 247      33.648  39.559  22.310  0.50 31.06           N  
+ATOM   1951  N  BARG A 247      36.734  36.671  23.658  0.50 25.75           N  
+ATOM   1952  CA AARG A 247      37.596  37.171  22.618  0.50 26.24           C  
+ATOM   1953  CA BARG A 247      37.589  37.200  22.606  0.50 25.75           C  
+ATOM   1954  C  AARG A 247      38.666  36.125  22.377  0.50 25.72           C  
+ATOM   1955  C  BARG A 247      38.728  36.215  22.383  0.50 25.57           C  
+ATOM   1956  O  AARG A 247      39.144  35.491  23.312  0.50 23.28           O  
+ATOM   1957  O  BARG A 247      39.325  35.725  23.333  0.50 23.66           O  
+ATOM   1958  CB AARG A 247      38.250  38.481  23.064  0.50 27.81           C  
+ATOM   1959  CB BARG A 247      38.126  38.581  23.005  0.50 26.63           C  
+ATOM   1960  CG AARG A 247      39.326  39.004  22.117  0.50 30.74           C  
+ATOM   1961  CG BARG A 247      37.047  39.671  23.058  0.50 27.70           C  
+ATOM   1962  CD AARG A 247      38.885  40.272  21.407  0.50 33.63           C  
+ATOM   1963  CD BARG A 247      36.398  39.892  21.691  0.50 29.49           C  
+ATOM   1964  NE AARG A 247      39.860  40.724  20.417  0.50 35.58           N  
+ATOM   1965  NE BARG A 247      35.382  40.946  21.709  0.50 31.56           N  
+ATOM   1966  CZ AARG A 247      40.110  40.094  19.274  0.50 37.79           C  
+ATOM   1967  CZ BARG A 247      34.101  40.760  22.007  0.50 31.30           C  
+ATOM   1968  NH1AARG A 247      41.013  40.579  18.432  0.50 39.88           N  
+ATOM   1969  NH1BARG A 247      33.648  39.559  22.310  0.50 31.06           N  
+ATOM   1970  NH2AARG A 247      39.459  38.979  18.967  0.50 37.98           N  
 ATOM   1971  NH2BARG A 247      33.262  41.787  22.003  0.50 34.11           N  
 ATOM   1972  N   ILE A 248      39.020  35.916  21.110  1.00 25.20           N  
 ATOM   1973  CA  ILE A 248      40.070  34.969  20.769  1.00 25.59           C  
@@ -3736,10 +3666,10 @@ ATOM   2983  C2   DT P  11      27.579  23.783  16.226  1.00 27.90           C
 ATOM   2984  O2   DT P  11      26.377  23.963  16.313  1.00 27.89           O  
 ATOM   2985  N3   DT P  11      28.488  24.486  16.987  1.00 26.30           N  
 ATOM   2986  C4   DT P  11      29.863  24.363  16.971  1.00 27.59           C  
-ATOM   2987  C5   DT P  11      30.384  23.375  16.053  1.00 28.16           C  
-ATOM   2988  C6   DT P  11      29.505  22.676  15.307  1.00 27.99           C  
-ATOM   2989  O4   DT P  11      30.554  25.072  17.704  1.00 29.62           O  
-ATOM   2990  C7   DT P  11      31.866  23.181  15.972  1.00 27.02           C  
+ATOM   2987  O4   DT P  11      30.554  25.072  17.704  1.00 29.62           O  
+ATOM   2988  C5   DT P  11      30.384  23.375  16.053  1.00 28.16           C  
+ATOM   2989  C7   DT P  11      31.866  23.181  15.972  1.00 27.02           C  
+ATOM   2990  C6   DT P  11      29.505  22.676  15.307  1.00 27.99           C  
 ATOM   2991  P    DT P  12      25.855  21.189  10.567  1.00 27.61           P  
 ATOM   2992  OP1  DT P  12      24.683  20.604   9.879  1.00 30.20           O  
 ATOM   2993  OP2  DT P  12      27.173  21.186   9.895  1.00 29.98           O  
@@ -3756,10 +3686,10 @@ ATOM   3003  C2   DT P  12      27.189  27.189  14.452  1.00 26.20           C
 ATOM   3004  O2   DT P  12      26.287  27.849  14.948  1.00 25.07           O  
 ATOM   3005  N3   DT P  12      28.489  27.288  14.881  1.00 25.86           N  
 ATOM   3006  C4   DT P  12      29.584  26.594  14.401  1.00 27.03           C  
-ATOM   3007  C5   DT P  12      29.304  25.650  13.351  1.00 27.49           C  
-ATOM   3008  C6   DT P  12      28.043  25.544  12.922  1.00 26.41           C  
-ATOM   3009  O4   DT P  12      30.699  26.809  14.862  1.00 28.03           O  
-ATOM   3010  C7   DT P  12      30.432  24.839  12.793  1.00 27.93           C  
+ATOM   3007  O4   DT P  12      30.699  26.809  14.862  1.00 28.03           O  
+ATOM   3008  C5   DT P  12      29.304  25.650  13.351  1.00 27.49           C  
+ATOM   3009  C7   DT P  12      30.432  24.839  12.793  1.00 27.93           C  
+ATOM   3010  C6   DT P  12      28.043  25.544  12.922  1.00 26.41           C  
 ATOM   3011  P    DC P  13      23.266  26.646   9.124  1.00 30.90           P  
 ATOM   3012  OP1  DC P  13      21.845  26.791   8.738  1.00 33.67           O  
 ATOM   3013  OP2  DC P  13      24.208  25.949   8.219  1.00 31.14           O  
@@ -3834,10 +3764,10 @@ ATOM   3081  C2   DT T   1      46.472  28.214   6.186  0.95 55.17           C
 ATOM   3082  O2   DT T   1      46.181  28.257   7.373  1.00 54.70           O  
 ATOM   3083  N3   DT T   1      47.494  28.940   5.637  1.00 54.40           N  
 ATOM   3084  C4   DT T   1      47.894  28.944   4.306  0.67 54.73           C  
-ATOM   3085  C5   DT T   1      47.137  28.080   3.431  0.46 54.80           C  
-ATOM   3086  C6   DT T   1      46.127  27.379   3.963  0.70 55.11           C  
-ATOM   3087  O4   DT T   1      48.826  29.649   3.946  1.00 54.82           O  
-ATOM   3088  C7   DT T   1      47.509  27.997   1.985  1.00 54.54           C  
+ATOM   3085  O4   DT T   1      48.826  29.649   3.946  1.00 54.82           O  
+ATOM   3086  C5   DT T   1      47.137  28.080   3.431  0.46 54.80           C  
+ATOM   3087  C7   DT T   1      47.509  27.997   1.985  1.00 54.54           C  
+ATOM   3088  C6   DT T   1      46.127  27.379   3.963  0.70 55.11           C  
 ATOM   3089  P    DC T   2      42.062  23.941   7.186  0.57 59.65           P  
 ATOM   3090  OP1  DC T   2      43.148  23.262   7.927  0.01 60.03           O  
 ATOM   3091  OP2  DC T   2      41.670  23.446   5.849  0.75 61.10           O  
@@ -4006,10 +3936,10 @@ ATOM   3253  C2   DT T   9      24.113  24.441  20.612  1.00 38.34           C
 ATOM   3254  O2   DT T   9      23.759  23.611  19.797  1.00 38.89           O  
 ATOM   3255  N3   DT T   9      25.434  24.635  20.934  1.00 35.50           N  
 ATOM   3256  C4   DT T   9      25.947  25.543  21.837  1.00 35.39           C  
-ATOM   3257  C5   DT T   9      24.963  26.363  22.511  1.00 35.06           C  
-ATOM   3258  C6   DT T   9      23.672  26.182  22.203  1.00 37.04           C  
-ATOM   3259  O4   DT T   9      27.163  25.610  22.014  1.00 32.81           O  
-ATOM   3260  C7   DT T   9      25.424  27.370  23.516  1.00 36.63           C  
+ATOM   3257  O4   DT T   9      27.163  25.610  22.014  1.00 32.81           O  
+ATOM   3258  C5   DT T   9      24.963  26.363  22.511  1.00 35.06           C  
+ATOM   3259  C7   DT T   9      25.424  27.370  23.516  1.00 36.63           C  
+ATOM   3260  C6   DT T   9      23.672  26.182  22.203  1.00 37.04           C  
 ATOM   3261  P    DC T  10      18.024  23.567  21.892  1.00 44.67           P  
 ATOM   3262  OP1  DC T  10      16.667  23.381  21.330  1.00 45.83           O  
 ATOM   3263  OP2  DC T  10      18.189  23.879  23.329  1.00 44.29           O  
@@ -4064,10 +3994,10 @@ ATOM   3311  C2   DT T  12      27.851  14.648  26.339  1.00 42.57           C
 ATOM   3312  O2   DT T  12      29.063  14.519  26.400  1.00 40.11           O  
 ATOM   3313  N3   DT T  12      27.192  15.655  27.002  1.00 40.52           N  
 ATOM   3314  C4   DT T  12      25.832  15.903  27.005  1.00 41.72           C  
-ATOM   3315  C5   DT T  12      25.035  14.981  26.226  1.00 42.55           C  
-ATOM   3316  C6   DT T  12      25.666  13.994  25.572  1.00 42.92           C  
-ATOM   3317  O4   DT T  12      25.382  16.858  27.638  1.00 39.29           O  
-ATOM   3318  C7   DT T  12      23.549  15.165  26.186  1.00 43.79           C  
+ATOM   3315  O4   DT T  12      25.382  16.858  27.638  1.00 39.29           O  
+ATOM   3316  C5   DT T  12      25.035  14.981  26.226  1.00 42.55           C  
+ATOM   3317  C7   DT T  12      23.549  15.165  26.186  1.00 43.79           C  
+ATOM   3318  C6   DT T  12      25.666  13.994  25.572  1.00 42.92           C  
 ATOM   3319  P    DT T  13      28.649   8.599  24.624  1.00 52.09           P  
 ATOM   3320  OP1  DT T  13      29.513   7.663  23.870  1.00 52.11           O  
 ATOM   3321  OP2  DT T  13      27.291   8.176  25.034  1.00 51.72           O  
@@ -4084,10 +4014,10 @@ ATOM   3331  C2   DT T  13      28.875  13.406  29.873  1.00 41.03           C
 ATOM   3332  O2   DT T  13      29.931  13.839  30.300  1.00 39.21           O  
 ATOM   3333  N3   DT T  13      27.697  14.086  30.037  1.00 38.71           N  
 ATOM   3334  C4   DT T  13      26.443  13.700  29.613  1.00 37.44           C  
-ATOM   3335  C5   DT T  13      26.387  12.427  28.929  1.00 39.32           C  
-ATOM   3336  C6   DT T  13      27.533  11.752  28.755  1.00 40.23           C  
-ATOM   3337  O4   DT T  13      25.477  14.428  29.828  1.00 37.05           O  
-ATOM   3338  C7   DT T  13      25.062  11.923  28.450  1.00 37.95           C  
+ATOM   3335  O4   DT T  13      25.477  14.428  29.828  1.00 37.05           O  
+ATOM   3336  C5   DT T  13      26.387  12.427  28.929  1.00 39.32           C  
+ATOM   3337  C7   DT T  13      25.062  11.923  28.450  1.00 37.95           C  
+ATOM   3338  C6   DT T  13      27.533  11.752  28.755  1.00 40.23           C  
 ATOM   3339  P    DC T  14      32.485   8.122  29.941  1.00 54.11           P  
 ATOM   3340  OP1  DC T  14      33.802   7.529  29.618  1.00 53.57           O  
 ATOM   3341  OP2  DC T  14      31.289   7.254  30.034  1.00 53.57           O  
@@ -4484,5 +4414,5 @@ CONECT 3619 3437
 CONECT 3620 3437                                                                
 CONECT 3622 3435                                                                
 CONECT 3624 3469                                                                
-MASTER      565    0    6   16   12    0   14    6 3641    3   90   32          
+MASTER      497    0    6   16   12    0   14    6 3630    3   90   32          
 END                                                                             

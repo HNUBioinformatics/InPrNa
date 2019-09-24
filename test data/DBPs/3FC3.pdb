@@ -33,6 +33,7 @@ KEYWDS    ENDONUCLEASE-DNA COMPLEX, RESTRICTION ENZYME, HPY99I,
 KEYWDS   2 PSEUDOPALINDROME, HYDROLASE-DNA COMPLEX                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.SOKOLOWSKA,H.CZAPINSKA,M.BOCHTLER                                   
+REVDAT   4   01-NOV-17 3FC3    1       REMARK                                   
 REVDAT   3   13-JUL-11 3FC3    1       VERSN                                    
 REVDAT   2   07-JUL-09 3FC3    1       JRNL                                     
 REVDAT   1   31-MAR-09 3FC3    0                                                
@@ -88,7 +89,7 @@ REMARK   3
 REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.                                  
 REMARK   3   TOTAL NUMBER OF BINS USED           : 20                           
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.75                         
-REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.79                         
+REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.80                         
 REMARK   3   REFLECTION IN BIN     (WORKING SET) : 3657                         
 REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 99.05                        
 REMARK   3   BIN R VALUE           (WORKING SET) : 0.2340                       
@@ -153,8 +154,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1925 ; 0.687 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   790 ; 0.000 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3130 ; 1.263 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2010 ; 1.745 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2323 ; 2.662 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -308,7 +314,7 @@ REMARK   4
 REMARK   4 3FC3 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 05-DEC-08.                  
-REMARK 100 THE RCSB ID CODE IS RCSB050405.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000050405.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -354,7 +360,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 4.480
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: SAD                          
-REMARK 200 SOFTWARE USED: SHELXC, SHELXD, SHELXE, ARP/WARP                      
+REMARK 200 SOFTWARE USED: SHELXCD, SHELXD                                       
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -538,6 +544,7 @@ REMARK 500    VAL A 141      -54.74   -121.92
 REMARK 500    ARG A 157     -111.83   -104.42                                   
 REMARK 500    ASP B   5      -10.24     84.97                                   
 REMARK 500    ASN B  29     -167.70   -123.32                                   
+REMARK 500    ASN B  29     -167.70   -123.38                                   
 REMARK 500    ARG B  58       44.15   -109.76                                   
 REMARK 500    ILE B  70      -70.76   -105.48                                   
 REMARK 500    ILE B 132      -68.13    -98.12                                   
@@ -545,21 +552,9 @@ REMARK 500    VAL B 141      -54.52   -122.63
 REMARK 500    ARG B 157     -108.63   -107.04                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
-REMARK 525                                                                      
-REMARK 525  M RES CSSEQI                                                        
-REMARK 525    HOH A 202        DISTANCE =  6.78 ANGSTROMS                       
 REMARK 600                                                                      
 REMARK 600 HETEROGEN                                                            
+REMARK 600                                                                      
 REMARK 600 1. THE COORDINATION SPHERES PROVIDED AUTOMATICALLY AS                
 REMARK 600 REMARK 620 HAVE BEEN SKIPPED UPON AUTHOR'S REQUEST                   
 REMARK 600 BECAUSE THESE RECORDS MAKE A FALSE IMPRESSION THAT                   
@@ -604,11 +599,11 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE NA B 307
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2QNF   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF T4 ENDONUCLEASE VII H43N MUTANT IN              
-REMARK 900 COMPLEX WITH HETERODUPLEX DNA CONTAINING BASE MISMATCHES             
+REMARK 900 CRYSTAL STRUCTURE OF T4 ENDONUCLEASE VII H43N MUTANT IN COMPLEX      
+REMARK 900 WITH HETERODUPLEX DNA CONTAINING BASE MISMATCHES                     
 REMARK 900 RELATED ID: 2QNC   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF T4 ENDONUCLEASE VII N62D MUTANT IN              
-REMARK 900 COMPLEX WITH A DNA HOLLIDAY JUNCTION                                 
+REMARK 900 CRYSTAL STRUCTURE OF T4 ENDONUCLEASE VII N62D MUTANT IN COMPLEX      
+REMARK 900 WITH A DNA HOLLIDAY JUNCTION                                         
 REMARK 900 RELATED ID: 1A73   RELATED DB: PDB                                   
 REMARK 900 INTRON-ENCODED ENDONUCLEASE I-PPOI COMPLEXED WITH DNA                
 DBREF  3FC3 A    1   190  UNP    Q9ZL26   Q9ZL26_HELPJ     1    190             
@@ -4964,5 +4959,5 @@ CONECT 3803 3802 3804
 CONECT 3804 3803 3805                                                           
 CONECT 3805 3804 3806                                                           
 CONECT 3806 3805                                                                
-MASTER      568    0    8   12   26    0   11    6 3751    4   13   34          
+MASTER      562    0    8   12   26    0   11    6 3751    4   13   34          
 END                                                                             

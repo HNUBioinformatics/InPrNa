@@ -37,25 +37,31 @@ SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET30B;                                   
 SOURCE  11 MOL_ID: 2;                                                           
 SOURCE  12 SYNTHETIC: YES;                                                      
-SOURCE  13 OTHER_DETAILS: CHEMICAL SYNTHESIS;                                   
-SOURCE  14 MOL_ID: 3;                                                           
-SOURCE  15 SYNTHETIC: YES;                                                      
-SOURCE  16 OTHER_DETAILS: CHEMICAL SYNTHESIS;                                   
-SOURCE  17 MOL_ID: 4;                                                           
-SOURCE  18 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
-SOURCE  19 ORGANISM_COMMON: HUMAN;                                              
-SOURCE  20 ORGANISM_TAXID: 9606;                                                
-SOURCE  21 GENE: EP300, P300;                                                   
-SOURCE  22 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE  23 EXPRESSION_SYSTEM_TAXID: 469008;                                     
-SOURCE  24 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
-SOURCE  25 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
-SOURCE  26 EXPRESSION_SYSTEM_PLASMID: PET28A                                    
+SOURCE  13 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  14 ORGANISM_TAXID: 32630;                                               
+SOURCE  15 OTHER_DETAILS: CHEMICAL SYNTHESIS;                                   
+SOURCE  16 MOL_ID: 3;                                                           
+SOURCE  17 SYNTHETIC: YES;                                                      
+SOURCE  18 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  19 ORGANISM_TAXID: 32630;                                               
+SOURCE  20 OTHER_DETAILS: CHEMICAL SYNTHESIS;                                   
+SOURCE  21 MOL_ID: 4;                                                           
+SOURCE  22 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  23 ORGANISM_COMMON: HUMAN;                                              
+SOURCE  24 ORGANISM_TAXID: 9606;                                                
+SOURCE  25 GENE: EP300, P300;                                                   
+SOURCE  26 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE  27 EXPRESSION_SYSTEM_TAXID: 469008;                                     
+SOURCE  28 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
+SOURCE  29 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE  30 EXPRESSION_SYSTEM_PLASMID: PET28A                                    
 KEYWDS    PROTEIN-DNA COMPLEX, TRANSCRIPTION FACTOR, TRANSCRIPTIONAL            
 KEYWDS   2 ACTIVATION, P300, ZINC FINGER, TRANSFERASE-TRANSCRIPTION ACTIVATOR-  
 KEYWDS   3 DNA COMPLEX                                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.HE,J.YE,C.RIQUELME,J.O.LIU                                          
+REVDAT   3   17-JUL-19 3P57    1       SOURCE REMARK                            
+REVDAT   2   08-NOV-17 3P57    1       REMARK                                   
 REVDAT   1   10-AUG-11 3P57    0                                                
 JRNL        AUTH   J.HE,J.YE,Y.CAI,C.RIQUELME,J.O.LIU,X.LIU,A.HAN,L.CHEN        
 JRNL        TITL   STRUCTURE OF P300 BOUND TO MEF2 ON DNA REVEALS A MECHANISM   
@@ -68,16 +74,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.19 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.1_357)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.6.1_357                                     
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -146,9 +151,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -1.24430                                             
 REMARK   3    B22 (A**2) : -0.07680                                             
 REMARK   3    B33 (A**2) : 1.48760                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -173,7 +178,7 @@ REMARK   4
 REMARK   4 3P57 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 21-JAN-11.                  
-REMARK 100 THE RCSB ID CODE IS RCSB061970.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000061970.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -193,7 +198,7 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 315R                  
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
 REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 59524                              
@@ -277,8 +282,8 @@ REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.
 REMARK 350                                                                      
 REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TRIDECAMERIC                      
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, I, J, E, F, G,            
-REMARK 350                    AND CHAINS: H, K, L, P                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D, I, J, E, F, G, H,         
+REMARK 350                    AND CHAINS: K, L, P                               
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -7964,5 +7969,5 @@ CONECT 6841 6762 7097
 CONECT 7095 6422 6448 6486 6519                                                 
 CONECT 7096 6595 6624 6630 6651                                                 
 CONECT 7097 6732 6762 6803 6841                                                 
-MASTER      377    0    3   22   18    0    4    6 7346   13   15   63          
+MASTER      376    0    3   22   18    0    4    6 7346   13   15   63          
 END                                                                             

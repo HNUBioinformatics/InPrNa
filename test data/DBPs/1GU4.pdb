@@ -1,21 +1,20 @@
 HEADER    TRANSCRIPTION/DNA                       23-JAN-02   1GU4              
-TITLE     CRYSTAL STRUCTURE OF C/EBPBETA BZIP DIMERIC   BOUND TO A              
-TITLE    2 HIGH AFFINITY DNA FRAGMENT                                           
+TITLE     CRYSTAL STRUCTURE OF C/EBPBETA BZIP HOMODIMER BOUND TO A HIGH AFFINITY
+TITLE    2 DNA FRAGMENT                                                         
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: CAAT/ENHANCER BINDING PROTEIN BETA;                        
 COMPND   3 CHAIN: A, B;                                                         
 COMPND   4 FRAGMENT: BZIP DOMAIN, RESIDUES 259-336;                             
-COMPND   5 SYNONYM: C/EBP BETA, NUCLEAR FACTOR NF-IL6, TRANSCRIPTION            
-COMPND   6  FACTOR 5;                                                           
-COMPND   7 ENGINEERED: YES;                                                     
-COMPND   8 MOL_ID: 2;                                                           
-COMPND   9 MOLECULE: 5'-D(*TP*AP*GP*GP*AP*TP*TP*GP*CP*GP*                       
-COMPND  10  CP*AP*AP*TP*AP*T)-3';                                               
-COMPND  11 CHAIN: C;                                                            
-COMPND  12 MOL_ID: 3;                                                           
-COMPND  13 MOLECULE: 5'-D(*AP*AP*TP*AP*TP*TP*GP*CP*GP*CP*                       
-COMPND  14  AP*AP*TP*CP*CP*T)-3';                                               
-COMPND  15 CHAIN: D                                                             
+COMPND   5 SYNONYM: C/EBP BETA, NUCLEAR FACTOR NF-IL6, TRANSCRIPTION FACTOR 5;  
+COMPND   6 ENGINEERED: YES;                                                     
+COMPND   7 MOL_ID: 2;                                                           
+COMPND   8 MOLECULE: 5'-D(*TP*AP*GP*GP*AP*TP*TP*GP*CP*GP* CP*AP*AP*TP*AP*T)-3'; 
+COMPND   9 CHAIN: C;                                                            
+COMPND  10 ENGINEERED: YES;                                                     
+COMPND  11 MOL_ID: 3;                                                           
+COMPND  12 MOLECULE: 5'-D(*AP*AP*TP*AP*TP*TP*GP*CP*GP*CP* AP*AP*TP*CP*CP*T)-3'; 
+COMPND  13 CHAIN: D;                                                            
+COMPND  14 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
 SOURCE   3 ORGANISM_COMMON: HUMAN;                                              
@@ -27,69 +26,70 @@ SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PAR2156;                                  
 SOURCE  10 MOL_ID: 2;                                                           
 SOURCE  11 SYNTHETIC: YES;                                                      
-SOURCE  12 MOL_ID: 3;                                                           
-SOURCE  13 SYNTHETIC: YES                                                       
-KEYWDS    TRANSCRIPTION/DNA, PROTEIN-DNA COMPLEX, TRANSCRIPTION                 
-KEYWDS   2 FACTOR, BZIP, C/EBP, HYPOTHETICAL PROTEIN                            
+SOURCE  12 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  13 ORGANISM_TAXID: 32630;                                               
+SOURCE  14 MOL_ID: 3;                                                           
+SOURCE  15 SYNTHETIC: YES;                                                      
+SOURCE  16 ORGANISM_SCIENTIFIC: SYNTHETIC CONSTRUCT;                            
+SOURCE  17 ORGANISM_TAXID: 32630                                                
+KEYWDS    TRANSCRIPTION/DNA, PROTEIN-DNA COMPLEX, TRANSCRIPTION FACTOR, BZIP,   
+KEYWDS   2 C/EBP, HYPOTHETICAL PROTEIN, TRANSCRIPTION-DNA COMPLEX               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    T.H.TAHIROV,K.OGATA                                                   
+REVDAT   3   29-MAR-17 1GU4    1       TITLE  SOURCE REMARK                     
 REVDAT   2   24-FEB-09 1GU4    1       VERSN                                    
 REVDAT   1   26-JUN-03 1GU4    0                                                
 JRNL        AUTH   T.H.TAHIROV,T.INOUE-BUNGO,K.SATO,M.SASAKI,K.OGATA            
-JRNL        TITL   STRUCTURAL BASIS FOR FLEXIBLE BASE RECOGNITION BY            
-JRNL        TITL 2 C/EBPBETA                                                    
+JRNL        TITL   STRUCTURAL BASIS FOR FLEXIBLE BASE RECOGNITION BY C/EBPBETA  
 JRNL        REF    TO BE PUBLISHED                                              
 JRNL        REFN                                                                
 REMARK   1                                                                      
 REMARK   1 REFERENCE 1                                                          
-REMARK   1  AUTH   T.H.TAHIROV,K.SATO,E.ICHIKAWA-IWATA,M.SASAKI,                
-REMARK   1  AUTH 2 T.INOUE-BUNGO,M.SHIINA,K.KIMURA,S.TAKATA,                    
-REMARK   1  AUTH 3 A.FUJIKAWA,H.MORII,T.KUMASAKA,M.YAMAMOTO,S.ISHII,            
-REMARK   1  AUTH 4 K.OGATA                                                      
-REMARK   1  TITL   MECHANISM OF C-MYB-C/EBPBETA COOPERATION FROM                
-REMARK   1  TITL 2 SEPARATED SITES ON A PROMOTER                                
+REMARK   1  AUTH   T.H.TAHIROV,K.SATO,E.ICHIKAWA-IWATA,M.SASAKI,T.INOUE-BUNGO,  
+REMARK   1  AUTH 2 M.SHIINA,K.KIMURA,S.TAKATA,A.FUJIKAWA,H.MORII,T.KUMASAKA,    
+REMARK   1  AUTH 3 M.YAMAMOTO,S.ISHII,K.OGATA                                   
+REMARK   1  TITL   MECHANISM OF C-MYB-C/EBPBETA COOPERATION FROM SEPARATED      
+REMARK   1  TITL 2 SITES ON A PROMOTER                                          
 REMARK   1  REF    CELL (CAMBRIDGE,MASS.)        V. 108    57 2002              
 REMARK   1  REFN                   ISSN 0092-8674                               
 REMARK   1  PMID   11792321                                                     
 REMARK   1  DOI    10.1016/S0092-8674(01)00636-5                                
 REMARK   1 REFERENCE 2                                                          
-REMARK   1  AUTH   T.H.TAHIROV,T.INOUE-BUNGO,M.SASAKI,A.FUJIKAWA,               
-REMARK   1  AUTH 2 K.KIMURA,K.SATO,S.ADACHI,K.KAMIYAOGATA                       
-REMARK   1  TITL   CRYSTALLIZATION AND PRELIMINARY X-RAY ANALYSIS OF            
-REMARK   1  TITL 2 THE C/EBPBETA C-TERMINAL REGION IN COMPLEX WITH              
-REMARK   1  TITL 3 DNA                                                          
+REMARK   1  AUTH   T.H.TAHIROV,T.INOUE-BUNGO,M.SASAKI,A.FUJIKAWA,K.KIMURA,      
+REMARK   1  AUTH 2 K.SATO,S.ADACHI,K.KAMIYAOGATA                                
+REMARK   1  TITL   CRYSTALLIZATION AND PRELIMINARY X-RAY ANALYSIS OF THE        
+REMARK   1  TITL 2 C/EBPBETA C-TERMINAL REGION IN COMPLEX WITH DNA              
 REMARK   1  REF    ACTA CRYSTALLOGR.,SECT.D      V.  57   854 2001              
 REMARK   1  REFN                   ISSN 0907-4449                               
 REMARK   1  PMID   11375506                                                     
 REMARK   1  DOI    10.1107/S0907444901003912                                    
 REMARK   1 REFERENCE 3                                                          
-REMARK   1  AUTH   T.H.TAHIROV,T.INOUE-BUNGO,H.MORII,A.FUJIKAWA,                
-REMARK   1  AUTH 2 M.SASAKI,K.KIMURA,M.SHIINA,K.SATO,T.KUMASAKA,                
-REMARK   1  AUTH 3 M.YAMAMOTO,S.ISHII,K.OGATA                                   
-REMARK   1  TITL   STRUCTURAL ANALYSES OF DNA RECOGNITION BY THE                
-REMARK   1  TITL 2 AML1/ RUNX-1 RUNT DOMAIN AND ITS ALLOSTERIC                  
-REMARK   1  TITL 3 CONTROL BY CBFBETA                                           
+REMARK   1  AUTH   T.H.TAHIROV,T.INOUE-BUNGO,H.MORII,A.FUJIKAWA,M.SASAKI,       
+REMARK   1  AUTH 2 K.KIMURA,M.SHIINA,K.SATO,T.KUMASAKA,M.YAMAMOTO,S.ISHII,      
+REMARK   1  AUTH 3 K.OGATA                                                      
+REMARK   1  TITL   STRUCTURAL ANALYSES OF DNA RECOGNITION BY THE AML1/ RUNX-1   
+REMARK   1  TITL 2 RUNT DOMAIN AND ITS ALLOSTERIC CONTROL BY CBFBETA            
 REMARK   1  REF    CELL (CAMBRIDGE,MASS.)        V. 104   755 2001              
 REMARK   1  REFN                   ISSN 0092-8674                               
 REMARK   1  PMID   11257229                                                     
 REMARK   1  DOI    10.1016/S0092-8674(01)00271-9                                
 REMARK   1 REFERENCE 4                                                          
-REMARK   1  AUTH   T.H.TAHIROV,T.INOUE,M.SASAKI,M.SHIINA,K.KIMURA,              
-REMARK   1  AUTH 2 K.SATO,T.KUMASAKA,M.YAMAMOTO,N.KAMIYA,K.OGATA                
+REMARK   1  AUTH   T.H.TAHIROV,T.INOUE,M.SASAKI,M.SHIINA,K.KIMURA,K.SATO,       
+REMARK   1  AUTH 2 T.KUMASAKA,M.YAMAMOTO,N.KAMIYA,K.OGATA                       
 REMARK   1  TITL   CRYSTALLIZATION AND PRELIMINARY X-RAY ANALYSES OF            
-REMARK   1  TITL 2 QUATERNARY, TERNARY AND BINARY PROTEIN-DNA                   
-REMARK   1  TITL 3 COMPLEXES WITH INVOLVEMENT OF AML1/RUNX-1/CBFALPHA           
-REMARK   1  TITL 4 RUNT DOMAIN, CBFBETA AND THE C/EBPBETA BZIP REGION           
+REMARK   1  TITL 2 QUATERNARY, TERNARY AND BINARY PROTEIN-DNA COMPLEXES WITH    
+REMARK   1  TITL 3 INVOLVEMENT OF AML1/RUNX-1/CBFALPHA RUNT DOMAIN, CBFBETA AND 
+REMARK   1  TITL 4 THE C/EBPBETA BZIP REGION                                    
 REMARK   1  REF    ACTA CRYSTALLOGR.,SECT.D      V.  57   850 2001              
-REMARK   1  REFN                   ISSN 0909-4449                               
+REMARK   1  REFN                   ISSN 0907-4449                               
 REMARK   1  PMID   11375505                                                     
 REMARK   1  DOI    10.1107/S0907444901003900                                    
 REMARK   1 REFERENCE 5                                                          
-REMARK   1  AUTH   T.H.TAHIROV,T.INOUE,M.SASAKI,M.SHIINA,K.KIMURA,              
-REMARK   1  AUTH 2 K.SATO,T.KUMASAKA,M.YAMAMOTO,N.KAMIYA,K.OGATA                
-REMARK   1  TITL   CRYSTALS OF TERNARY PROTEIN-DNA COMPLEXES COMPOSED           
-REMARK   1  TITL 2 OF DNA-BINDING DOMAINS C-MYB OR V-MYB, C/EBPALPHA            
-REMARK   1  TITL 3 OR C/EBPBETA AND TOM-1A PROMOTER FRAGMENT                    
+REMARK   1  AUTH   T.H.TAHIROV,T.INOUE,M.SASAKI,M.SHIINA,K.KIMURA,K.SATO,       
+REMARK   1  AUTH 2 T.KUMASAKA,M.YAMAMOTO,N.KAMIYA,K.OGATA                       
+REMARK   1  TITL   CRYSTALS OF TERNARY PROTEIN-DNA COMPLEXES COMPOSED OF        
+REMARK   1  TITL 2 DNA-BINDING DOMAINS C-MYB OR V-MYB, C/EBPALPHA OR C/EBPBETA  
+REMARK   1  TITL 3 AND TOM-1A PROMOTER FRAGMENT                                 
 REMARK   1  REF    ACTA CRYSTALLOGR.,SECT.D      V.  57  1655 2001              
 REMARK   1  REFN                   ISSN 0907-4449                               
 REMARK   1  PMID   11679735                                                     
@@ -100,7 +100,7 @@ REMARK   3
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.0                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -108,8 +108,8 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 1.80                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 29.95                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.0                            
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1627019.30                     
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 0.000                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 1627019.300                    
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 99.0                           
 REMARK   3   NUMBER OF REFLECTIONS             : 39097                          
@@ -119,7 +119,7 @@ REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
 REMARK   3   R VALUE            (WORKING SET) : 0.232                           
 REMARK   3   FREE R VALUE                     : 0.266                           
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.9                             
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 4.900                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1916                            
 REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.006                           
 REMARK   3                                                                      
@@ -127,11 +127,11 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 1.80                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 1.91                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 97.0                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 97.00                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 5973                         
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.332                        
-REMARK   3   BIN FREE R VALUE                    : 0.326                        
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 5.0                          
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.3320                       
+REMARK   3   BIN FREE R VALUE                    : 0.3260                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 5.00                         
 REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 315                          
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.018                        
 REMARK   3                                                                      
@@ -142,20 +142,20 @@ REMARK   3   HETEROGEN ATOMS          : 0
 REMARK   3   SOLVENT ATOMS            : 311                                     
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 31.9                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 39.9                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 31.90                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 39.90                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 6.90                                                 
-REMARK   3    B22 (A**2) : -3.12                                                
-REMARK   3    B33 (A**2) : -3.78                                                
-REMARK   3    B12 (A**2) : 0.00                                                 
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : 6.90000                                              
+REMARK   3    B22 (A**2) : -3.12000                                             
+REMARK   3    B33 (A**2) : -3.78000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.25                            
 REMARK   3   ESD FROM SIGMAA              (A) : 0.27                            
-REMARK   3   LOW RESOLUTION CUTOFF        (A) : 30.00                           
+REMARK   3   LOW RESOLUTION CUTOFF        (A) : 30.0                            
 REMARK   3                                                                      
 REMARK   3  CROSS-VALIDATED ESTIMATED COORDINATE ERROR.                         
 REMARK   3   ESD FROM C-V LUZZATI PLOT    (A) : 0.28                            
@@ -163,22 +163,22 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.23
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.004                           
-REMARK   3   BOND ANGLES            (DEGREES) : 0.8                             
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 15.0                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.96                            
+REMARK   3   BOND ANGLES            (DEGREES) : 0.800                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 15.00                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 0.960                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
-REMARK   3   MAIN-CHAIN BOND              (A**2) : 4.11  ; 1.50                 
-REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 4.71  ; 2.00                 
-REMARK   3   SIDE-CHAIN BOND              (A**2) : 5.65  ; 2.00                 
-REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 7.83  ; 2.50                 
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 4.110 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 4.710 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 5.650 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 7.830 ; 2.500                
 REMARK   3                                                                      
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : FLAT MODEL                                           
-REMARK   3   KSOL        : 0.348039                                             
-REMARK   3   BSOL        : 54.8637                                              
+REMARK   3   KSOL        : 0.35                                                 
+REMARK   3   BSOL        : 54.86                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
@@ -197,9 +197,9 @@ REMARK   3  TOPOLOGY FILE  4   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1GU4 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1GU4 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 24-JAN-02.                  
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 23-JAN-02.                  
 REMARK 100 THE PDBE ID CODE IS EBI-9331.                                        
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
@@ -245,22 +245,21 @@ REMARK 200  R SYM FOR SHELL            (I) : NULL
 REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.079                              
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
-REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: OTHER                        
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
 REMARK 200 SOFTWARE USED: X-PLOR                                                
 REMARK 200 STARTING MODEL: PDB ENTRY 1GTW                                       
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS  (%): 66.0                                       
-REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): NULL                     
+REMARK 280 SOLVENT CONTENT, VS   (%): 66.00                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.69                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 0.2 M POTASSIUM CHLORIDE,                
-REMARK 280  0.01 M MAGNESIUM SULFATE, 10.0% V/V PEG 400, 0.05 M MES             
-REMARK 280  BUFFER PH 6.0, PROTEIN-DNA COMPLEX CONCENTRATION WAS                
-REMARK 280  12 MG/ML AND CONTAINS 0.01 M DTT, PROTEIN:DNA RATIO WAS             
-REMARK 280  1:1.2. FOR CRYOPROTECTION THE CONCENTRATION OF PEG 400              
-REMARK 280  WAS ADJUSTED TO 36% V/V                                             
+REMARK 280 CRYSTALLIZATION CONDITIONS: 0.2 M POTASSIUM CHLORIDE, 0.01 M         
+REMARK 280  MAGNESIUM SULFATE, 10.0% V/V PEG 400, 0.05 M MES BUFFER PH 6.0,     
+REMARK 280  PROTEIN-DNA COMPLEX CONCENTRATION WAS 12 MG/ML AND CONTAINS 0.01    
+REMARK 280  M DTT, PROTEIN:DNA RATIO WAS 1:1.2. FOR CRYOPROTECTION THE          
+REMARK 280  CONCENTRATION OF PEG 400 WAS ADJUSTED TO 36% V/V, PH 6.00           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: C 2 2 21                         
@@ -313,29 +312,33 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
 REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
-REMARK 350 BIOMOLECULE:  1                                                      
-REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: OCTAMERIC                         
-REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: OCTAMERIC                  
-REMARK 350 SOFTWARE USED: PQS                                                   
+REMARK 350 BIOMOLECULE: 1                                                       
+REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: TETRAMERIC                        
+REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: TETRAMERIC                 
+REMARK 350 SOFTWARE USED: PISA                                                  
+REMARK 350 TOTAL BURIED SURFACE AREA: 6030 ANGSTROM**2                          
+REMARK 350 SURFACE AREA OF THE COMPLEX: 14560 ANGSTROM**2                       
+REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -46.0 KCAL/MOL                        
 REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
-REMARK 350   BIOMT1   2  1.000000  0.000000  0.000000        0.00000            
-REMARK 350   BIOMT2   2  0.000000 -1.000000  0.000000      112.32600            
-REMARK 350   BIOMT3   2  0.000000  0.000000 -1.000000      148.80200            
 REMARK 375                                                                      
 REMARK 375 SPECIAL POSITION                                                     
+REMARK 375 THE FOLLOWING ATOMS ARE FOUND TO BE WITHIN 0.15 ANGSTROMS            
+REMARK 375 OF A SYMMETRY RELATED ATOM AND ARE ASSUMED TO BE ON SPECIAL          
+REMARK 375 POSITIONS.                                                           
+REMARK 375                                                                      
+REMARK 375 ATOM RES CSSEQI                                                      
 REMARK 375      HOH A2048  LIES ON A SPECIAL POSITION.                          
 REMARK 465                                                                      
 REMARK 465 MISSING RESIDUES                                                     
@@ -372,8 +375,25 @@ REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
-REMARK 470     GLN A 333    CA   C    O    CB   CG   CD   OE1  NE2              
+REMARK 470     GLN A 333    CA   C    O    CB   CG   CD   OE1                   
+REMARK 470     GLN A 333    NE2                                                 
 REMARK 470     PRO B 335    CA   C    O    CB   CG   CD                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: TORSION ANGLES                                             
+REMARK 500                                                                      
+REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
+REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
+REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
+REMARK 500 STANDARD TABLE:                                                      
+REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
+REMARK 500                                                                      
+REMARK 500 EXPECTED VALUES: GJ KLEYWEGT AND TA JONES (1996). PHI/PSI-           
+REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400            
+REMARK 500                                                                      
+REMARK 500  M RES CSSEQI        PSI       PHI                                   
+REMARK 500    LYS A 332       65.68    -65.88                                   
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 525                                                                      
@@ -386,43 +406,35 @@ REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE
 REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
 REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
 REMARK 525 NUMBER; I=INSERTION CODE):                                           
+REMARK 525                                                                      
+REMARK 525  M RES CSSEQI                                                        
+REMARK 525    HOH B2012        DISTANCE =  6.24 ANGSTROMS                       
+REMARK 525    HOH C2005        DISTANCE =  5.89 ANGSTROMS                       
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1GTW   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF C/EBPBETA BZIP                                 
-REMARK 900  DIMERIC   BOUND TO A DNA FRAGMENT FROM THE                          
-REMARK 900   TOM-1A PROMOTER                                                    
+REMARK 900 CRYSTAL STRUCTURE OF C/EBPBETA BZIP DIMERIC BOUND TO A DNA FRAGMENT  
+REMARK 900 FROM THE TOM-1A PROMOTER                                             
 REMARK 900 RELATED ID: 1GU5   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF C/EBPBETA BZIP                                 
-REMARK 900  DIMERIC   BOUND TO A DNA FRAGMENT FROM THE                          
-REMARK 900   MIM-1 PROMOTER                                                     
+REMARK 900 CRYSTAL STRUCTURE OF C/EBPBETA BZIP DIMERIC BOUND TO A DNA FRAGMENT  
+REMARK 900 FROM THE MIM-1 PROMOTER                                              
 REMARK 900 RELATED ID: 1H88   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA                            
-REMARK 900  COMPLEX1                                                            
+REMARK 900 CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA COMPLEX1                    
 REMARK 900 RELATED ID: 1H89   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA                            
-REMARK 900  COMPLEX2                                                            
+REMARK 900 CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA COMPLEX2                    
 REMARK 900 RELATED ID: 1H8A   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA                            
-REMARK 900  COMPLEX3                                                            
+REMARK 900 CRYSTAL STRUCTURE OF TERNARY PROTEIN-DNA COMPLEX3                    
 REMARK 900 RELATED ID: 1HJB   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF RUNX-1/AML1/CBFALPHA                           
-REMARK 900  RUNT DOMAIN AND C/EBPBETA BZIP DIMERIC                              
-REMARK 900  BOUND TO A DNA FRAGMENT FROM THE CSF-1R                             
-REMARK 900   PROMOTER                                                           
+REMARK 900 CRYSTAL STRUCTURE OF RUNX-1/AML1/CBFALPHA RUNT DOMAIN AND C/EBPBETA  
+REMARK 900 BZIP DIMERIC BOUND TO A DNA FRAGMENT FROM THE CSF-1R PROMOTER        
 REMARK 900 RELATED ID: 1IO4   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF RUNX-1/AML1/CBFALPHA                           
-REMARK 900  RUNT DOMAIN-CBFBETA CORE DOMAIN HETERODIMER                         
-REMARK 900  AND C/EBPBETA BZIPHOMODIMER BOUND TO A DNA                          
-REMARK 900   FRAGMENT FROM THE CSF-1R PROMOTER                                  
+REMARK 900 CRYSTAL STRUCTURE OF RUNX-1/AML1/CBFALPHA RUNT DOMAIN-CBFBETA CORE   
+REMARK 900 DOMAIN HETERODIMER AND C/EBPBETA BZIPHOMODIMER BOUND TO A DNA        
+REMARK 900 FRAGMENT FROM THE CSF-1R PROMOTER                                    
 DBREF  1GU4 A  259   336  UNP    P17676   P17676         259    336             
 DBREF  1GU4 B  259   336  UNP    P17676   P17676         259    336             
 DBREF  1GU4 C    1    16  PDB    1GU4     1GU4             1     16             
 DBREF  1GU4 D  101   116  PDB    1GU4     1GU4           101    116             
-SEQRES   1 C   16   DT  DA  DG  DG  DA  DT  DT  DG  DC  DG  DC  DA  DA          
-SEQRES   2 C   16   DT  DA  DT                                                  
-SEQRES   1 D   16   DA  DA  DT  DA  DT  DT  DG  DC  DG  DC  DA  DA  DT          
-SEQRES   2 D   16   DC  DC  DT                                                  
 SEQRES   1 A   78  VAL LYS SER LYS ALA LYS LYS THR VAL ASP LYS HIS SER          
 SEQRES   2 A   78  ASP GLU TYR LYS ILE ARG ARG GLU ARG ASN ASN ILE ALA          
 SEQRES   3 A   78  VAL ARG LYS SER ARG ASP LYS ALA LYS MET ARG ASN LEU          
@@ -435,7 +447,11 @@ SEQRES   3 B   78  VAL ARG LYS SER ARG ASP LYS ALA LYS MET ARG ASN LEU
 SEQRES   4 B   78  GLU THR GLN HIS LYS VAL LEU GLU LEU THR ALA GLU ASN          
 SEQRES   5 B   78  GLU ARG LEU GLN LYS LYS VAL GLU GLN LEU SER ARG GLU          
 SEQRES   6 B   78  LEU SER THR LEU ARG ASN LEU PHE LYS GLN LEU PRO GLU          
-FORMUL   5  HOH   *311(H2 O1)                                                   
+SEQRES   1 C   16   DT  DA  DG  DG  DA  DT  DT  DG  DC  DG  DC  DA  DA          
+SEQRES   2 C   16   DT  DA  DT                                                  
+SEQRES   1 D   16   DA  DA  DT  DA  DT  DT  DG  DC  DG  DC  DA  DA  DT          
+SEQRES   2 D   16   DC  DC  DT                                                  
+FORMUL   5  HOH   *311(H2 O)                                                    
 HELIX    1   1 SER A  271  ASN A  329  1                                  59    
 HELIX    2   2 SER B  271  GLN B  333  1                                  63    
 CRYST1  100.947  112.326   74.401  90.00  90.00  90.00 C 2 2 21     16          
@@ -1586,13 +1602,13 @@ ATOM   1138  C2'  DT C   1      99.124  19.419  75.357  1.00 61.41           C
 ATOM   1139  C1'  DT C   1     100.317  20.037  76.062  1.00 53.18           C  
 ATOM   1140  N1   DT C   1     100.363  21.487  75.816  1.00 46.00           N  
 ATOM   1141  C2   DT C   1     100.536  22.346  76.878  1.00 40.09           C  
-ATOM   1142  C7   DT C   1      99.854  23.747  72.836  1.00 49.45           C  
-ATOM   1143  O2   DT C   1     100.783  21.970  78.013  1.00 41.89           O  
-ATOM   1144  N3   DT C   1     100.413  23.674  76.558  1.00 36.59           N  
-ATOM   1145  C4   DT C   1     100.167  24.213  75.308  1.00 38.42           C  
+ATOM   1142  O2   DT C   1     100.783  21.970  78.013  1.00 41.89           O  
+ATOM   1143  N3   DT C   1     100.413  23.674  76.558  1.00 36.59           N  
+ATOM   1144  C4   DT C   1     100.167  24.213  75.308  1.00 38.42           C  
+ATOM   1145  O4   DT C   1     100.037  25.426  75.179  1.00 39.68           O  
 ATOM   1146  C5   DT C   1     100.069  23.256  74.233  1.00 41.52           C  
-ATOM   1147  C6   DT C   1     100.174  21.961  74.536  1.00 43.84           C  
-ATOM   1148  O4   DT C   1     100.037  25.426  75.179  1.00 39.68           O  
+ATOM   1147  C7   DT C   1      99.854  23.747  72.836  1.00 49.45           C  
+ATOM   1148  C6   DT C   1     100.174  21.961  74.536  1.00 43.84           C  
 ATOM   1149  P    DA C   2      97.674  16.985  76.516  1.00 77.46           P  
 ATOM   1150  OP1  DA C   2      97.451  15.573  76.922  1.00 73.33           O  
 ATOM   1151  OP2  DA C   2      96.847  17.577  75.431  1.00 72.12           O  
@@ -1695,10 +1711,10 @@ ATOM   1247  C2   DT C   6      84.159  30.307  76.235  1.00 22.27           C
 ATOM   1248  O2   DT C   6      84.331  30.787  75.128  1.00 23.65           O  
 ATOM   1249  N3   DT C   6      84.068  28.956  76.447  1.00 24.60           N  
 ATOM   1250  C4   DT C   6      83.854  28.314  77.654  1.00 27.91           C  
-ATOM   1251  C5   DT C   6      83.695  29.188  78.800  1.00 25.44           C  
-ATOM   1252  C6   DT C   6      83.799  30.511  78.600  1.00 23.32           C  
-ATOM   1253  O4   DT C   6      83.822  27.090  77.696  1.00 22.29           O  
-ATOM   1254  C7   DT C   6      83.419  28.581  80.142  1.00 26.93           C  
+ATOM   1251  O4   DT C   6      83.822  27.090  77.696  1.00 22.29           O  
+ATOM   1252  C5   DT C   6      83.695  29.188  78.800  1.00 25.44           C  
+ATOM   1253  C7   DT C   6      83.419  28.581  80.142  1.00 26.93           C  
+ATOM   1254  C6   DT C   6      83.799  30.511  78.600  1.00 23.32           C  
 ATOM   1255  P    DT C   7      82.717  36.504  77.029  1.00 36.14           P  
 ATOM   1256  OP1  DT C   7      83.160  37.834  76.538  1.00 34.05           O  
 ATOM   1257  OP2  DT C   7      81.710  36.420  78.106  1.00 33.66           O  
@@ -1715,10 +1731,10 @@ ATOM   1267  C2   DT C   7      81.154  30.108  74.031  1.00 22.81           C
 ATOM   1268  O2   DT C   7      81.422  29.876  72.858  1.00 21.40           O  
 ATOM   1269  N3   DT C   7      80.974  29.100  74.949  1.00 18.59           N  
 ATOM   1270  C4   DT C   7      80.665  29.231  76.291  1.00 17.86           C  
-ATOM   1271  C5   DT C   7      80.501  30.587  76.755  1.00 19.91           C  
-ATOM   1272  C6   DT C   7      80.676  31.582  75.871  1.00 24.57           C  
-ATOM   1273  O4   DT C   7      80.559  28.227  76.998  1.00 20.78           O  
-ATOM   1274  C7   DT C   7      80.145  30.826  78.189  1.00 22.77           C  
+ATOM   1271  O4   DT C   7      80.559  28.227  76.998  1.00 20.78           O  
+ATOM   1272  C5   DT C   7      80.501  30.587  76.755  1.00 19.91           C  
+ATOM   1273  C7   DT C   7      80.145  30.826  78.189  1.00 22.77           C  
+ATOM   1274  C6   DT C   7      80.676  31.582  75.871  1.00 24.57           C  
 ATOM   1275  P    DG C   8      79.440  35.861  71.446  1.00 36.18           P  
 ATOM   1276  OP1  DG C   8      79.776  36.955  70.501  1.00 42.33           O  
 ATOM   1277  OP2  DG C   8      78.498  36.116  72.557  1.00 29.21           O  
@@ -1859,10 +1875,10 @@ ATOM   1411  C2   DT C  14      58.314  27.188  76.453  1.00 42.61           C
 ATOM   1412  O2   DT C  14      58.694  28.232  76.959  1.00 36.55           O  
 ATOM   1413  N3   DT C  14      58.314  26.991  75.093  1.00 36.27           N  
 ATOM   1414  C4   DT C  14      57.905  25.860  74.416  1.00 35.08           C  
-ATOM   1415  C5   DT C  14      57.425  24.780  75.253  1.00 42.61           C  
-ATOM   1416  C6   DT C  14      57.426  24.960  76.580  1.00 36.13           C  
-ATOM   1417  O4   DT C  14      57.969  25.825  73.190  1.00 35.93           O  
-ATOM   1418  C7   DT C  14      56.947  23.518  74.604  1.00 42.55           C  
+ATOM   1415  O4   DT C  14      57.969  25.825  73.190  1.00 35.93           O  
+ATOM   1416  C5   DT C  14      57.425  24.780  75.253  1.00 42.61           C  
+ATOM   1417  C7   DT C  14      56.947  23.518  74.604  1.00 42.55           C  
+ATOM   1418  C6   DT C  14      57.426  24.960  76.580  1.00 36.13           C  
 ATOM   1419  P    DA C  15      55.665  27.267  82.053  1.00 63.49           P  
 ATOM   1420  OP1  DA C  15      55.698  27.314  83.535  1.00 61.72           O  
 ATOM   1421  OP2  DA C  15      54.590  26.507  81.362  1.00 63.28           O  
@@ -1900,10 +1916,10 @@ ATOM   1452  C2   DT C  16      53.046  32.737  74.216  1.00 41.51           C
 ATOM   1453  O2   DT C  16      53.282  33.572  73.360  1.00 38.52           O  
 ATOM   1454  N3   DT C  16      52.720  31.440  73.905  1.00 40.40           N  
 ATOM   1455  C4   DT C  16      52.437  30.418  74.789  1.00 39.38           C  
-ATOM   1456  C5   DT C  16      52.494  30.781  76.188  1.00 42.12           C  
-ATOM   1457  C6   DT C  16      52.812  32.044  76.501  1.00 37.68           C  
-ATOM   1458  O4   DT C  16      52.165  29.300  74.365  1.00 41.79           O  
-ATOM   1459  C7   DT C  16      52.195  29.738  77.217  1.00 48.85           C  
+ATOM   1456  O4   DT C  16      52.165  29.300  74.365  1.00 41.79           O  
+ATOM   1457  C5   DT C  16      52.494  30.781  76.188  1.00 42.12           C  
+ATOM   1458  C7   DT C  16      52.195  29.738  77.217  1.00 48.85           C  
+ATOM   1459  C6   DT C  16      52.812  32.044  76.501  1.00 37.68           C  
 TER    1460       DT C  16                                                      
 ATOM   1461  O5'  DA D 101      49.580  24.391  65.243  1.00 51.59           O  
 ATOM   1462  C5'  DA D 101      48.762  24.960  64.217  1.00 54.38           C  
@@ -1960,10 +1976,10 @@ ATOM   1512  C2   DT D 103      56.691  31.849  70.280  1.00 34.22           C
 ATOM   1513  O2   DT D 103      56.704  32.759  71.090  1.00 33.21           O  
 ATOM   1514  N3   DT D 103      56.440  30.552  70.647  1.00 33.88           N  
 ATOM   1515  C4   DT D 103      56.397  29.445  69.825  1.00 42.21           C  
-ATOM   1516  C5   DT D 103      56.654  29.706  68.428  1.00 42.47           C  
-ATOM   1517  C6   DT D 103      56.899  30.971  68.053  1.00 39.41           C  
-ATOM   1518  O4   DT D 103      56.151  28.336  70.300  1.00 45.60           O  
-ATOM   1519  C7   DT D 103      56.640  28.559  67.469  1.00 46.01           C  
+ATOM   1516  O4   DT D 103      56.151  28.336  70.300  1.00 45.60           O  
+ATOM   1517  C5   DT D 103      56.654  29.706  68.428  1.00 42.47           C  
+ATOM   1518  C7   DT D 103      56.640  28.559  67.469  1.00 46.01           C  
+ATOM   1519  C6   DT D 103      56.899  30.971  68.053  1.00 39.41           C  
 ATOM   1520  P    DA D 104      59.918  36.480  68.334  1.00 32.73           P  
 ATOM   1521  OP1  DA D 104      60.031  37.951  68.246  1.00 31.43           O  
 ATOM   1522  OP2  DA D 104      60.963  35.623  67.718  1.00 32.91           O  
@@ -2001,10 +2017,10 @@ ATOM   1553  C2   DT D 105      62.376  30.217  75.881  1.00 26.03           C
 ATOM   1554  O2   DT D 105      62.155  29.750  76.988  1.00 27.22           O  
 ATOM   1555  N3   DT D 105      62.404  29.452  74.743  1.00 24.47           N  
 ATOM   1556  C4   DT D 105      62.657  29.879  73.452  1.00 23.57           C  
-ATOM   1557  C5   DT D 105      62.939  31.288  73.317  1.00 26.10           C  
-ATOM   1558  C6   DT D 105      62.904  32.043  74.426  1.00 31.61           C  
-ATOM   1559  O4   DT D 105      62.618  29.075  72.525  1.00 25.62           O  
-ATOM   1560  C7   DT D 105      63.261  31.842  71.962  1.00 29.98           C  
+ATOM   1557  O4   DT D 105      62.618  29.075  72.525  1.00 25.62           O  
+ATOM   1558  C5   DT D 105      62.939  31.288  73.317  1.00 26.10           C  
+ATOM   1559  C7   DT D 105      63.261  31.842  71.962  1.00 29.98           C  
+ATOM   1560  C6   DT D 105      62.904  32.043  74.426  1.00 31.61           C  
 ATOM   1561  P    DT D 106      64.180  34.540  80.080  1.00 35.23           P  
 ATOM   1562  OP1  DT D 106      63.661  34.979  81.403  1.00 44.61           O  
 ATOM   1563  OP2  DT D 106      65.346  35.232  79.496  1.00 31.21           O  
@@ -2021,10 +2037,10 @@ ATOM   1573  C2   DT D 106      65.290  28.282  77.145  1.00 22.63           C
 ATOM   1574  O2   DT D 106      64.916  27.295  77.763  1.00 23.81           O  
 ATOM   1575  N3   DT D 106      65.413  28.286  75.777  1.00 26.40           N  
 ATOM   1576  C4   DT D 106      65.835  29.332  74.977  1.00 25.40           C  
-ATOM   1577  C5   DT D 106      66.194  30.544  75.687  1.00 22.77           C  
-ATOM   1578  C6   DT D 106      66.071  30.550  77.023  1.00 29.34           C  
-ATOM   1579  O4   DT D 106      65.875  29.187  73.755  1.00 26.65           O  
-ATOM   1580  C7   DT D 106      66.681  31.730  74.912  1.00 22.26           C  
+ATOM   1577  O4   DT D 106      65.875  29.187  73.755  1.00 26.65           O  
+ATOM   1578  C5   DT D 106      66.194  30.544  75.687  1.00 22.77           C  
+ATOM   1579  C7   DT D 106      66.681  31.730  74.912  1.00 22.26           C  
+ATOM   1580  C6   DT D 106      66.071  30.550  77.023  1.00 29.34           C  
 ATOM   1581  P    DG D 107      66.862  29.504  83.342  1.00 38.41           P  
 ATOM   1582  OP1  DG D 107      66.045  30.017  84.470  1.00 43.98           O  
 ATOM   1583  OP2  DG D 107      68.143  30.170  82.999  1.00 37.17           O  
@@ -2165,10 +2181,10 @@ ATOM   1717  C2   DT D 113      87.813  28.297  73.040  1.00 27.60           C
 ATOM   1718  O2   DT D 113      87.546  29.426  73.412  1.00 29.97           O  
 ATOM   1719  N3   DT D 113      87.783  27.215  73.892  1.00 27.99           N  
 ATOM   1720  C4   DT D 113      88.070  25.903  73.582  1.00 28.45           C  
-ATOM   1721  C5   DT D 113      88.444  25.664  72.202  1.00 29.77           C  
-ATOM   1722  C6   DT D 113      88.470  26.711  71.361  1.00 26.22           C  
-ATOM   1723  O4   DT D 113      87.994  25.033  74.453  1.00 27.54           O  
-ATOM   1724  C7   DT D 113      88.788  24.270  71.783  1.00 33.97           C  
+ATOM   1721  O4   DT D 113      87.994  25.033  74.453  1.00 27.54           O  
+ATOM   1722  C5   DT D 113      88.444  25.664  72.202  1.00 29.77           C  
+ATOM   1723  C7   DT D 113      88.788  24.270  71.783  1.00 33.97           C  
+ATOM   1724  C6   DT D 113      88.470  26.711  71.361  1.00 26.22           C  
 ATOM   1725  P    DC D 114      90.305  32.387  69.037  1.00 51.66           P  
 ATOM   1726  OP1  DC D 114      90.079  33.300  67.890  1.00 64.60           O  
 ATOM   1727  OP2  DC D 114      91.467  31.465  69.024  1.00 51.93           O  
@@ -2223,10 +2239,10 @@ ATOM   1775  C2   DT D 116      96.579  29.079  80.172  1.00 31.13           C
 ATOM   1776  O2   DT D 116      96.350  28.391  81.154  1.00 36.82           O  
 ATOM   1777  N3   DT D 116      96.762  28.542  78.924  1.00 37.77           N  
 ATOM   1778  C4   DT D 116      96.999  29.226  77.746  1.00 34.37           C  
-ATOM   1779  C5   DT D 116      97.054  30.665  77.871  1.00 36.76           C  
-ATOM   1780  C6   DT D 116      96.889  31.196  79.089  1.00 34.63           C  
-ATOM   1781  O4   DT D 116      97.146  28.604  76.699  1.00 40.52           O  
-ATOM   1782  C7   DT D 116      97.286  31.495  76.648  1.00 43.96           C  
+ATOM   1779  O4   DT D 116      97.146  28.604  76.699  1.00 40.52           O  
+ATOM   1780  C5   DT D 116      97.054  30.665  77.871  1.00 36.76           C  
+ATOM   1781  C7   DT D 116      97.286  31.495  76.648  1.00 43.96           C  
+ATOM   1782  C6   DT D 116      96.889  31.196  79.089  1.00 34.63           C  
 TER    1783       DT D 116                                                      
 HETATM 1784  O   HOH A2001      82.364  77.703  81.837  1.00 53.19           O  
 HETATM 1785  O   HOH A2002      67.799  23.968  60.099  1.00 42.73           O  
@@ -2539,5 +2555,5 @@ HETATM 2091  O   HOH D2077      94.488  27.112  72.302  1.00 60.10           O
 HETATM 2092  O   HOH D2078      95.287  33.923  74.189  1.00 51.77           O  
 HETATM 2093  O   HOH D2079      89.564  33.209  79.738  1.00 63.58           O  
 HETATM 2094  O   HOH D2080      98.043  29.405  74.408  1.00 53.88           O  
-MASTER      375    0    0    2    0    0    0    6 2090    4    0   16          
+MASTER      388    0    0    2    0    0    0    6 2090    4    0   16          
 END                                                                             

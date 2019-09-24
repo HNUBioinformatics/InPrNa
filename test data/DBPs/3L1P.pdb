@@ -41,11 +41,18 @@ KEYWDS    POU, TRANSCRIPTION FACTOR DNA COMPLEX, PORE, STEM CELLS, EMBRYONIC,
 KEYWDS   2 TRANSCRIPTION-DNA COMPLEX                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.VAHOKOSKI,M.R.GROVES,V.POGENBERG,M.WILMANNS                         
+REVDAT   3   07-FEB-18 3L1P    1       REMARK                                   
+REVDAT   2   05-JUN-13 3L1P    1       JRNL   VERSN                             
 REVDAT   1   15-DEC-10 3L1P    0                                                
-JRNL        AUTH   J.VAHOKOSKI,M.R.GROVES,V.POGENBERG,M.WILMANNS                
-JRNL        TITL   POU PROTEIN:DNA COMPLEX                                      
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        AUTH   D.ESCH,J.VAHOKOSKI,M.R.GROVES,V.POGENBERG,V.COJOCARU,        
+JRNL        AUTH 2 H.VOM BRUCH,D.HAN,H.C.A.DREXLER,M.J.ARAUZO-BRAVO,C.K.L.NG,   
+JRNL        AUTH 3 R.JAUCH,M.WILMANNS,H.R.SCHOLER                               
+JRNL        TITL   A UNIQUE OCT4 INTERFACE IS CRUCIAL FOR REPROGRAMMING TO      
+JRNL        TITL 2 PLURIPOTENCY                                                 
+JRNL        REF    NAT.CELL BIOL.                V.  15   295 2013              
+JRNL        REFN                   ISSN 1465-7392                               
+JRNL        PMID   23376973                                                     
+JRNL        DOI    10.1038/NCB2680                                              
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -89,7 +96,7 @@ REMARK   3   SOLVENT ATOMS            : 0
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 64.95                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 64.96                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
 REMARK   3    B11 (A**2) : -0.58000                                             
 REMARK   3    B22 (A**2) : -0.58000                                             
@@ -139,8 +146,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1450 ; 0.417 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2277 ; 0.768 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1754 ; 1.243 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2267 ; 2.094 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -257,10 +269,10 @@ REMARK   3   SHRINKAGE RADIUS   : 0.80
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3L1P COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3L1P COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 26-JAN-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB056721.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 21-DEC-09.                  
+REMARK 100 THE DEPOSITION ID IS D_1000056721.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -316,7 +328,7 @@ REMARK 280 SOLVENT CONTENT, VS   (%): 61.76
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.22                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: PH 5, VAPOR DIFFUSION, SITTING DROP,     
-REMARK 280  TEMPERATURE 273K                                                    
+REMARK 280  TEMPERATURE 293K                                                    
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 41                             
@@ -528,10 +540,10 @@ REMARK 500
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500     DT N   1   O4' -  C1' -  N1  ANGL. DEV. =   2.7 DEGREES          
 REMARK 500     DC N   2   O4' -  C1' -  N1  ANGL. DEV. =   3.6 DEGREES          
+REMARK 500     DC N   2   C3' -  O3' -  P   ANGL. DEV. =   7.3 DEGREES          
 REMARK 500     DC N   3   O4' -  C4' -  C3' ANGL. DEV. =  -5.6 DEGREES          
 REMARK 500     DC N   3   C4' -  C3' -  C2' ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DC N   3   O4' -  C1' -  N1  ANGL. DEV. =   3.5 DEGREES          
-REMARK 500     DC N   2   C3' -  O3' -  P   ANGL. DEV. =   7.3 DEGREES          
 REMARK 500     DC N   5   C3' -  C2' -  C1' ANGL. DEV. =  -5.0 DEGREES          
 REMARK 500     DC N   5   O4' -  C1' -  N1  ANGL. DEV. =   4.0 DEGREES          
 REMARK 500     DT N   9   C4  -  C5  -  C7  ANGL. DEV. =   4.1 DEGREES          
@@ -539,8 +551,8 @@ REMARK 500     DT N   9   C6  -  C5  -  C7  ANGL. DEV. =  -3.6 DEGREES
 REMARK 500     DA N  11   O4' -  C1' -  N9  ANGL. DEV. =  -4.4 DEGREES          
 REMARK 500     DC N  16   O4' -  C1' -  N1  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500     DA N  17   O4' -  C1' -  N9  ANGL. DEV. =   5.5 DEGREES          
-REMARK 500     DT N  20   O4' -  C1' -  N1  ANGL. DEV. =   4.1 DEGREES          
 REMARK 500     DA N  19   C3' -  O3' -  P   ANGL. DEV. =   8.2 DEGREES          
+REMARK 500     DT N  20   O4' -  C1' -  N1  ANGL. DEV. =   4.1 DEGREES          
 REMARK 500     DG N  21   O4' -  C1' -  N9  ANGL. DEV. =   3.7 DEGREES          
 REMARK 500     DA N  23   O4' -  C1' -  N9  ANGL. DEV. =   3.6 DEGREES          
 REMARK 500     DC M   3   O4' -  C1' -  N1  ANGL. DEV. =   3.2 DEGREES          
@@ -6789,5 +6801,5 @@ ANISOU 3065  N3   DG M  23     9615   7726   7645   -533   2266   -434       N
 ATOM   3066  C4   DG M  23       4.765  21.947  67.260  1.00 66.37           C  
 ANISOU 3066  C4   DG M  23     9753   7863   7601   -472   2168   -400       C  
 TER    3067       DG M  23                                                      
-MASTER      538    0    0   16    0    0    0    6 3063    4    0   28          
+MASTER      543    0    0   16    0    0    0    6 3063    4    0   28          
 END                                                                             

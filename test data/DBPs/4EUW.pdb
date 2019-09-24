@@ -26,12 +26,18 @@ SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;
 SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PRSF2EK6TEVLIC;                           
 SOURCE  11 MOL_ID: 2;                                                           
 SOURCE  12 SYNTHETIC: YES;                                                      
-SOURCE  13 OTHER_DETAILS: SEQUENCE MATCHING THE SOX-9 BINDING SITE FROM THE     
-SOURCE  14 ANTI-MULLERIAN HORMONE (AMH) PROMOTER, TOP STRAND;                   
-SOURCE  15 MOL_ID: 3;                                                           
-SOURCE  16 SYNTHETIC: YES;                                                      
-SOURCE  17 OTHER_DETAILS: SEQUENCE MATCHING THE SOX-9 BINDING SITE FROM THE     
-SOURCE  18 ANTI-MULLERIAN HORMONE (AMH) PROMOTER, BOTTOM STRAND                 
+SOURCE  13 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  14 ORGANISM_COMMON: HUMAN;                                              
+SOURCE  15 ORGANISM_TAXID: 9606;                                                
+SOURCE  16 OTHER_DETAILS: SEQUENCE MATCHING THE SOX-9 BINDING SITE FROM THE     
+SOURCE  17 ANTI-MULLERIAN HORMONE (AMH) PROMOTER, TOP STRAND;                   
+SOURCE  18 MOL_ID: 3;                                                           
+SOURCE  19 SYNTHETIC: YES;                                                      
+SOURCE  20 ORGANISM_SCIENTIFIC: HOMO SAPIENS;                                   
+SOURCE  21 ORGANISM_COMMON: HUMAN;                                              
+SOURCE  22 ORGANISM_TAXID: 9606;                                                
+SOURCE  23 OTHER_DETAILS: SEQUENCE MATCHING THE SOX-9 BINDING SITE FROM THE     
+SOURCE  24 ANTI-MULLERIAN HORMONE (AMH) PROMOTER, BOTTOM STRAND                 
 KEYWDS    PROTEIN-DNA COMPLEX, HMG DOMAIN, ACTIVATOR, DNA-BINDING, NUCLEUS,     
 KEYWDS   2 TRANSCRIPTION, TRANSCRIPTION REGULATION, STRUCTURAL GENOMICS, JOINT  
 KEYWDS   3 CENTER FOR STRUCTURAL GENOMICS, JCSG, PROTEIN STRUCTURE INITIATIVE,  
@@ -40,6 +46,8 @@ KEYWDS   5 TRANSCRIPTION-DNA COMPLEX
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    JOINT CENTER FOR STRUCTURAL GENOMICS (JCSG),PARTNERSHIP FOR STEM CELL 
 AUTHOR   2 BIOLOGY (STEMCELL)                                                   
+REVDAT   4   17-JUL-19 4EUW    1       REMARK                                   
+REVDAT   3   15-NOV-17 4EUW    1       SOURCE REMARK                            
 REVDAT   2   29-AUG-12 4EUW    1       AUTHOR                                   
 REVDAT   1   13-JUN-12 4EUW    0                                                
 JRNL        AUTH   JOINT CENTER FOR STRUCTURAL GENOMICS (JCSG),                 
@@ -53,8 +61,9 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.77 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.7.0027                                      
-REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
+REMARK   3   PROGRAM     : REFMAC 5.7.0127                                      
+REMARK   3   AUTHORS     : MURSHUDOV,SKUBAK,LEBEDEV,PANNU,STEINER,              
+REMARK   3               : NICHOLLS,WINN,LONG,VAGIN                             
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
 REMARK   3                                                                      
@@ -142,8 +151,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -226,8 +240,8 @@ REMARK   3  WEIGHTING WAS 1.0 2.0 3.0 2.0 3.0.
 REMARK   4                                                                      
 REMARK   4 4EUW COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 01-MAY-12.                  
-REMARK 100 THE RCSB ID CODE IS RCSB072098.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 30-APR-12.                  
+REMARK 100 THE DEPOSITION ID IS D_1000072098.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -251,7 +265,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : MARMOSAIC 325 MM CCD               
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : XDS                                
-REMARK 200  DATA SCALING SOFTWARE          : XSCALE                             
+REMARK 200  DATA SCALING SOFTWARE          : XSCALE DECEMBER 6, 2010            
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 4880                               
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.770                              
@@ -276,7 +290,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.600
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
-REMARK 200 SOFTWARE USED: PHASER                                                
+REMARK 200 SOFTWARE USED: PHASER 2.3.0                                          
 REMARK 200 STARTING MODEL: 3F27                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -2642,5 +2656,5 @@ HETATM 1079  O   HOH A 204      -5.589 -31.594  20.735  1.00 51.06           O
 HETATM 1080  O   HOH B 101     -28.680 -10.496  12.774  1.00 57.09           O  
 HETATM 1081  O   HOH B 102     -18.557  -9.119  18.914  1.00 41.84           O  
 HETATM 1082  O   HOH B 103     -14.507 -11.798  23.835  1.00 42.78           O  
-MASTER      392    0    0    3    0    0    0    6 1079    3    0   11          
+MASTER      398    0    0    3    0    0    0    6 1079    3    0   11          
 END                                                                             

@@ -32,6 +32,7 @@ KEYWDS    TYPE IB TOPOISOMERASE, DNA BINDING, PROTEIN-DNA COMPLEX, ISOMERASE,
 KEYWDS   2 ISOMERASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    K.PERRY,Y.HWANG,F.D.BUSHMAN,G.D.VAN DUYNE                             
+REVDAT   4   18-OCT-17 2H7F    1       REMARK                                   
 REVDAT   3   13-JUL-11 2H7F    1       VERSN                                    
 REVDAT   2   24-FEB-09 2H7F    1       VERSN                                    
 REVDAT   1   15-AUG-06 2H7F    0                                                
@@ -136,8 +137,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  1610 ; 0.520 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  2566 ; 0.915 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  1989 ; 1.229 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  1903 ; 1.982 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -216,7 +222,7 @@ REMARK   4
 REMARK   4 2H7F COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-JUN-06.                  
-REMARK 100 THE RCSB ID CODE IS RCSB038023.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000038023.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -238,7 +244,7 @@ REMARK 200
 REMARK 200  DETECTOR TYPE                  : CCD; CCD                           
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 4; ADSC QUANTUM 4     
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 14945                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.700                              
@@ -263,7 +269,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH; MAD                         
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MAD                          
-REMARK 200 SOFTWARE USED: SOLVE                                                 
+REMARK 200 SOFTWARE USED: SOLVE 2.03                                            
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -349,13 +355,6 @@ REMARK 375 POSITIONS.
 REMARK 375                                                                      
 REMARK 375 ATOM RES CSSEQI                                                      
 REMARK 375      HOH X 327  LIES ON A SPECIAL POSITION.                          
-REMARK 470                                                                      
-REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
-REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
-REMARK 470 I=INSERTION CODE):                                                   
-REMARK 470   M RES CSSEQI  ATOMS                                                
-REMARK 470      DT Y 511    O3'                                                 
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: COVALENT BOND LENGTHS                                      
@@ -398,8 +397,10 @@ REMARK 500     DT Y 504   C5' -  C4' -  O4' ANGL. DEV. =   7.5 DEGREES
 REMARK 500     DT Y 504   O4' -  C1' -  N1  ANGL. DEV. =   5.3 DEGREES          
 REMARK 500     DA Z 516   O5' -  C5' -  C4' ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DA Z 516   O4' -  C1' -  N9  ANGL. DEV. =  -4.7 DEGREES          
+REMARK 500     DA Z 517   C1' -  O4' -  C4' ANGL. DEV. =  -6.7 DEGREES          
+REMARK 500     DA Z 517   C3' -  O3' -  P   ANGL. DEV. =   9.6 DEGREES          
 REMARK 500     DA Z 519   O4' -  C1' -  N9  ANGL. DEV. =  -4.4 DEGREES          
-REMARK 500     DA Z 520   O4' -  C1' -  N9  ANGL. DEV. =   6.1 DEGREES          
+REMARK 500     DA Z 520   O4' -  C1' -  N9  ANGL. DEV. =   6.0 DEGREES          
 REMARK 500     DG Z 522   O4' -  C1' -  N9  ANGL. DEV. =   2.2 DEGREES          
 REMARK 500     DG Z 522   C2  -  N3  -  C4  ANGL. DEV. =   3.2 DEGREES          
 REMARK 500     DG Z 522   C5  -  C6  -  N1  ANGL. DEV. =   3.8 DEGREES          

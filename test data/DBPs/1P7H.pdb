@@ -1,24 +1,20 @@
 HEADER    TRANSCRIPTION/DNA                       01-MAY-03   1P7H              
-TITLE     STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1 LTR KB               
-TITLE    2 ELEMENT                                                              
+TITLE     STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1 LTR KB ELEMENT       
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-                                                        
-COMPND   3 D(*AP*AP*TP*GP*GP*GP*GP*AP*CP*TP*TP*TP*CP*CP*A)-3';                  
-COMPND   4 CHAIN: A, C;                                                         
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: 5'-                                                        
-COMPND   8 D(*TP*TP*TP*GP*GP*AP*AP*AP*GP*TP*CP*CP*CP*CP*A)-3';                  
-COMPND   9 CHAIN: B, D;                                                         
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: NUCLEAR FACTOR OF ACTIVATED T-CELLS, CYTOPLASMIC           
-COMPND  13 2;                                                                   
-COMPND  14 CHAIN: L, M, N, O;                                                   
-COMPND  15 FRAGMENT: NFAT1;                                                     
-COMPND  16 SYNONYM: T CELL TRANSCRIPTION FACTOR NFAT1, NFAT PRE-                
-COMPND  17 EXISTING SUBUNIT, NF-ATP;                                            
-COMPND  18 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-D(*AP*AP*TP*GP*GP*GP*GP*AP*CP*TP*TP*TP*CP*CP*A)-3';     
+COMPND   3 CHAIN: A, C;                                                         
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: 5'-D(*TP*TP*TP*GP*GP*AP*AP*AP*GP*TP*CP*CP*CP*CP*A)-3';     
+COMPND   7 CHAIN: B, D;                                                         
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: NUCLEAR FACTOR OF ACTIVATED T-CELLS, CYTOPLASMIC 2;        
+COMPND  11 CHAIN: L, M, N, O;                                                   
+COMPND  12 FRAGMENT: NFAT1;                                                     
+COMPND  13 SYNONYM: T CELL TRANSCRIPTION FACTOR NFAT1, NFAT PRE-EXISTING        
+COMPND  14 SUBUNIT, NF-ATP;                                                     
+COMPND  15 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 MOL_ID: 2;                                                           
@@ -29,29 +25,28 @@ SOURCE   7 ORGANISM_COMMON: HUMAN;
 SOURCE   8 ORGANISM_TAXID: 9606;                                                
 SOURCE   9 GENE: NFATC2 OR NFAT1 OR NFATP                                       
 KEYWDS    DNA BINDING PROTEIN, TRANSCRIPTION REGULATION, ACTIVATOR,             
-KEYWDS   2 TRANSCRIPTION/DNA COMPLEX                                            
+KEYWDS   2 TRANSCRIPTION-DNA COMPLEX                                            
 EXPDTA    X-RAY DIFFRACTION                                                     
-AUTHOR    M.J.GIFFIN,J.C.STROUD,D.L.BATES,K.D.VON KOENIG,J.HARDIN,              
-AUTHOR   2 L.CHEN                                                               
+AUTHOR    M.J.GIFFIN,J.C.STROUD,D.L.BATES,K.D.VON KOENIG,J.HARDIN,L.CHEN        
+REVDAT   4   11-OCT-17 1P7H    1       REMARK                                   
 REVDAT   3   24-FEB-09 1P7H    1       VERSN                                    
 REVDAT   2   25-OCT-05 1P7H    1       JRNL                                     
 REVDAT   1   23-SEP-03 1P7H    0                                                
-JRNL        AUTH   M.J.GIFFIN,J.C.STROUD,D.L.BATES,K.D.VON KOENIG,              
-JRNL        AUTH 2 J.HARDIN,L.CHEN                                              
-JRNL        TITL   STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1             
-JRNL        TITL 2 LTR KAPPA B ELEMENT                                          
+JRNL        AUTH   M.J.GIFFIN,J.C.STROUD,D.L.BATES,K.D.VON KOENIG,J.HARDIN,     
+JRNL        AUTH 2 L.CHEN                                                       
+JRNL        TITL   STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1 LTR KAPPA B 
+JRNL        TITL 2 ELEMENT                                                      
 JRNL        REF    NAT.STRUCT.BIOL.              V.  10   800 2003              
 JRNL        REFN                   ISSN 1072-8368                               
 JRNL        PMID   12949493                                                     
 JRNL        DOI    10.1038/NSB981                                               
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.60 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -114,9 +109,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.54
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.011                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.60                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.600                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 25.20                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.10                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.100                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -148,10 +143,10 @@ REMARK   3  TOPOLOGY FILE  4   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 1P7H COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 1P7H COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 06-MAY-03.                  
-REMARK 100 THE RCSB ID CODE IS RCSB019103.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000019103.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -206,8 +201,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 58.98                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 3.02                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: PH 8.1, VAPOR DIFFUSION, HANGING         
-REMARK 280  DROP, TEMPERATURE 291K                                              
+REMARK 280 CRYSTALLIZATION CONDITIONS: PH 8.1, VAPOR DIFFUSION, HANGING DROP,   
+REMARK 280  TEMPERATURE 291K                                                    
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 1                              
@@ -256,7 +251,7 @@ REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
 REMARK 470                                                                      
 REMARK 470 MISSING ATOM                                                         
-REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS(M=MODEL NUMBER;            
+REMARK 470 THE FOLLOWING RESIDUES HAVE MISSING ATOMS (M=MODEL NUMBER;           
 REMARK 470 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;          
 REMARK 470 I=INSERTION CODE):                                                   
 REMARK 470   M RES CSSEQI  ATOMS                                                
@@ -315,6 +310,8 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
+REMARK 500   O    ASP O   464     N    GLU O   465              1.45            
+REMARK 500   O    ASP M   464     N    GLU M   465              1.45            
 REMARK 500   OG   SER O   407     O    HOH O    72              2.00            
 REMARK 500   N    GLU L   425     O    HOH L    54              2.00            
 REMARK 500   NH1  ARG N   582     O    HOH N   152              2.00            
@@ -326,32 +323,32 @@ REMARK 500   CG   MET N   579     O    HOH N    59              2.04
 REMARK 500   N    GLY O   481     O    HOH O    35              2.04            
 REMARK 500   N    GLY N   428     O    HOH N   156              2.05            
 REMARK 500   O    TYR N   474     O    HOH N   174              2.05            
-REMARK 500   O4   DT  C    11     O    HOH C   128              2.05            
+REMARK 500   O4    DT C    11     O    HOH C   128              2.05            
 REMARK 500   N    GLY M   406     O    HOH M    13              2.06            
 REMARK 500   N    SER O   573     O    HOH O   100              2.06            
 REMARK 500   N    LYS L   506     O    HOH L    65              2.06            
 REMARK 500   C    GLY O   494     O    HOH O     5              2.06            
 REMARK 500   O    ILE O   597     O    HOH O    43              2.07            
 REMARK 500   CA   GLY M   406     O    HOH M   144              2.07            
-REMARK 500   OP1  DC  A     9     O    HOH A    57              2.07            
+REMARK 500   OP1   DC A     9     O    HOH A    57              2.07            
 REMARK 500   N    GLY L   447     O    HOH L    16              2.08            
 REMARK 500   N    GLU N   409     O    HOH N    30              2.08            
 REMARK 500   N    ASN O   495     O    HOH O     5              2.08            
 REMARK 500   O    LYS O   630     O    HOH O    39              2.08            
 REMARK 500   NE   ARG N   541     O    HOH N   157              2.09            
-REMARK 500   O3'  DA  D     7     O    HOH D    19              2.09            
-REMARK 500   OP2  DT  C    12     O    HOH C    90              2.09            
+REMARK 500   O3'   DA D     7     O    HOH D    19              2.09            
+REMARK 500   OP2   DT C    12     O    HOH C    90              2.09            
 REMARK 500   N    VAL O   493     O    HOH O   155              2.09            
 REMARK 500   OG1  THR O   426     O    HOH C    90              2.10            
 REMARK 500   CB   ILE L   479     O    HOH L   138              2.10            
 REMARK 500   N    SER M   403     O    HOH M   167              2.10            
-REMARK 500   O5'  DG  C     7     O    HOH C   159              2.10            
-REMARK 500   O2   DT  B     1     O    HOH B    93              2.11            
+REMARK 500   O5'   DG C     7     O    HOH C   159              2.10            
+REMARK 500   O2    DT B     1     O    HOH B    93              2.11            
 REMARK 500   N    SER L   488     O    HOH L   171              2.12            
-REMARK 500   O3'  DT  D     2     O    HOH D    18              2.12            
+REMARK 500   O3'   DT D     2     O    HOH D    18              2.12            
 REMARK 500   N    ALA N   472     O    HOH N   168              2.12            
 REMARK 500   CG   PRO M   578     O    HOH M   140              2.12            
-REMARK 500   C5'  DG  C     7     O    HOH C   159              2.12            
+REMARK 500   C5'   DG C     7     O    HOH C   159              2.12            
 REMARK 500   OG1  THR L   462     O    HOH L    36              2.14            
 REMARK 500   N    ARG N   665     O    HOH N   147              2.14            
 REMARK 500   O    HIS N   471     O    HOH N   174              2.14            
@@ -360,13 +357,11 @@ REMARK 500   N    HIS L   549     O    HOH L   154              2.14
 REMARK 500   OE2  GLU M   625     O    HOH M   151              2.14            
 REMARK 500   N    GLY N   447     O    HOH N    30              2.15            
 REMARK 500   N    SER M   559     O    HOH M    71              2.15            
-REMARK 500   N7   DG  A     4     O    HOH A    31              2.16            
-REMARK 500   C6   DT  D     2     O    HOH D    97              2.16            
-REMARK 500   C5'  DT  D     2     O    HOH D    97              2.16            
-REMARK 500   CA   GLY O   406     O    HOH O   185              2.16            
-REMARK 500   O5'  DT  C    12     O    HOH C    90              2.17            
+REMARK 500   N7    DG A     4     O    HOH A    31              2.16            
+REMARK 500   C6    DT D     2     O    HOH D    97              2.16            
+REMARK 500   C5'   DT D     2     O    HOH D    97              2.16            
 REMARK 500                                                                      
-REMARK 500 THIS ENTRY HAS      57 CLOSE CONTACTS.                               
+REMARK 500 THIS ENTRY HAS      59 CLOSE CONTACTS                                
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -414,7 +409,7 @@ REMARK 500    ASP O 464   CA  -  C   -  N   ANGL. DEV. =  31.8 DEGREES
 REMARK 500    ASP O 464   O   -  C   -  N   ANGL. DEV. = -34.9 DEGREES          
 REMARK 500    GLU O 465   C   -  N   -  CA  ANGL. DEV. =  38.7 DEGREES          
 REMARK 500    SER O 573   CB  -  CA  -  C   ANGL. DEV. =  23.9 DEGREES          
-REMARK 500    SER O 573   N   -  CA  -  C   ANGL. DEV. = -17.3 DEGREES          
+REMARK 500    SER O 573   N   -  CA  -  C   ANGL. DEV. = -17.4 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -482,32 +477,8 @@ REMARK 500    THR N 480      104.93    -26.08
 REMARK 500    LYS N 482     -101.86    -97.87                                   
 REMARK 500    GLU N 490      126.21    173.16                                   
 REMARK 500    ASN N 495      -11.72     87.11                                   
-REMARK 500    GLU N 500      111.63   -162.08                                   
-REMARK 500    ILE N 526      -69.84   -104.20                                   
-REMARK 500    GLU N 527      124.66    -27.89                                   
-REMARK 500    LYS N 530       33.65     81.26                                   
-REMARK 500    THR N 533      -17.54   -161.66                                   
-REMARK 500    ASN N 539       68.84   -102.20                                   
-REMARK 500    SER N 554       11.92    -66.27                                   
-REMARK 500    PRO N 653      156.30    -49.01                                   
-REMARK 500    ARG N 665      -38.72   -139.01                                   
-REMARK 500    GLU O 398       30.80    -94.82                                   
-REMARK 500    SER O 405      -83.35   -114.52                                   
-REMARK 500    HIS O 420      115.86   -161.95                                   
-REMARK 500    PRO O 436       -5.39    -48.20                                   
-REMARK 500    HIS O 446      -64.23    -97.90                                   
-REMARK 500    GLU O 465      154.87    135.01                                   
-REMARK 500    ARG O 466     -150.07     64.13                                   
-REMARK 500    THR O 480      118.56    -38.69                                   
-REMARK 500    GLU O 490      126.72   -172.66                                   
-REMARK 500    ASN O 495      -12.83     69.59                                   
-REMARK 500    ASP O 534     -159.82    -91.47                                   
-REMARK 500    ASN O 539       59.01   -112.29                                   
-REMARK 500    GLU O 552     -158.48   -103.72                                   
-REMARK 500    SER O 573      139.84    -38.02                                   
-REMARK 500    CYS O 588      160.12    179.72                                   
-REMARK 500    ASN O 636       29.66   -141.71                                   
-REMARK 500    MET O 637      119.42   -162.86                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS      76 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -519,7 +490,7 @@ REMARK 500 CIS AND TRANS CONFORMATION.  CIS BONDS, IF ANY, ARE LISTED
 REMARK 500 ON CISPEP RECORDS.  TRANS IS DEFINED AS 180 +/- 30 AND               
 REMARK 500 CIS IS DEFINED AS 0 +/- 30 DEGREES.                                  
 REMARK 500                                 MODEL     OMEGA                      
-REMARK 500 ASP M  464     GLU M  465                  114.75                    
+REMARK 500 ASP M  464     GLU M  465                  114.74                    
 REMARK 500 ASP O  464     GLU O  465                  114.85                    
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
@@ -536,7 +507,7 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500     DG C   5         0.05    SIDE_CHAIN                              
+REMARK 500     DG C   5         0.05    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -544,7 +515,7 @@ REMARK 500 GEOMETRY AND STEREOCHEMISTRY
 REMARK 500 SUBTOPIC: MAIN CHAIN PLANARITY                                       
 REMARK 500                                                                      
 REMARK 500 THE FOLLOWING RESIDUES HAVE A PSEUDO PLANARITY                       
-REMARK 500 TORSION, C(I) - CA(I) - N(I+1) - O(I), GREATER                       
+REMARK 500 TORSION ANGLE, C(I) - CA(I) - N(I+1) - O(I), GREATER                 
 REMARK 500 10.0 DEGREES. (M=MODEL NUMBER; RES=RESIDUE NAME;                     
 REMARK 500 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;                            
 REMARK 500 I=INSERTION CODE).                                                   
@@ -11195,5 +11166,5 @@ HETATM10400  O   HOH O 172     -66.963  31.858  34.057  1.00 56.14           O
 HETATM10401  O   HOH O 178      -3.843  34.957  -4.481  1.00 56.14           O  
 HETATM10402  O   HOH O 182     -54.637  30.036  38.416  1.00 56.14           O  
 HETATM10403  O   HOH O 185     -59.304  28.845  49.597  1.00 56.14           O  
-MASTER      510    0    0    8  110    0    0    610395    8    0   96          
+MASTER      485    0    0    8  110    0    0    610395    8    0   96          
 END                                                                             

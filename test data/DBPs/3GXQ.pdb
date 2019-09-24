@@ -13,43 +13,40 @@ COMPND  10 MOLECULE: DNA (5'-D(*AP*CP*AP*TP*GP*TP*CP*AP*TP*GP*T)-3');
 COMPND  11 CHAIN: D;                                                            
 COMPND  12 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
-SOURCE   2 ORGANISM_SCIENTIFIC: STAPHYLOCOCCUS AUREUS SUBSP. AUREUS             
-SOURCE   3 USA300;                                                              
-SOURCE   4 ORGANISM_TAXID: 367830;                                              
-SOURCE   5 GENE: ARTA, SAUSA300_PUSA030009;                                     
-SOURCE   6 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
-SOURCE   7 EXPRESSION_SYSTEM_TAXID: 562;                                        
-SOURCE   8 EXPRESSION_SYSTEM_STRAIN: BL21 DE3;                                  
-SOURCE   9 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
-SOURCE  10 EXPRESSION_SYSTEM_PLASMID: PET15B;                                   
-SOURCE  11 MOL_ID: 2;                                                           
-SOURCE  12 SYNTHETIC: YES;                                                      
-SOURCE  13 MOL_ID: 3;                                                           
-SOURCE  14 SYNTHETIC: YES                                                       
-KEYWDS    RIBBON-HELIX-HELIX, PLASMID, DNA BINDING PROTEIN/DNA COMPLEX          
+SOURCE   2 ORGANISM_SCIENTIFIC: STAPHYLOCOCCUS AUREUS SUBSP. AUREUS USA300;     
+SOURCE   3 ORGANISM_TAXID: 367830;                                              
+SOURCE   4 GENE: ARTA, SAUSA300_PUSA030009;                                     
+SOURCE   5 EXPRESSION_SYSTEM: ESCHERICHIA COLI;                                 
+SOURCE   6 EXPRESSION_SYSTEM_TAXID: 562;                                        
+SOURCE   7 EXPRESSION_SYSTEM_STRAIN: BL21 DE3;                                  
+SOURCE   8 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
+SOURCE   9 EXPRESSION_SYSTEM_PLASMID: PET15B;                                   
+SOURCE  10 MOL_ID: 2;                                                           
+SOURCE  11 SYNTHETIC: YES;                                                      
+SOURCE  12 MOL_ID: 3;                                                           
+SOURCE  13 SYNTHETIC: YES                                                       
+KEYWDS    RIBBON-HELIX-HELIX, PLASMID, DNA BINDING PROTEIN-DNA COMPLEX          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    L.NI,N.FIRTH,M.A.SCHUMACHER                                           
+REVDAT   3   01-NOV-17 3GXQ    1       REMARK                                   
 REVDAT   2   01-DEC-09 3GXQ    1       JRNL                                     
 REVDAT   1   13-OCT-09 3GXQ    0                                                
-JRNL        AUTH   L.NI,S.O.JENSEN,N.KY TONTHAT,T.BERG,S.M.KWONG,               
-JRNL        AUTH 2 F.H.GUAN,M.H.BROWN,R.A.SKURRAY,N.FIRTH,                      
-JRNL        AUTH 3 M.A.SCHUMACHER                                               
-JRNL        TITL   THE STAPHYLOCOCCUS AUREUS PSK41 PLASMID-ENCODED              
-JRNL        TITL 2 ARTA PROTEIN IS A MASTER REGULATOR OF PLASMID                
-JRNL        TITL 3 TRANSMISSION GENES AND CONTAINS A RHH MOTIF USED IN          
-JRNL        TITL 4 ALTERNATE DNA-BINDING MODES.                                 
+JRNL        AUTH   L.NI,S.O.JENSEN,N.KY TONTHAT,T.BERG,S.M.KWONG,F.H.GUAN,      
+JRNL        AUTH 2 M.H.BROWN,R.A.SKURRAY,N.FIRTH,M.A.SCHUMACHER                 
+JRNL        TITL   THE STAPHYLOCOCCUS AUREUS PSK41 PLASMID-ENCODED ARTA PROTEIN 
+JRNL        TITL 2 IS A MASTER REGULATOR OF PLASMID TRANSMISSION GENES AND      
+JRNL        TITL 3 CONTAINS A RHH MOTIF USED IN ALTERNATE DNA-BINDING MODES.    
 JRNL        REF    NUCLEIC ACIDS RES.            V.  37  6970 2009              
 JRNL        REFN                   ISSN 0305-1048                               
 JRNL        PMID   19759211                                                     
 JRNL        DOI    10.1093/NAR/GKP756                                           
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.35 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : ENGH & HUBER                                    
@@ -112,9 +109,9 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.27
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.008                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.30                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.300                           
 REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 21.50                           
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.09                            
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 1.090                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
@@ -146,10 +143,10 @@ REMARK   3  TOPOLOGY FILE  4   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3GXQ COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3GXQ COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-APR-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB052437.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000052437.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -250,7 +247,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 6140 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 9550 ANGSTROM**2                        
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -56.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, D, C                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -1679,5 +1676,5 @@ HETATM 1325  O   HOH D  13     -22.283   0.128  16.261  1.00 33.96           O
 HETATM 1326  O   HOH D  22     -13.076 -10.697  13.394  1.00 42.12           O  
 HETATM 1327  O   HOH D  36     -16.943  -9.140  13.876  1.00 39.62           O  
 HETATM 1328  O   HOH D  37     -17.217  -6.864   8.568  1.00 33.82           O  
-MASTER      276    0    0    5    2    0    0    6 1324    4    0   12          
+MASTER      275    0    0    5    2    0    0    6 1324    4    0   12          
 END                                                                             

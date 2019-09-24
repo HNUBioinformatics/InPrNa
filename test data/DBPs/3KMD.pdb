@@ -25,6 +25,7 @@ KEYWDS   5 NUCLEUS, PHOSPHOPROTEIN, TRANSCRIPTION, TRANSCRIPTION REGULATION,
 KEYWDS   6 TUMOR SUPPRESSOR, DNA BINDING PROTEIN-DNA COMPLEX                    
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Y.CHEN,R.DEY,L.CHEN                                                   
+REVDAT   3   01-NOV-17 3KMD    1       REMARK                                   
 REVDAT   2   21-MAR-12 3KMD    1       JRNL   VERSN                             
 REVDAT   1   23-FEB-10 3KMD    0                                                
 JRNL        AUTH   Y.CHEN,R.DEY,L.CHEN                                          
@@ -38,16 +39,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.15 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX                                               
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -61,7 +61,7 @@ REMARK   3
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
 REMARK   3   R VALUE     (WORKING + TEST SET) : 0.217                           
 REMARK   3   R VALUE            (WORKING SET) : 0.216                           
-REMARK   3   FREE R VALUE                     : 0.239                           
+REMARK   3   FREE R VALUE                     : 0.240                           
 REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.140                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 2525                            
 REMARK   3                                                                      
@@ -104,9 +104,9 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : 2.95100                                              
 REMARK   3    B22 (A**2) : -7.97900                                             
 REMARK   3    B33 (A**2) : 5.02800                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
 REMARK   3    B13 (A**2) : 0.00000                                              
-REMARK   3    B23 (A**2) : -0.00000                                             
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -127,36 +127,36 @@ REMARK   3  NCS DETAILS
 REMARK   3   NUMBER OF NCS GROUPS : 1                                           
 REMARK   3   NCS GROUP : 1                                                      
 REMARK   3    NCS OPERATOR : 1                                                  
-REMARK   3     REFERENCE SELECTION: chain A and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
-REMARK   3     SELECTION          : chain B and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
+REMARK   3     REFERENCE SELECTION: CHAIN A AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
+REMARK   3     SELECTION          : CHAIN B AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
 REMARK   3     ATOM PAIRS NUMBER  : 1388                                        
 REMARK   3     RMSD               : 0.039                                       
 REMARK   3    NCS OPERATOR : 2                                                  
-REMARK   3     REFERENCE SELECTION: chain A and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
-REMARK   3     SELECTION          : chain C and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
+REMARK   3     REFERENCE SELECTION: CHAIN A AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
+REMARK   3     SELECTION          : CHAIN C AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
 REMARK   3     ATOM PAIRS NUMBER  : 1388                                        
 REMARK   3     RMSD               : 0.040                                       
 REMARK   3    NCS OPERATOR : 3                                                  
-REMARK   3     REFERENCE SELECTION: chain A and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
-REMARK   3     SELECTION          : chain D and not ((resid 118:123) or         
-REMARK   3                          (resid 176) or (resid 179) or (resid 223:   
-REMARK   3                          229) or (resid 238) or (resid 242) or       
-REMARK   3                          (resid 248) or (resid 257:264))             
+REMARK   3     REFERENCE SELECTION: CHAIN A AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
+REMARK   3     SELECTION          : CHAIN D AND NOT ((RESID 118:123) OR         
+REMARK   3                          (RESID 176) OR (RESID 179) OR (RESID 223:   
+REMARK   3                          229) OR (RESID 238) OR (RESID 242) OR       
+REMARK   3                          (RESID 248) OR (RESID 257:264))             
 REMARK   3     ATOM PAIRS NUMBER  : 1388                                        
 REMARK   3     RMSD               : 0.047                                       
 REMARK   3                                                                      
@@ -165,7 +165,7 @@ REMARK   4
 REMARK   4 3KMD COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-NOV-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB056171.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000056171.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -185,8 +185,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : NULL                               
 REMARK 200  DETECTOR MANUFACTURER          : NULL                               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : NULL                               
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 52544                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.100                              
@@ -297,7 +297,7 @@ REMARK 500     DA E  15   O4' -  C1' -  N9  ANGL. DEV. =  -6.6 DEGREES
 REMARK 500     DT E  16   O4' -  C1' -  N1  ANGL. DEV. =   2.1 DEGREES          
 REMARK 500     DC F   4   C4' -  C3' -  C2' ANGL. DEV. =  -4.3 DEGREES          
 REMARK 500     DA F   5   O4' -  C1' -  N9  ANGL. DEV. =  -5.4 DEGREES          
-REMARK 500     DT F   6   C1' -  O4' -  C4' ANGL. DEV. =  -6.9 DEGREES          
+REMARK 500     DT F   6   C1' -  O4' -  C4' ANGL. DEV. =  -6.8 DEGREES          
 REMARK 500     DT F   6   O4' -  C1' -  N1  ANGL. DEV. =   1.8 DEGREES          
 REMARK 500     DG F  13   C3' -  C2' -  C1' ANGL. DEV. =  -6.2 DEGREES          
 REMARK 500     DG F  13   O4' -  C1' -  N9  ANGL. DEV. =   3.3 DEGREES          
@@ -15227,5 +15227,5 @@ CONECT 7067  657  681 1159 1185
 CONECT 7068 2229 2253 2731 2757                                                 
 CONECT 7069 3801 3825 4303 4329                                                 
 CONECT 7070 5373 5397 5875 5901                                                 
-MASTER      349    0    4   15   44    0    4    6 7587    6   20   68          
+MASTER      348    0    4   15   44    0    4    6 7587    6   20   68          
 END                                                                             

@@ -36,6 +36,7 @@ KEYWDS    PROTEIN-DNA COMPLEX, PARP ZINC FINGER, DNA BINDING PROTEIN-DNA
 KEYWDS   2 COMPLEX                                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.M.PASCAL,M.-F.LANGELIER                                             
+REVDAT   3   08-NOV-17 3ODC    1       REMARK                                   
 REVDAT   2   13-APR-11 3ODC    1       JRNL                                     
 REVDAT   1   12-JAN-11 3ODC    0                                                
 JRNL        AUTH   M.F.LANGELIER,J.L.PLANCK,S.ROY,J.M.PASCAL                    
@@ -50,16 +51,15 @@ REMARK   2
 REMARK   2 RESOLUTION.    2.80 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE: 1.6.2_432)                    
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
-REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-                     
-REMARK   3               : KUNSTLEVE,LI-WEI HUNG,ROBERT IMMORMINO,              
-REMARK   3               : TOM IOERGER,AIRLIE MCCOY,ERIK MCKEE,NIGEL            
-REMARK   3               : MORIARTY,REETAL PAI,RANDY READ,JANE                  
-REMARK   3               : RICHARDSON,DAVID RICHARDSON,TOD ROMO,JIM             
-REMARK   3               : SACCHETTINI,NICHOLAS SAUTER,JACOB SMITH,             
-REMARK   3               : LAURENT STORONI,TOM TERWILLIGER,PETER                
-REMARK   3               : ZWART                                                
+REMARK   3   PROGRAM     : PHENIX 1.6.2_432                                     
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
+REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
+REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
+REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
+REMARK   3               : REETAL PAI,RANDY READ,JANE RICHARDSON,               
+REMARK   3               : DAVID RICHARDSON,TOD ROMO,JIM SACCHETTINI,           
+REMARK   3               : NICHOLAS SAUTER,JACOB SMITH,LAURENT                  
+REMARK   3               : STORONI,TOM TERWILLIGER,PETER ZWART                  
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
@@ -102,8 +102,8 @@ REMARK   3   OVERALL ANISOTROPIC B VALUE.
 REMARK   3    B11 (A**2) : -0.50710                                             
 REMARK   3    B22 (A**2) : -0.50710                                             
 REMARK   3    B33 (A**2) : 1.01420                                              
-REMARK   3    B12 (A**2) : -0.00000                                             
-REMARK   3    B13 (A**2) : -0.00000                                             
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
 REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
@@ -126,10 +126,10 @@ REMARK   3   NUMBER OF NCS GROUPS : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: NULL                                      
 REMARK   4                                                                      
-REMARK   4 3ODC COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3ODC COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 17-AUG-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB060972.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000060972.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -149,8 +149,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : ADSC QUANTUM 270                   
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL-2000                           
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO, HKL-2000                    
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 11845                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.800                              
@@ -334,7 +334,7 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500    PRO A 200   C   -  N   -  CA  ANGL. DEV. =   9.7 DEGREES          
-REMARK 500     DG C   5   C3' -  C2' -  C1' ANGL. DEV. =  -5.6 DEGREES          
+REMARK 500     DG C   5   C3' -  C2' -  C1' ANGL. DEV. =  -5.7 DEGREES          
 REMARK 500     DG C   5   O4' -  C1' -  N9  ANGL. DEV. =   3.2 DEGREES          
 REMARK 500     DG C   8   O4' -  C1' -  N9  ANGL. DEV. =   3.7 DEGREES          
 REMARK 500     DG D   7   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
@@ -2715,5 +2715,5 @@ CONECT 1177 2172
 CONECT 1197 2172                                                                
 CONECT 2171  127  146  411  431                                                 
 CONECT 2172  899  918 1177 1197                                                 
-MASTER      363    0    2   10    7    0    2    6 2199    6   10   22          
+MASTER      362    0    2   10    7    0    2    6 2199    6   10   22          
 END                                                                             

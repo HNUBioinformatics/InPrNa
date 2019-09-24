@@ -34,13 +34,16 @@ KEYWDS   3 ENDONUCLEASE, DNA REPAIR, DNA BINDING, NUCLEOTIDE BINDING,
 KEYWDS   4 TRANSFERASE-DNA COMPLEX                                              
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    S.NAKANE,R.MASUI,S.KURAMITSU                                          
+REVDAT   2   25-DEC-13 3AU6    1       JRNL                                     
 REVDAT   1   25-JAN-12 3AU6    0                                                
 JRNL        AUTH   S.NAKANE,H.ISHIKAWA,N.NAKAGAWA,S.KURAMITSU,R.MASUI           
 JRNL        TITL   THE STRUCTURAL BASIS OF THE KINETIC MECHANISM OF A           
-JRNL        TITL 2 GAP-FILLING X-FAMILY DNA POLYMERASE THAT BINDS MG2+-DNTP     
+JRNL        TITL 2 GAP-FILLING X-FAMILY DNA POLYMERASE THAT BINDS MG(2+)-DNTP   
 JRNL        TITL 3 BEFORE BINDING TO DNA.                                       
-JRNL        REF    TO BE PUBLISHED                                              
-JRNL        REFN                                                                
+JRNL        REF    J.MOL.BIOL.                   V. 417   179 2012              
+JRNL        REFN                   ISSN 0022-2836                               
+JRNL        PMID   22306405                                                     
+JRNL        DOI    10.1016/J.JMB.2012.01.025                                    
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.30 ANGSTROMS.                                       
 REMARK   3                                                                      
@@ -134,8 +137,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2791 ; 0.531 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  1139 ; 0.062 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  4460 ; 0.997 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2144 ; 1.067 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2285 ; 1.876 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -5564,5 +5572,5 @@ CONECT 4813 4812
 CONECT 4814 4812                                                                
 CONECT 4815 4812                                                                
 CONECT 4816 4812                                                                
-MASTER      463    0   10   29   18    0   11    6 4839    3   65   47          
+MASTER      468    0   10   29   18    0   11    6 4839    3   65   47          
 END                                                                             

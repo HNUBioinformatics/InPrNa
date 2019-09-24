@@ -1,17 +1,17 @@
 HEADER    LIGASE                                  12-JUL-06   2IY5              
-TITLE     PHENYLALANYL-TRNA SYNTHETASE FROM THERMUS THERMOPHILUS                
-TITLE    2 COMPLEXED WITH TRNA AND A PHENYLALANYL-ADENYLATE ANALOG              
+TITLE     PHENYLALANYL-TRNA SYNTHETASE FROM THERMUS THERMOPHILUS COMPLEXED WITH 
+TITLE    2 TRNA AND A PHENYLALANYL-ADENYLATE ANALOG                             
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: PHENYLALANYL-TRNA SYNTHETASE ALPHA CHAIN;                  
 COMPND   3 CHAIN: A;                                                            
-COMPND   4 SYNONYM: PHENYLALANYL-TRNA SYNTHETASE, PHERS,                        
-COMPND   5  PHENYLALANINE-TRNA LIGASE ALPHA CHAIN;                              
+COMPND   4 SYNONYM: PHENYLALANYL-TRNA SYNTHETASE, PHERS, PHENYLALANINE-TRNA     
+COMPND   5 LIGASE ALPHA CHAIN;                                                  
 COMPND   6 EC: 6.1.1.20;                                                        
 COMPND   7 MOL_ID: 2;                                                           
 COMPND   8 MOLECULE: PHENYLALANYL-TRNA SYNTHETASE BETA CHAIN;                   
 COMPND   9 CHAIN: B;                                                            
-COMPND  10 SYNONYM: PHENYLALANYL-TRNA SYNTHETASE, PHERS,                        
-COMPND  11  PHENYLALANINE-TRNA LIGASE BETA CHAIN;                               
+COMPND  10 SYNONYM: PHENYLALANYL-TRNA SYNTHETASE, PHERS, PHENYLALANINE-TRNA     
+COMPND  11 LIGASE BETA CHAIN;                                                   
 COMPND  12 EC: 6.1.1.20;                                                        
 COMPND  13 MOL_ID: 3;                                                           
 COMPND  14 MOLECULE: TRNAPHE;                                                   
@@ -28,33 +28,32 @@ SOURCE   9 MOL_ID: 3;
 SOURCE  10 ORGANISM_SCIENTIFIC: THERMUS THERMOPHILUS;                           
 SOURCE  11 ORGANISM_TAXID: 300852;                                              
 SOURCE  12 STRAIN: HB8                                                          
-KEYWDS    CLASS II AMINOACYL-TRNA SYNTHETASE, LIGASE, RBD DOMIN,                
-KEYWDS   2 MAGNESIUM, SH3 DOMAIN, PHENYLALANYL-TRNA SYNTHETASE,                 
-KEYWDS   3 THERMUS THERMOPHILUS, PROTEIN BIOSYNTHESIS, METAL-BINDING,           
-KEYWDS   4 NUCLEOTIDE-BINDING, RNA-BINDING, ATP-BINDING,                        
-KEYWDS   5 TRNA-BINDING, HELIX-TURN-HELIX MOTIF, AMINOACYL-TRNA                 
-KEYWDS   6 SYNTHETASE                                                           
+KEYWDS    CLASS II AMINOACYL-TRNA SYNTHETASE, LIGASE, RBD DOMIN, MAGNESIUM, SH3 
+KEYWDS   2 DOMAIN, PHENYLALANYL-TRNA SYNTHETASE, THERMUS THERMOPHILUS, PROTEIN  
+KEYWDS   3 BIOSYNTHESIS, METAL-BINDING, NUCLEOTIDE-BINDING, RNA-BINDING, ATP-   
+KEYWDS   4 BINDING, TRNA-BINDING, HELIX-TURN-HELIX MOTIF, AMINOACYL-TRNA        
+KEYWDS   5 SYNTHETASE                                                           
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    N.MOOR,O.KOTIK-KOGAN,D.TWOROWSKI,M.SUKHANOVA,M.SAFRO                  
+REVDAT   3   18-SEP-19 2IY5    1       JRNL   REMARK                            
 REVDAT   2   24-FEB-09 2IY5    1       VERSN                                    
 REVDAT   1   06-SEP-06 2IY5    0                                                
-JRNL        AUTH   N.MOOR,O.KOTIK-KOGAN,D.TWOROWSKI,M.SUKHANOVA,                
-JRNL        AUTH 2 M.SAFRO                                                      
+JRNL        AUTH   N.MOOR,O.KOTIK-KOGAN,D.TWOROWSKI,M.SUKHANOVA,M.SAFRO         
 JRNL        TITL   THE CRYSTAL STRUCTURE OF THE TERNARY COMPLEX OF              
-JRNL        TITL 2 PHENYLALANYL-TRNA SYNTHETASE WITH TRNA(PHE) AND A            
-JRNL        TITL 3 PHENYLALANYL-ADENYLATE ANALOGUE REVEALS A                    
-JRNL        TITL 4 CONFORMATIONAL SWITCH OF THE CCA END.                        
+JRNL        TITL 2 PHENYLALANYL-TRNA SYNTHETASE WITH TRNAPHE AND A              
+JRNL        TITL 3 PHENYLALANYL-ADENYLATE ANALOGUE REVEALS A CONFORMATIONAL     
+JRNL        TITL 4 SWITCH OF THE CCA END.                                       
 JRNL        REF    BIOCHEMISTRY                  V.  45 10572 2006              
 JRNL        REFN                   ISSN 0006-2960                               
 JRNL        PMID   16939209                                                     
 JRNL        DOI    10.1021/BI060491L                                            
 REMARK   2                                                                      
-REMARK   2 RESOLUTION.    3.1  ANGSTROMS.                                       
+REMARK   2 RESOLUTION.    3.10 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS 1.1                                              
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -62,8 +61,8 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.10                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 9.99                           
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 2.5                            
-REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 2626814.27                     
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 2.500                          
+REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : 2626814.270                    
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 79.8                           
 REMARK   3   NUMBER OF REFLECTIONS             : 34168                          
@@ -73,7 +72,7 @@ REMARK   3   CROSS-VALIDATION METHOD          : THROUGHOUT
 REMARK   3   FREE R VALUE TEST SET SELECTION  : RANDOM                          
 REMARK   3   R VALUE            (WORKING SET) : 0.238                           
 REMARK   3   FREE R VALUE                     : 0.299                           
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.0                             
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.000                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1720                            
 REMARK   3   ESTIMATED ERROR OF FREE R VALUE  : 0.007                           
 REMARK   3                                                                      
@@ -81,11 +80,11 @@ REMARK   3  FIT IN THE HIGHEST RESOLUTION BIN.
 REMARK   3   TOTAL NUMBER OF BINS USED           : 6                            
 REMARK   3   BIN RESOLUTION RANGE HIGH       (A) : 3.10                         
 REMARK   3   BIN RESOLUTION RANGE LOW        (A) : 3.29                         
-REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 68.5                         
+REMARK   3   BIN COMPLETENESS (WORKING+TEST) (%) : 68.50                        
 REMARK   3   REFLECTIONS IN BIN    (WORKING SET) : 4556                         
-REMARK   3   BIN R VALUE           (WORKING SET) : 0.266                        
-REMARK   3   BIN FREE R VALUE                    : 0.340                        
-REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 5.5                          
+REMARK   3   BIN R VALUE           (WORKING SET) : 0.2660                       
+REMARK   3   BIN FREE R VALUE                    : 0.3400                       
+REMARK   3   BIN FREE R VALUE TEST SET SIZE  (%) : 5.50                         
 REMARK   3   BIN FREE R VALUE TEST SET COUNT     : 264                          
 REMARK   3   ESTIMATED ERROR OF BIN FREE R VALUE : 0.021                        
 REMARK   3                                                                      
@@ -96,15 +95,15 @@ REMARK   3   HETEROGEN ATOMS          : 34
 REMARK   3   SOLVENT ATOMS            : 231                                     
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
-REMARK   3   FROM WILSON PLOT           (A**2) : 28.6                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 42.2                           
+REMARK   3   FROM WILSON PLOT           (A**2) : 28.60                          
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 42.20                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 0.82                                                 
-REMARK   3    B22 (A**2) : 0.82                                                 
-REMARK   3    B33 (A**2) : -1.65                                                
-REMARK   3    B12 (A**2) : 16.71                                                
-REMARK   3    B13 (A**2) : 0.00                                                 
-REMARK   3    B23 (A**2) : 0.00                                                 
+REMARK   3    B11 (A**2) : 0.82000                                              
+REMARK   3    B22 (A**2) : 0.82000                                              
+REMARK   3    B33 (A**2) : -1.65000                                             
+REMARK   3    B12 (A**2) : 16.71000                                             
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  ESTIMATED COORDINATE ERROR.                                         
 REMARK   3   ESD FROM LUZZATI PLOT        (A) : 0.35                            
@@ -117,22 +116,22 @@ REMARK   3   ESD FROM C-V SIGMAA          (A) : 0.47
 REMARK   3                                                                      
 REMARK   3  RMS DEVIATIONS FROM IDEAL VALUES.                                   
 REMARK   3   BOND LENGTHS                 (A) : 0.009                           
-REMARK   3   BOND ANGLES            (DEGREES) : 1.8                             
-REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.4                            
-REMARK   3   IMPROPER ANGLES        (DEGREES) : 3.74                            
+REMARK   3   BOND ANGLES            (DEGREES) : 1.800                           
+REMARK   3   DIHEDRAL ANGLES        (DEGREES) : 24.40                           
+REMARK   3   IMPROPER ANGLES        (DEGREES) : 3.740                           
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL MODEL : RESTRAINED                                
 REMARK   3                                                                      
 REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.    RMS    SIGMA                
-REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.41  ; 1.50                 
-REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.24  ; 2.00                 
-REMARK   3   SIDE-CHAIN BOND              (A**2) : 8.41  ; 2.00                 
-REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 12.44 ; 2.50                 
+REMARK   3   MAIN-CHAIN BOND              (A**2) : 1.410 ; 1.500                
+REMARK   3   MAIN-CHAIN ANGLE             (A**2) : 2.240 ; 2.000                
+REMARK   3   SIDE-CHAIN BOND              (A**2) : 8.410 ; 2.000                
+REMARK   3   SIDE-CHAIN ANGLE             (A**2) : 12.440; 2.500                
 REMARK   3                                                                      
 REMARK   3  BULK SOLVENT MODELING.                                              
 REMARK   3   METHOD USED : FLAT MODEL                                           
-REMARK   3   KSOL        : 0.355696                                             
-REMARK   3   BSOL        : 32.8672                                              
+REMARK   3   KSOL        : 0.36                                                 
+REMARK   3   BSOL        : 32.87                                                
 REMARK   3                                                                      
 REMARK   3  NCS MODEL : NULL                                                    
 REMARK   3                                                                      
@@ -155,10 +154,10 @@ REMARK   3  TOPOLOGY FILE  6   : NULL
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: BULK SOLVENT MODEL USED                   
 REMARK   4                                                                      
-REMARK   4 2IY5 COMPLIES WITH FORMAT V. 3.15, 01-DEC-08                         
+REMARK   4 2IY5 COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 12-JUL-06.                  
-REMARK 100 THE PDBE ID CODE IS EBI-29368.                                       
+REMARK 100 THE DEPOSITION ID IS D_1290029368.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -177,7 +176,7 @@ REMARK 200  MONOCHROMATOR                  : NULL
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
-REMARK 200  DETECTOR MANUFACTURER          : ADSC                               
+REMARK 200  DETECTOR MANUFACTURER          : ADSC CCD                           
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
 REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
@@ -189,7 +188,7 @@ REMARK 200
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 80.0                               
 REMARK 200  DATA REDUNDANCY                : 2.500                              
-REMARK 200  R MERGE                    (I) : 1.00000                            
+REMARK 200  R MERGE                    (I) : 0.11200                            
 REMARK 200  R SYM                      (I) : NULL                               
 REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 10.0000                            
 REMARK 200                                                                      
@@ -203,18 +202,19 @@ REMARK 200  R SYM FOR SHELL            (I) : NULL
 REMARK 200  <I/SIGMA(I)> FOR SHELL         : NULL                               
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
-REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: OTHER                        
+REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
 REMARK 200 SOFTWARE USED: CNS                                                   
 REMARK 200 STARTING MODEL: PDB ENTRY 1PYS                                       
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS   (%): 75                                        
-REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 4.8                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 75.00                                     
+REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 4.80                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: 20 MM IMIDAZOLE-HCL, PH 7.8, 1           
-REMARK 280  MM MGCL2, 5 MM 2-MERCAPTOETHANOL AND 1 MM NAN3                      
+REMARK 280 CRYSTALLIZATION CONDITIONS: 20 MM IMIDAZOLE-HCL, PH 7.8, 1 MM        
+REMARK 280  MGCL2, 5 MM 2-MERCAPTOETHANOL AND 1 MM NAN3, PH 7.80, VAPOR         
+REMARK 280  DIFFUSION, HANGING DROP, TEMPERATURE 277K                           
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 32 2 1                         
@@ -259,17 +259,16 @@ REMARK 300
 REMARK 300 BIOMOLECULE: 1                                                       
 REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM                
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
-REMARK 300 THIS ENTRY.  THE REMARK MAY ALSO PROVIDE INFORMATION ON              
+REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
 REMARK 350                                                                      
-REMARK 350 GENERATING THE BIOMOLECULE                                           
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
 REMARK 350 MOLECULE CAN BE GENERATED BY APPLYING BIOMT TRANSFORMATIONS          
 REMARK 350 GIVEN BELOW.  BOTH NON-CRYSTALLOGRAPHIC AND                          
 REMARK 350 CRYSTALLOGRAPHIC OPERATIONS ARE GIVEN.                               
 REMARK 350                                                                      
-REMARK 350 BIOMOLECULE:  1                                                      
+REMARK 350 BIOMOLECULE: 1                                                       
 REMARK 350 AUTHOR DETERMINED BIOLOGICAL UNIT: HEXAMERIC                         
 REMARK 350 SOFTWARE DETERMINED QUATERNARY STRUCTURE: HEXAMERIC                  
 REMARK 350 SOFTWARE USED: PQS                                                   
@@ -314,6 +313,16 @@ REMARK 470   M RES CSSEQI  ATOMS
 REMARK 470     GLY B 781    CA   C    O                                         
 REMARK 500                                                                      
 REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
+REMARK 500 SUBTOPIC: CLOSE CONTACTS IN SAME ASYMMETRIC UNIT                     
+REMARK 500                                                                      
+REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
+REMARK 500                                                                      
+REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
+REMARK 500   C    GLU A   262     CD   PRO A   263              1.65            
+REMARK 500                                                                      
+REMARK 500 REMARK: NULL                                                         
+REMARK 500                                                                      
+REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
 REMARK 500 SUBTOPIC: CLOSE CONTACTS                                             
 REMARK 500                                                                      
 REMARK 500 THE FOLLOWING ATOMS THAT ARE RELATED BY CRYSTALLOGRAPHIC             
@@ -328,8 +337,7 @@ REMARK 500 2.2 ANGSTROMS FOR CONTACTS NOT INVOLVING HYDROGEN ATOMS
 REMARK 500 1.6 ANGSTROMS FOR CONTACTS INVOLVING HYDROGEN ATOMS                  
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI  SSYMOP   DISTANCE          
-REMARK 500                                                                      
-REMARK 500   O2'    G T    53     O2'    G T    53     5554      1.74           
+REMARK 500   O2'    G T    53     O2'    G T    53     5554     1.74            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -349,36 +357,32 @@ REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
 REMARK 500    PRO A 263   C   -  N   -  CA  ANGL. DEV. =  60.4 DEGREES          
+REMARK 500    PRO A 263   C   -  N   -  CD  ANGL. DEV. = -56.9 DEGREES          
 REMARK 500    GLY B 100   N   -  CA  -  C   ANGL. DEV. =  18.9 DEGREES          
 REMARK 500    LEU B 133   CA  -  CB  -  CG  ANGL. DEV. =  17.0 DEGREES          
 REMARK 500    LEU B 725   N   -  CA  -  C   ANGL. DEV. = -16.4 DEGREES          
 REMARK 500      G T   1   N9  -  C1' -  C2' ANGL. DEV. =   8.4 DEGREES          
-REMARK 500      G T  10   C1' -  O4' -  C4' ANGL. DEV. =  -6.3 DEGREES          
 REMARK 500      G T  10   C5' -  C4' -  C3' ANGL. DEV. =  14.9 DEGREES          
 REMARK 500      G T  10   C5' -  C4' -  O4' ANGL. DEV. =  14.3 DEGREES          
+REMARK 500      G T  10   C1' -  O4' -  C4' ANGL. DEV. =  -6.0 DEGREES          
 REMARK 500      G T  10   N9  -  C1' -  C2' ANGL. DEV. =  13.3 DEGREES          
-REMARK 500      G T  10   O4' -  C1' -  N9  ANGL. DEV. =  -7.7 DEGREES          
+REMARK 500      G T  10   O4' -  C1' -  N9  ANGL. DEV. =  -7.4 DEGREES          
 REMARK 500      C T  25   N1  -  C1' -  C2' ANGL. DEV. =  18.5 DEGREES          
 REMARK 500      C T  29   N1  -  C1' -  C2' ANGL. DEV. =  15.3 DEGREES          
-REMARK 500      G T  30   C2' -  C3' -  O3' ANGL. DEV. =  19.2 DEGREES          
 REMARK 500      G T  30   C5' -  C4' -  C3' ANGL. DEV. =  13.8 DEGREES          
 REMARK 500      G T  30   C5' -  C4' -  O4' ANGL. DEV. =  12.9 DEGREES          
+REMARK 500      G T  30   C1' -  O4' -  C4' ANGL. DEV. =  -4.5 DEGREES          
+REMARK 500      G T  30   C2' -  C3' -  O3' ANGL. DEV. =  19.2 DEGREES          
 REMARK 500      G T  30   N9  -  C1' -  C2' ANGL. DEV. =  10.6 DEGREES          
-REMARK 500      G T  30   O5' -  P   -  OP1 ANGL. DEV. =  -8.5 DEGREES          
-REMARK 500      G T  30   O5' -  P   -  OP2 ANGL. DEV. =  -7.3 DEGREES          
-REMARK 500      A T  31   O4' -  C4' -  C3' ANGL. DEV. =  -5.7 DEGREES          
 REMARK 500      G T  41   N9  -  C1' -  C2' ANGL. DEV. =  17.2 DEGREES          
-REMARK 500      C T  61   C2' -  C3' -  O3' ANGL. DEV. =  10.6 DEGREES          
-REMARK 500      C T  61   C5' -  C4' -  C3' ANGL. DEV. =  13.9 DEGREES          
-REMARK 500      C T  61   N1  -  C1' -  C2' ANGL. DEV. =  16.3 DEGREES          
-REMARK 500      C T  61   O4' -  C1' -  N1  ANGL. DEV. =  -5.0 DEGREES          
-REMARK 500      C T  61   O4' -  C4' -  C3' ANGL. DEV. =  -5.8 DEGREES          
-REMARK 500      C T  61   O5' -  P   -  OP1 ANGL. DEV. = -27.3 DEGREES          
-REMARK 500      C T  61   O5' -  P   -  OP2 ANGL. DEV. = -19.4 DEGREES          
 REMARK 500      C T  61   O3' -  P   -  O5' ANGL. DEV. =  11.8 DEGREES          
-REMARK 500      C T  61   O3' -  P   -  OP1 ANGL. DEV. = -43.2 DEGREES          
-REMARK 500      C T  61   O3' -  P   -  OP2 ANGL. DEV. = -43.2 DEGREES          
-REMARK 500      C T  62   O4' -  C4' -  C3' ANGL. DEV. =  -5.1 DEGREES          
+REMARK 500      C T  61   O3' -  P   -  OP2 ANGL. DEV. = -35.8 DEGREES          
+REMARK 500      C T  61   O3' -  P   -  OP1 ANGL. DEV. = -37.9 DEGREES          
+REMARK 500      C T  61   O5' -  P   -  OP1 ANGL. DEV. = -22.3 DEGREES          
+REMARK 500      C T  61   O5' -  P   -  OP2 ANGL. DEV. = -14.4 DEGREES          
+REMARK 500      C T  61   C5' -  C4' -  C3' ANGL. DEV. =  13.9 DEGREES          
+REMARK 500      C T  61   C2' -  C3' -  O3' ANGL. DEV. =  10.7 DEGREES          
+REMARK 500      C T  61   N1  -  C1' -  C2' ANGL. DEV. =  16.3 DEGREES          
 REMARK 500      C T  74   N1  -  C1' -  C2' ANGL. DEV. =  12.9 DEGREES          
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
@@ -389,6 +393,7 @@ REMARK 500
 REMARK 500 TORSION ANGLES OUTSIDE THE EXPECTED RAMACHANDRAN REGIONS:            
 REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;               
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
+REMARK 500                                                                      
 REMARK 500 STANDARD TABLE:                                                      
 REMARK 500 FORMAT:(10X,I3,1X,A3,1X,A1,I4,A1,4X,F7.2,3X,F7.2)                    
 REMARK 500                                                                      
@@ -417,16 +422,23 @@ REMARK 500    ASN A 138       42.72     78.75
 REMARK 500    PRO A 140      174.34    -47.86                                   
 REMARK 500    HIS A 142       14.24     54.57                                   
 REMARK 500    PRO A 164      -70.21    -38.80                                   
+REMARK 500    LEU A 165       46.33    -73.33                                   
 REMARK 500    ASP A 209     -155.44   -159.53                                   
+REMARK 500    PRO A 263       96.46    101.74                                   
+REMARK 500    GLU A 273       19.55    -57.60                                   
+REMARK 500    ALA A 283     -172.24   -171.84                                   
 REMARK 500    VAL A 294      -71.11    -65.92                                   
 REMARK 500    TYR A 307       41.52   -109.35                                   
 REMARK 500    LEU A 343      -70.17    -53.04                                   
 REMARK 500    GLU A 344      -24.22    -34.81                                   
+REMARK 500    LYS A 347       99.94    -68.07                                   
 REMARK 500    VAL A 349       34.81    -64.18                                   
 REMARK 500    VAL B  12       71.03   -118.23                                   
 REMARK 500    PHE B  39       64.02   -116.00                                   
 REMARK 500    VAL B  50       96.99    -59.78                                   
 REMARK 500    ASN B  80        1.26    -61.39                                   
+REMARK 500    LEU B  99       22.67   -145.23                                   
+REMARK 500    GLN B 109       44.17     36.65                                   
 REMARK 500    GLU B 148      -17.40    -46.15                                   
 REMARK 500    TRP B 150       74.63   -163.77                                   
 REMARK 500    ALA B 189      107.73    -52.37                                   
@@ -437,47 +449,10 @@ REMARK 500    ALA B 210       59.71   -118.99
 REMARK 500    PRO B 211      -38.92    -38.20                                   
 REMARK 500    ASN B 243     -164.80    160.61                                   
 REMARK 500    ASN B 244      -82.20    -60.14                                   
-REMARK 500    GLU B 281      134.01    -27.42                                   
-REMARK 500    PRO B 295       -3.56    -45.04                                   
-REMARK 500    LEU B 392     -168.13   -100.60                                   
-REMARK 500    PRO B 408       -9.75    -57.68                                   
-REMARK 500    VAL B 435       79.75   -102.18                                   
-REMARK 500    TYR B 513      132.46    -37.05                                   
-REMARK 500    ASP B 520      -16.03    -49.44                                   
-REMARK 500    ARG B 525       74.08     57.56                                   
-REMARK 500    ASN B 535       53.36   -162.89                                   
-REMARK 500    ALA B 538      143.52   -174.13                                   
-REMARK 500    LYS B 541       44.16   -107.33                                   
-REMARK 500    LEU B 560      -14.56    -45.50                                   
-REMARK 500    ARG B 564       65.37   -119.22                                   
-REMARK 500    ALA B 568      125.28   -170.40                                   
-REMARK 500    ARG B 578      103.47    163.27                                   
-REMARK 500    GLU B 579      -41.88     69.11                                   
-REMARK 500    PRO B 597      -29.91    -34.14                                   
-REMARK 500    TRP B 598      -95.34   -107.76                                   
-REMARK 500    ALA B 599      105.82    -21.40                                   
-REMARK 500    GLU B 601       99.39    -49.37                                   
-REMARK 500    LEU B 616      -72.99    -60.50                                   
-REMARK 500    ALA B 628      125.84    -21.66                                   
-REMARK 500    PRO B 632       -5.92    -36.17                                   
-REMARK 500    PRO B 666     -169.31    -61.23                                   
-REMARK 500    PRO B 678      155.45    -43.15                                   
-REMARK 500    PRO B 691      136.96    -30.20                                   
-REMARK 500    LEU B 697      116.54    176.81                                   
-REMARK 500    ALA B 703      -37.32    -35.32                                   
-REMARK 500    GLU B 716      -70.07    -45.63                                   
-REMARK 500    TYR B 721        0.75    -56.02                                   
-REMARK 500    GLU B 723      -78.36    -83.11                                   
-REMARK 500    SER B 724     -156.69    -95.93                                   
-REMARK 500    LEU B 725     -160.38   -176.12                                   
-REMARK 500    ALA B 726      159.80    146.08                                   
-REMARK 500    ASP B 729      141.19    174.21                                   
-REMARK 500    PRO B 734      -73.89    -39.01                                   
-REMARK 500    PRO B 735       20.07    -55.63                                   
-REMARK 500    PRO B 737      179.53    -46.65                                   
-REMARK 500    ARG B 748      118.89   -162.86                                   
-REMARK 500    GLU B 763       -1.99    -59.51                                   
-REMARK 500    LEU B 779       80.83   -162.05                                   
+REMARK 500    GLU B 279      100.38    -36.07                                   
+REMARK 500    GLU B 281      134.02    -27.42                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS      94 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -506,7 +481,7 @@ REMARK 500 GEOMETRY AND STEREOCHEMISTRY
 REMARK 500 SUBTOPIC: MAIN CHAIN PLANARITY                                       
 REMARK 500                                                                      
 REMARK 500 THE FOLLOWING RESIDUES HAVE A PSEUDO PLANARITY                       
-REMARK 500 TORSION, C(I) - CA(I) - N(I+1) - O(I), GREATER                       
+REMARK 500 TORSION ANGLE, C(I) - CA(I) - N(I+1) - O(I), GREATER                 
 REMARK 500 10.0 DEGREES. (M=MODEL NUMBER; RES=RESIDUE NAME;                     
 REMARK 500 C=CHAIN IDENTIFIER; SSEQ=SEQUENCE NUMBER;                            
 REMARK 500 I=INSERTION CODE).                                                   
@@ -515,37 +490,11 @@ REMARK 500  M RES CSSEQI        ANGLE
 REMARK 500    ASN B 243         10.89                                           
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500    VAL B  38        24.1      L          L   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
-REMARK 525                                                                      
-REMARK 525 SOLVENT                                                              
-REMARK 525                                                                      
-REMARK 525 THE SOLVENT MOLECULES HAVE CHAIN IDENTIFIERS THAT                    
-REMARK 525 INDICATE THE POLYMER CHAIN WITH WHICH THEY ARE MOST                  
-REMARK 525 CLOSELY ASSOCIATED. THE REMARK LISTS ALL THE SOLVENT                 
-REMARK 525 MOLECULES WHICH ARE MORE THAN 5A AWAY FROM THE                       
-REMARK 525 NEAREST POLYMER CHAIN (M = MODEL NUMBER;                             
-REMARK 525 RES=RESIDUE NAME; C=CHAIN IDENTIFIER; SSEQ=SEQUENCE                  
-REMARK 525 NUMBER; I=INSERTION CODE):                                           
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  MG B1781                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B1781                  
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
@@ -553,34 +502,25 @@ REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE FYA A1351
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1B70   RELATED DB: PDB                                   
-REMARK 900  PHENYLALANYL TRNA SYNTHETASE COMPLEXED WITH                         
-REMARK 900  PHENYLALANINE                                                       
+REMARK 900 PHENYLALANYL TRNA SYNTHETASE COMPLEXED WITH PHENYLALANINE            
 REMARK 900 RELATED ID: 1B7Y   RELATED DB: PDB                                   
-REMARK 900  PHENYLALANYL TRNA SYNTHETASE COMPLEXED WITH                         
-REMARK 900  PHENYLALANINYL- ADENYLATE                                           
+REMARK 900 PHENYLALANYL TRNA SYNTHETASE COMPLEXED WITH PHENYLALANINYL-          
+REMARK 900 ADENYLATE                                                            
 REMARK 900 RELATED ID: 2AKW   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF T.THERMOPHILUS                                 
-REMARK 900  PHENYLALANYL-TRNASYNTHETASE COMPLEXED WITH P-                       
-REMARK 900  CL-PHENYLALANINE                                                    
+REMARK 900 CRYSTAL STRUCTURE OF T.THERMOPHILUS PHENYLALANYL-TRNASYNTHETASE      
+REMARK 900 COMPLEXED WITH P- CL-PHENYLALANINE                                   
 REMARK 900 RELATED ID: 2ALY   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF T.THERMOPHILUS                                 
-REMARK 900  PHENYLALANYL-TRNASYNTHETASE COMPLEXED WITH 5'-                      
-REMARK 900  O-[N-(L-TYROSYL)SULPHAMOYL]ADENOSINE                                
+REMARK 900 CRYSTAL STRUCTURE OF T.THERMOPHILUS PHENYLALANYL-TRNASYNTHETASE      
+REMARK 900 COMPLEXED WITH 5'- O-[N-(L-TYROSYL)SULPHAMOYL]ADENOSINE              
 REMARK 900 RELATED ID: 2AMC   RELATED DB: PDB                                   
-REMARK 900  CRYSTAL STRUCTURE OF PHENYLALANYL-TRNA                              
-REMARK 900  SYNTHETASE COMPLEXEDWITH L-TYROSINE                                 
+REMARK 900 CRYSTAL STRUCTURE OF PHENYLALANYL-TRNA SYNTHETASE COMPLEXEDWITH L-   
+REMARK 900 TYROSINE                                                             
 DBREF  2IY5 A    1   350  UNP    P27001   SYFA_THETH       1    350             
 DBREF  2IY5 B    1   785  UNP    P27002   SYFB_THETH       1    785             
 DBREF  2IY5 T    1    76  PDB    2IY5     2IY5             1     76             
 SEQADV 2IY5 GLU B  467  UNP  P27001    GLN   467 CONFLICT                       
 SEQADV 2IY5 ALA B  487  UNP  P27001    GLY   487 CONFLICT                       
 SEQADV 2IY5 GLU B  629  UNP  P27001    GLN   629 CONFLICT                       
-SEQRES   1 T   76    G   C   C   G   A   G   G   U   A   G   C   U   C          
-SEQRES   2 T   76    A   G   U   U   G   G   U   A   G   A   G   C   A          
-SEQRES   3 T   76    U   G   C   G   A   C   U   G   A   A   A   A   U          
-SEQRES   4 T   76    C   G   C   A   G   U   G   U   C   C   G   C   G          
-SEQRES   5 T   76    G   U   U   C   G   A   U   U   C   C   G   C   G          
-SEQRES   6 T   76    C   C   U   C   G   G   C   A   C   C   A                  
 SEQRES   1 A  350  MET LEU GLU GLU ALA LEU ALA ALA ILE GLN ASN ALA ARG          
 SEQRES   2 A  350  ASP LEU GLU GLU LEU LYS ALA LEU LYS ALA ARG TYR LEU          
 SEQRES   3 A  350  GLY LYS LYS GLY LEU LEU THR GLN GLU MET LYS GLY LEU          
@@ -669,13 +609,19 @@ SEQRES  58 B  785  SER LEU ALA PHE HIS LEU ARG PHE ARG HIS PRO LYS ARG
 SEQRES  59 B  785  THR LEU ARG ASP GLU GLU VAL GLU GLU ALA VAL SER ARG          
 SEQRES  60 B  785  VAL ALA GLU ALA LEU ARG ALA ARG GLY PHE GLY LEU ARG          
 SEQRES  61 B  785  GLY LEU ASP THR PRO                                          
-HET     MG  B1781       1                                                       
+SEQRES   1 T   76    G   C   C   G   A   G   G   U   A   G   C   U   C          
+SEQRES   2 T   76    A   G   U   U   G   G   U   A   G   A   G   C   A          
+SEQRES   3 T   76    U   G   C   G   A   C   U   G   A   A   A   A   U          
+SEQRES   4 T   76    C   G   C   A   G   U   G   U   C   C   G   C   G          
+SEQRES   5 T   76    G   U   U   C   G   A   U   U   C   C   G   C   G          
+SEQRES   6 T   76    C   C   U   C   G   G   C   A   C   C   A                  
 HET    FYA  A1351      33                                                       
-HETNAM      MG MAGNESIUM ION                                                    
+HET     MG  B1781       1                                                       
 HETNAM     FYA ADENOSINE-5'-[PHENYLALANINOL-PHOSPHATE]                          
-FORMUL   4   MG    MG 2+                                                        
-FORMUL   5  FYA    C19 H25 N6 O7 P                                              
-FORMUL   6  HOH   *231(H2 O1)                                                   
+HETNAM      MG MAGNESIUM ION                                                    
+FORMUL   4  FYA    C19 H25 N6 O7 P                                              
+FORMUL   5   MG    MG 2+                                                        
+FORMUL   6  HOH   *231(H2 O)                                                    
 HELIX    1   1 LEU A   15  LEU A   32  1                                  18    
 HELIX    2   2 ALA A   41  GLU A   45  5                                   5    
 HELIX    3   3 ARG A   48  GLU A   62  1                                  15    
@@ -11473,5 +11419,5 @@ CONECT104181041710419
 CONECT104191041810420                                                           
 CONECT10420104111041410419                                                      
 CONECT10421 6210                                                                
-MASTER      521    0    2   41   51    0    7    610649    3   35   94          
+MASTER      468    0    2   41   51    0    7    610649    3   35   94          
 END                                                                             

@@ -1,6 +1,6 @@
 HEADER    TRANSCRIPTION/DNA                       30-MAR-09   3GUT              
-TITLE     CRYSTAL STRUCTURE OF A HIGHER-ORDER COMPLEX OF P50:RELA               
-TITLE    2 BOUND TO THE HIV-1 LTR                                               
+TITLE     CRYSTAL STRUCTURE OF A HIGHER-ORDER COMPLEX OF P50:RELA BOUND TO THE  
+TITLE    2 HIV-1 LTR                                                            
 COMPND    MOL_ID: 1;                                                            
 COMPND   2 MOLECULE: TRANSCRIPTION FACTOR P65;                                  
 COMPND   3 CHAIN: A, C, E, G;                                                   
@@ -10,8 +10,8 @@ COMPND   6 MOL_ID: 2;
 COMPND   7 MOLECULE: NUCLEAR FACTOR NF-KAPPA-B P105 SUBUNIT;                    
 COMPND   8 CHAIN: B, D, F, H;                                                   
 COMPND   9 FRAGMENT: UNP RESIDUES 41-352;                                       
-COMPND  10 SYNONYM: DNA-BINDING FACTOR KBF1, EBP-1, NUCLEAR FACTOR NF-          
-COMPND  11 KAPPA-B P50 SUBUNIT;                                                 
+COMPND  10 SYNONYM: DNA-BINDING FACTOR KBF1, EBP-1, NUCLEAR FACTOR NF-KAPPA-B   
+COMPND  11 P50 SUBUNIT;                                                         
 COMPND  12 MOL_ID: 3;                                                           
 COMPND  13 MOLECULE: HIV-LTR CORE FORWARD STRAND;                               
 COMPND  14 CHAIN: X, I;                                                         
@@ -36,32 +36,30 @@ SOURCE  13 MOL_ID: 4;
 SOURCE  14 ORGANISM_SCIENTIFIC: HUMAN IMMUNODEFICIENCY VIRUS;                   
 SOURCE  15 ORGANISM_COMMON: VIRUS;                                              
 SOURCE  16 ORGANISM_TAXID: 12721                                                
-KEYWDS    IG FOLD, PROTEIN-DNA COMPLEX, PSEUDOCONTINUOUS HELIX, REL             
-KEYWDS   2 FAMILY, MULTIPROTEIN ASSEMBLY, ACETYLATION, ACTIVATOR,               
-KEYWDS   3 ALTERNATIVE SPLICING, CYTOPLASM, DNA-BINDING, NUCLEUS,               
-KEYWDS   4 PHOSPHOPROTEIN, TRANSCRIPTION, TRANSCRIPTION REGULATION,             
-KEYWDS   5 UBL CONJUGATION, ANK REPEAT, APOPTOSIS, POLYMORPHISM, S-             
-KEYWDS   6 NITROSYLATION, TRANSCRIPTION/DNA COMPLEX                             
+KEYWDS    IG FOLD, PROTEIN-DNA COMPLEX, PSEUDOCONTINUOUS HELIX, REL FAMILY,     
+KEYWDS   2 MULTIPROTEIN ASSEMBLY, ACETYLATION, ACTIVATOR, ALTERNATIVE SPLICING, 
+KEYWDS   3 CYTOPLASM, DNA-BINDING, NUCLEUS, PHOSPHOPROTEIN, TRANSCRIPTION,      
+KEYWDS   4 TRANSCRIPTION REGULATION, UBL CONJUGATION, ANK REPEAT, APOPTOSIS,    
+KEYWDS   5 POLYMORPHISM, S-NITROSYLATION, TRANSCRIPTION-DNA COMPLEX             
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    J.C.STROUD,A.J.OLTMAN,A.HAN,D.L.BATES,L.CHEN                          
+REVDAT   3   01-NOV-17 3GUT    1       REMARK                                   
 REVDAT   2   13-OCT-09 3GUT    1       JRNL                                     
 REVDAT   1   08-SEP-09 3GUT    0                                                
 JRNL        AUTH   J.C.STROUD,A.OLTMAN,A.HAN,D.L.BATES,L.CHEN                   
-JRNL        TITL   STRUCTURAL BASIS OF HIV-1 ACTIVATION BY                      
-JRNL        TITL 2 NF-KAPPAB--A HIGHER-ORDER COMPLEX OF P50:RELA BOUND          
-JRNL        TITL 3 TO THE HIV-1 LTR.                                            
+JRNL        TITL   STRUCTURAL BASIS OF HIV-1 ACTIVATION BY NF-KAPPAB--A         
+JRNL        TITL 2 HIGHER-ORDER COMPLEX OF P50:RELA BOUND TO THE HIV-1 LTR.     
 JRNL        REF    J.MOL.BIOL.                   V. 393    98 2009              
 JRNL        REFN                   ISSN 0022-2836                               
 JRNL        PMID   19683540                                                     
 JRNL        DOI    10.1016/J.JMB.2009.08.023                                    
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    3.59 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : CNS                                                  
 REMARK   3   AUTHORS     : BRUNGER,ADAMS,CLORE,DELANO,GROS,GROSSE-              
-REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES, PANNU,             
+REMARK   3               : KUNSTLEVE,JIANG,KUSZEWSKI,NILGES,PANNU,              
 REMARK   3               : READ,RICE,SIMONSON,WARREN                            
 REMARK   3                                                                      
 REMARK   3  REFINEMENT TARGET : NULL                                            
@@ -69,7 +67,7 @@ REMARK   3
 REMARK   3  DATA USED IN REFINEMENT.                                            
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.59                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 46.45                          
-REMARK   3   DATA CUTOFF            (SIGMA(F)) : 6020.000                       
+REMARK   3   DATA CUTOFF            (SIGMA(F)) : 6020.0                         
 REMARK   3   DATA CUTOFF HIGH         (ABS(F)) : NULL                           
 REMARK   3   DATA CUTOFF LOW          (ABS(F)) : NULL                           
 REMARK   3   COMPLETENESS (WORKING+TEST)   (%) : 81.2                           
@@ -104,7 +102,7 @@ REMARK   3   SOLVENT ATOMS            : 0
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : NULL                           
-REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 150.50                         
+REMARK   3   MEAN B VALUE      (OVERALL, A**2) : 150.5                          
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
 REMARK   3    B11 (A**2) : -2.97700                                             
 REMARK   3    B22 (A**2) : -2.97700                                             
@@ -155,14 +153,13 @@ REMARK   3  TOPOLOGY FILE  2   : NULL
 REMARK   3  TOPOLOGY FILE  3   : NULL                                           
 REMARK   3                                                                      
 REMARK   3  OTHER REFINEMENT REMARKS: AUTHORS STATE THAT THE DIFFERENCES        
-REMARK   3  BETWEEN SFCHECK PARAMETERS AND THE CNS CALCULATED VALUES ARE        
-REMARK   3  DUE TO THE BULK SOLVENT CORRECTION PARAMETERS USED IN               
-REMARK   3  REFINEMENT                                                          
+REMARK   3  BETWEEN SFCHECK PARAMETERS AND THE CNS CALCULATED VALUES ARE DUE    
+REMARK   3  TO THE BULK SOLVENT CORRECTION PARAMETERS USED IN REFINEMENT        
 REMARK   4                                                                      
-REMARK   4 3GUT COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3GUT COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-APR-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB052333.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000052333.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -258,9 +255,9 @@ REMARK 300 SEE REMARK 350 FOR THE AUTHOR PROVIDED AND/OR PROGRAM
 REMARK 300 GENERATED ASSEMBLY INFORMATION FOR THE STRUCTURE IN                  
 REMARK 300 THIS ENTRY. THE REMARK MAY ALSO PROVIDE INFORMATION ON               
 REMARK 300 BURIED SURFACE AREA.                                                 
-REMARK 300 REMARK: THE BIOLOGICAL UNIT IS MADE BY CHAINS A,B,C,D,X,Y. A NCS     
-REMARK 300 -RELATED UNIT IS MADE BY CHAINS E,F,G,H,I,J. TWO BIOLOGICAL          
-REMARK 300 UNITS ARE PRESENT IN THE ASYMMETRIC UNIT.                            
+REMARK 300 REMARK: THE BIOLOGICAL UNIT IS MADE BY CHAINS A,B,C,D,X,Y. A NCS-    
+REMARK 300 RELATED UNIT IS MADE BY CHAINS E,F,G,H,I,J. TWO BIOLOGICAL UNITS     
+REMARK 300 ARE PRESENT IN THE ASYMMETRIC UNIT.                                  
 REMARK 350                                                                      
 REMARK 350 COORDINATES FOR A COMPLETE MULTIMER REPRESENTING THE KNOWN           
 REMARK 350 BIOLOGICALLY SIGNIFICANT OLIGOMERIZATION STATE OF THE                
@@ -298,7 +295,8 @@ REMARK 500
 REMARK 500 THE FOLLOWING ATOMS ARE IN CLOSE CONTACT.                            
 REMARK 500                                                                      
 REMARK 500  ATM1  RES C  SSEQI   ATM2  RES C  SSEQI           DISTANCE          
-REMARK 500   O2   DT  X     7     N2   DG  Y    22              2.06            
+REMARK 500   C    LEU B   367     CD   PRO B   368              1.58            
+REMARK 500   O2    DT X     7     N2    DG Y    22              2.06            
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -341,29 +339,38 @@ REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999
 REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
+REMARK 500    PRO A  81   C   -  N   -  CA  ANGL. DEV. =  11.3 DEGREES          
+REMARK 500    PRO A 189   C   -  N   -  CA  ANGL. DEV. =  11.2 DEGREES          
 REMARK 500    LEU B 367   N   -  CA  -  CB  ANGL. DEV. =  15.5 DEGREES          
 REMARK 500    LEU B 367   CB  -  CG  -  CD1 ANGL. DEV. =  13.6 DEGREES          
-REMARK 500    PRO B 368   CA  -  N   -  CD  ANGL. DEV. = -16.8 DEGREES          
-REMARK 500    PRO B 368   C   -  N   -  CA  ANGL. DEV. =  31.7 DEGREES          
-REMARK 500    PRO B 368   C   -  N   -  CD  ANGL. DEV. = -56.5 DEGREES          
-REMARK 500    PRO D 368   C   -  N   -  CD  ANGL. DEV. = -17.7 DEGREES          
+REMARK 500    PRO B 368   C   -  N   -  CA  ANGL. DEV. =  39.4 DEGREES          
+REMARK 500    PRO B 368   C   -  N   -  CD  ANGL. DEV. = -64.3 DEGREES          
+REMARK 500    PRO B 368   CA  -  N   -  CD  ANGL. DEV. = -17.0 DEGREES          
+REMARK 500    PRO B 600   C   -  N   -  CA  ANGL. DEV. =  10.9 DEGREES          
+REMARK 500    PRO C  81   C   -  N   -  CA  ANGL. DEV. =  10.9 DEGREES          
+REMARK 500    PRO C 140   C   -  N   -  CA  ANGL. DEV. =   9.7 DEGREES          
+REMARK 500    PRO C 275   C   -  N   -  CA  ANGL. DEV. =   9.3 DEGREES          
+REMARK 500    PRO D 368   C   -  N   -  CD  ANGL. DEV. = -25.5 DEGREES          
 REMARK 500    ALA D 370   N   -  CA  -  CB  ANGL. DEV. =  11.8 DEGREES          
+REMARK 500    ALA D 370   CA  -  C   -  N   ANGL. DEV. = -26.7 DEGREES          
+REMARK 500    ALA D 370   O   -  C   -  N   ANGL. DEV. =  15.3 DEGREES          
 REMARK 500    SER D 371   N   -  CA  -  CB  ANGL. DEV. =  25.5 DEGREES          
 REMARK 500    SER D 371   CA  -  CB  -  OG  ANGL. DEV. = -18.1 DEGREES          
 REMARK 500    SER D 371   CA  -  C   -  O   ANGL. DEV. =  15.5 DEGREES          
-REMARK 500    ALA D 370   CA  -  C   -  N   ANGL. DEV. = -26.7 DEGREES          
-REMARK 500    ALA D 370   O   -  C   -  N   ANGL. DEV. =  15.3 DEGREES          
 REMARK 500    SER D 371   CA  -  C   -  N   ANGL. DEV. = -15.8 DEGREES          
 REMARK 500    LYS D 377   N   -  CA  -  C   ANGL. DEV. =  16.3 DEGREES          
-REMARK 500    PRO H 368   C   -  N   -  CD  ANGL. DEV. = -17.3 DEGREES          
+REMARK 500    PRO E 189   C   -  N   -  CA  ANGL. DEV. =  11.2 DEGREES          
+REMARK 500    PRO F 368   C   -  N   -  CA  ANGL. DEV. =  11.6 DEGREES          
+REMARK 500    PRO G  81   C   -  N   -  CA  ANGL. DEV. =  10.4 DEGREES          
+REMARK 500    PRO H 368   C   -  N   -  CD  ANGL. DEV. = -25.1 DEGREES          
 REMARK 500    ALA H 370   N   -  CA  -  CB  ANGL. DEV. =  11.6 DEGREES          
+REMARK 500    ALA H 370   CA  -  C   -  N   ANGL. DEV. = -27.4 DEGREES          
+REMARK 500    ALA H 370   O   -  C   -  N   ANGL. DEV. =  15.5 DEGREES          
 REMARK 500    SER H 371   N   -  CA  -  CB  ANGL. DEV. =  25.5 DEGREES          
 REMARK 500    SER H 371   CA  -  CB  -  OG  ANGL. DEV. = -18.1 DEGREES          
 REMARK 500    SER H 371   CA  -  C   -  O   ANGL. DEV. =  15.4 DEGREES          
-REMARK 500    ALA H 370   CA  -  C   -  N   ANGL. DEV. = -27.4 DEGREES          
-REMARK 500    ALA H 370   O   -  C   -  N   ANGL. DEV. =  15.5 DEGREES          
 REMARK 500    SER H 371   CA  -  C   -  N   ANGL. DEV. = -15.7 DEGREES          
-REMARK 500    LYS H 377   N   -  CA  -  C   ANGL. DEV. =  16.3 DEGREES          
+REMARK 500    LYS H 377   N   -  CA  -  C   ANGL. DEV. =  16.2 DEGREES          
 REMARK 500     DC X   6   O4' -  C1' -  N1  ANGL. DEV. =   2.3 DEGREES          
 REMARK 500     DC X  13   O4' -  C1' -  N1  ANGL. DEV. =   1.8 DEGREES          
 REMARK 500     DC I   6   O4' -  C1' -  N1  ANGL. DEV. =   1.9 DEGREES          
@@ -434,145 +441,8 @@ REMARK 500    ARG B 605       59.43     32.37
 REMARK 500    GLN B 606       -1.28     44.09                                   
 REMARK 500    PRO B 624      152.67    -48.16                                   
 REMARK 500    VAL B 627     -165.51   -114.73                                   
-REMARK 500    SER B 635      -65.64    -26.46                                   
-REMARK 500    GLU C  39     -158.53    -91.71                                   
-REMARK 500    ARG C  41      -34.36    -39.66                                   
-REMARK 500    ALA C  43     -110.89    -85.94                                   
-REMARK 500    GLU C  49       -3.03   -162.43                                   
-REMARK 500    TYR C  66      128.58   -177.18                                   
-REMARK 500    PRO C  81      -69.75     -1.67                                   
-REMARK 500    HIS C  83       75.33    -68.25                                   
-REMARK 500    ASN C 139       79.88   -169.29                                   
-REMARK 500    HIS C 142       38.89     34.38                                   
-REMARK 500    VAL C 165     -154.72    -89.89                                   
-REMARK 500    PRO C 172      144.05    -31.92                                   
-REMARK 500    VAL C 199      105.00   -173.26                                   
-REMARK 500    ASN C 200       14.56    -66.27                                   
-REMARK 500    ARG C 201      121.49   -179.84                                   
-REMARK 500    SER C 203      116.85   -164.27                                   
-REMARK 500    CYS C 216     -159.23   -151.86                                   
-REMARK 500    GLU C 234      116.87   -175.52                                   
-REMARK 500    GLN C 247       15.25     58.05                                   
-REMARK 500    LEU C 262      136.28    -16.89                                   
-REMARK 500    SER D 371      119.57     59.78                                   
-REMARK 500    LYS D 376        1.21     94.27                                   
-REMARK 500    LYS D 377       -5.54    -38.81                                   
-REMARK 500    VAL D 382     -168.27    -76.91                                   
-REMARK 500    LYS D 383      132.37   -173.19                                   
-REMARK 500    TYR D 387      143.99   -176.55                                   
-REMARK 500    ASN D 436       71.63     36.21                                   
-REMARK 500    ASP D 472       38.29    -90.19                                   
-REMARK 500    ALA D 478       92.29    -56.40                                   
-REMARK 500    GLU D 479       57.88   -104.23                                   
-REMARK 500    ASP D 483       64.19     75.68                                   
-REMARK 500    ARG D 484       -6.77    -52.89                                   
-REMARK 500    ASP D 520     -154.68    -79.88                                   
-REMARK 500    ASP D 535     -177.05    -54.07                                   
-REMARK 500    ASN D 544       35.52    -97.59                                   
-REMARK 500    ALA D 545       14.31   -171.88                                   
-REMARK 500    ASN D 547       96.41    -52.43                                   
-REMARK 500    LYS D 572      132.47    -25.21                                   
-REMARK 500    ASP D 577       54.04   -107.88                                   
-REMARK 500    PRO D 600      -24.80    -39.99                                   
-REMARK 500    ARG D 605       29.53     47.19                                   
-REMARK 500    GLN D 606      -12.69     77.15                                   
-REMARK 500    VAL D 627     -166.19   -126.43                                   
-REMARK 500    ARG D 632      120.77   -170.32                                   
-REMARK 500    SER D 635      -47.90    -28.60                                   
-REMARK 500    LEU D 637       28.14     49.76                                   
-REMARK 500    SER E  51      147.28    -35.88                                   
-REMARK 500    THR E  52     -167.92   -162.10                                   
-REMARK 500    TYR E  66      123.31    174.26                                   
-REMARK 500    PRO E  81      -72.36     -9.03                                   
-REMARK 500    PRO E  82       69.69    -63.71                                   
-REMARK 500    HIS E  83       67.17    -55.03                                   
-REMARK 500    ARG E  96      162.69    175.42                                   
-REMARK 500    ASP E  97       26.59     43.87                                   
-REMARK 500    ALA E 102     -162.44   -163.25                                   
-REMARK 500    LYS E 123       -7.99    -54.89                                   
-REMARK 500    ASP E 125       49.96    -96.44                                   
-REMARK 500    ASN E 137       78.89     50.12                                   
-REMARK 500    ASN E 139       75.80   -155.04                                   
-REMARK 500    HIS E 142       38.24     28.24                                   
-REMARK 500    VAL E 165     -165.33   -101.83                                   
-REMARK 500    PRO E 172      139.59    -36.43                                   
-REMARK 500    ASN E 186       37.15    -66.93                                   
-REMARK 500    ARG E 187      -60.06    -98.76                                   
-REMARK 500    ALA E 192      172.24    -36.71                                   
-REMARK 500    ARG E 201      134.22    175.55                                   
-REMARK 500    SER E 205      156.70    -46.74                                   
-REMARK 500    LYS E 218      129.50    -35.37                                   
-REMARK 500    GLU E 234      120.16   -177.48                                   
-REMARK 500    ARG E 246       27.18     34.74                                   
-REMARK 500    PRO E 255      164.58    -47.02                                   
-REMARK 500    ASP E 277       13.94   -154.57                                   
-REMARK 500    ARG E 278       -6.21     61.51                                   
-REMARK 500    CYS F 359        8.74    -56.58                                   
-REMARK 500    SER F 363      106.48     36.30                                   
-REMARK 500    SER F 372      140.51    -39.39                                   
-REMARK 500    TYR F 387      135.15   -179.93                                   
-REMARK 500    VAL F 469      -60.06    -92.64                                   
-REMARK 500    ASP F 472       37.61    -85.11                                   
-REMARK 500    ALA F 478       76.46    -44.98                                   
-REMARK 500    ASP F 483       72.03     64.29                                   
-REMARK 500    PHE F 525       90.97    -63.84                                   
-REMARK 500    ALA F 545       -4.18   -161.55                                   
-REMARK 500    VAL F 551      -71.86    -79.10                                   
-REMARK 500    ARG F 555      109.99   -176.45                                   
-REMARK 500    ASP F 577       41.28   -107.74                                   
-REMARK 500    PRO F 600       -6.14    -45.13                                   
-REMARK 500    GLN F 606       -9.46     67.42                                   
-REMARK 500    PHE F 611     -169.47   -117.89                                   
-REMARK 500    PRO F 624      150.68    -46.84                                   
-REMARK 500    VAL F 627     -165.14   -124.71                                   
-REMARK 500    SER F 635      -71.80    -26.77                                   
-REMARK 500    ALA G  43     -116.33    -90.69                                   
-REMARK 500    GLU G  49       -4.53   -153.73                                   
-REMARK 500    THR G  54      -70.76    -60.63                                   
-REMARK 500    TYR G  66      128.93    176.91                                   
-REMARK 500    PRO G  81      -68.83     -3.25                                   
-REMARK 500    ARG G  96      151.25    176.40                                   
-REMARK 500    ASN G 137       67.75     62.00                                   
-REMARK 500    ASN G 139       75.64   -168.87                                   
-REMARK 500    VAL G 165     -154.03    -85.27                                   
-REMARK 500    PRO G 172      145.59    -33.98                                   
-REMARK 500    ASN G 186       43.46    -64.76                                   
-REMARK 500    ALA G 192     -171.86    -69.22                                   
-REMARK 500    VAL G 199      102.47   -171.89                                   
-REMARK 500    ASN G 200        4.31    -56.61                                   
-REMARK 500    ARG G 201      122.33   -171.82                                   
-REMARK 500    SER G 203      119.94   -160.18                                   
-REMARK 500    ASP G 223       70.89   -116.16                                   
-REMARK 500    ILE G 224      141.75   -172.02                                   
-REMARK 500    GLU G 234      119.44   -170.96                                   
-REMARK 500    VAL G 248       11.63   -143.94                                   
-REMARK 500    LEU G 262      140.20    -30.62                                   
-REMARK 500    SER H 363       70.51     45.51                                   
-REMARK 500    SER H 371      118.87     60.72                                   
-REMARK 500    LYS H 376        0.69     95.39                                   
-REMARK 500    LYS H 377       -5.70    -38.86                                   
-REMARK 500    VAL H 382     -167.85    -76.06                                   
-REMARK 500    LYS H 383      132.77   -172.78                                   
-REMARK 500    TYR H 387      138.25   -175.98                                   
-REMARK 500    ASN H 436       55.34     38.14                                   
-REMARK 500    ASP H 472       41.82    -89.06                                   
-REMARK 500    ALA H 478       77.15    -53.42                                   
-REMARK 500    ASP H 483       67.60     78.36                                   
-REMARK 500    ARG H 484       -5.56    -57.47                                   
-REMARK 500    THR H 487     -176.13    -69.09                                   
-REMARK 500    GLU H 504       66.65   -157.60                                   
-REMARK 500    LEU H 507        5.52    -64.89                                   
-REMARK 500    ASP H 520     -154.29    -82.65                                   
-REMARK 500    ASP H 535     -175.96    -49.81                                   
-REMARK 500    ALA H 545       24.64   -171.71                                   
-REMARK 500    ASN H 547       95.70    -52.88                                   
-REMARK 500    LYS H 572      137.83    -20.10                                   
-REMARK 500    ASP H 577       52.86   -113.33                                   
-REMARK 500    PHE H 598      156.92    179.33                                   
-REMARK 500    HIS H 604      108.98    -59.16                                   
-REMARK 500    GLN H 606      -23.56     72.51                                   
-REMARK 500    VAL H 627     -154.15   -125.92                                   
-REMARK 500    ARG H 632      115.48   -175.51                                   
+REMARK 500                                                                      
+REMARK 500 THIS ENTRY HAS     189 RAMACHANDRAN OUTLIERS.                        
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -588,16 +458,16 @@ REMARK 500 (M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN IDENTIFIER;
 REMARK 500 SSEQ=SEQUENCE NUMBER; I=INSERTION CODE).                             
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        RMS     TYPE                                    
-REMARK 500    TYR G 227         0.07    SIDE_CHAIN                              
-REMARK 500     DG X  16         0.05    SIDE_CHAIN                              
-REMARK 500     DG X  17         0.07    SIDE_CHAIN                              
-REMARK 500     DA Y   7         0.05    SIDE_CHAIN                              
-REMARK 500     DC Y  25         0.06    SIDE_CHAIN                              
-REMARK 500     DG I  17         0.05    SIDE_CHAIN                              
-REMARK 500     DC I  25         0.07    SIDE_CHAIN                              
-REMARK 500     DA J   7         0.07    SIDE_CHAIN                              
-REMARK 500     DT J   9         0.07    SIDE_CHAIN                              
-REMARK 500     DC J  16         0.06    SIDE_CHAIN                              
+REMARK 500    TYR G 227         0.07    SIDE CHAIN                              
+REMARK 500     DG X  16         0.05    SIDE CHAIN                              
+REMARK 500     DG X  17         0.07    SIDE CHAIN                              
+REMARK 500     DA Y   7         0.05    SIDE CHAIN                              
+REMARK 500     DC Y  25         0.06    SIDE CHAIN                              
+REMARK 500     DG I  17         0.05    SIDE CHAIN                              
+REMARK 500     DC I  25         0.07    SIDE CHAIN                              
+REMARK 500     DA J   7         0.07    SIDE CHAIN                              
+REMARK 500     DT J   9         0.07    SIDE CHAIN                              
+REMARK 500     DC J  16         0.06    SIDE CHAIN                              
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
 REMARK 500                                                                      
@@ -616,40 +486,17 @@ REMARK 500    SER D 371         11.71
 REMARK 500    SER H 371         11.73                                           
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (11X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500   M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                
-REMARK 500     THR A  55        25.0      L          L   OUTSIDE RANGE          
-REMARK 500     ALA D 370        15.6      L          L   OUTSIDE RANGE          
-REMARK 500     SER D 371        20.1      L          L   OUTSIDE RANGE          
-REMARK 500     LYS D 377        22.2      L          L   OUTSIDE RANGE          
-REMARK 500     THR E  55        24.9      L          L   OUTSIDE RANGE          
-REMARK 500     ALA H 370        15.6      L          L   OUTSIDE RANGE          
-REMARK 500     SER H 371        20.2      L          L   OUTSIDE RANGE          
-REMARK 500     LYS H 377        21.9      L          L   OUTSIDE RANGE          
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 1P7H   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1             
-REMARK 900 LTR KB ELEMENT                                                       
+REMARK 900 CRYSTAL STRUCTURE OF NFAT1 BOUND AS A DIMER TO THE HIV-1 LTR KB      
+REMARK 900 ELEMENT                                                              
 REMARK 900 RELATED ID: 2O93   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF NFAT BOUND TO THE HIV-1 LTR TANDEM              
-REMARK 900 KAPPAB ENHANCER ELEMENT                                              
+REMARK 900 CRYSTAL STRUCTURE OF NFAT BOUND TO THE HIV-1 LTR TANDEM KAPPAB       
+REMARK 900 ENHANCER ELEMENT                                                     
 REMARK 900 RELATED ID: 1VKX   RELATED DB: PDB                                   
-REMARK 900 CRYSTAL STRUCTURE OF NFKB P50/P65 HETERODIMER COMPLEXED TO           
-REMARK 900 THE IMMUNOGLOBULIN KB DNA                                            
+REMARK 900 CRYSTAL STRUCTURE OF NFKB P50/P65 HETERODIMER COMPLEXED TO THE       
+REMARK 900 IMMUNOGLOBULIN KB DNA                                                
 REMARK 999                                                                      
 REMARK 999 SEQUENCE                                                             
 REMARK 999 ACCORDING TO AUTHORS, THE CORRECT SEQUENCE OF ENTITY 1               
@@ -21795,5 +21642,5 @@ ATOM  20649  N4   DC J  26      40.272  45.110  42.198  1.00 51.29           N
 ATOM  20650  C5   DC J  26      38.045  44.708  42.968  1.00 98.10           C  
 ATOM  20651  C6   DC J  26      36.744  44.591  42.636  1.00102.62           C  
 TER   20652       DC J  26                                                      
-MASTER      607    0    0   41  178    0    0    620640   12    0  188          
+MASTER      455    0    0   41  178    0    0    620640   12    0  188          
 END                                                                             

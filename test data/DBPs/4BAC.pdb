@@ -8,15 +8,18 @@ COMPND   5 EC: 2.7.7.49, 2.7.7.7, 3.1.26.13;
 COMPND   6 ENGINEERED: YES;                                                     
 COMPND   7 MOL_ID: 2;                                                           
 COMPND   8 MOLECULE: 5'-D(*AP*TP*TP*GP*TP*CP*AP*TP*GP*GP*AP*AP*TP*TP            
-COMPND   9  *TP*TP*GP*TP*AP)-3';                                                
+COMPND   9 *TP*TP*GP*TP*AP)-3';                                                 
 COMPND  10 CHAIN: C;                                                            
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: DNA (38-MER);                                              
-COMPND  13 CHAIN: D;                                                            
-COMPND  14 MOL_ID: 4;                                                           
-COMPND  15 MOLECULE: 5'-D(*AP*GP*GP*AP*GP*CP*CP*AP*AP*GP*AP*CP*GP*GP            
-COMPND  16  *AP*TP*CP)-3';                                                      
-COMPND  17 CHAIN: E                                                             
+COMPND  11 ENGINEERED: YES;                                                     
+COMPND  12 MOL_ID: 3;                                                           
+COMPND  13 MOLECULE: DNA (38-MER);                                              
+COMPND  14 CHAIN: D;                                                            
+COMPND  15 ENGINEERED: YES;                                                     
+COMPND  16 MOL_ID: 4;                                                           
+COMPND  17 MOLECULE: 5'-D(*AP*GP*GP*AP*GP*CP*CP*AP*AP*GP*AP*CP*GP*GP *AP*TP*CP)-
+COMPND  18 3';                                                                  
+COMPND  19 CHAIN: E;                                                            
+COMPND  20 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 ORGANISM_SCIENTIFIC: HUMAN SPUMARETROVIRUS;                          
 SOURCE   3 ORGANISM_TAXID: 11963;                                               
@@ -40,6 +43,7 @@ SOURCE  20 ORGANISM_TAXID: 32630
 KEYWDS    TRANSFERASE-DNA COMPLEX                                               
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Z.YIN,M.LAPKOUSKI,W.YANG,R.CRAIGIE                                    
+REVDAT   3   08-MAY-19 4BAC    1       REMARK                                   
 REVDAT   2   12-DEC-12 4BAC    1       HEADER KEYWDS JRNL                       
 REVDAT   1   10-OCT-12 4BAC    0                                                
 JRNL        AUTH   Z.YIN,M.LAPKOUSKI,W.YANG,R.CRAIGIE                           
@@ -50,11 +54,11 @@ JRNL        REFN                   ISSN 0961-8368
 JRNL        PMID   23011895                                                     
 JRNL        DOI    10.1002/PRO.2166                                             
 REMARK   2                                                                      
-REMARK   2 RESOLUTION.   3.263 ANGSTROMS.                                       
+REMARK   2 RESOLUTION.    3.26 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
 REMARK   3   PROGRAM     : PHENIX (PHENIX.REFINE)                               
-REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VICENT CHEN,IAN             
+REMARK   3   AUTHORS     : PAUL ADAMS,PAVEL AFONINE,VINCENT CHEN,IAN            
 REMARK   3               : DAVIS,KRESHNA GOPAL,RALF GROSSE-KUNSTLEVE,           
 REMARK   3               : LI-WEI HUNG,ROBERT IMMORMINO,TOM IOERGER,            
 REMARK   3               : AIRLIE MCCOY,ERIK MCKEE,NIGEL MORIARTY,              
@@ -66,17 +70,17 @@ REMARK   3
 REMARK   3    REFINEMENT TARGET : ML                                            
 REMARK   3                                                                      
 REMARK   3  DATA USED IN REFINEMENT.                                            
-REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.263                          
-REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 29.141                         
-REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 0.13                           
-REMARK   3   COMPLETENESS FOR RANGE        (%) : 92.66                          
+REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 3.26                           
+REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 29.14                          
+REMARK   3   MIN(FOBS/SIGMA_FOBS)              : 0.130                          
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 92.7                           
 REMARK   3   NUMBER OF REFLECTIONS             : 24101                          
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
-REMARK   3   R VALUE     (WORKING + TEST SET) : 0.1868                          
-REMARK   3   R VALUE            (WORKING SET) : 0.1847                          
-REMARK   3   FREE R VALUE                     : 0.2263                          
-REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.1                             
+REMARK   3   R VALUE     (WORKING + TEST SET) : 0.187                           
+REMARK   3   R VALUE            (WORKING SET) : 0.185                           
+REMARK   3   FREE R VALUE                     : 0.226                           
+REMARK   3   FREE R VALUE TEST SET SIZE   (%) : 5.100                           
 REMARK   3   FREE R VALUE TEST SET COUNT      : 1223                            
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT (IN BINS).                           
@@ -95,23 +99,23 @@ REMARK   3  BULK SOLVENT MODELLING.
 REMARK   3   METHOD USED        : FLAT BULK SOLVENT MODEL                       
 REMARK   3   SOLVENT RADIUS     : 1.11                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.90                                          
-REMARK   3   K_SOL              : 0.257                                         
-REMARK   3   B_SOL              : 21.773                                        
+REMARK   3   K_SOL              : 0.26                                          
+REMARK   3   B_SOL              : 21.77                                         
 REMARK   3                                                                      
 REMARK   3  ERROR ESTIMATES.                                                    
-REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.34             
-REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 21.41            
+REMARK   3   COORDINATE ERROR (MAXIMUM-LIKELIHOOD BASED)     : 0.340            
+REMARK   3   PHASE ERROR (DEGREES, MAXIMUM-LIKELIHOOD BASED) : 21.410           
 REMARK   3                                                                      
 REMARK   3  B VALUES.                                                           
 REMARK   3   FROM WILSON PLOT           (A**2) : 75.30                          
 REMARK   3   MEAN B VALUE      (OVERALL, A**2) : NULL                           
 REMARK   3   OVERALL ANISOTROPIC B VALUE.                                       
-REMARK   3    B11 (A**2) : 9.9139                                               
-REMARK   3    B22 (A**2) : 9.9139                                               
-REMARK   3    B33 (A**2) : -19.8278                                             
-REMARK   3    B12 (A**2) : 0.0000                                               
-REMARK   3    B13 (A**2) : 0.0000                                               
-REMARK   3    B23 (A**2) : 0.0000                                               
+REMARK   3    B11 (A**2) : 9.91390                                              
+REMARK   3    B22 (A**2) : 9.91390                                              
+REMARK   3    B33 (A**2) : -19.82780                                            
+REMARK   3    B12 (A**2) : 0.00000                                              
+REMARK   3    B13 (A**2) : 0.00000                                              
+REMARK   3    B23 (A**2) : 0.00000                                              
 REMARK   3                                                                      
 REMARK   3  TWINNING INFORMATION.                                               
 REMARK   3   FRACTION: NULL                                                     
@@ -135,8 +139,8 @@ REMARK   3  OTHER REFINEMENT REMARKS: NULL
 REMARK   4                                                                      
 REMARK   4 4BAC COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 11-SEP-12.                  
-REMARK 100 THE PDBE ID CODE IS EBI-54045.                                       
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBE ON 12-SEP-12.                  
+REMARK 100 THE DEPOSITION ID IS D_1290054045.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -154,31 +158,31 @@ REMARK 200  WAVELENGTH OR RANGE        (A) : 1
 REMARK 200  MONOCHROMATOR                  : DOUBLE CRYSTAL - SI (220)          
 REMARK 200  OPTICS                         : NULL                               
 REMARK 200                                                                      
-REMARK 200  DETECTOR TYPE                  : CCD (MAR225)                       
-REMARK 200  DETECTOR MANUFACTURER          : MARRESEARCH                        
+REMARK 200  DETECTOR TYPE                  : CCD                                
+REMARK 200  DETECTOR MANUFACTURER          : MARMOSAIC 225 MM CCD               
 REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
 REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 25740                              
-REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.26                               
-REMARK 200  RESOLUTION RANGE LOW       (A) : 30.00                              
-REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.0                                
+REMARK 200  RESOLUTION RANGE HIGH      (A) : 3.260                              
+REMARK 200  RESOLUTION RANGE LOW       (A) : 30.000                             
+REMARK 200  REJECTION CRITERIA  (SIGMA(I)) : 2.000                              
 REMARK 200                                                                      
 REMARK 200 OVERALL.                                                             
 REMARK 200  COMPLETENESS FOR RANGE     (%) : 98.8                               
-REMARK 200  DATA REDUNDANCY                : 6.3                                
+REMARK 200  DATA REDUNDANCY                : 6.300                              
 REMARK 200  R MERGE                    (I) : NULL                               
-REMARK 200  R SYM                      (I) : 0.11                               
-REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 14.60                              
+REMARK 200  R SYM                      (I) : 0.11000                            
+REMARK 200  <I/SIGMA(I)> FOR THE DATA SET  : 14.6000                            
 REMARK 200                                                                      
 REMARK 200 IN THE HIGHEST RESOLUTION SHELL.                                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE HIGH (A) : 3.26                     
 REMARK 200  HIGHEST RESOLUTION SHELL, RANGE LOW  (A) : 3.32                     
 REMARK 200  COMPLETENESS FOR SHELL     (%) : 100.0                              
-REMARK 200  DATA REDUNDANCY IN SHELL       : 6.3                                
+REMARK 200  DATA REDUNDANCY IN SHELL       : 6.30                               
 REMARK 200  R MERGE FOR SHELL          (I) : NULL                               
-REMARK 200  R SYM FOR SHELL            (I) : 0.62                               
-REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.00                               
+REMARK 200  R SYM FOR SHELL            (I) : 0.62000                            
+REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.000                              
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: MOLECULAR REPLACEMENT        
@@ -188,15 +192,15 @@ REMARK 200
 REMARK 200 REMARK: NONE                                                         
 REMARK 280                                                                      
 REMARK 280 CRYSTAL                                                              
-REMARK 280 SOLVENT CONTENT, VS   (%): 57.0                                      
+REMARK 280 SOLVENT CONTENT, VS   (%): 57.00                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.88                     
 REMARK 280                                                                      
 REMARK 280 CRYSTALLIZATION CONDITIONS: CRYSTALS WERE GROWN THROUGH REVERSE      
 REMARK 280  VAPOR DIFFUSION IN HANGING DROPS AT 23 C BY MIXING 1 UL IN-DNA      
-REMARK 280  COMPLEX SOLUTION (20 MM HEPES, PH 7.5, 500 MM NACL, 5 MM MGCL2, 2   
-REMARK 280  MM TCEP AND 8% (W/V) GLYCEROL) WITH 1 UL RESERVOIR SOLUTION (50     
-REMARK 280  MM NA CACODYLATE, PH 6.5, 100 MM MGCL2, 1 MM COCL3 AND 6% (V/V)     
-REMARK 280  ETHANOL).                                                           
+REMARK 280  COMPLEX SOLUTION (20 MM HEPES, PH 7.5, 500 MM NACL, 5 MM MGCL2,     
+REMARK 280  2 MM TCEP AND 8% (W/V) GLYCEROL) WITH 1 UL RESERVOIR SOLUTION       
+REMARK 280  (50 MM NA CACODYLATE, PH 6.5, 100 MM MGCL2, 1 MM COCL3 AND 6% (V/   
+REMARK 280  V) ETHANOL)., VAPOR DIFFUSION, HANGING DROP, TEMPERATURE 296K       
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 41 21 2                        
@@ -585,52 +589,53 @@ REMARK 620
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              ZN A1376  ZN                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1 HIS A  62   NE2                                                    
-REMARK 620 2 HIS A  66   ND1 104.9                                              
-REMARK 620 3 CYS A  96   SG   90.0  86.7                                        
-REMARK 620 N                    1     2                                         
+REMARK 620 1 CYS A  99   SG                                                     
+REMARK 620 2 HIS A  66   ND1 130.4                                              
+REMARK 620 3 CYS A  96   SG  107.8  86.7                                        
+REMARK 620 4 HIS A  62   NE2 121.7 104.9  90.0                                  
+REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG A1377  MG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1  DC E  18   O3'                                                    
-REMARK 620 2 ASP A 128   OD1 101.6                                              
-REMARK 620 3 HOH A2002   O    77.4  92.3                                        
-REMARK 620 4 HOH A2003   O    90.0 156.4 110.4                                  
+REMARK 620 1 ASP A 128   OD1                                                    
+REMARK 620 2 HOH A2002   O    92.3                                              
+REMARK 620 3 HOH A2003   O   156.4 110.4                                        
+REMARK 620 4  DC E  18   O3' 101.6  77.4  90.0                                  
 REMARK 620 N                    1     2     3                                   
 REMARK 620                                                                      
 REMARK 620 COORDINATION ANGLES FOR:  M RES CSSEQI METAL                         
 REMARK 620                              MG B1300  MG                            
 REMARK 620 N RES CSSEQI ATOM                                                    
-REMARK 620 1  DA C  19   O3'                                                    
-REMARK 620 2 ASP B 128   OD1 111.6                                              
-REMARK 620 3 ASP B 185   OD2  70.1  62.6                                        
+REMARK 620 1 ASP B 185   OD2                                                    
+REMARK 620 2 ASP B 128   OD1  62.6                                              
+REMARK 620 3  DA C  19   O3'  70.1 111.6                                        
 REMARK 620 N                    1     2                                         
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  ZN A1376                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE ZN A 1376                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  MG A1377                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG A 1377                 
 REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
-REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE  MG B1300                 
+REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE MG B 1300                 
 REMARK 900                                                                      
 REMARK 900 RELATED ENTRIES                                                      
 REMARK 900 RELATED ID: 2X6N   RELATED DB: PDB                                   
-REMARK 900  HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE. MANGANESE-            
-REMARK 900  BOUND STRUCTURE.                                                    
+REMARK 900 HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE. MANGANESE- BOUND       
+REMARK 900 STRUCTURE.                                                           
 REMARK 900 RELATED ID: 2X6S   RELATED DB: PDB                                   
-REMARK 900  HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE. MAGNESIUM-            
-REMARK 900  BOUND STRUCTURE.                                                    
+REMARK 900 HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE. MAGNESIUM- BOUND       
+REMARK 900 STRUCTURE.                                                           
 REMARK 900 RELATED ID: 2X74   RELATED DB: PDB                                   
-REMARK 900  HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE.                       
+REMARK 900 HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE.                        
 REMARK 900 RELATED ID: 2X78   RELATED DB: PDB                                   
-REMARK 900  HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE.                       
+REMARK 900 HUMAN FOAMY VIRUS INTEGRASE - CATALYTIC CORE.                        
 DBREF  4BAC A    1   392  UNP    P14350   POL_FOAMV      752   1143             
 DBREF  4BAC B    1   392  UNP    P14350   POL_FOAMV      752   1143             
 DBREF  4BAC C    1    19  PDB    4BAC     4BAC             1     19             
@@ -720,7 +725,7 @@ HETNAM      ZN ZINC ION
 HETNAM      MG MAGNESIUM ION                                                    
 FORMUL   6   ZN    ZN 2+                                                        
 FORMUL   7   MG    2(MG 2+)                                                     
-FORMUL   8  HOH   *3(H2 O)                                                      
+FORMUL   9  HOH   *3(H2 O)                                                      
 HELIX    1   1 ASP A    9  GLN A   17  1                                   9    
 HELIX    2   2 PRO A   50  ASN A   63  1                                  14    
 HELIX    3   3 GLY A   68  ALA A   77  1                                  10    
@@ -5896,8 +5901,8 @@ ATOM   5111  C2   DA D  17     -41.483  39.491 -20.070  1.00 58.15           C
 ATOM   5112  N3   DA D  17     -40.404  38.727 -20.235  1.00 59.36           N  
 ATOM   5113  C4   DA D  17     -40.160  38.529 -21.543  1.00 60.62           C  
 ATOM   5114  P    DG D  18     -36.493  32.702 -21.212  1.00 68.97           P  
-ATOM   5115  OP1  DG D  18     -37.386  32.259 -20.112  1.00 58.28           O  
-ATOM   5116  OP2  DG D  18     -36.932  32.540 -22.622  1.00 53.37           O  
+ATOM   5115  OP1  DG D  18     -36.932  32.540 -22.622  1.00 53.37           O  
+ATOM   5116  OP2  DG D  18     -37.386  32.259 -20.112  1.00 58.28           O  
 ATOM   5117  O5'  DG D  18     -35.095  31.956 -21.047  1.00 55.61           O  
 ATOM   5118  C5'  DG D  18     -34.154  32.350 -20.029  1.00 58.00           C  
 ATOM   5119  C4'  DG D  18     -32.816  31.691 -20.268  1.00 56.18           C  
@@ -5918,8 +5923,8 @@ ATOM   5133  N2   DG D  18     -30.057  26.905 -25.373  1.00 63.02           N
 ATOM   5134  N3   DG D  18     -31.326  28.092 -23.857  1.00 56.20           N  
 ATOM   5135  C4   DG D  18     -32.594  28.474 -23.594  1.00 54.95           C  
 ATOM   5136  P    DT D  19     -30.968  34.387 -22.359  1.00 63.22           P  
-ATOM   5137  OP1  DT D  19     -32.199  34.562 -23.172  1.00 65.32           O  
-ATOM   5138  OP2  DT D  19     -30.367  35.565 -21.681  1.00 64.53           O  
+ATOM   5137  OP1  DT D  19     -30.367  35.565 -21.681  1.00 64.53           O  
+ATOM   5138  OP2  DT D  19     -32.199  34.562 -23.172  1.00 65.32           O  
 ATOM   5139  O5'  DT D  19     -29.859  33.713 -23.285  1.00 65.37           O  
 ATOM   5140  C5'  DT D  19     -28.482  33.648 -22.866  1.00 61.83           C  
 ATOM   5141  C4'  DT D  19     -27.737  32.594 -23.653  1.00 65.41           C  
@@ -6388,8 +6393,8 @@ ATOM   5603  N2   DG E  14     -12.197  38.887 -42.203  1.00 78.74           N
 ATOM   5604  N3   DG E  14     -11.961  37.799 -40.184  1.00 86.64           N  
 ATOM   5605  C4   DG E  14     -12.028  36.575 -39.616  1.00 90.92           C  
 ATOM   5606  P    DG E  15     -12.904  39.940 -34.393  1.00 94.04           P  
-ATOM   5607  OP1  DG E  15     -13.861  38.989 -33.769  1.00 90.25           O  
-ATOM   5608  OP2  DG E  15     -12.494  41.158 -33.647  1.00103.13           O  
+ATOM   5607  OP1  DG E  15     -12.494  41.158 -33.647  1.00103.13           O  
+ATOM   5608  OP2  DG E  15     -13.861  38.989 -33.769  1.00 90.25           O  
 ATOM   5609  O5'  DG E  15     -13.498  40.390 -35.801  1.00 86.88           O  
 ATOM   5610  C5'  DG E  15     -12.768  41.287 -36.661  1.00 84.46           C  
 ATOM   5611  C4'  DG E  15     -13.605  41.672 -37.860  1.00 78.58           C  
@@ -6488,5 +6493,5 @@ CONECT 5690  981 5693 5694
 CONECT 5691 3045 3477                                                           
 CONECT 5693 5690                                                                
 CONECT 5694 5690                                                                
-MASTER      582    0    3   19   20    0    4    6 5689    5   12   69          
+MASTER      583    0    3   19   20    0    4    6 5689    5   12   69          
 END                                                                             

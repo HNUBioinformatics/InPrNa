@@ -31,6 +31,7 @@ KEYWDS    ENDONUCLEASE-DNA COMPLEX, RESTRICTION ENZYME, THAI, INTERCALATION,
 KEYWDS   2 HYDROLASE-DNA COMPLEX                                                
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    M.FIRCZUK,M.WOJCIECHOWSKI,H.CZAPINSKA,M.BOCHTLER                      
+REVDAT   3   08-NOV-17 3NDH    1       REMARK                                   
 REVDAT   2   09-FEB-11 3NDH    1       JRNL                                     
 REVDAT   1   28-JUL-10 3NDH    0                                                
 JRNL        AUTH   M.FIRCZUK,M.WOJCIECHOWSKI,H.CZAPINSKA,M.BOCHTLER             
@@ -133,8 +134,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2559 ; 0.627 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):   996 ; 0.000 ; 1.500       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  4234 ; 1.131 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2695 ; 1.560 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  3079 ; 2.302 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -259,10 +265,10 @@ REMARK   3  HAVE BEEN APPLIED.
 REMARK   3  HYDROGENS HAVE BEEN ADDED IN THE RIDING POSITIONS. TLS REFINEMENT   
 REMARK   3  HAS BEEN USED.                                                      
 REMARK   4                                                                      
-REMARK   4 3NDH COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3NDH COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
 REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY PDBJ ON 22-JUN-10.                  
-REMARK 100 THE RCSB ID CODE IS RCSB059691.                                      
+REMARK 100 THE DEPOSITION ID IS D_1000059691.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -308,7 +314,7 @@ REMARK 200  <I/SIGMA(I)> FOR SHELL         : 2.800
 REMARK 200                                                                      
 REMARK 200 DIFFRACTION PROTOCOL: SINGLE WAVELENGTH                              
 REMARK 200 METHOD USED TO DETERMINE THE STRUCTURE: SIRAS                        
-REMARK 200 SOFTWARE USED: SHELXC, SHELXD, SHELXE, SHARP, ARP/WARP               
+REMARK 200 SOFTWARE USED: SHELXCD, SHELXD, SHARP                                
 REMARK 200 STARTING MODEL: NULL                                                 
 REMARK 200                                                                      
 REMARK 200 REMARK: NULL                                                         
@@ -369,7 +375,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 10900 ANGSTROM**2                         
 REMARK 350 SURFACE AREA OF THE COMPLEX: 20050 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: -65.0 KCAL/MOL                        
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, D, C                            
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C, D                            
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -434,10 +440,12 @@ REMARK 500 CHOLOGY: RAMACHANDRAN REVISITED. STRUCTURE 4, 1395 - 1400
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI        PSI       PHI                                   
 REMARK 500    GLU A  80      -58.62     72.54                                   
+REMARK 500    GLU A  80      -58.62     67.84                                   
 REMARK 500    TRP A 107       38.57    -92.94                                   
 REMARK 500    ASN A 133       80.94   -150.46                                   
 REMARK 500    TYR A 203      127.34    164.70                                   
 REMARK 500    GLU B  80      -57.58     77.36                                   
+REMARK 500    GLU B  80      -57.58     69.79                                   
 REMARK 500    TRP B 107       34.77    -93.86                                   
 REMARK 500    ASN B 169       78.42   -114.04                                   
 REMARK 500    TYR B 203      139.03   -170.45                                   
@@ -461,6 +469,7 @@ REMARK 500
 REMARK 500 REMARK: NULL                                                         
 REMARK 600                                                                      
 REMARK 600 HETEROGEN                                                            
+REMARK 600                                                                      
 REMARK 600 THE IDENTITY OF THE METAL IONS IS UNCERTAIN.                         
 REMARK 600 THE DEPOSITORS SUSPECT THEM TO BE SODIUM OR CALCIUM IONS,            
 REMARK 600 WHICH ARE BOTH PRESENT IN THE BUFFER.                                
@@ -11171,5 +11180,5 @@ CONECT 5029 5030 5031 5032
 CONECT 5030 5029                                                                
 CONECT 5031 5029                                                                
 CONECT 5032 5029                                                                
-MASTER      508    0   13   16   22    0   25    6 4409    4   60   38          
+MASTER      516    0   13   16   22    0   25    6 4409    4   60   38          
 END                                                                             

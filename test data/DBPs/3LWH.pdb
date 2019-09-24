@@ -24,13 +24,14 @@ KEYWDS    PROTEIN-DNA COMPLEX, BETA-SHEET, DNA-BINDING, METHYLATION, DNA
 KEYWDS   2 BINDING PROTEIN-DNA COMPLEX                                          
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    Z.F.ZHANG,Y.GONG,L.GUO,T.JIANG,L.HUANG                                
+REVDAT   3   05-MAR-14 3LWH    1       JRNL                                     
 REVDAT   2   13-JUL-11 3LWH    1       VERSN                                    
 REVDAT   1   26-MAY-10 3LWH    0                                                
 JRNL        AUTH   Z.F.ZHANG,Y.GONG,L.GUO,T.JIANG,L.HUANG                       
 JRNL        TITL   STRUCTURAL INSIGHTS INTO THE INTERACTION OF THE CRENARCHAEAL 
 JRNL        TITL 2 CHROMATIN PROTEIN CREN7 WITH DNA                             
-JRNL        REF    MOL.MICROBIOL.                             2010              
-JRNL        REFN                   ESSN 1365-2958                               
+JRNL        REF    MOL.MICROBIOL.                V.  76   749 2010              
+JRNL        REFN                   ISSN 0950-382X                               
 JRNL        PMID   20345658                                                     
 JRNL        DOI    10.1111/J.1365-2958.2010.07136.X                             
 REMARK   2                                                                      
@@ -127,8 +128,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):   298 ; 0.637 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):   479 ; 1.174 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):   696 ; 1.534 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):   713 ; 1.928 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -1276,5 +1282,5 @@ HETATM  863  O   HOH C  66      11.681   7.874  23.985  1.00 53.74           O
 HETATM  864  O   HOH C  67      18.818  15.166   4.569  1.00 56.35           O  
 HETATM  865  O   HOH C  69       8.893  20.879  13.707  1.00 58.09           O  
 HETATM  866  O   HOH C  71       8.333  -1.230  34.062  1.00 56.37           O  
-MASTER      354    0    0    0    5    0    0    6  863    3    0    7          
+MASTER      359    0    0    0    5    0    0    6  863    3    0    7          
 END                                                                             

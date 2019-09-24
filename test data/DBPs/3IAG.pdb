@@ -1,22 +1,18 @@
 HEADER    TRANSCRIPTION/DNA                       13-JUL-09   3IAG              
 TITLE     CSL (RBP-JK) BOUND TO HES-1 NONCONSENSUS SITE                         
 COMPND    MOL_ID: 1;                                                            
-COMPND   2 MOLECULE: 5'-                                                        
-COMPND   3 D(*AP*AP*TP*CP*TP*TP*TP*CP*AP*CP*AP*CP*GP*AP*T)-3';                  
-COMPND   4 CHAIN: A;                                                            
-COMPND   5 ENGINEERED: YES;                                                     
-COMPND   6 MOL_ID: 2;                                                           
-COMPND   7 MOLECULE: 5'-                                                        
-COMPND   8 D(*TP*TP*AP*TP*CP*GP*TP*GP*TP*GP*AP*AP*AP*GP*A)-3';                  
-COMPND   9 CHAIN: B;                                                            
-COMPND  10 ENGINEERED: YES;                                                     
-COMPND  11 MOL_ID: 3;                                                           
-COMPND  12 MOLECULE: RECOMBINING BINDING PROTEIN SUPPRESSOR OF                  
-COMPND  13 HAIRLESS;                                                            
-COMPND  14 CHAIN: C;                                                            
-COMPND  15 SYNONYM: J KAPPA-RECOMBINATION SIGNAL-BINDING PROTEIN, RBP-          
-COMPND  16 J KAPPA;                                                             
-COMPND  17 ENGINEERED: YES                                                      
+COMPND   2 MOLECULE: 5'-D(*AP*AP*TP*CP*TP*TP*TP*CP*AP*CP*AP*CP*GP*AP*T)-3';     
+COMPND   3 CHAIN: A;                                                            
+COMPND   4 ENGINEERED: YES;                                                     
+COMPND   5 MOL_ID: 2;                                                           
+COMPND   6 MOLECULE: 5'-D(*TP*TP*AP*TP*CP*GP*TP*GP*TP*GP*AP*AP*AP*GP*A)-3';     
+COMPND   7 CHAIN: B;                                                            
+COMPND   8 ENGINEERED: YES;                                                     
+COMPND   9 MOL_ID: 3;                                                           
+COMPND  10 MOLECULE: RECOMBINING BINDING PROTEIN SUPPRESSOR OF HAIRLESS;        
+COMPND  11 CHAIN: C;                                                            
+COMPND  12 SYNONYM: J KAPPA-RECOMBINATION SIGNAL-BINDING PROTEIN, RBP-J KAPPA;  
+COMPND  13 ENGINEERED: YES                                                      
 SOURCE    MOL_ID: 1;                                                            
 SOURCE   2 SYNTHETIC: YES;                                                      
 SOURCE   3 OTHER_DETAILS: SYNTHESIZED;                                          
@@ -33,12 +29,12 @@ SOURCE  13 EXPRESSION_SYSTEM_TAXID: 469008;
 SOURCE  14 EXPRESSION_SYSTEM_STRAIN: BL21(DE3);                                 
 SOURCE  15 EXPRESSION_SYSTEM_VECTOR_TYPE: PLASMID;                              
 SOURCE  16 EXPRESSION_SYSTEM_PLASMID: PGEX6P-1                                  
-KEYWDS    PROTEIN-DNA COMPLEX, SIGNALING, TRANSCRIPTION, NOTCH,                 
-KEYWDS   2 ACTIVATOR, ALTERNATIVE SPLICING, DNA-BINDING, NOTCH                  
-KEYWDS   3 SIGNALING PATHWAY, NUCLEUS, REPRESSOR, TRANSCRIPTION                 
-KEYWDS   4 REGULATION, TRANSCRIPTION/DNA COMPLEX                                
+KEYWDS    PROTEIN-DNA COMPLEX, SIGNALING, TRANSCRIPTION, NOTCH, ACTIVATOR,      
+KEYWDS   2 ALTERNATIVE SPLICING, DNA-BINDING, NOTCH SIGNALING PATHWAY, NUCLEUS, 
+KEYWDS   3 REPRESSOR, TRANSCRIPTION REGULATION, TRANSCRIPTION-DNA COMPLEX       
 EXPDTA    X-RAY DIFFRACTION                                                     
 AUTHOR    D.R.FRIEDMANN,R.A.KOVALL                                              
+REVDAT   3   01-NOV-17 3IAG    1       REMARK                                   
 REVDAT   2   26-JAN-10 3IAG    1       JRNL   SOURCE                            
 REVDAT   1   10-NOV-09 3IAG    0                                                
 JRNL        AUTH   D.R.FRIEDMANN,R.A.KOVALL                                     
@@ -48,12 +44,11 @@ JRNL        REF    PROTEIN SCI.                  V.  19    34 2010
 JRNL        REFN                   ISSN 0961-8368                               
 JRNL        PMID   19866488                                                     
 JRNL        DOI    10.1002/PRO.280                                              
-REMARK   1                                                                      
 REMARK   2                                                                      
 REMARK   2 RESOLUTION.    2.00 ANGSTROMS.                                       
 REMARK   3                                                                      
 REMARK   3 REFINEMENT.                                                          
-REMARK   3   PROGRAM     : REFMAC 5.2.0019                                      
+REMARK   3   PROGRAM     : REFMAC 5.3.0020                                      
 REMARK   3   AUTHORS     : MURSHUDOV,VAGIN,DODSON                               
 REMARK   3                                                                      
 REMARK   3    REFINEMENT TARGET : MAXIMUM LIKELIHOOD                            
@@ -62,7 +57,7 @@ REMARK   3  DATA USED IN REFINEMENT.
 REMARK   3   RESOLUTION RANGE HIGH (ANGSTROMS) : 2.00                           
 REMARK   3   RESOLUTION RANGE LOW  (ANGSTROMS) : 24.80                          
 REMARK   3   DATA CUTOFF            (SIGMA(F)) : NULL                           
-REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.2                           
+REMARK   3   COMPLETENESS FOR RANGE        (%) : 98.3                           
 REMARK   3   NUMBER OF REFLECTIONS             : 42562                          
 REMARK   3                                                                      
 REMARK   3  FIT TO DATA USED IN REFINEMENT.                                     
@@ -85,7 +80,7 @@ REMARK   3   BIN FREE R VALUE SET COUNT          : 148
 REMARK   3   BIN FREE R VALUE                    : 0.3050                       
 REMARK   3                                                                      
 REMARK   3  NUMBER OF NON-HYDROGEN ATOMS USED IN REFINEMENT.                    
-REMARK   3   PROTEIN ATOMS            : 3394                                    
+REMARK   3   PROTEIN ATOMS            : 3354                                    
 REMARK   3   NUCLEIC ACID ATOMS       : 609                                     
 REMARK   3   HETEROGEN ATOMS          : 34                                      
 REMARK   3   SOLVENT ATOMS            : 158                                     
@@ -142,8 +137,13 @@ REMARK   3  ISOTROPIC THERMAL FACTOR RESTRAINTS.     COUNT   RMS    WEIGHT
 REMARK   3   MAIN-CHAIN BOND REFINED ATOMS  (A**2):  2198 ; 1.412 ; 1.500       
 REMARK   3   MAIN-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   MAIN-CHAIN ANGLE REFINED ATOMS (A**2):  3453 ; 2.151 ; 2.000       
+REMARK   3   MAIN-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN BOND REFINED ATOMS  (A**2):  2484 ; 2.818 ; 3.000       
+REMARK   3   SIDE-CHAIN BOND OTHER ATOMS    (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3   SIDE-CHAIN ANGLE REFINED ATOMS (A**2):  2323 ; 3.930 ; 4.500       
+REMARK   3   SIDE-CHAIN ANGLE OTHER ATOMS   (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B REFINED ATOMS     (A**2):  NULL ;  NULL ;  NULL       
+REMARK   3   LONG RANGE B OTHER ATOMS       (A**2):  NULL ;  NULL ;  NULL       
 REMARK   3                                                                      
 REMARK   3 ANISOTROPIC THERMAL FACTOR RESTRAINTS.    COUNT   RMS   WEIGHT       
 REMARK   3   RIGID-BOND RESTRAINTS          (A**2):  NULL ;  NULL ;  NULL       
@@ -163,13 +163,13 @@ REMARK   3   VDW PROBE RADIUS   : 1.20
 REMARK   3   ION PROBE RADIUS   : 0.80                                          
 REMARK   3   SHRINKAGE RADIUS   : 0.80                                          
 REMARK   3                                                                      
-REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE          
-REMARK   3  RIDING POSITIONS                                                    
+REMARK   3  OTHER REFINEMENT REMARKS: HYDROGENS HAVE BEEN ADDED IN THE RIDING   
+REMARK   3  POSITIONS                                                           
 REMARK   4                                                                      
-REMARK   4 3IAG COMPLIES WITH FORMAT V. 3.20, 01-DEC-08                         
+REMARK   4 3IAG COMPLIES WITH FORMAT V. 3.30, 13-JUL-11                         
 REMARK 100                                                                      
-REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 02-NOV-09.                  
-REMARK 100 THE RCSB ID CODE IS RCSB054167.                                      
+REMARK 100 THIS ENTRY HAS BEEN PROCESSED BY RCSB ON 14-JUL-09.                  
+REMARK 100 THE DEPOSITION ID IS D_1000054167.                                   
 REMARK 200                                                                      
 REMARK 200 EXPERIMENTAL DETAILS                                                 
 REMARK 200  EXPERIMENT TYPE                : X-RAY DIFFRACTION                  
@@ -189,8 +189,8 @@ REMARK 200  OPTICS                         : NULL
 REMARK 200                                                                      
 REMARK 200  DETECTOR TYPE                  : CCD                                
 REMARK 200  DETECTOR MANUFACTURER          : NULL                               
-REMARK 200  INTENSITY-INTEGRATION SOFTWARE : HKL                                
-REMARK 200  DATA SCALING SOFTWARE          : HKL                                
+REMARK 200  INTENSITY-INTEGRATION SOFTWARE : DENZO                              
+REMARK 200  DATA SCALING SOFTWARE          : SCALEPACK                          
 REMARK 200                                                                      
 REMARK 200  NUMBER OF UNIQUE REFLECTIONS   : 44865                              
 REMARK 200  RESOLUTION RANGE HIGH      (A) : 2.000                              
@@ -224,8 +224,8 @@ REMARK 280 CRYSTAL
 REMARK 280 SOLVENT CONTENT, VS   (%): 57.81                                     
 REMARK 280 MATTHEWS COEFFICIENT, VM (ANGSTROMS**3/DA): 2.92                     
 REMARK 280                                                                      
-REMARK 280 CRYSTALLIZATION CONDITIONS: MAGNESIUM FORMATE, PEG 3350,             
-REMARK 280  XYLITOL, UNDER OIL MICROBATCH, TEMPERATURE 277K                     
+REMARK 280 CRYSTALLIZATION CONDITIONS: MAGNESIUM FORMATE, PEG 3350, XYLITOL,    
+REMARK 280  UNDER OIL MICROBATCH, TEMPERATURE 277K                              
 REMARK 290                                                                      
 REMARK 290 CRYSTALLOGRAPHIC SYMMETRY                                            
 REMARK 290 SYMMETRY OPERATORS FOR SPACE GROUP: P 21 21 2                        
@@ -278,7 +278,7 @@ REMARK 350 SOFTWARE USED: PISA
 REMARK 350 TOTAL BURIED SURFACE AREA: 4640 ANGSTROM**2                          
 REMARK 350 SURFACE AREA OF THE COMPLEX: 25840 ANGSTROM**2                       
 REMARK 350 CHANGE IN SOLVENT FREE ENERGY: 2.0 KCAL/MOL                          
-REMARK 350 APPLY THE FOLLOWING TO CHAINS: C, A, B                               
+REMARK 350 APPLY THE FOLLOWING TO CHAINS: A, B, C                               
 REMARK 350   BIOMT1   1  1.000000  0.000000  0.000000        0.00000            
 REMARK 350   BIOMT2   1  0.000000  1.000000  0.000000        0.00000            
 REMARK 350   BIOMT3   1  0.000000  0.000000  1.000000        0.00000            
@@ -325,37 +325,37 @@ REMARK 500 EXPECTED VALUES PROTEIN: ENGH AND HUBER, 1999
 REMARK 500 EXPECTED VALUES NUCLEIC ACID: CLOWNEY ET AL 1996                     
 REMARK 500                                                                      
 REMARK 500  M RES CSSEQI ATM1   ATM2   ATM3                                     
-REMARK 500     DA A   2   OP1 -  P   -  OP2 ANGL. DEV. =   9.4 DEGREES          
-REMARK 500     DA A   2   O5' -  P   -  OP1 ANGL. DEV. =   8.8 DEGREES          
-REMARK 500     DA A   2   O4' -  C1' -  N9  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500     DA A   1   C3' -  O3' -  P   ANGL. DEV. =  13.0 DEGREES          
 REMARK 500     DA A   2   O3' -  P   -  O5' ANGL. DEV. = -13.9 DEGREES          
 REMARK 500     DA A   2   O3' -  P   -  OP1 ANGL. DEV. = -28.6 DEGREES          
+REMARK 500     DA A   2   OP1 -  P   -  OP2 ANGL. DEV. =   9.4 DEGREES          
+REMARK 500     DA A   2   O5' -  P   -  OP1 ANGL. DEV. =   8.8 DEGREES          
+REMARK 500     DA A   2   O4' -  C1' -  N9  ANGL. DEV. =   2.5 DEGREES          
 REMARK 500     DT A   3   O3' -  P   -  O5' ANGL. DEV. = -17.9 DEGREES          
 REMARK 500     DT A   3   O3' -  P   -  OP2 ANGL. DEV. = -13.4 DEGREES          
 REMARK 500     DT A   3   O3' -  P   -  OP1 ANGL. DEV. = -23.3 DEGREES          
-REMARK 500     DC A   4   O4' -  C1' -  N1  ANGL. DEV. =   4.3 DEGREES          
 REMARK 500     DC A   4   O3' -  P   -  O5' ANGL. DEV. = -19.5 DEGREES          
-REMARK 500     DC A   4   O3' -  P   -  OP2 ANGL. DEV. = -14.0 DEGREES          
+REMARK 500     DC A   4   O3' -  P   -  OP2 ANGL. DEV. = -14.1 DEGREES          
 REMARK 500     DC A   4   O3' -  P   -  OP1 ANGL. DEV. = -19.8 DEGREES          
-REMARK 500     DT A   6   O4' -  C1' -  N1  ANGL. DEV. =  -4.4 DEGREES          
+REMARK 500     DC A   4   O4' -  C1' -  N1  ANGL. DEV. =   4.3 DEGREES          
+REMARK 500     DT A   6   O4' -  C1' -  N1  ANGL. DEV. =  -4.5 DEGREES          
 REMARK 500     DT A   6   C4  -  C5  -  C7  ANGL. DEV. =   4.0 DEGREES          
-REMARK 500     DT A   7   OP1 -  P   -  OP2 ANGL. DEV. =   9.7 DEGREES          
-REMARK 500     DT A   7   O5' -  P   -  OP1 ANGL. DEV. =   7.7 DEGREES          
 REMARK 500     DT A   6   C3' -  O3' -  P   ANGL. DEV. =  10.7 DEGREES          
 REMARK 500     DT A   7   O3' -  P   -  O5' ANGL. DEV. = -15.3 DEGREES          
 REMARK 500     DT A   7   O3' -  P   -  OP1 ANGL. DEV. = -22.9 DEGREES          
-REMARK 500     DC A   8   O4' -  C1' -  N1  ANGL. DEV. =  -4.7 DEGREES          
+REMARK 500     DT A   7   OP1 -  P   -  OP2 ANGL. DEV. =   9.7 DEGREES          
+REMARK 500     DT A   7   O5' -  P   -  OP1 ANGL. DEV. =   7.7 DEGREES          
 REMARK 500     DT A   7   C3' -  O3' -  P   ANGL. DEV. =   8.4 DEGREES          
+REMARK 500     DC A   8   O4' -  C1' -  N1  ANGL. DEV. =  -4.7 DEGREES          
 REMARK 500     DC A  10   O4' -  C1' -  N1  ANGL. DEV. =   2.8 DEGREES          
 REMARK 500     DA A  11   O4' -  C1' -  N9  ANGL. DEV. =  -5.5 DEGREES          
 REMARK 500     DG A  13   O4' -  C1' -  N9  ANGL. DEV. =   2.9 DEGREES          
-REMARK 500     DA A  14   O5' -  P   -  OP2 ANGL. DEV. =   8.1 DEGREES          
-REMARK 500     DA A  14   O5' -  C5' -  C4' ANGL. DEV. =  -6.6 DEGREES          
-REMARK 500     DA A  14   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500     DG A  13   C3' -  O3' -  P   ANGL. DEV. =   8.4 DEGREES          
 REMARK 500     DA A  14   O3' -  P   -  O5' ANGL. DEV. = -23.9 DEGREES          
 REMARK 500     DA A  14   O3' -  P   -  OP1 ANGL. DEV. = -14.8 DEGREES          
+REMARK 500     DA A  14   O5' -  P   -  OP2 ANGL. DEV. =   8.1 DEGREES          
+REMARK 500     DA A  14   O5' -  C5' -  C4' ANGL. DEV. =  -6.6 DEGREES          
+REMARK 500     DA A  14   O4' -  C1' -  N9  ANGL. DEV. =   1.9 DEGREES          
 REMARK 500     DT B  16   N3  -  C4  -  O4  ANGL. DEV. =   5.6 DEGREES          
 REMARK 500     DT B  16   C5  -  C4  -  O4  ANGL. DEV. =  -6.3 DEGREES          
 REMARK 500     DT B  17   O4' -  C1' -  N1  ANGL. DEV. =   2.3 DEGREES          
@@ -364,17 +364,17 @@ REMARK 500     DA B  18   O3' -  P   -  OP1 ANGL. DEV. = -23.8 DEGREES
 REMARK 500     DT B  19   C5  -  C6  -  N1  ANGL. DEV. =  -3.7 DEGREES          
 REMARK 500     DT B  19   C6  -  C5  -  C7  ANGL. DEV. =  -5.4 DEGREES          
 REMARK 500     DC B  20   O4' -  C1' -  N1  ANGL. DEV. =  -6.5 DEGREES          
-REMARK 500     DG B  23   OP1 -  P   -  OP2 ANGL. DEV. =  12.0 DEGREES          
 REMARK 500     DG B  23   O3' -  P   -  OP1 ANGL. DEV. = -25.2 DEGREES          
-REMARK 500     DT B  24   O4' -  C1' -  N1  ANGL. DEV. =   3.7 DEGREES          
+REMARK 500     DG B  23   OP1 -  P   -  OP2 ANGL. DEV. =  12.0 DEGREES          
 REMARK 500     DT B  24   O3' -  P   -  O5' ANGL. DEV. = -23.0 DEGREES          
 REMARK 500     DT B  24   O3' -  P   -  OP2 ANGL. DEV. = -14.4 DEGREES          
-REMARK 500     DG B  25   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
+REMARK 500     DT B  24   O4' -  C1' -  N1  ANGL. DEV. =   3.7 DEGREES          
 REMARK 500     DG B  25   O3' -  P   -  O5' ANGL. DEV. = -24.9 DEGREES          
 REMARK 500     DG B  25   O3' -  P   -  OP2 ANGL. DEV. = -16.8 DEGREES          
 REMARK 500     DG B  25   O3' -  P   -  OP1 ANGL. DEV. = -17.1 DEGREES          
-REMARK 500     DA B  26   O5' -  P   -  OP1 ANGL. DEV. =   7.6 DEGREES          
-REMARK 500     DA B  26   O5' -  C5' -  C4' ANGL. DEV. =  -5.0 DEGREES          
+REMARK 500     DG B  25   O4' -  C1' -  N9  ANGL. DEV. =   5.4 DEGREES          
+REMARK 500     DA B  26   O3' -  P   -  O5' ANGL. DEV. = -27.7 DEGREES          
+REMARK 500     DA B  26   O3' -  P   -  OP1 ANGL. DEV. = -21.0 DEGREES          
 REMARK 500                                                                      
 REMARK 500 THIS ENTRY HAS      58 ANGLE DEVIATIONS.                             
 REMARK 500                                                                      
@@ -420,44 +420,32 @@ REMARK 500                                 MODEL     OMEGA
 REMARK 500 GLY C  258     GLU C  259                  -75.06                    
 REMARK 500                                                                      
 REMARK 500 REMARK: NULL                                                         
-REMARK 500                                                                      
-REMARK 500 GEOMETRY AND STEREOCHEMISTRY                                         
-REMARK 500 SUBTOPIC: CHIRAL CENTERS                                             
-REMARK 500                                                                      
-REMARK 500 UNEXPECTED CONFIGURATION OF THE FOLLOWING CHIRAL                     
-REMARK 500 CENTER(S) USING IMPROPER CA--C--CB--N CHIRALITY                      
-REMARK 500 FOR AMINO ACIDS AND C1'--O4'--N1(N9)--C2' FOR                        
-REMARK 500 NUCLEIC ACIDS OR EQUIVALENT ANGLE                                    
-REMARK 500 M=MODEL NUMBER; RES=RESIDUE NAME; C=CHAIN                            
-REMARK 500 IDENTIFIER; SSEQ=SEQUENCE NUMBER; I=INSERTION CODE                   
-REMARK 500                                                                      
-REMARK 500 STANDARD TABLE:                                                      
-REMARK 500 FORMAT: (10X,I3,1X,A3,1X,A1,I4,A1,6X,F5.1,6X,A1,10X,A1,3X,A16)       
-REMARK 500                                                                      
-REMARK 500  M RES CSSEQI    IMPROPER   EXPECTED   FOUND DETAILS                 
-REMARK 500    ASN C 389        22.2      L          L   OUTSIDE RANGE           
-REMARK 500                                                                      
-REMARK 500 REMARK: NULL                                                         
 REMARK 800                                                                      
 REMARK 800 SITE                                                                 
 REMARK 800 SITE_IDENTIFIER: AC1                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO C 1                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC2                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO C 2                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC3                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO C 3                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC4                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO C 4                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC5                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO A 16                  
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC6                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE EDO C 6                   
+REMARK 800                                                                      
 REMARK 800 SITE_IDENTIFIER: AC7                                                 
 REMARK 800 EVIDENCE_CODE: SOFTWARE                                              
 REMARK 800 SITE_DESCRIPTION: BINDING SITE FOR RESIDUE XYL A 17                  
@@ -564,11 +552,12 @@ SHEET    2   G 4 MET C 396  GLN C 402 -1  O  GLU C 398   N  GLN C 387
 SHEET    3   G 4 SER C 426  VAL C 430 -1  O  MET C 427   N  LEU C 399           
 SHEET    4   G 4 THR C 419  CYS C 423 -1  N  MET C 420   O  LEU C 428           
 CISPEP   1 CYS C   94    PRO C   95          0        -1.93                     
-CISPEP   2 SER C  134    ASP C  135          0        -0.63                     
-CISPEP   3 GLU C  259    GLU C  260          0         6.44                     
-CISPEP   4 THR C  378    PRO C  379          0        -6.03                     
-CISPEP   5 ASN C  389    GLY C  390          0        -3.23                     
-CISPEP   6 GLY C  390    GLY C  391          0         4.21                     
+CISPEP   2 CYS C   94    PRO C   95          0        -2.77                     
+CISPEP   3 SER C  134    ASP C  135          0        -0.63                     
+CISPEP   4 GLU C  259    GLU C  260          0         6.44                     
+CISPEP   5 THR C  378    PRO C  379          0        -6.03                     
+CISPEP   6 ASN C  389    GLY C  390          0        -3.23                     
+CISPEP   7 GLY C  390    GLY C  391          0         4.21                     
 SITE     1 AC1  6 ILE C 131  GLN C 136  TYR C 155  ILE C 156                    
 SITE     2 AC1  6 SER C 157  HOH C 500                                          
 SITE     1 AC2  6 GLN C  72  GLY C 105  LYS C 108  LYS C 109                    
@@ -4818,5 +4807,5 @@ CONECT 4037 4038 4039
 CONECT 4038 4037                                                                
 CONECT 4039 4037 4040                                                           
 CONECT 4040 4039                                                                
-MASTER      413    0    7    7   42    0   10    6 4195    3   34   37          
+MASTER      405    0    7    7   42    0   10    6 4155    3   34   37          
 END                                                                             
